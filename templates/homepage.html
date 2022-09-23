@@ -1,0 +1,2161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+   <!-- Favicon -->
+    
+   <link rel="icon" type="image/png" href="static/IMG/favicon-32x32.png" sizes="32x32" />
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700|Roboto+Slab:400,700|Pacifico' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="{{ url_for('static', filename='CSS/style.css') }}">
+
+    <title>Homepage</title>
+</head>
+<body>
+
+    <nav class="menu-1">
+        <div class="logo"> </div>
+        <div class="menu-btn">
+            <i class="fa fa-bars fa-2x" onclick="menuShow()"></i>
+        </div>
+
+        <ul>
+            <li> <a href="/" class="active"> Home </a> </li>
+            <li> <a href="{{ url_for('analises') }}"> Análises </a> </li>
+            <li> <a href="{{ url_for('galeria') }}"> Galeria </a> </li>
+            <li> <a href="#"> Sobre </a> </li>
+        </ul>
+    </nav>
+
+    <main class="col-100 menu-urls">
+        <div class="header-2">
+            <nav class="dp-menu">
+                <ul>
+                    <li class="hover-me"><a href="#">Copa</a>
+                    <ul>
+                    <li><a href="#1930">1930</a></li>
+                    <li><a href="#1934">1934</a></li>
+                    <li><a href="#1938">1938</a></li>
+                    <li><a href="#1950">1950</a></li>
+                    <li><a href="#1954">1954</a></li>
+                    <li><a href="#1958">1958</a></li>
+                    <li><a href="#1962">1962</a></li>
+                    <li><a href="#1966">1966</a></li>
+                    <li><a href="#1970">1970</a></li>
+                    <li><a href="#1974">1974</a></li>
+                    <li><a href="#1978">1978</a></li>
+                    <li><a href="#1982">1982</a></li>
+                    <li><a href="#1986">1986</a></li>
+                    <li><a href="#1990">1990</a></li>
+                    <li><a href="#1994">1994</a></li>
+                    <li><a href="#1998">1998</a></li>
+                    <li><a href="#2002">2002</a></li>
+                    <li><a href="#2006">2006</a></li>
+                    <li><a href="#2010">2010</a></li>
+                    <li><a href="#2014">2014</a></li>
+                    <li><a href="#2018">2018</a></li>
+                    </ul>
+                    </li>
+                    <li><a href="#">Campeão</a>
+                     <ul>
+                    <li><a href="#">1930</a></li>
+                    <li><a href="#">1934</a></li>
+                    <li><a href="#">1938</a></li>
+                    <li><a href="#">1950</a></li>
+                    <li><a href="#">1954</a></li>
+                    <li><a href="#">1958</a></li>
+                    <li><a href="#">1962</a></li>
+                    <li><a href="#">1966</a></li>
+                    <li><a href="#">1970</a></li>
+                    <li><a href="#">1974</a></li>
+                    <li><a href="#">1978</a></li>
+                    <li><a href="#">1982</a></li>
+                    <li><a href="#">1986</a></li>
+                    <li><a href="#">1990</a></li>
+                    <li><a href="#">1994</a></li>
+                    <li><a href="#">1998</a></li>
+                    <li><a href="#">2002</a></li>
+                    <li><a href="#">2006</a></li>
+                    <li><a href="#">2010</a></li>
+                    <li><a href="#">2014</a></li>
+                    <li><a href="#">2018</a></li>
+                    </ul>
+                    </li>
+                    <li><a href="#">Classificação</a>
+                     <ul>
+                    <li><a href="#">1930</a></li>
+                    <li><a href="#">1934</a></li>
+                    <li><a href="#">1938</a></li>
+                    <li><a href="#">1950</a></li>
+                    <li><a href="#">1954</a></li>
+                    <li><a href="#">1958</a></li>
+                    <li><a href="#">1962</a></li>
+                    <li><a href="#">1966</a></li>
+                    <li><a href="#">1970</a></li>
+                    <li><a href="#">1974</a></li>
+                    <li><a href="#">1978</a></li>
+                    <li><a href="#">1982</a></li>
+                    <li><a href="#">1986</a></li>
+                    <li><a href="#">1990</a></li>
+                    <li><a href="#">1994</a></li>
+                    <li><a href="#">1998</a></li>
+                    <li><a href="#">2002</a></li>
+                    <li><a href="#">2006</a></li>
+                    <li><a href="#">2010</a></li>
+                    <li><a href="#">2014</a></li>
+                    <li><a href="#">2018</a></li>
+                    </ul>
+                    </li>
+                    <li><a href="#">Brasil</a>
+                     <ul>
+                    <li><a href="#Brasil-1930">1930</a></li>
+                    <li><a href="#">1934</a></li>
+                    <li><a href="#">1938</a></li>
+                    <li><a href="#">1950</a></li>
+                    <li><a href="#">1954</a></li>
+                    <li><a href="#">1958</a></li>
+                    <li><a href="#">1962</a></li>
+                    <li><a href="#">1966</a></li>
+                    <li><a href="#">1970</a></li>
+                    <li><a href="#">1974</a></li>
+                    <li><a href="#">1978</a></li>
+                    <li><a href="#">1982</a></li>
+                    <li><a href="#">1986</a></li>
+                    <li><a href="#">1990</a></li>
+                    <li><a href="#">1994</a></li>
+                    <li><a href="#">1998</a></li>
+                    <li><a href="#">2002</a></li>
+                    <li><a href="#">2006</a></li>
+                    <li><a href="#">2010</a></li>
+                    <li><a href="#">2014</a></li>
+                    <li><a href="#">2018</a></li>
+                    </ul>
+                    </li>
+                    <li><a href="#">Voce sabia</a>
+                     <ul>
+                    <li><a href="#">1930</a></li>
+                    <li><a href="#">1934</a></li>
+                    <li><a href="#">1938</a></li>
+                    <li><a href="#">1950</a></li>
+                    <li><a href="#">1954</a></li>
+                    <li><a href="#">1958</a></li>
+                    <li><a href="#">1962</a></li>
+                    <li><a href="#">1966</a></li>
+                    <li><a href="#">1970</a></li>
+                    <li><a href="#">1974</a></li>
+                    <li><a href="#">1978</a></li>
+                    <li><a href="#">1982</a></li>
+                    <li><a href="#">1986</a></li>
+                    <li><a href="#">1990</a></li>
+                    <li><a href="#">1994</a></li>
+                    <li><a href="#">1998</a></li>
+                    <li><a href="#">2002</a></li>
+                    <li><a href="#">2006</a></li>
+                    <li><a href="#">2010</a></li>
+                    <li><a href="#">2014</a></li>
+                    <li><a href="#">2018</a></li>
+                    </ul>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </main>
+    <div class="titulo-proxima-copa"> <img class="img-1" src="https://paginas.fe.up.pt/~fff/Homepage/Bandeiras/Imagens/catar_ani.gif"> <img class="img-2" src="https://paginas.fe.up.pt/~fff/Homepage/Bandeiras/Imagens/catar_ani.gif"></div>
+
+   <h1 class="h1-titulo">FIFA World Cup Qatar 2022</h1>
+</div>
+    <div class="wrapper">
+        <div class="count-wrapper">
+            <div id="days">00</div>
+            <span>Dias</span>
+        </div>
+        <div class="count-wrapper">
+            <div id="hours">00</div>
+            <span>Horas</span>
+        </div>
+        <div class="count-wrapper">
+            <div id="min">00</div>
+            <span>Minutos</span>
+        </div>
+        <div class="count-wrapper">
+            <div id="sec">00</div>
+            <span>Segundos</span>
+        </div>
+    </div>
+    <script type="text/javascript">
+        let to = new Date('nov 20 2022 13:00:0');
+        function update(){
+            let from = new Date();
+                diff=to-from;
+                if(diff>0){
+                let days=setTwoDigit(Math.floor(diff/1000/60/60/24)),
+                hours=setTwoDigit(Math.floor(diff/1000/60/60)%24),
+                min=setTwoDigit(Math.floor(diff/1000/60)%60),
+                sec=setTwoDigit(Math.floor(diff/1000)%60)
+                document.querySelector('#days').innerText=days
+                document.querySelector('#hours').innerText=hours
+                document.querySelector('#min').innerText=min
+                document.querySelector('#sec').innerText=sec
+            }else{
+                clearInterval(interval);
+                document.querySelector('body').classList.add('alert')
+            }    
+         }
+
+         let interval=setInterval(update, 1000)
+
+         function setTwoDigit(argument) {
+            return argument>9?argument:'0'+argument;
+         }
+    </script> 
+
+    <div class="margem-0"> </div>
+
+
+
+    
+    <div class="img-slider">
+
+    <div class="slide active">
+
+        <img src="static/IMG/1930.jpg" alt="">
+
+        <div class="sombra1">
+
+       <div class="info">
+
+
+           <h3 class="h3-1"> 1930 - A Celeste brilha </h3>
+
+           <p class="p1"> Uruguai organiza e ganha a <br> primeira Copa do Mundo </p>
+
+           <ul class="item">
+               <li> <span class="material-symbols-outlined">arrow_right</span> <a href="#Brasil-1930"> Disputa entre SP e Rio atrapalha Brasil </a></li>
+               <li> <span class="material-symbols-outlined">arrow_right</span> <a href="#"> Stábile, da Argentina, é o 1° artilheiro </a></li>
+               <li> <span class="material-symbols-outlined">arrow_right</span> <a href="#Brasil-1930"> Brasil estreou na Copa com uma derrota  </a></li>
+
+          </ul>
+
+        </div>
+        </div>
+      </div>
+
+      <div class="slide">
+
+      <img src="static/IMG/1934.jpg" alt="">
+
+     <div class="sombra1">
+
+       <div class="info">
+
+
+           <h3 class="h3-2"> 1934 - A Copa do fascismo </h3>
+
+           <p class="p2"> Itália vence a copa que foi <br> misto de futebol e política </p>
+
+           <ul class="item">
+               <li> <span class="material-symbols-outlined">arrow_right</span> <a href="#"> Três partidas foram para a prorrogação </a></li>
+               <li> <span class="material-symbols-outlined">arrow_right</span> <a href="#"> Brasil jogou novamente em meio a crise </a></li>
+               <li> <span class="material-symbols-outlined">arrow_right</span> <a href="#"> Brasileiro Filó foi campeão pela Itália </a></li>
+
+          </ul>
+
+        </div>
+        </div>
+
+      </div>
+
+       <div class="slide">
+
+      <img src="static/IMG/1938.jpg" alt="">
+
+      <div class="sombra1">
+
+       <div class="info">
+
+
+           <h3 class="h3-3"> 1938 - Hegemonia do fascismo </h3>
+
+           <p class="p3"> Brasil se destaca, mas Itália <br> conquista o bicampeonato </p>
+
+           <ul class="item">
+               <li> <span class="material-symbols-outlined">arrow_right</span> <a href="#"> Azzurra é a 1° seleção bicampeã </a></li>
+               <li> <span class="material-symbols-outlined">arrow_right</span> <a href="#"> Guerra produz W.O no Mundial </a></li>
+               <li> <span class="material-symbols-outlined">arrow_right</span> <a href="#"> Presidente Francês comete gafe </a></li>
+
+          </ul>
+
+        </div>
+        </div>
+
+      </div>
+
+       <div class="slide">
+
+     <img src="static/IMG/1950.jpg" alt="">
+
+      <div class="sombra1">
+
+       <div class="info">
+
+
+           <h3 class="h3-4"> 1950 - O drama do Maracanazzo </h3>
+
+           <p class="p4"> Sob 200 mil olhares, Brasil <br> sofre sua mais dura derrota </p>
+
+           <ul class="item">
+               <li> <span class="material-symbols-outlined">arrow_right</span> <a href="#"> Brio do Uruguai cala o Maracanã </a></li>
+               <li> <span class="material-symbols-outlined">arrow_right</span> <a href="#"> Brasil fez o artilheiro do mundial </a></li>
+               <li> <span class="material-symbols-outlined">arrow_right</span> <a href="#"> Seleção deu 30 chutes ao gol na final </a></li>
+
+          </ul>
+
+        </div>
+        </div>
+
+      </div>
+
+      <div class="slide">
+
+       <img src="static/IMG/1954.jpg" alt="">
+
+         <div class="sombra1">
+
+       <div class="info">
+
+
+           <h3 class="h3-5"> 1954 - Futebol de resultados </h3>
+
+           <p class="p5"> Alemanha usa força física <br> para ficar com título mundial </p>
+
+           <ul class="item">
+               <li> <span class="material-symbols-outlined">arrow_right</span> <a href="#"> Brasil perde na bola e na pancadaria </a></li>
+               <li> <span class="material-symbols-outlined">arrow_right</span> <a href="#"> Copa teve média de 5,36 gols por jogo </a></li>
+               <li> <span class="material-symbols-outlined">arrow_right</span> <a href="#"> Capitão alemão foi paraquedista nazista </a></li>
+
+          </ul>
+
+        </div>
+        </div>
+
+        </div>
+
+        <div class="slide">
+
+          <img src="static/IMG/1958.jpg" alt="">
+
+          <div class="sombra1">
+
+       <div class="info">
+
+
+           <h3 class="h3-6"> 1958 - É campeão! </h3>
+
+           <p class="p6"> Brasil dá show de bola e, <br> enfim, conquista o mundo </p>
+
+           <ul class="item">
+               <li> <span class="material-symbols-outlined">arrow_right</span> <a href="#"> Pelé, Garrincha e Vavá foram ícones </a></li>
+               <li> <span class="material-symbols-outlined">arrow_right</span> <a href="#"> Pelé quase ficou de fora da competição </a></li>
+               <li> <span class="material-symbols-outlined">arrow_right</span> <a href="#"> Todas as partidas foram transmitidas </a></li>
+
+          </ul>
+
+        </div>
+        </div>
+
+          </div>
+
+      <div class="slide">
+
+        <img src="static/IMG/1962.jpg" alt="">
+
+        <div class="sombra1">
+
+       <div class="info">
+
+
+           <h3 class="h3-7"> 1962 - Sem Pelé, brilha o 'Mané' </h3>
+
+           <p class="p7"> Sem Pelé, Garrincha leva a <br> seleção rumo ao bi mundial </p>
+
+           <ul class="item">
+               <li> <span class="material-symbols-outlined">arrow_right</span> <a href="#"> Seleção contou com a base campeã </a></li>
+               <li> <span class="material-symbols-outlined">arrow_right</span> <a href="#"> Garrincha foi o craque do Mundial de 62 </a></li>
+               <li> <span class="material-symbols-outlined">arrow_right</span> <a href="#"> Vavá foi o primeiro a marcar em 2 finais </a></li>
+
+          </ul>
+
+        </div>
+        </div>
+        </div>
+
+         <div class="slide">
+
+        <img src="static/IMG/1966.jpg" alt="">
+
+        <div class="sombra1">
+
+       <div class="info">
+
+
+           <h3 class="h3-8"> 1966 - Suspeita mancha título inglês </h3>
+
+           <p class="p8"> Inglaterra conta com ajuda do <br> juiz para ganhar a Copa </p>
+
+           <ul class="item">
+               <li> <span class="material-symbols-outlined">arrow_right</span> <a href="#"> Briga e preparação ruim marcam o Brasil </a></li>
+               <li> <span class="material-symbols-outlined">arrow_right</span> <a href="#"> Coreia do Norte surpreende a Itália </a></li>
+               <li> <span class="material-symbols-outlined">arrow_right</span> <a href="#"> Último jogo de Pelé e Garrincha juntos </a></li>
+
+          </ul>
+
+        </div>
+        </div>
+        </div>
+
+        <div class="slide">
+
+        <img src="static/IMG/1970.jpg" alt="">
+
+        <div class="sombra1">
+
+       <div class="info">
+
+
+           <h3 class="h3-9"> 1970 - Jules Rimet </h3>
+
+           <p class="p9"> Brasil supera a Itália e fica <br> com a taça para sempre </p>
+
+           <ul class="item">
+               <li> <span class="material-symbols-outlined">arrow_right</span> <a href="#"> Seleção de 70 é considerada a melhor </a></li>
+               <li> <span class="material-symbols-outlined">arrow_right</span> <a href="#"> Jairzinho fez gol em todas as partidas </a></li>
+               <li> <span class="material-symbols-outlined">arrow_right</span> <a href="#"> Brasil venceu todos os seus seis jogos </a></li>
+
+          </ul>
+
+        </div>
+        </div>
+        </div>
+
+          <div class="slide">
+
+        <img src="static/IMG/1974.jpg" alt="">
+
+        <div class="sombra1">
+
+       <div class="info">
+
+
+           <h3 class="h3-10"> 1974 - A força vence a arte </h3>
+
+           <p class="p10">Holanda dá show, mas <br> Alemanha fica com o título </p>
+
+           <ul class="item">
+               <li> <span class="material-symbols-outlined">arrow_right</span> <a href="#"> Brasil para no 'carrossel holandês' </a></li>
+               <li> <span class="material-symbols-outlined">arrow_right</span> <a href="#"> Velocista polonês é o artilheiro da Copa </a></li>
+               <li> <span class="material-symbols-outlined">arrow_right</span> <a href="#"> Alemães ganham US$ 50 mil pelo título </a></li>
+
+          </ul>
+
+        </div>
+        </div>
+        </div>
+
+         <div class="slide">
+
+        <img src="static/IMG/1978.jpg" alt="">
+
+        <div class="sombra1">
+
+       <div class="info">
+
+
+           <h3 class="h3-11"> 1978 - Um campeão sob suspeita </h3>
+
+           <p class="p11">Argentina bate a magia da <br> Holanda e ganha o título </p>
+
+           <ul class="item">
+               <li> <span class="material-symbols-outlined">arrow_right</span> <a href="#"> Brasil se considera o "campeão moral" </a></li>
+               <li> <span class="material-symbols-outlined">arrow_right</span> <a href="#"> Maradona fica fora da Copa </a></li>
+               <li> <span class="material-symbols-outlined">arrow_right</span> <a href="#"> Peru fica com a pior defesa do Mundial </a></li>
+
+          </ul>
+
+        </div>
+        </div>
+        </div>
+
+        <div class="slide">
+
+        <img src="static/IMG/1982.jpg" alt="">
+
+        <div class="sombra1">
+
+       <div class="info">
+
+
+           <h3 class="h3-12"> 1982 - "Show inútil" </h3>
+
+           <p class="p12">Itália mata o "futebol-arte" do <br> Brasil e conquista o tri </p>
+
+           <ul class="item">
+               <li> <span class="material-symbols-outlined">arrow_right</span> <a href="#"> Italianos superaram desconfiança e crise </a></li>
+               <li> <span class="material-symbols-outlined">arrow_right</span> <a href="#"> Brasileiros comandaram três seleções </a></li>
+               <li> <span class="material-symbols-outlined">arrow_right</span> <a href="#"> Paolo Rossi, o carrasco brasileiro </a></li>
+
+          </ul>
+
+        </div>
+        </div>
+        </div>
+
+        <div class="slide">
+
+        <img src="static/IMG/1986.jpg" alt="">
+
+        <div class="sombra1">
+
+       <div class="info">
+
+
+           <h3 class="h3-13"> 1986 - Com 'la mano de Dios' </h3>
+
+           <p class="p13">Maradona brilha e decide <br> o título mundial da Argentina </p>
+
+           <ul class="item">
+               <li> <span class="material-symbols-outlined">arrow_right</span> <a href="#"> Confusões e azar derrubam o Brasil </a></li>
+               <li> <span class="material-symbols-outlined">arrow_right</span> <a href="#"> Brasileiro apita segunda final da história </a></li>
+               <li> <span class="material-symbols-outlined">arrow_right</span> <a href="#"> Maradona decide com gol polêmico </a></li>
+
+          </ul>
+
+        </div>
+        </div>
+        </div>
+
+         <div class="slide">
+
+        <img src="static/IMG/1990.jpg" alt="">
+
+        <div class="sombra1">
+
+       <div class="info">
+
+
+           <h3 class="h3-14"> 1990 - Escassez de gols </h3>
+
+           <p class="p14"> Frieza alemã prevalece em <br> Copa do Mundo 'chata' </p>
+
+           <ul class="item">
+               <li> <span class="material-symbols-outlined">arrow_right</span> <a href="#"> Lazaroni comanda o fiasco brasileiro </a></li>
+               <li> <span class="material-symbols-outlined">arrow_right</span> <a href="#"> Italiano Schillaci termina como artilheiro </a></li>
+               <li> <span class="material-symbols-outlined">arrow_right</span> <a href="#"> Mundial teve a menor média de gols </a></li>
+
+          </ul>
+
+        </div>
+        </div>
+        </div>
+
+         <div class="slide">
+
+        <img src="static/IMG/1994.jpg" alt="">
+
+        <div class="sombra1">
+
+       <div class="info">
+
+
+           <h3 class="h3-15"> 1994 - Vitória do futebol pragmático </h3>
+
+           <p class="p15"> Seleção brasileira ganha <br> primeiro título sem Pelé </p>
+
+           <ul class="item">
+               <li> <span class="material-symbols-outlined">arrow_right</span> <a href="#"> Futebol de resultados de Parreira brilha </a></li>
+               <li> <span class="material-symbols-outlined">arrow_right</span> <a href="#"> Romário conquista 'sua Copa do Mundo' </a></li>
+               <li> <span class="material-symbols-outlined">arrow_right</span> <a href="#"> Maradona deixa Mundial após doping </a></li>
+
+          </ul>
+
+        </div>
+        </div>
+        </div>
+         <div class="slide">
+
+        <img src="static/IMG/1998.jpg" alt="">
+
+        <div class="sombra1">
+
+       <div class="info">
+
+
+           <h3 class="h3-16"> 1998 - Sem mais do mesmo </h3>
+
+           <p class="p16"> França aproveita 'apagão' do <br> Brasil e leva seu 1° Mundial </p>
+
+           <ul class="item">
+               <li> <span class="material-symbols-outlined">arrow_right</span> <a href="#"> Três mentiras marcam o vice brasileiro </a></li>
+               <li> <span class="material-symbols-outlined">arrow_right</span> <a href="#"> Romário é cortado após papo de 15min </a></li>
+               <li> <span class="material-symbols-outlined">arrow_right</span> <a href="#"> Convulsão de Ronaldo marca a final  </a></li>
+
+          </ul>
+
+        </div>
+        </div>
+        </div>
+
+        <div class="slide">
+
+        <img src="static/IMG/2002.jpg" alt="">
+
+        <div class="sombra1">
+
+       <div class="info">
+
+
+           <h3 class="h3-17"> 2002 - Cinco vezes Brasil </h3>
+
+           <p class="p17"> 'Erres', união do grupo e sorte <br> garantem penta na Ásia </p>
+
+           <ul class="item">
+               <li> <span class="material-symbols-outlined">arrow_right</span> <a href="#"> 'Família Scolari' supera desconfianças </a></li>
+               <li> <span class="material-symbols-outlined">arrow_right</span> <a href="#"> Oliver Kahn vai de herói a vilão em final </a></li>
+               <li> <span class="material-symbols-outlined">arrow_right</span> <a href="#"> Ronaldo é eleito o artilheiro da Copa </a></li>
+
+          </ul>
+
+        </div>
+        </div>
+        </div>
+
+         <div class="slide">
+
+        <img src="static/IMG/2006.jpg" alt="">
+
+        <div class="sombra1">
+
+       <div class="info">
+
+
+           <h3 class="h3-18"> 2006 - Após 24 anos </h3>
+
+           <p class="p18"> Itália supera 'maldições' e <br> conquista o tetra mundial </p>
+
+           <ul class="item">
+               <li> <span class="material-symbols-outlined">arrow_right</span> <a href="#"> Brasil reencontra o 'fantasma' francês </a></li>
+               <li> <span class="material-symbols-outlined">arrow_right</span> <a href="#"> Zidane encerra carreira com cabeçada </a></li>
+               <li> <span class="material-symbols-outlined">arrow_right</span> <a href="#"> Messi faz gol 'mais jovem' da Copa </a></li>
+
+          </ul>
+
+        </div>
+        </div>
+        </div>
+
+         <div class="slide">
+
+        <img src="static/IMG/2010.jpg" alt="">
+
+        <div class="sombra1">
+
+       <div class="info">
+
+
+           <h3 class="h3-19"> 2010 - Fúria campeã! </h3>
+
+           <p class="p19"> Meias habilidosos e esquema <br> ofensivo dão Copa à Espanha </p>
+
+           <ul class="item">
+               <li> <span class="material-symbols-outlined">arrow_right</span> <a href="#"> Forlán leva a Bola de Ouro </a></li>
+               <li> <span class="material-symbols-outlined">arrow_right</span> <a href="#"> Casillas é eleito o melhor goleiro </a></li>
+               <li> <span class="material-symbols-outlined">arrow_right</span> <a href="#"> A Copa das vuvuzelas </a></li>
+
+          </ul>
+
+        </div>
+        </div>
+        </div>
+
+        <div class="slide">
+
+        <img src="static/IMG/2014.jpg" alt="">
+
+        <div class="sombra1">
+
+       <div class="info">
+
+
+           <h3 class="h3-20"> 2014 - Show dos alemães! </h3>
+
+           <p class="p20"> Futebol bonito e de resultado: Alemanha <br> derrota Argentina e é tetracampeã </p>
+
+           <ul class="item">
+               <li> <span class="material-symbols-outlined">arrow_right</span> <a href="#"> Brasil fica marcado: vergonha do 7x1 </a></li>
+               <li> <span class="material-symbols-outlined">arrow_right</span> <a href="#"> Lionel Messi ganha a Bola de Ouro </a></li>
+               <li> <span class="material-symbols-outlined">arrow_right</span> <a href="#"> Neymar sofre fratura na vértebra </a></li>
+
+          </ul>
+
+        </div>
+        </div>
+        </div>
+
+         <div class="slide">
+
+        <img src="static/IMG/2018.png" alt="">
+
+        <div class="sombra1">
+
+       <div class="info">
+
+
+           <h3 class="h3-20"> 2018 - Campeões invictus! </h3>
+
+           <p class="p20"> França domina Croácia, consagra <br> nova geração e conquista o bicampeonato </p>
+
+           <ul class="item">
+               <li> <span class="material-symbols-outlined">arrow_right</span> <a href="#"> Croácia chega a sua primeira final </a></li>
+               <li> <span class="material-symbols-outlined">arrow_right</span> <a href="#"> Brasil é eliminado pela poderosa Bélgica </a></li>
+               <li> <span class="material-symbols-outlined">arrow_right</span> <a href="#"> Primeira Copa com o VAR </a></li>
+
+          </ul>
+
+        </div>
+        </div>
+        </div>
+
+
+
+
+
+
+        <div class="navigation">
+            <div class="btn active"></div>
+            <div class="btn"></div>
+            <div class="btn"></div>
+            <div class="btn"></div>
+            <div class="btn"></div>
+            <div class="btn"></div>
+            <div class="btn"></div>
+            <div class="btn"></div>
+            <div class="btn"></div>
+            <div class="btn"></div>
+            <div class="btn"></div>
+            <div class="btn"></div>
+            <div class="btn"></div>
+            <div class="btn"></div>
+            <div class="btn"></div>
+            <div class="btn"></div>
+            <div class="btn"></div>
+            <div class="btn"></div>
+            <div class="btn"></div>
+            <div class="btn"></div>
+            <div class="btn"></div>
+        </div>
+
+  </div>
+
+
+
+    <div class="conteudo">
+
+
+    <div class="Copa">
+
+
+        <h2> Copas </h2>
+
+        <div id="1930">
+
+       <div class="titulo-copa-1930"> <h3> Copa do Uruguai </h3> </div>
+
+        </div>
+
+        <div class="cabecalho-ficha-1930">
+            <h2> Ficha </h2>
+        </div>
+
+        <div class="conteudo-ficha-1930">
+            <p class="imagem-ficha-1930">
+                <img src="https:copa.imguol.com/2010/copadomundo/2009/11/28/poster-da-copa-do-mundo-de-1930-1259441146351_142x200.jpg" alt title="Fifa/Divulgação">
+            </p>
+        </div>
+        <div class="texto-ficha-1930">
+            <h3> Uruguai 1930</h3>
+                <dl>
+                    <dt>Times: 13</dt>
+                    <dt>Quando: 13/07 a 30/07</dt>
+                    <dt>Jogos: 18</dt>
+                    <dt>Gols: 70</dt>
+                </dl>
+            </div>
+
+
+         <div class="cabecalho-curiosidade-1930">
+            <h2> Curiosidade </h2>
+        </div>
+
+        <div class="conteudo-curiosidade-1930">
+            <p class="imagem-curiosidade-1930">
+                <img src="https://copa.imguol.com/2010/copadomundo/2009/11/03/hector-manco-castro-atacante-uruguaio-campeao-mundial-de-1930-1257273473598_80x80.jpg" alt="Futebol é com o pé" title="Arquivo/Folha">
+            </p>
+        </div>
+        <div class="texto-curiosidade-1930">
+            <h3> Futebol é com o pé </h3>
+                <p> O Uruguai tinha Hector 'Manco' <br> Castro como destaque; jogador <br> não tinha mão direita. </p>
+            </div>
+
+
+
+        <div class="cabecalho-numeros-1930">
+            <h2> Números </h2>
+        </div>
+
+        <div class="conteudo-numeros-1930">
+            <ul>
+                <li>
+                    <h3>Média</h3>
+                    <h4>de gols</h4>
+                <p class="numero">3,88</p>
+                    <p class="chamada">A Copa de 1930 teve bela média <br> de gols marcados e consagrou <br> os atacantes, como Stábile.</p>
+                </li>
+
+            </ul>
+            </div>
+
+        <div class="margem-1"> <hr> </div>
+
+        <div id="1934">
+
+       <div class="titulo-copa-1934"> <h3> Copa da Itália </h3> </div>
+
+        </div>
+
+        <div class="cabecalho-ficha-1934">
+            <h2> Ficha </h2>
+        </div>
+
+        <div class="conteudo-ficha-1934">
+            <p class="imagem-ficha-1934">
+                <img src="https://copa.imguol.com/2010/copadomundo/2009/11/28/poster-da-copa-do-mundo-de-1934-1259441111782_142x200.jpg" alt title="Fifa/Divulgação">
+            </p>
+        </div>
+        <div class="texto-ficha-1934">
+            <h3> Itália 1934</h3>
+                <dl>
+                    <dt>Times: 16</dt>
+                    <dt>Quando: 27/05 a 10/06</dt>
+                    <dt>Jogos: 17</dt>
+                    <dt>Gols: 70</dt>
+                </dl>
+            </div>
+
+
+         <div class="cabecalho-curiosidade-1934">
+            <h2> Curiosidade </h2>
+        </div>
+
+        <div class="conteudo-curiosidade-1934">
+            <p class="imagem-curiosidade-1934">
+                <img src="https://copa.imguol.com/2010/copadomundo/2009/11/03/o-ditador-italiano-benito-mussolini-faz-a-saudacao-fascista-1257280336771_80x80.jpg" alt="Onipresente: Benito Mussolini esteve em todos os jogos da Copa do Mundo realizada na Itália" title="Arquivo/Folha">
+            </p>
+        </div>
+        <div class="texto-curiosidade-1934">
+            <h3> Onipresente </h3>
+                <p> Benito Mussolini esteve em <br> todos os jogos da Copa do <br> Mundo realizada na Itália. </p>
+            </div>
+
+
+
+        <div class="cabecalho-numeros-1934">
+            <h2> Números </h2>
+        </div>
+
+        <div class="conteudo-numeros-1934">
+            <ul>
+                <li>
+                    <h3>Seleções europeias</h3>
+                        <h4>nas quartas de final</h4>
+                <p class="numero">8</p>
+                    <p class="chamada">Oito times do Velho Continente <br> conseguiram se classificar para <br> esta etapa da Copa do Mundo.</p>
+                </li>
+
+            </ul>
+            </div>
+
+
+          <div class="margem-2"> <hr> </div>
+
+        <div id="1938">
+
+       <div class="titulo-copa-1938"> <h3> Copa da França </h3> </div>
+
+        </div>
+
+        <div class="cabecalho-ficha-1938">
+            <h2> Ficha </h2>
+        </div>
+
+        <div class="conteudo-ficha-1938">
+            <p class="imagem-ficha-1938">
+                <img src="https://copa.imguol.com/2010/copadomundo/2009/11/28/poster-da-copa-do-mundo-de-1938-1259441075942_142x200.jpg" alt title="Fifa/Divulgação">
+            </p>
+        </div>
+        <div class="texto-ficha-1938">
+            <h3> França 1938</h3>
+                <dl>
+                    <dt>Times: 15</dt>
+                    <dt>Quando: 04/06 a 19/06</dt>
+                    <dt>Jogos: 18</dt>
+                    <dt>Gols: 84</dt>
+                </dl>
+            </div>
+
+
+         <div class="cabecalho-curiosidade-1938">
+            <h2> Curiosidade </h2>
+        </div>
+
+        <div class="conteudo-curiosidade-1938">
+            <p class="imagem-curiosidade-1938">
+                <img src="/static/IMG/adolf-hitler.jpg" alt="Onipresente: Benito Mussolini esteve em todos os jogos da Copa do Mundo realizada na Itália" title="Arquivo/Folha">
+            </p>
+        </div>
+        <div class="texto-curiosidade-1938">
+            <h3> À força </h3>
+                <p> Anexada por Hitler, a Áustria <br> cedeu jogadores à Alemanha <br> para a disputa da Copa. </p>
+            </div>
+
+
+
+        <div class="cabecalho-numeros-1938">
+            <h2> Números </h2>
+        </div>
+
+        <div class="conteudo-numeros-1938">
+            <ul>
+                <li>
+                    <h3>Mídia</h3>
+                        <h4>rádios</h4>
+                <p class="numero">5</p>
+                    <p class="chamada">brasileiras transmitiram na <br> íntegra os jogos da Copa do <br> Mundo de 1938 na França.</p>
+                </li>
+
+            </ul>
+            </div>
+
+        <div class="margem-3"> <hr> </div>
+
+        <div id="1950">
+
+       <div class="titulo-copa-1950"> <h3> Copa do Brasil </h3> </div>
+
+        </div>
+
+        <div class="cabecalho-ficha-1950">
+            <h2> Ficha </h2>
+        </div>
+
+        <div class="conteudo-ficha-1950">
+            <p class="imagem-ficha-1950">
+                <img src="https://copa.imguol.com/2010/copadomundo/2009/11/28/poster-da-copa-do-mundo-de-1950-1259441040945_142x200.jpg" alt title="Fifa/Divulgação">
+            </p>
+        </div>
+        <div class="texto-ficha-1950">
+            <h3> Brasil 1950</h3>
+                <dl>
+                    <dt>Times: 13</dt>
+                    <dt>Quando: 24/06 a 19/07</dt>
+                    <dt>Jogos: 22</dt>
+                    <dt>Gols: 88</dt>
+                </dl>
+            </div>
+
+
+         <div class="cabecalho-curiosidade-1950">
+            <h2> Curiosidade </h2>
+        </div>
+
+        <div class="conteudo-curiosidade-1950">
+            <p class="imagem-curiosidade-1950">
+                <img src="https://copa.imguol.com/2010/copadomundo/2009/11/04/estados-unidos-e-inglaterra-se-enfrentam-na-copa-do-mundo-de-1950-1257365892515_80x80.jpg" alt="Relíquia: A bola da vitória dos EUA sobre a Inglaterra na Copa de 50 virou um objeto de museu" title="Arquivo/Folha">
+            </p>
+        </div>
+        <div class="texto-curiosidade-1950">
+            <h3> Relíquia </h3>
+                <p> A bola da vitória dos EUA sobre <br> Inglaterra na Copa de 50 virou <br> um objeto de museu. </p>
+            </div>
+
+
+
+        <div class="cabecalho-numeros-1950">
+            <h2> Números </h2>
+        </div>
+
+        <div class="conteudo-numeros-1950">
+            <ul>
+                <li>
+                    <h3>Penetras</h3>
+                        <h4>mil</h4>
+                <p class="numero">50</p>
+                    <p class="chamada">é o número estimado de <br> pessoas que entraram sem <br> pagar na final do Mundial.</p>
+                </li>
+
+            </ul>
+            </div>
+
+        <div class="margem-4"> <hr> </div>
+
+        <div id="1954">
+
+       <div class="titulo-copa-1954"> <h3> Copa da Suíça </h3> </div>
+
+        </div>
+
+        <div class="cabecalho-ficha-1954">
+            <h2> Ficha </h2>
+        </div>
+
+        <div class="conteudo-ficha-1954">
+            <p class="imagem-ficha-1954">
+                <img src="https://copa.imguol.com/2010/copadomundo/2009/11/28/poster-da-copa-do-mundo-de-1954-1259440954374_142x200.jpg" alt title="Fifa/Divulgação">
+            </p>
+        </div>
+        <div class="texto-ficha-1954">
+            <h3> Suíça 1954</h3>
+                <dl>
+                    <dt>Times: 16</dt>
+                    <dt>Quando: 16/06 a 04/07</dt>
+                    <dt>Jogos: 26</dt>
+                    <dt>Gols: 140</dt>
+                </dl>
+            </div>
+
+
+         <div class="cabecalho-curiosidade-1954">
+            <h2> Curiosidade </h2>
+        </div>
+
+        <div class="conteudo-curiosidade-1954">
+            <p class="imagem-curiosidade-1954">
+                <img src="https://copa.imguol.com/2010/copadomundo/2009/11/05/jogadores-da-hungria-comemoram-gol-sobre-o-brasil-na-violenta-batalha-de-berna--1257433110237_80x80.jpg" alt="" title="Arquivo/Folha">
+            </p>
+        </div>
+        <div class="texto-curiosidade-1954">
+            <h3> Numerados </h3>
+                <p> Pela 1° vez, atletas usaram <br> número fixo; intenção era <br> facilitar identificação pela TV.</p>
+            </div>
+
+
+
+        <div class="cabecalho-numeros-1954">
+            <h2> Números </h2>
+        </div>
+
+        <div class="conteudo-numeros-1954">
+            <ul>
+                <li>
+                    <h3>Bola na rede</h3>
+                        <h4>gols</h4>
+                <p class="numero">12</p>
+                    <p class="chamada">no jogo entre Áustria e Suíça, o <br> recorde na história da Copa.</p>
+                </li>
+
+            </ul>
+            </div>
+
+         <div class="margem-5"> <hr> </div>
+
+        <div id="1958">
+
+       <div class="titulo-copa-1958"> <h3> Copa da Suécia </h3> </div>
+
+        </div>
+
+        <div class="cabecalho-ficha-1958">
+            <h2> Ficha </h2>
+        </div>
+
+        <div class="conteudo-ficha-1958">
+            <p class="imagem-ficha-1958">
+                <img src="https://copa.imguol.com/2010/copadomundo/2009/11/28/poster-da-copa-do-mundo-de-1958-1259440924370_142x200.jpg" alt title="Fifa/Divulgação">
+            </p>
+        </div>
+        <div class="texto-ficha-1958">
+            <h3> Suécia 1958</h3>
+                <dl>
+                    <dt>Times: 16</dt>
+                    <dt>Quando: 08/06 a 29/06</dt>
+                    <dt>Jogos: 35</dt>
+                    <dt>Gols: 126</dt>
+                </dl>
+            </div>
+
+
+         <div class="cabecalho-curiosidade-1958">
+            <h2> Curiosidade </h2>
+        </div>
+
+        <div class="conteudo-curiosidade-1958">
+            <p class="imagem-curiosidade-1958">
+                <img src="https://copa.imguol.com/2010/copadomundo/2009/11/05/o-capitao-da-selecao-brasileira-bellini-ergue-a-taca-jules-rimet-apos-vitoria-sobre-a-suecia-por-5-a-2-1257443000473_80x80.jpg" alt="" title="Arquivo/Folha">
+            </p>
+        </div>
+        <div class="texto-curiosidade-1958">
+            <h3> Marca registrada </h3>
+                <p> Bellini foi o primeiro a erguer <br> a taça com as mãos, graças a <br> pedido dos fotógrafos.</p>
+            </div>
+
+
+
+        <div class="cabecalho-numeros-1958">
+            <h2> Números </h2>
+        </div>
+
+        <div class="conteudo-numeros-1958">
+            <ul>
+                <li>
+                    <h3>Manto</h3>
+                        <h4>dólares</h4>
+                <p class="numero">35</p>
+                    <p class="chamada">foi o preço que o Brasil pagou <br> nas camisas azuis compradas <br> às pressas para a final da Copa.</p>
+                </li>
+
+            </ul>
+            </div>
+
+        <div class="margem-6"> <hr> </div>
+
+        <div id="1962">
+
+       <div class="titulo-copa-1962"> <h3> Copa do Chile </h3> </div>
+
+        </div>
+
+        <div class="cabecalho-ficha-1962">
+            <h2> Ficha </h2>
+        </div>
+
+        <div class="conteudo-ficha-1962">
+            <p class="imagem-ficha-1962">
+                <img src="https://copa.imguol.com/2010/copadomundo/2009/11/28/poster-da-copa-do-mundo-de-1962-1259440866829_142x200.jpg" alt title="Fifa/Divulgação">
+            </p>
+        </div>
+        <div class="texto-ficha-1962">
+            <h3> Chile 1962</h3>
+                <dl>
+                    <dt>Times: 16</dt>
+                    <dt>Quando: 30/05 a 17/06</dt>
+                    <dt>Jogos: 32</dt>
+                    <dt>Gols: 89</dt>
+                </dl>
+            </div>
+
+
+         <div class="cabecalho-curiosidade-1962">
+            <h2> Curiosidade </h2>
+        </div>
+
+        <div class="conteudo-curiosidade-1962">
+            <p class="imagem-curiosidade-1962">
+                <img src="https://copa.imguol.com/2010/copadomundo/2009/11/05/mauro-cumprimenta-adversario-momentos-antes-da-partida-entre-espanha-e-brasil-1257448798442_80x80.jpg" alt="" title="Arquivo/Folha">
+            </p>
+        </div>
+        <div class="texto-curiosidade-1962">
+            <h3> Miss capitão </h3>
+                <p> Mauro foi apelidado pela Miss <br> Brasil Marta Rocha por sua <br> 'beleza e elegância' em campo.</p>
+            </div>
+
+
+
+        <div class="cabecalho-numeros-1962">
+            <h2> Números </h2>
+        </div>
+
+        <div class="conteudo-numeros-1962">
+            <ul>
+                <li>
+                    <h3>Tragédia</h3>
+                        <h4>mortes</h4>
+                <p class="numero">2</p>
+                    <p class="chamada">foram registradas durante a <br> Copa, ambas por ataques <br> cardíacos.</p>
+                </li>
+
+            </ul>
+            </div>
+
+         <div class="margem-7"> <hr> </div>
+
+        <div id="1966">
+
+       <div class="titulo-copa-1966"> <h3> Copa da Inglaterra </h3> </div>
+
+        </div>
+
+        <div class="cabecalho-ficha-1966">
+            <h2> Ficha </h2>
+        </div>
+
+        <div class="conteudo-ficha-1966">
+            <p class="imagem-ficha-1966">
+                <img src="https://copa.imguol.com/2010/copadomundo/2009/11/28/poster-da-copa-do-mundo-de-1966-1259440820806_142x200.jpg" alt title="Fifa/Divulgação">
+            </p>
+        </div>
+        <div class="texto-ficha-1966">
+            <h3> Inglaterra 1966</h3>
+                <dl>
+                    <dt>Times: 16</dt>
+                    <dt>Quando: 11/07 a 30/07</dt>
+                    <dt>Jogos: 32</dt>
+                    <dt>Gols: 89</dt>
+                </dl>
+            </div>
+
+
+         <div class="cabecalho-curiosidade-1966">
+            <h2> Curiosidade </h2>
+        </div>
+
+        <div class="conteudo-curiosidade-1966">
+            <p class="imagem-curiosidade-1966">
+                <img src="https://copa.imguol.com/2010/copadomundo/2009/11/06/mascote-da-copa-do-mundo-de-1966-realizada-na-inglaterra-1257513293435_80x80.jpg" alt="" title="Arquivo/Folha">
+            </p>
+        </div>
+        <div class="texto-curiosidade-1966">
+            <h3> Personagem </h3>
+                <p> Criado para promover a Copa, o <br> leão Willie foi o primeiro <br> mascote criado para a <br> competição.</p>
+            </div>
+
+
+
+        <div class="cabecalho-numeros-1966">
+            <h2> Números </h2>
+        </div>
+
+        <div class="conteudo-numeros-1966">
+            <ul>
+                <li>
+                    <h3>Fim de uma era</h3>
+                        <h4>jogos</h4>
+                <p class="numero">13</p>
+                    <p class="chamada">era a invencibilidade brasileira <br> em Copas até a derrota para a <br> Hungria na primeira fase.</p>
+                </li>
+
+            </ul>
+            </div>
+
+        <div class="margem-8"> <hr> </div>
+
+        <div id="1970">
+
+       <div class="titulo-copa-1970"> <h3> Copa do México </h3> </div>
+
+        </div>
+
+        <div class="cabecalho-ficha-1970">
+            <h2> Ficha </h2>
+        </div>
+
+        <div class="conteudo-ficha-1970">
+            <p class="imagem-ficha-1970">
+                <img src="https://copa.imguol.com/2010/copadomundo/2009/11/28/poster-da-copa-do-mundo-de-1970-1259440749182_142x200.jpg" alt title="Fifa/Divulgação">
+            </p>
+        </div>
+        <div class="texto-ficha-1970">
+            <h3> México 1970</h3>
+                <dl>
+                    <dt>Times: 16</dt>
+                    <dt>Quando: 31/05 a 21/06</dt>
+                    <dt>Jogos: 32</dt>
+                    <dt>Gols: 95</dt>
+                </dl>
+            </div>
+
+
+         <div class="cabecalho-curiosidade-1970">
+            <h2> Curiosidade </h2>
+        </div>
+
+        <div class="conteudo-curiosidade-1970">
+            <p class="imagem-curiosidade-1970">
+                <img src="https://copa.imguol.com/2010/copadomundo/2009/11/06/ronaldo-recebe-o-cartao-amarelo-durante-a-derrota-da-selecao-brasileira-por-1-a-0-para-a-selecao-da-franca-em-partida-valida-pelas-quartas-de-final-da-copa-do-mundo-de-2006-1257523564306_80x80.jpg" alt="" title="Arquivo/Folha">
+            </p>
+        </div>
+        <div class="texto-curiosidade-1970">
+            <h3> Cartão </h3>
+                <p> México teve a estreia do cartão, <br> que iria ajudar a TV a cores <br> durante as partidas da Copa. </p>
+            </div>
+
+
+
+        <div class="cabecalho-numeros-1970">
+            <h2> Números </h2>
+        </div>
+
+        <div class="conteudo-numeros-1970">
+            <ul>
+                <li>
+                    <h3>Ataque matador</h3>
+                        <h4>gols</h4>
+                <p class="numero">19</p>
+                    <p class="chamada">fez o Brasil na campanha que <br> rendeu ao país o tricampeonato.</p>
+                </li>
+
+            </ul>
+            </div>
+
+
+        <div class="margem-9"> <hr> </div>
+
+        <div id="1974">
+
+       <div class="titulo-copa-1974"> <h3> Copa da Alemanha </h3> </div>
+
+        </div>
+
+        <div class="cabecalho-ficha-1974">
+            <h2> Ficha </h2>
+        </div>
+
+        <div class="conteudo-ficha-1974">
+            <p class="imagem-ficha-1974">
+                <img src="https://copa.imguol.com/2010/copadomundo/2009/11/28/poster-da-copa-do-mundo-de-1974-1259440705100_142x200.jpg" alt title="Fifa/Divulgação">
+            </p>
+        </div>
+        <div class="texto-ficha-1974">
+            <h3> Alemanha 1974</h3>
+                <dl>
+                    <dt>Times: 16</dt>
+                    <dt>Quando: 13/06 a 07/07</dt>
+                    <dt>Jogos: 38</dt>
+                    <dt>Gols: 97</dt>
+                </dl>
+            </div>
+
+
+         <div class="cabecalho-curiosidade-1974">
+            <h2> Curiosidade </h2>
+        </div>
+
+        <div class="conteudo-curiosidade-1974">
+            <p class="imagem-curiosidade-1974">
+                <img src="https://copa.imguol.com/2010/copadomundo/2009/11/06/clodoaldo-participou-de-todos-os-jogos-da-selecao-brasileira-na-campanha-vitoriosa-no-mundial-do-mexico-em-1970-1257532239586_80x80.jpg" alt="" title="Arquivo/Folha">
+            </p>
+        </div>
+        <div class="texto-curiosidade-1974">
+            <h3> Chororô </h3>
+                <p> Ao saber do corte da seleção, o <br> campeão mundial Clodoaldo <br> teve uma crise de choro. </p>
+            </div>
+
+
+
+        <div class="cabecalho-numeros-1974">
+            <h2> Números </h2>
+        </div>
+
+        <div class="conteudo-numeros-1974">
+            <ul>
+                <li>
+                    <h3>Taça Fifa</h3>
+                        <h4>projetos</h4>
+                <p class="numero">54</p>
+                    <p class="chamada">foram analisados para substituir <br> a taça Jules Rimet, que ficou <br> com o Brasil após a Copa de 70.</p>
+                </li>
+
+            </ul>
+            </div>
+
+        <div class="margem-10"> <hr> </div>
+
+        <div id="1978">
+
+       <div class="titulo-copa-1978"> <h3> Copa da Argentina </h3> </div>
+
+        </div>
+
+        <div class="cabecalho-ficha-1978">
+            <h2> Ficha </h2>
+        </div>
+
+        <div class="conteudo-ficha-1978">
+            <p class="imagem-ficha-1978">
+                <img src="https://copa.imguol.com/2010/copadomundo/2009/11/28/poster-da-copa-do-mundo-de-1978-1259440649056_142x200.jpg" alt title="Fifa/Divulgação">
+            </p>
+        </div>
+        <div class="texto-ficha-1978">
+            <h3> Argentina 1978</h3>
+                <dl>
+                    <dt>Times: 16</dt>
+                    <dt>Quando: 01/06 a 25/06</dt>
+                    <dt>Jogos: 38</dt>
+                    <dt>Gols: 102</dt>
+                </dl>
+            </div>
+
+
+         <div class="cabecalho-curiosidade-1978">
+            <h2> Curiosidade </h2>
+        </div>
+
+        <div class="conteudo-curiosidade-1978">
+            <p class="imagem-curiosidade-1978">
+                <img src="https://copa.imguol.com/2010/copadomundo/2009/11/06/tecnico-cesar-luis-menotti-levou-a-argentina-ao-seu-primeiro-titulo-mundial-em-1978-1257540168177_80x80.jpg" alt="" title="Arquivo/Folha">
+            </p>
+        </div>
+        <div class="texto-curiosidade-1978">
+            <h3> Inimigo íntimo </h3>
+                <p> Menotti, técnico que levou a <br> Argentina ao título mundial, <br> jogou por 2 times no Brasil. </p>
+            </div>
+
+
+
+        <div class="cabecalho-numeros-1978">
+            <h2> Números </h2>
+        </div>
+
+        <div class="conteudo-numeros-1978">
+            <ul>
+                <li>
+                    <h3>Refrigerante</h3>
+                        <h4>milhões de dólares</h4>
+                <p class="numero">8</p>
+                    <p class="chamada">pagou a Coca-Cola para <br> patrocinar a Copa do Mundo na <br> Argentina em 1978.</p>
+                </li>
+
+            </ul>
+            </div>
+
+
+        <div class="margem-11"> <hr> </div>
+
+        <div id="1982">
+
+       <div class="titulo-copa-1982"> <h3> Copa da Espanha </h3> </div>
+
+        </div>
+
+        <div class="cabecalho-ficha-1978">
+            <h2> Ficha </h2>
+        </div>
+
+        <div class="conteudo-ficha-1982">
+            <p class="imagem-ficha-1982">
+                <img src="https://copa.imguol.com/2010/copadomundo/2009/11/28/poster-da-copa-do-mundo-de-1982-1259440608311_142x200.jpg" alt title="Fifa/Divulgação">
+            </p>
+        </div>
+        <div class="texto-ficha-1982">
+            <h3> Espanha 1982</h3>
+                <dl>
+                    <dt>Times: 24</dt>
+                    <dt>Quando: 13/06 a 11/07</dt>
+                    <dt>Jogos: 52</dt>
+                    <dt>Gols: 146</dt>
+                </dl>
+            </div>
+
+
+         <div class="cabecalho-curiosidade-1982">
+            <h2> Curiosidade </h2>
+        </div>
+
+        <div class="conteudo-curiosidade-1982">
+            <p class="imagem-curiosidade-1982">
+                <img src="https://copa.imguol.com/2010/copadomundo/2009/11/09/ex-arbitro-e-comentarista-esportivo-arnaldo-cesar-coelho-durante-leilao-beneficente-em-londrina-1257790259005_80x80.jpg" alt="" title="Arquivo/Folha">
+            </p>
+        </div>
+        <div class="texto-curiosidade-1982">
+            <h3> A regra é clara </h3>
+                <p> Arnaldo Cesar Coelho foi o 1° <br> árbitro brasileiro a apitar uma <br> decisão de Copa do Mundo. </p>
+            </div>
+
+
+
+        <div class="cabecalho-numeros-1982">
+            <h2> Números </h2>
+        </div>
+
+        <div class="conteudo-numeros-1982">
+            <ul>
+                <li>
+                    <h3>Audiência</h3>
+                        <h4>bilhões</h4>
+                <p class="numero">10</p>
+                    <p class="chamada">de telespectadores foi o <br> acumulado da audiência na <br> transmissão das partidas.</p>
+                </li>
+
+            </ul>
+            </div>
+
+        <div class="margem-12"> <hr> </div>
+
+        <div id="1986">
+
+       <div class="titulo-copa-1986"> <h3> Copa do México </h3> </div>
+
+        </div>
+
+        <div class="cabecalho-ficha-1986">
+            <h2> Ficha </h2>
+        </div>
+
+        <div class="conteudo-ficha-1986">
+            <p class="imagem-ficha-1986">
+                <img src="https://copa.imguol.com/2010/copadomundo/2009/11/28/poster-da-copa-do-mundo-de-1986-1259440571091_142x200.jpg" alt title="Fifa/Divulgação">
+            </p>
+        </div>
+        <div class="texto-ficha-1986">
+            <h3> México 1986</h3>
+                <dl>
+                    <dt>Times: 24</dt>
+                    <dt>Quando: 31/05 a 29/06</dt>
+                    <dt>Jogos: 52</dt>
+                    <dt>Gols: 132</dt>
+                </dl>
+            </div>
+
+
+         <div class="cabecalho-curiosidade-1986">
+            <h2> Curiosidade </h2>
+        </div>
+
+        <div class="conteudo-curiosidade-1986">
+            <p class="imagem-curiosidade-1986">
+                <img src="https://copa.imguol.com/2010/copadomundo/2009/11/09/observado-por-careca-zico-tenta-finalizacao-na-copa-do-mundo-de-1986-1257797649839_80x80.jpg" alt="" title="Arquivo/Folha">
+            </p>
+        </div>
+        <div class="texto-curiosidade-1986">
+            <h3> Bicampeão 'moral' </h3>
+                <p> Pela segunda vez, a seleção <br> terminou a Copa sem sofrer <br> derrotas e não levou o título. </p>
+            </div>
+
+
+
+        <div class="cabecalho-numeros-1986">
+            <h2> Números </h2>
+        </div>
+
+        <div class="conteudo-numeros-1986">
+            <ul>
+                <li>
+                    <h3>'El pibe de oro'</h3>
+                        <h4>assistências</h4>
+                <p class="numero">5</p>
+                    <p class="chamada">deu Diego Maradona, além de <br> ter marcado outros cincos gols no <br> bicampeonato argentino.</p>
+                </li>
+
+            </ul>
+            </div>
+
+        <div class="margem-13"> <hr> </div>
+
+        <div id="1990">
+
+       <div class="titulo-copa-1990"> <h3> Copa da Itália </h3> </div>
+
+        </div>
+
+        <div class="cabecalho-ficha-1990">
+            <h2> Ficha </h2>
+        </div>
+
+        <div class="conteudo-ficha-1990">
+            <p class="imagem-ficha-1990">
+                <img src="https://copa.imguol.com/2010/copadomundo/2009/11/28/poster-da-copa-do-mundo-de-1990-1259440534935_142x200.jpg" alt title="Fifa/Divulgação">
+            </p>
+        </div>
+        <div class="texto-ficha-1990">
+            <h3> Itália 1990</h3>
+                <dl>
+                    <dt>Times: 24</dt>
+                    <dt>Quando: 08/06 a 08/07</dt>
+                    <dt>Jogos: 52</dt>
+                    <dt>Gols: 115</dt>
+                </dl>
+            </div>
+
+
+         <div class="cabecalho-curiosidade-1990">
+            <h2> Curiosidade </h2>
+        </div>
+
+        <div class="conteudo-curiosidade-1990">
+            <p class="imagem-curiosidade-1990">
+                <img src="https://copa.imguol.com/2010/copadomundo/2009/11/10/roger-milla-de-camaroes-comemora-o-gol-de-honra-de-sua-equipe-na-derrota-por-6-a-1-para-a-selecao-da-russia-1257861162384_80x80.jpg" alt="" title="Arquivo/Folha">
+            </p>
+        </div>
+        <div class="texto-curiosidade-1990">
+            <h3> Experiência </h3>
+                <p> Aos 38 ano, Milla bateu o <br> recorde de jogador mais velho <br> a marcar em Copas do Mundo. </p>
+            </div>
+
+
+
+        <div class="cabecalho-numeros-1990">
+            <h2> Números </h2>
+        </div>
+
+        <div class="conteudo-numeros-1990">
+            <ul>
+                <li>
+                    <h3>Na marca da cal</h3>
+                        <h4>semifinais nos pênaltis</h4>
+                <p class="numero">2</p>
+                    <p class="chamada">pela primeira vez na história os <br> dois finalistas foram decididos <br> nas cobranças diretas.</p>
+                </li>
+
+            </ul>
+            </div>
+
+        <div class="margem-14"> <hr> </div>
+
+        <div id="1994">
+
+       <div class="titulo-copa-1994"> <h3> Copa dos EUA </h3> </div>
+
+        </div>
+
+        <div class="cabecalho-ficha-1994">
+            <h2> Ficha </h2>
+        </div>
+
+        <div class="conteudo-ficha-1994">
+            <p class="imagem-ficha-1994">
+                <img src="https://copa.imguol.com/2010/copadomundo/2009/11/28/poster-da-copa-do-mundo-de-1994-1259440475703_142x200.jpg" alt title="Fifa/Divulgação">
+            </p>
+        </div>
+        <div class="texto-ficha-1994">
+            <h3> EUA 1994</h3>
+                <dl>
+                    <dt>Times: 24</dt>
+                    <dt>Quando: 17/06 a 17/07</dt>
+                    <dt>Jogos: 52</dt>
+                    <dt>Gols: 141</dt>
+                </dl>
+            </div>
+
+
+         <div class="cabecalho-curiosidade-1994">
+            <h2> Curiosidade </h2>
+        </div>
+
+        <div class="conteudo-curiosidade-1994">
+            <p class="imagem-curiosidade-1994">
+                <img src="https://copa.imguol.com/2010/copadomundo/2009/11/10/oleg-salenko-jogador-russo-artilheiro-da-copa-de-1994-1257871763636_80x80.jpg" alt="" title="Arquivo/Folha">
+            </p>
+        </div>
+        <div class="texto-curiosidade-1994">
+            <h3> Dia inspirado </h3>
+                <p> Salenko tornou-se o recordista <br> de gols em um único jogo: 5 <br> diante de Camarões. </p>
+            </div>
+
+
+
+        <div class="cabecalho-numeros-1994">
+            <h2> Números </h2>
+        </div>
+
+        <div class="conteudo-numeros-1994">
+            <ul>
+                <li>
+                    <h3>Muito quente</h3>
+                        <h4>°C</h4>
+                <p class="numero">46</p>
+                    <p class="chamada">foi a temperatura máxima <br> registrada durante o torneio, no <br> jogo Alemanha x Coreia do Sul.</p>
+                </li>
+
+            </ul>
+            </div>
+
+        <div class="margem-15"> <hr> </div>
+
+        <div id="1998">
+
+       <div class="titulo-copa-1998"> <h3> Copa da França </h3> </div>
+
+        </div>
+
+        <div class="cabecalho-ficha-1998">
+            <h2> Ficha </h2>
+        </div>
+
+        <div class="conteudo-ficha-1998">
+            <p class="imagem-ficha-1998">
+                <img src="https://copa.imguol.com/2010/copadomundo/2009/11/28/poster-da-copa-do-mundo-de-1998-1259440433834_142x200.jpg" alt title="Fifa/Divulgação">
+            </p>
+        </div>
+        <div class="texto-ficha-1998">
+            <h3> França 1998</h3>
+                <dl>
+                    <dt>Times: 32</dt>
+                    <dt>Quando: 10/06 a 12/07</dt>
+                    <dt>Jogos: 64</dt>
+                    <dt>Gols: 171</dt>
+                </dl>
+            </div>
+
+
+         <div class="cabecalho-curiosidade-1998">
+            <h2> Curiosidade </h2>
+        </div>
+
+        <div class="conteudo-curiosidade-1998">
+            <p class="imagem-curiosidade-1998">
+                <img src="https://copa.imguol.com/2010/copadomundo/2009/11/10/na-semifinal-da-copa-e-em-decisao-por-penaltis-contra-a-holanda-taffarel-voa-para-defender-penalti-cobrado-por-cocu-1257879387007_80x80.jpg?1259337623534" alt="" title="Arquivo/Folha">
+            </p>
+        </div>
+        <div class="texto-curiosidade-1998">
+            <h3> Com 18 partidas </h3>
+                <p> Dunga e Taffarel (f) se tornaram <br> os recordistas de jogos pelo <br> Brasil em Copa. </p>
+            </div>
+
+
+
+        <div class="cabecalho-numeros-1998">
+            <h2> Números </h2>
+        </div>
+
+        <div class="conteudo-numeros-1998">
+            <ul>
+                <li>
+                    <h3>Redonda</h3>
+                        <h4>bolas</h4>
+                <p class="numero">960</p>
+                    <p class="chamada">foi o número de 'pelotas' <br> utilizadas durante todo o <br> Mundial da França.</p>
+                </li>
+
+            </ul>
+            </div>
+
+<div class="margem-16"> <hr> </div>
+
+        <div id="2002">
+
+       <div class="titulo-copa-2002"> <h3> Copa da Ásia </h3> </div>
+
+        </div>
+
+        <div class="cabecalho-ficha-2002">
+            <h2> Ficha </h2>
+        </div>
+
+        <div class="conteudo-ficha-2002">
+            <p class="imagem-ficha-2002">
+                <img src="https://copa.imguol.com/2010/copadomundo/2009/11/28/poster-da-copa-do-mundo-de-2002-1259440376091_142x200.jpg" alt title="Fifa/Divulgação">
+            </p>
+        </div>
+        <div class="texto-ficha-2002">
+            <h3> Ásia 2002 </h3>
+                <dl>
+                    <dt>Times: 32</dt>
+                    <dt>Quando: 31/05 a 30/06</dt>
+                    <dt>Jogos: 64</dt>
+                    <dt>Gols: 161</dt>
+                </dl>
+            </div>
+
+
+         <div class="cabecalho-curiosidade-2002">
+            <h2> Curiosidade </h2>
+        </div>
+
+        <div class="conteudo-curiosidade-2002">
+            <p class="imagem-curiosidade-2002">
+                <img src="https://copa.imguol.com/2010/copadomundo/2009/11/10/o-sul-coreano-ahn-jung-hwan-comemora-o-gol-que-eliminou-a-italia-ainda-nas-oitavas-de-final-do-mundial-1257887426607_80x80.jpg" alt="" title="Arquivo/Folha">
+            </p>
+        </div>
+        <div class="texto-curiosidade-2002">
+            <h3> Vingança </h3>
+                <p> O sul-coreano Ahn Jung-Hwan <br> acabou demitido do Perugia <br> após eliminar a Itália.</p>
+            </div>
+
+
+
+        <div class="cabecalho-numeros-2002">
+            <h2> Números </h2>
+        </div>
+
+        <div class="conteudo-numeros-2002">
+            <ul>
+                <li>
+                    <h3>Poucos gols</h3>
+                        <h4>1 a 0</h4>
+                <p class="numero">15</p>
+                    <p class="chamada">foi o número de partidas que <br> acabaram com o placar mínimo <br> na Copa do Mundo asiática.</p>
+                </li>
+
+            </ul>
+            </div>
+
+        <div class="margem-17"> <hr> </div>
+
+        <div id="2006">
+
+       <div class="titulo-copa-2006"> <h3> Copa da Alemanha </h3> </div>
+
+        </div>
+
+        <div class="cabecalho-ficha-2006">
+            <h2> Ficha </h2>
+        </div>
+
+        <div class="conteudo-ficha-2006">
+            <p class="imagem-ficha-2006">
+                <img src="https://copa.imguol.com/2010/copadomundo/2009/11/28/poster-da-copa-do-mundo-de-2006-1259439623226_142x200.jpg" alt title="Fifa/Divulgação">
+            </p>
+        </div>
+        <div class="texto-ficha-2006">
+            <h3> Alemanha 2006 </h3>
+                <dl>
+                    <dt>Times: 32</dt>
+                    <dt>Quando: 09/06 a 09/07</dt>
+                    <dt>Jogos: 64</dt>
+                    <dt>Gols: 147</dt>
+                </dl>
+            </div>
+
+
+         <div class="cabecalho-curiosidade-2006">
+            <h2> Curiosidade </h2>
+        </div>
+
+        <div class="conteudo-curiosidade-2006">
+            <p class="imagem-curiosidade-2006">
+                <img src="https://copa.imguol.com/2010/copadomundo/2009/11/11/luiz-felipe-scolari-comemora-gol-de-portugal-em-duelo-pelas-oitavas-de-final-contra-a-holanda-1257963066820_80x80.jpg" alt="" title="Arquivo/Folha">
+            </p>
+        </div>
+        <div class="texto-curiosidade-2006">
+            <h3> 11 consecutivas </h3>
+                <p> Em 2006, Scolari conquistou o <br> maior número de vitórias <br> seguidas em Copas.</p>
+            </div>
+
+
+
+        <div class="cabecalho-numeros-2006">
+            <h2> Números </h2>
+        </div>
+
+        <div class="conteudo-numeros-2006">
+            <ul>
+                <li>
+                    <h3>Sem falta</h3>
+                        <h4>minutos</h4>
+                <p class="numero">386</p>
+                    <p class="chamada">O zagueiro Lúcio bateu tempo <br> recorde sem fazer faltas na <br> na Copa do Mundo de 2006.</p>
+                </li>
+
+            </ul>
+            </div>
+
+            <div class="margem-17"> <hr> </div>
+
+        <div id="2010">
+
+       <div class="titulo-copa-2010"> <h3> Copa da África do Sul </h3> </div>
+
+        </div>
+
+        <div class="cabecalho-ficha-2010">
+            <h2> Ficha </h2>
+        </div>
+
+        <div class="conteudo-ficha-2010">
+            <p class="imagem-ficha-2010">
+                <img src="static/IMG/ficha-logo-2010.jpg" alt title="Fifa/Divulgação">
+            </p>
+        </div>
+        <div class="texto-ficha-2010">
+            <h3> África 2010 </h3>
+                <dl>
+                    <dt>Times: 32</dt>
+                    <dt>Quando: 11/06 a 11/07</dt>
+                    <dt>Jogos: 64</dt>
+                    <dt>Gols: 145</dt>
+                </dl>
+            </div>
+
+
+         <div class="cabecalho-curiosidade-2010">
+            <h2> Curiosidade </h2>
+        </div>
+
+        <div class="conteudo-curiosidade-2010">
+            <p class="imagem-curiosidade-2010">
+                <img src="static/IMG/curiosidade_2010.jpg" alt="" title="Arquivo/Folha">
+            </p>
+        </div>
+        <div class="texto-curiosidade-2010">
+            <h3> Placar magrinho</h3>
+                <p> Nada menos do que 17 <br> jogos da Copa terminaram <br> com o placar de 1 a 0.</p>
+            </div>
+
+
+
+        <div class="cabecalho-numeros-2010">
+            <h2> Números </h2>
+        </div>
+
+        <div class="conteudo-numeros-2010">
+            <ul>
+                <li>
+                    <h3>Chuva de cartões</h3>
+                        <h4>cartões amarelos</h4>
+                <p class="numero">12</p>
+                    <p class="chamada">foram exibidos na final da Copa, <br> um recorde, isso sem contar os <br> dois amarelos para Heitinga, expulso. </p>
+                </li>
+
+            </ul>
+            </div>
+
+            <div class="margem-18"> <hr> </div>
+
+        <div id="2014">
+
+       <div class="titulo-copa-2014"> <h3> Copa do Brasil </h3> </div>
+
+        </div>
+
+        <div class="cabecalho-ficha-2014">
+            <h2> Ficha </h2>
+        </div>
+
+        <div class="conteudo-ficha-2014">
+            <p class="imagem-ficha-2014">
+                <img src="static/IMG/ficha-logo-2014.jpg" alt title="Fifa/Divulgação">
+            </p>
+        </div>
+        <div class="texto-ficha-2014">
+            <h3> Brasil 2014 </h3>
+                <dl>
+                    <dt>Times: 32</dt>
+                    <dt>Quando: 12/06 a 13/07</dt>
+                    <dt>Jogos: 64</dt>
+                    <dt>Gols: 171</dt>
+                </dl>
+            </div>
+
+
+         <div class="cabecalho-curiosidade-2014">
+            <h2> Curiosidade </h2>
+        </div>
+
+        <div class="conteudo-curiosidade-2014">
+            <p class="imagem-curiosidade-2014">
+                <img src="static/IMG/curiosidade_2014.jpg" alt="" title="Arquivo/Folha">
+            </p>
+        </div>
+        <div class="texto-curiosidade-2014">
+            <h3> Xô tabu</h3>
+                <p> Alemanha quebra a tradição <br> de um time europeu nunca ter <br> vencido um Mundial em solo <br> americano.</p>
+            </div>
+
+
+
+        <div class="cabecalho-numeros-2014">
+            <h2> Números </h2>
+        </div>
+
+        <div class="conteudo-numeros-2014">
+            <ul>
+                <li>
+                    <h3>Bate até na sombra</h3>
+                        <h4>faltas</h4>
+                <p class="numero">31</p>
+                    <p class="chamada"> Nas quartas-de-final, o Brasil <br> cometeu 31 faltas, recorde da <br> seleção em partidas de Copa do Mundo. </p>
+                </li>
+
+            </ul>
+            </div>
+
+            <div class="margem-19"> <hr> </div>
+
+        <div id="2018">
+
+       <div class="titulo-copa-2018"> <h3> Copa da Rússia </h3> </div>
+
+        </div>
+
+        <div class="cabecalho-ficha-2018">
+            <h2> Ficha </h2>
+        </div>
+
+        <div class="conteudo-ficha-2018">
+            <p class="imagem-ficha-2018">
+                <img src="static/IMG/ficha-logo-2018.jpg" alt title="Fifa/Divulgação">
+            </p>
+        </div>
+        <div class="texto-ficha-2018">
+            <h3> Rússia 2018 </h3>
+                <dl>
+                    <dt>Times: 32</dt>
+                    <dt>Quando: 14/06 a 15/07</dt>
+                    <dt>Jogos: 64</dt>
+                    <dt>Gols: 169</dt>
+                </dl>
+            </div>
+
+
+         <div class="cabecalho-curiosidade-2018">
+            <h2> Curiosidade </h2>
+        </div>
+
+        <div class="conteudo-curiosidade-2018">
+            <p class="imagem-curiosidade-2018">
+                <img src="static/IMG/curiosidade_2018.jpg" alt="" title="Arquivo/Folha">
+            </p>
+        </div>
+        <div class="texto-curiosidade-2018">
+            <h3> Seleção valiosa</h3>
+                <p> Somando os 11 titulares, <br> o Brasil chegou a um valor  <br> de R$ 2,7 bilhões. Os números <br> são da Forbes.</p>
+            </div>
+
+
+
+        <div class="cabecalho-numeros-2018">
+            <h2> Números </h2>
+        </div>
+
+        <div class="conteudo-numeros-2018">
+            <ul>
+                <li>
+                    <h3>Média</h3>
+                        <h4>de gols</h4>
+                <p class="numero">2,59</p>
+                    <p class="chamada"> A copa de 2018 teve uma média baixa <br> de gols marcados. A menor média é <br> da Copa de 90, com 2,21 gols por partida. </p>
+                </li>
+
+            </ul>
+            </div>
+
+    </div>
+
+        <hr class="hr-1">
+
+    <div class="Campeao">
+
+        <h2> Campeões </h2>
+
+
+    </div>
+
+        <div class="classificacao-1930">
+       <ol>
+           <li class="pos-1">
+           <span class="posicao"> 1°</span>
+           <span class="bandeira"> <img src="https://copa.imguol.com/2010/bandeiras/uruguai.gif" alt="Bandeira do Uruguai" title="Uruguai"></span>
+           Uruguai - Campeão </li>
+           <li class="pos-2">  <span class="posicao"> 2°</span>
+           <span class="bandeira"> <img src="https://copa.imguol.com/2010/bandeiras/argentina.gif" alt="Bandeira da Argentina" title="Argentina"></span>
+           Argentina - Vice-campeão</li>
+           <li class="pos-3">
+               <span class="posicao"> 3°</span>
+               <span class="bandeira"> <img src="https://copa.imguol.com/2010/bandeiras/estados-unidos.gif" alt="Bandeira dos Estados Unidos" title="Estados Unidos"></span>
+           EUA </li>
+           <li class="pos-4">
+           <span class="posicao"> 4°</span>
+               <span class="bandeira"> <img src="https://copa.imguol.com/2010/bandeiras/iugoslavia.gif" alt="Bandeira da Iugoslávia" title="Iugoslavia"></span>
+           Iugoslávia </li>
+           <li class="pos-5">
+           <span class="posicao"> 5°</span>
+               <span class="bandeira"> <img src="https://copa.imguol.com/2010/bandeiras/chile.gif" alt="Bandeira do Chile" title="Chile"></span>
+           Chile </li>
+           <li class="pos-6">
+           <span class="posicao"> 6°</span>
+               <span class="bandeira"> <img src="https://copa.imguol.com/2010/bandeiras/brasil.gif" alt="Bandeira do Brasil" title="Brasil"></span>
+           Brasil </li>
+           <li class="pos-7">
+           <span class="posicao"> 7°</span>
+               <span class="bandeira"> <img src="https://copa.imguol.com/2010/bandeiras/romenia.gif" alt="Bandeira da Romenia" title="Romenia"></span>
+           Romênia </li>
+           <li class="pos-8">
+           <span class="posicao"> 8°</span>
+               <span class="bandeira"> <img src="https://copa.imguol.com/2010/bandeiras/franca.gif" alt="Bandeira da França" title="França"></span>
+           França </li>
+           <li class="pos-9">
+           <span class="posicao"> 9°</span>
+               <span class="bandeira"> <img src="https://copa.imguol.com/2010/bandeiras/paraguai.gif" alt="Bandeira do Paraguai" title="Paraguai"></span>
+           Paraguai </li>
+           <li class="pos-10">
+           <span class="posicao"> 10°</span>
+               <span class="bandeira"> <img src="https://copa.imguol.com/2010/bandeiras/peru.gif" alt="Bandeira do Peru" title="Peru"></span>
+           Peru </li>
+           <li class="pos-11">
+           <span class="posicao"> 11°</span>
+               <span class="bandeira"> <img src="https://copa.imguol.com/2010/bandeiras/belgica.gif" alt="Bandeira doa Belgica" title="Belgica"></span>
+           Bélgica </li>
+           <li class="pos-12">
+           <span class="posicao"> 12°</span>
+               <span class="bandeira"> <img src="https://copa.imguol.com/2010/bandeiras/bolivia.gif" alt="Bandeira da Bolivia" title="Bolivia"></span>
+           Bolívia </li>
+           <li class="pos-13">
+           <span class="posicao"> 13°</span>
+               <span class="bandeira"> <img src="https://copa.imguol.com/2010/bandeiras/mexico.gif" alt="Bandeira do Mexico" title="Mexico"></span>
+           México </li>
+
+
+
+
+
+       </ol>
+
+   </div>
+
+         <div id="Brasil-1930">
+
+      <div class="Brasil-1930">
+        <img src="static/IMG/brasil-1930.jpg">
+    </div>
+
+    <div class="sombra-Brasil-1930">
+
+        <div class="Brasil-logo">
+        <img src="static/IMG/Brasil-logo.jpg" width="90" height="90">
+        </div>
+
+         <div>
+             <h3 class="h3-Brasil-1"> <strong> Brasil </strong> Disputa entre paulistas e cariocas <br> enfraquece a seleção na primeira Copa</h3>
+
+        </div>
+
+    </div>
+
+    </div>
+
+
+    <div id="Brasil-disputa-entre-paulistas-e-cariocas">
+
+        <p> Na primeira Copa do Mundo, o Brasil nem de longe demonstrou que um dia seria a potência que é hoje no esporte.
+             A seleção chegou ao Uruguai para a disputa do Mundial dividido e sem forças para lutar pelo título. A causa do racha era a briga entre paulistas e cariocas.</p>
+
+        <p> Capital do Brasil na época do Mundial, o Rio de Janeiro era o grande centro financeiro, social, cultural e artístico. Mas com a economia brasileira baseada no café, São Paulo crescia rapidamente e assumia o comando político do país.</p>
+
+        <p> A rivalidade crescente acabou se refletindo no futebol. A divergência entre a Confederação Brasileira de Desportos (CBD), essencialmente carioca, não convidou membros da Associação Paulista de Esportes Atléticos (Apea) para tomar parte da comissão técnica que iria ao Uruguai. Em retaliação, a Apea não permitiu que clubes de São Paulo liberassem jogadores à seleção. Apenas o atacante Araken Patuska conseguiu ir à Copa porque estava brigado com o seu time, o Santos.</p>
+
+        <p> Sem poder contar com craques como Friedenreich, Feitiço e Del Debbio, a seleção brasileira fez uma campanha medíocre na primeira Copa do Mundo da história. Logo na primeira partida foi derrotada pela Iugoslávia por 2 a 1. Nesse jogo, o Brasil sofreu dois gols no primeiro tempo e, apesar de ter conseguido descontar na etapa final com Preguinho, não teve forças para obter a virada. </p>
+
+        <p> A rivalidade dentro do país era tanta que, ao saber da derrota dos "cariocas" para a seleção iugoslava, uma pequena multidão aglomerou-se em frente aos jornais paulistas para comemorar a provável desclassificação do Brasil no Mundial. </p>
+
+        <p> Quando entrou em campo para a segunda partida, diante da Bolívia, a seleção brasileira já estava eliminada da Copa do Mundo, porque três dias antes os iugoslavos haviam goleado os bolivianos. Assim, sem compromisso, o Brasil conseguiu a sua primeira vitória na história do Mundial: 4 a 0, com dois gols de Moderato e outros dois de Preguinho. </p>
+
+        <p> Além da divisão entre Rio e São Paulo, a falta de experiência internacional e o rigoroso inverno uruguaio também foram apontados como causas do mau desempenho do Brasil. A famosa "tremedeira" de alguns jogadores diante dos zagueiros iugoslavos também foi imensamente divulgada na época da desclassificação precoce. </p>
+
+        <p> Além disso, ficou evidente a falta de preparação física dos brasileiros, que piorou graças à desgastante viagem de 15 dias de navio a Montevidéu, no Uruguai. Durante a curta estadia da seleção no Mundial, um jogador destacou-se: o volante Fausto, do Vasco, que ganhou o apelido de "Maravilha Negra" pelo futebol elegante apresentado. </p>
+
+        </div>
+
+
+
+        </div>
+
+
+
+
+
+
+     <script type="text/javascript" src="static/JS/jquery.js"></script>
+    <script type="text/javascript" src="static/JS/jquery-migrate.js"></script>
+    <script type="text/javascript" src="static/JS/slick.min.js"></script>
+    <script type="text/javascript" src="static/JS/main.js"></script>
+</body>
+</html>

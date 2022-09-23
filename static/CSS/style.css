@@ -1,0 +1,4362 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Poppins', sans-serif;
+}
+
+* p, h1, h2, h3{
+font-family: courier,arial,helvetica;
+}
+
+body {
+width: 100%;
+height: 100%;
+margin: 0 auto;
+background-image: url("/static/IMG/grama.jpg");
+}
+
+
+ul {
+padding: 0px!important;
+}
+
+
+.menu-1{
+display: flex;
+height: 80px;
+width: 100%;
+background-image: url("../IMG/logo.jpg");
+align-items: center;
+justify-content: space-between;
+padding: 0 50px 0 100px;
+flex-wrap: wrap;
+height: 80px;
+border-bottom: 3px solid #efefef;
+}
+
+.menu-1 .logo{
+color: white;
+font-size: 35px;
+font-weight: 600;
+margin-top: -90px;
+}
+
+.menu-1 ul{
+display: flex;
+flex-wrap: wrap;
+list-style: none;
+}
+
+.menu-1 ul li{
+margin: 0 5px;
+margin-top: -30px;
+}
+
+.menu-1 ul li a{
+color: #f2f2f2;
+text-decoration: none;
+font-size: 18px;
+font-weight: 500;
+padding: 8px 15px;
+border-radius: 5px;
+letter-spacing: 1px;
+transition: all 0.3s ease;
+}
+
+.menu-1 ul li a.active,
+nav ul li a:hover{
+background: #f88f06;
+}
+
+.menu-1 .menu-btn i{
+color: #fff;
+cursor: pointer;
+display: none;
+}
+
+@media (max-width: 920px) {
+nav .menu-btn i{
+display: block;
+}
+
+.menu-1 ul{
+position: fixed;
+top: 80px;
+left: -100%;
+background-color: #003840;
+height: 100vh;
+width: 100%;
+text-align: center;
+display: block;
+transition: all 0.3s ease;
+}
+
+.menu-1 ul.open{
+left: 0;
+}
+
+nav ul li{
+width: 100%;
+margin: 50px 0;
+}
+
+.menu-1 ul li a {
+font-size: 23px;
+}
+
+.menu-1 ul li a.active,
+
+.menu-1 ul li a:hover{
+background: none;
+color: #f88f06;
+}
+
+}  /* chave que fecha o @media*/
+
+ul {
+   padding: 0px!important;
+}
+
+main, .content {
+margin: 0 auto;
+width: 980px;
+position: relative;
+}
+
+.logo {
+ float: left;
+ padding: 16px;
+ width: 70%;
+}
+
+
+.header-2 {
+background-color: #2b3e2a;
+width: 100%;
+margin: 0 auto;
+padding: 16px;
+}
+
+.menu-urls {
+height: 76px;
+border-bottom: 3px solid #efefef;
+margin-bottom: 15px;
+}
+
+/*.menu ul li {
+    display: inline-block;
+    color: #8b8b8bb;
+    margin-left: 15px;
+    height: 64px;
+}
+
+.menu ul li:hover {
+    border-bottom: 3px solid #f88e06;
+}
+
+
+.menu ul li a:hover {
+    color: #f88e06;
+}
+
+
+.menu ul li a {
+    color: #8b8b8b;
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+
+.menu {
+width: 70%;
+float: left;
+margin-left: 120px;
+}*/
+:root {
+    --cor-primaria: rgb(231, 241, 236);
+}
+
+.dp-menu {
+position: relative;
+left: 28%;
+margin: 0 auto;
+}
+
+.dp-menu ul {
+    background-color: #2b3e2a;
+    width: 65%;
+    list-style-type: none;
+    padding: 0;
+}
+
+.dp-menu ul li {
+    display: inline;
+    position: relative;
+}
+
+.dp-menu ul li a {
+    color: var(--cor-primaria);
+    font-size: 18px;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    transition: background .3s;
+}
+
+.dp-menu ul li a:hover {
+    background-color: #ee7601;
+    border-radius: 5px;
+}
+
+/*sub menu*/
+.dp-menu ul ul {
+    display: none;
+    left: 0;
+    position: absolute;
+}
+
+.dp-menu ul li:hover ul {
+    display: block;
+    z-index: 2;
+    background-color: #51644d;
+    border-bottom: 5px solid white;
+}
+
+.dp-menu ul ul {
+    width: 150px;
+}
+
+
+.dp-menu li.hover-me ul {
+  display: none;
+}
+
+.dp-menu li.hover-me:hover ul {
+  display: block;
+  top: 30px;
+}
+
+
+
+.col-100 {
+    width: 100%;
+    float: left;
+    position: relative;
+}
+
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+
+.img-slider {
+    position: relative;
+    width: 800px;
+    height: 100px;
+    margin-left: 250px;
+    margin-top: 90px;
+}
+
+.img-slider .slide {
+    z-index: 1;
+    position: absolute;
+    width: 100%;
+    clip-path: circle(0% at 0 50%);
+}
+
+.img-slider .slide.active {
+    clip-path: circle(150% at 0 50%);
+    transition: 2s;
+    transition-property: clip-path;
+}
+
+.img-slider .slide img {
+    z-index: 1;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.info {
+    font: 1em arial;
+    color: #fff;
+    padding: 15px;
+    border-radius: 4px;
+    width: 100%;
+    margin-top: -100px;
+    margin-left: 325px;
+}
+
+.img-slider .info {
+    position: absolute;
+    top: 240px;
+    bottom: -160px;
+    padding-top: 20px;
+    height: 150px;
+}
+
+.item li a{
+    font: 1em arial;
+    color: #fff;
+    text-decoration: none;
+}
+
+.item li:hover {
+    border-bottom: 2px solid #f88e06;
+    width: 300px;
+}
+
+.item li a:hover {
+    color: #f88e06;
+}
+
+
+.item li {
+list-style: none;
+padding: 4px;
+}
+
+.item {
+margin-top: -95px;
+margin-left: 150px;
+}
+
+.material-symbols-outlined {
+position: absolute;
+margin-left: -22px;
+margin-top: -5px;
+color: #ee7601;
+}
+
+.h3-1 {
+    font: bold 1.3em arial;
+    color: #ee7601;
+    padding: 15px;
+    border-radius: 4px;
+    margin-top: 100px;
+    text-align: center;
+    top: 50px;
+    margin-left: -1190px;
+}
+
+.p1 {
+    font: bold 1.3em arial;
+    color: #fff;
+    padding: 15px;
+    width: 100%;
+    margin-top: -25px;
+    margin-left: -332px;
+}
+
+.h3-2 {
+    font: bold 1.3em arial;
+    color: #ee7601;
+    padding: 15px;
+    border-radius: 4px;
+    margin-top: 100px;
+    text-align: center;
+    top: 50px;
+    margin-left: -1150px;
+}
+
+.p2 {
+    font: bold 1.3em arial;
+    color: #fff;
+    padding: 15px;
+    width: 100%;
+    margin-top: -25px;
+    margin-left: -332px;
+}
+
+.h3-3 {
+    font: bold 1.3em arial;
+    color: #ee7601;
+    padding: 15px;
+    border-radius: 4px;
+    margin-top: 100px;
+    text-align: center;
+    top: 50px;
+    margin-left: -1110px;
+}
+
+.p3 {
+    font: bold 1.3em arial;
+    color: #fff;
+    padding: 15px;
+    width: 100%;
+    margin-top: -25px;
+    margin-left: -332px;
+}
+
+.h3-4 {
+    font: bold 1.3em arial;
+    color: #ee7601;
+    padding: 15px;
+    border-radius: 4px;
+    margin-top: 100px;
+    text-align: center;
+    top: 50px;
+    margin-left: -1095px;
+}
+
+.p4 {
+    font: bold 1.3em arial;
+    color: #fff;
+    padding: 15px;
+    width: 100%;
+    margin-top: -25px;
+    margin-left: -332px;
+}
+
+.h3-5 {
+    font: bold 1.3em arial;
+    color: #ee7601;
+    padding: 15px;
+    border-radius: 4px;
+    margin-top: 100px;
+    text-align: center;
+    top: 50px;
+    margin-left: -1128px;
+}
+
+.p5 {
+    font: bold 1.3em arial;
+    color: #fff;
+    padding: 15px;
+    width: 100%;
+    margin-top: -25px;
+    margin-left: -332px;
+}
+
+.h3-6 {
+    font: bold 1.3em arial;
+    color: #ee7601;
+    padding: 15px;
+    border-radius: 4px;
+    margin-top: 100px;
+    text-align: center;
+    top: 50px;
+    margin-left: -1220px;
+}
+
+.p6 {
+    font: bold 1.3em arial;
+    color: #fff;
+    padding: 15px;
+    width: 100%;
+    margin-top: -25px;
+    margin-left: -332px;
+}
+
+.h3-7 {
+    font: bold 1.3em arial;
+    color: #ee7601;
+    padding: 15px;
+    border-radius: 4px;
+    margin-top: 100px;
+    text-align: center;
+    top: 50px;
+    margin-left: -1095px;
+}
+
+.p7 {
+    font: bold 1.3em arial;
+    color: #fff;
+    padding: 15px;
+    width: 100%;
+    margin-top: -25px;
+    margin-left: -332px;
+}
+
+.h3-8 {
+    font: bold 1.3em arial;
+    color: #ee7601;
+    padding: 15px;
+    border-radius: 4px;
+    margin-top: 100px;
+    text-align: center;
+    top: 50px;
+    margin-left: -1050px;
+}
+
+.p8 {
+    font: bold 1.3em arial;
+    color: #fff;
+    padding: 15px;
+    width: 100%;
+    margin-top: -25px;
+    margin-left: -332px;
+}
+
+.h3-9 {
+    font: bold 1.3em arial;
+    color: #ee7601;
+    padding: 15px;
+    border-radius: 4px;
+    margin-top: 100px;
+    text-align: center;
+    top: 50px;
+    margin-left: -1230px;
+}
+
+.p9 {
+    font: bold 1.3em arial;
+    color: #fff;
+    padding: 15px;
+    width: 100%;
+    margin-top: -25px;
+    margin-left: -332px;
+}
+
+.h3-10 {
+    font: bold 1.3em arial;
+    color: #ee7601;
+    padding: 15px;
+    border-radius: 4px;
+    margin-top: 100px;
+    text-align: center;
+    top: 50px;
+    margin-left: -1150px;
+}
+
+.p10 {
+    font: bold 1.3em arial;
+    color: #fff;
+    padding: 15px;
+    width: 100%;
+    margin-top: -25px;
+    margin-left: -332px;
+}
+
+.h3-11 {
+    font: bold 1.3em arial;
+    color: #ee7601;
+    padding: 15px;
+    border-radius: 4px;
+    margin-top: 100px;
+    text-align: center;
+    top: 50px;
+    margin-left: -1080px;
+}
+
+.p11 {
+    font: bold 1.3em arial;
+    color: #fff;
+    padding: 15px;
+    width: 100%;
+    margin-top: -25px;
+    margin-left: -332px;
+}
+
+.h3-12 {
+    font: bold 1.3em arial;
+    color: #ee7601;
+    padding: 15px;
+    border-radius: 4px;
+    margin-top: 100px;
+    text-align: center;
+    top: 50px;
+    margin-left: -1210px;
+}
+
+.p12 {
+    font: bold 1.3em arial;
+    color: #fff;
+    padding: 15px;
+    width: 100%;
+    margin-top: -25px;
+    margin-left: -332px;
+}
+
+.h3-13 {
+    font: bold 1.3em arial;
+    color: #ee7601;
+    padding: 15px;
+    border-radius: 4px;
+    margin-top: 100px;
+    text-align: center;
+    top: 50px;
+    margin-left: -1120px;
+}
+
+.p13 {
+    font: bold 1.3em arial;
+    color: #fff;
+    padding: 15px;
+    width: 100%;
+    margin-top: -25px;
+    margin-left: -332px;
+}
+.h3-14 {
+    font: bold 1.3em arial;
+    color: #ee7601;
+    padding: 15px;
+    border-radius: 4px;
+    margin-top: 100px;
+    text-align: center;
+    top: 50px;
+    margin-left: -1180px;
+}
+
+.p14 {
+    font: bold 1.3em arial;
+    color: #fff;
+    padding: 15px;
+    width: 100%;
+    margin-top: -25px;
+    margin-left: -332px;
+}
+
+.h3-15 {
+    font: bold 1.3em arial;
+    color: #ee7601;
+    padding: 15px;
+    border-radius: 4px;
+    margin-top: 100px;
+    text-align: center;
+    top: 50px;
+    margin-left: -1060px;
+}
+
+.p15 {
+    font: bold 1.3em arial;
+    color: #fff;
+    padding: 15px;
+    width: 100%;
+    margin-top: -25px;
+    margin-left: -332px;
+}
+
+.h3-16 {
+    font: bold 1.3em arial;
+    color: #ee7601;
+    padding: 15px;
+    border-radius: 4px;
+    margin-top: 100px;
+    text-align: center;
+    top: 50px;
+    margin-left: -1140px;
+}
+
+.p16 {
+    font: bold 1.3em arial;
+    color: #fff;
+    padding: 15px;
+    width: 100%;
+    margin-top: -25px;
+    margin-left: -332px;
+}
+
+.h3-17 {
+    font: bold 1.3em arial;
+    color: #ee7601;
+    padding: 15px;
+    border-radius: 4px;
+    margin-top: 100px;
+    text-align: center;
+    top: 50px;
+    margin-left: -1150px;
+}
+
+.p17 {
+    font: bold 1.3em arial;
+    color: #fff;
+    padding: 15px;
+    width: 100%;
+    margin-top: -25px;
+    margin-left: -332px;
+}
+
+.h3-18 {
+    font: bold 1.3em arial;
+    color: #ee7601;
+    padding: 15px;
+    border-radius: 4px;
+    margin-top: 100px;
+    text-align: center;
+    top: 50px;
+    margin-left: -1205px;
+}
+
+.p18 {
+    font: bold 1.3em arial;
+    color: #fff;
+    padding: 15px;
+    width: 100%;
+    margin-top: -25px;
+    margin-left: -332px;
+}
+
+.h3-19 {
+    font: bold 1.3em arial;
+    color: #ee7601;
+    padding: 15px;
+    border-radius: 4px;
+    margin-top: 100px;
+    text-align: center;
+    top: 50px;
+    margin-left: -1200px;
+}
+
+.p19 {
+    font: bold 1.3em arial;
+    color: #fff;
+    padding: 15px;
+    width: 100%;
+    margin-top: -25px;
+    margin-left: -332px;
+}
+
+.h3-20 {
+    font: bold 1.3em arial;
+    color: #ee7601;
+    padding: 15px;
+    border-radius: 4px;
+    margin-top: 100px;
+    text-align: center;
+    top: 50px;
+    margin-left: -1150px;
+}
+
+.p20 {
+    font: bold 1.3em arial;
+    color: #fff;
+    padding: 15px;
+    width: 100%;
+    margin-top: -25px;
+    margin-left: -332px;
+}
+
+.img-slider .navigation {
+    z-index: 1;
+    position: absolute;
+    display: flex;
+    top: 360px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.img-slider .navigation .btn {
+    background: rgba(255, 255, 255, 0.5);
+    width: 12px;
+    height: 12px;
+    margin: 8px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.img-slider .navigation .btn.active {
+    background: #ee7601;
+    box-shadow: 0 0 2px rgba(0,0,0,0.5);
+}
+
+.margem-0 {
+    margin-top: -120px;
+}
+
+/* Contador regressivo */
+
+.h1-titulo {
+    font-weight: 900;
+    font-size: 2rem;
+    color: #fff;
+    position: relative;
+    left: 31%;
+    top: -80px;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.titulo-proxima-copa {
+    background-image: url("https://img.freepik.com/premium-vector/world-cup-2022-qatar-background_342897-24.jpg?w=2000");
+    opacity: 0.8;
+    position: relative;
+    height: 180px;
+    top: 90px;
+    margin-left: 310px;
+    margin-right: 425px;
+    border-radius: 8%;
+}
+
+.titulo-proxima-copa .img-1 {
+    position: relative;
+    top: -48%;
+    right: -2%;
+}
+
+.titulo-proxima-copa .img-2 {
+    position: relative;
+    top: -48%;
+    left: 70.5%;
+}
+
+.wrapper {
+    display: flex;
+}
+
+.wrapper div {
+    position: relative;
+    top: -8%;
+}
+
+.count-wrapper {
+    width: 120px;
+    height: 110px;
+    background: #fff;
+    position: relative;
+    display: flex;
+    left: 25%;
+    bottom: 70px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 .6rem;
+    border-radius: 8%;
+}
+
+.count-wrapper div {
+    font-weight: 900;
+    font-size: 4rem; 
+    color: #7d1143;
+}
+
+.count-wrapper span {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    padding: .2rem 0;
+    background: #999;
+    border-radius: 10%;
+}
+
+.alert {
+    animation: alert 1s linear infinite alternate;
+}
+
+@keyframes alert {
+    0%{
+        background: #112;
+    }
+    100%{
+        background: #7d1143;
+    }
+}
+
+
+
+.conteudo {
+background-color: #F5F5DC;
+position: relative;
+top: 450px;
+margin-left: 220px;
+margin-right: 220px;
+}
+
+.Copa {
+background-color: #2b3e2a;
+width: 100%;
+position: relative;
+height: 50px;
+}
+
+.Copa h2 {
+font-size: 30px;
+position: relative;
+left: 40%;
+padding-top: 6px;
+color: #fff;
+}
+
+.Copa h3 {
+font-size: 25px;
+color: black;
+position: relative;
+top: 15px;
+left: 10px;
+padding: 15px;
+}
+
+/* 1930 */
+
+.conteudo .Copa .titulo-copa-1930 h3 {
+position: relative;
+left: 30%;
+top: 20%;
+}
+
+.cabecalho-ficha-1930 h2 {
+background: #2b3e2a;
+color: #fff;
+padding: 0.3em 0.5em;
+position: absolute;
+float: left;
+left: 18.9%;
+z-index: 2;
+margin-top: 5px;
+}
+
+
+.imagem-ficha-1930 {
+position: relative;
+left: 3%;
+z-index: 1;
+margin-top: 5px;
+}
+
+.Copa .texto-ficha-1930 h3 {
+position: relative;
+color: #2b3e2a;
+margin: 4px;
+left: -2%;
+word-spacing: -5px;
+}
+
+.Copa .texto-ficha-1930 {
+position: relative;
+top: -360%;
+left: 20%;
+}
+
+.cabecalho-curiosidade-1930 h2 {
+background: #2b3e2a;
+color: #fff;
+padding: 0.3em 0.5em;
+position: absolute;
+float: right;
+left: 55%;
+top: 190%;
+z-index: 2;
+margin-top: 5px;
+}
+
+
+.Copa .conteudo-curiosidade-1930 {
+position: relative;
+left: 55%;
+top: -580%;
+z-index: 2;
+}
+
+.Copa .texto-curiosidade-1930 h3 {
+position: relative;
+color: #2b3e2a;
+margin: 4px;
+left: -2%;
+}
+
+.Copa .texto-curiosidade-1930 {
+position: relative;
+top: -810%;
+left: 65%;
+}
+
+.Copa .cabecalho-numeros-1930 h2 {
+background: #2b3e2a;
+color: #fff;
+padding: 0.3em 0.5em;
+position: absolute;
+float: right;
+left: 36%;
+top: 525%;
+z-index: 2;
+margin-top: 5px;
+}
+
+.Copa .conteudo-numeros-1930 ul li .numero {
+width: 70px;
+padding: 25px 0;
+background-image: url("/static/IMG/bg_mod_numeros.jpg");
+font: bold 26px arial;
+color: #fff;
+text-align: center;
+float: left;
+position: absolute;
+top: 660%;
+left: 36%;
+}
+
+.Copa .conteudo-numeros-1930 ul li h3 {
+color: #ee591f;
+position: absolute;
+top: 620%;
+left: 43%;
+}
+
+.Copa .conteudo-numeros-1930 ul li h4 {
+position: absolute;
+top: 700%;
+left: 44.5%;
+}
+
+.Copa .conteudo-numeros-1930 ul li .chamada {
+position: absolute;
+top: 740%;
+left: 44.5%;
+}
+
+
+/* margem 1*/
+.margem-1 {
+margin-top: -160px;
+margin-bottom: 20px;
+}
+
+
+/* 1934 */
+
+.conteudo .Copa .titulo-copa-1934 h3 {
+position: relative;
+left: 30%;
+top: 20%;
+}
+
+.cabecalho-ficha-1934 h2 {
+background: #2b3e2a;
+color: #fff;
+padding: 0.3em 0.5em;
+position: absolute;
+float: left;
+left: 18.9%;
+z-index: 2;
+margin-top: 5px;
+}
+
+
+.imagem-ficha-1934 {
+position: relative;
+left: 3%;
+z-index: 1;
+margin-top: 5px;
+}
+
+.Copa .texto-ficha-1934 h3 {
+position: relative;
+color: #2b3e2a;
+margin: 4px;
+left: -2%;
+word-spacing: -5px;
+}
+
+.Copa .texto-ficha-1934 {
+position: relative;
+top: -360%;
+left: 20%;
+}
+
+.cabecalho-curiosidade-1934 h2 {
+background: #2b3e2a;
+color: #fff;
+padding: 0.3em 0.5em;
+position: absolute;
+float: right;
+left: 55%;
+top: 1180%;
+z-index: 2;
+margin-top: 5px;
+}
+
+
+.Copa .conteudo-curiosidade-1934 {
+position: relative;
+left: 55%;
+top: -580%;
+z-index: 2;
+}
+
+.Copa .texto-curiosidade-1934 h3 {
+position: relative;
+color: #2b3e2a;
+margin: 4px;
+left: -2%;
+}
+
+.Copa .texto-curiosidade-1934 {
+position: relative;
+top: -810%;
+left: 65%;
+}
+
+.Copa .cabecalho-numeros-1934 h2 {
+background: #2b3e2a;
+color: #fff;
+padding: 0.3em 0.5em;
+position: absolute;
+float: right;
+left: 36%;
+top: 1570%;
+z-index: 2;
+margin-top: 5px;
+}
+
+.Copa .conteudo-numeros-1934 ul li .numero {
+width: 70px;
+padding: 25px 0;
+background-image: url("/static/IMG/bg_mod_numeros.jpg");
+font: bold 26px arial;
+color: #fff;
+text-align: center;
+float: left;
+position: absolute;
+top: 1700%;
+left: 36%;
+}
+
+.Copa .conteudo-numeros-1934 ul li h3 {
+color: #ee591f;
+position: absolute;
+top: 1665%;
+left: 43%;
+}
+
+.Copa .conteudo-numeros-1934 ul li h4 {
+position: absolute;
+bottom: -1689%;
+left: 44.5%;
+}
+
+.Copa .conteudo-numeros-1934 ul li .chamada {
+position: absolute;
+top: 1800%;
+left: 44.5%;
+}
+
+/* margem 2*/
+.margem-2 {
+margin-top: -160px;
+margin-bottom: 20px;
+}
+
+/* 1938 */
+
+.conteudo .Copa .titulo-copa-1938 h3 {
+position: relative;
+left: 30%;
+top: 20%;
+}
+
+.cabecalho-ficha-1938 h2 {
+background: #2b3e2a;
+color: #fff;
+padding: 0.3em 0.5em;
+position: absolute;
+float: left;
+left: 18.9%;
+z-index: 2;
+margin-top: 5px;
+}
+
+.imagem-ficha-1938 {
+position: relative;
+left: 3%;
+z-index: 1;
+margin-top: 5px;
+}
+
+.Copa .texto-ficha-1938 h3 {
+position: relative;
+color: #2b3e2a;
+margin: 4px;
+left: -2%;
+word-spacing: -5px;
+}
+
+.Copa .texto-ficha-1938 {
+position: relative;
+top: -360%;
+left: 20%;
+}
+
+.cabecalho-curiosidade-1938 h2 {
+background: #2b3e2a;
+color: #fff;
+padding: 0.3em 0.5em;
+position: absolute;
+float: right;
+left: 55%;
+top: 2170%;
+z-index: 2;
+margin-top: 5px;
+}
+
+.Copa .conteudo-curiosidade-1938 {
+position: relative;
+left: 55%;
+top: -580%;
+z-index: 2;
+}
+
+.Copa .texto-curiosidade-1938 h3 {
+position: relative;
+color: #2b3e2a;
+margin: 4px;
+left: -2%;
+}
+
+.Copa .texto-curiosidade-1938 {
+position: relative;
+top: -810%;
+left: 65%;
+}
+
+.Copa .cabecalho-numeros-1938 h2 {
+background: #2b3e2a;
+color: #fff;
+padding: 0.3em 0.5em;
+position: absolute;
+float: right;
+left: 36%;
+top: 2570%;
+z-index: 2;
+margin-top: 5px;
+}
+
+.Copa .conteudo-numeros-1938 ul li .numero {
+width: 70px;
+padding: 25px 0;
+background-image: url("/static/IMG/bg_mod_numeros.jpg");
+font: bold 26px arial;
+color: #fff;
+text-align: center;
+float: left;
+position: absolute;
+top: 2700%;
+left: 36%;
+}
+
+.Copa .conteudo-numeros-1938 ul li h3 {
+color: #ee591f;
+position: absolute;
+top: 2665%;
+left: 43%;
+}
+
+.Copa .conteudo-numeros-1938 ul li h4 {
+position: absolute;
+bottom: -2689%;
+left: 44.5%;
+}
+
+.Copa .conteudo-numeros-1938 ul li .chamada {
+position: absolute;
+top: 2800%;
+left: 44.5%;
+}
+
+/* margem 3*/
+.margem-3 {
+margin-top: -160px;
+margin-bottom: 20px;
+}
+
+/* 1950 */
+
+.conteudo .Copa .titulo-copa-1950 h3 {
+position: relative;
+left: 30%;
+top: 20%;
+}
+
+.cabecalho-ficha-1950 h2 {
+background: #2b3e2a;
+color: #fff;
+padding: 0.3em 0.5em;
+position: absolute;
+float: left;
+left: 18.9%;
+z-index: 2;
+margin-top: 5px;
+}
+
+.imagem-ficha-1950 {
+position: relative;
+left: 3%;
+z-index: 1;
+margin-top: 5px;
+}
+
+.Copa .texto-ficha-1950 h3 {
+position: relative;
+color: #2b3e2a;
+margin: 4px;
+left: -2%;
+word-spacing: -5px;
+}
+
+.Copa .texto-ficha-1950 {
+position: relative;
+top: -360%;
+left: 20%;
+}
+
+.cabecalho-curiosidade-1950 h2 {
+background: #2b3e2a;
+color: #fff;
+padding: 0.3em 0.5em;
+position: absolute;
+float: right;
+left: 55%;
+top: 3160%;
+z-index: 2;
+margin-top: 5px;
+}
+
+.Copa .conteudo-curiosidade-1950 {
+position: relative;
+left: 55%;
+top: -580%;
+z-index: 2;
+}
+
+.Copa .texto-curiosidade-1950 h3 {
+position: relative;
+color: #2b3e2a;
+margin: 4px;
+left: -2%;
+}
+
+.Copa .texto-curiosidade-1950 {
+position: relative;
+top: -810%;
+left: 65%;
+}
+
+.Copa .cabecalho-numeros-1950 h2 {
+background: #2b3e2a;
+color: #fff;
+padding: 0.3em 0.5em;
+position: absolute;
+float: right;
+left: 36%;
+top: 3570%;
+z-index: 2;
+margin-top: 5px;
+}
+
+.Copa .conteudo-numeros-1950 ul li .numero {
+width: 70px;
+padding: 25px 0;
+background-image: url("/static/IMG/bg_mod_numeros.jpg");
+font: bold 26px arial;
+color: #fff;
+text-align: center;
+float: left;
+position: absolute;
+top: 3700%;
+left: 36%;
+}
+
+.Copa .conteudo-numeros-1950 ul li h3 {
+color: #ee591f;
+position: absolute;
+top: 3665%;
+left: 43%;
+}
+
+.Copa .conteudo-numeros-1950 ul li h4 {
+position: absolute;
+bottom: -3689%;
+left: 44.5%;
+}
+
+.Copa .conteudo-numeros-1950 ul li .chamada {
+position: absolute;
+top: 3800%;
+left: 44.5%;
+}
+
+/* margem 4*/
+.margem-4 {
+margin-top: -160px;
+margin-bottom: 20px;
+}
+
+/* 1954 */
+
+.conteudo .Copa .titulo-copa-1954 h3 {
+position: relative;
+left: 30%;
+top: 20%;
+}
+
+.cabecalho-ficha-1954 h2 {
+background: #2b3e2a;
+color: #fff;
+padding: 0.3em 0.5em;
+position: absolute;
+float: left;
+left: 18.9%;
+z-index: 2;
+margin-top: 5px;
+}
+
+.imagem-ficha-1954 {
+position: relative;
+left: 3%;
+z-index: 1;
+margin-top: 5px;
+}
+
+.Copa .texto-ficha-1954 h3 {
+position: relative;
+color: #2b3e2a;
+margin: 4px;
+left: -2%;
+word-spacing: -5px;
+}
+
+.Copa .texto-ficha-1954 {
+position: relative;
+top: -360%;
+left: 20%;
+}
+
+.cabecalho-curiosidade-1954 h2 {
+background: #2b3e2a;
+color: #fff;
+padding: 0.3em 0.5em;
+position: absolute;
+float: right;
+left: 55%;
+top: 4148%;
+z-index: 2;
+margin-top: 5px;
+}
+
+.Copa .conteudo-curiosidade-1954 {
+position: relative;
+left: 55%;
+top: -580%;
+z-index: 2;
+}
+
+.Copa .texto-curiosidade-1954 h3 {
+position: relative;
+color: #2b3e2a;
+margin: 4px;
+left: -2%;
+}
+
+.Copa .texto-curiosidade-1954 {
+position: relative;
+top: -810%;
+left: 65%;
+}
+
+.Copa .cabecalho-numeros-1954 h2 {
+background: #2b3e2a;
+color: #fff;
+padding: 0.3em 0.5em;
+position: absolute;
+float: right;
+left: 36%;
+top: 4570%;
+z-index: 2;
+margin-top: 5px;
+}
+
+.Copa .conteudo-numeros-1954 ul li .numero {
+width: 70px;
+padding: 25px 0;
+background-image: url("/static/IMG/bg_mod_numeros.jpg");
+font: bold 26px arial;
+color: #fff;
+text-align: center;
+float: left;
+position: absolute;
+top: 4700%;
+left: 36%;
+}
+
+.Copa .conteudo-numeros-1954 ul li h3 {
+color: #ee591f;
+position: absolute;
+top: 4665%;
+left: 43%;
+}
+
+.Copa .conteudo-numeros-1954 ul li h4 {
+position: absolute;
+bottom: -4689%;
+left: 44.5%;
+}
+
+.Copa .conteudo-numeros-1954 ul li .chamada {
+position: absolute;
+top: 4800%;
+left: 44.5%;
+}
+
+/* margem 5*/
+.margem-5 {
+margin-top: -160px;
+margin-bottom: 20px;
+}
+
+/* 1958 */
+
+.conteudo .Copa .titulo-copa-1958 h3 {
+position: relative;
+left: 30%;
+top: 20%;
+}
+
+.cabecalho-ficha-1958 h2 {
+background: #2b3e2a;
+color: #fff;
+padding: 0.3em 0.5em;
+position: absolute;
+float: left;
+left: 18.9%;
+z-index: 2;
+margin-top: 5px;
+}
+
+.imagem-ficha-1958 {
+position: relative;
+left: 3%;
+z-index: 1;
+margin-top: 5px;
+}
+
+.Copa .texto-ficha-1958 h3 {
+position: relative;
+color: #2b3e2a;
+margin: 4px;
+left: -2%;
+word-spacing: -5px;
+}
+
+.Copa .texto-ficha-1958 {
+position: relative;
+top: -360%;
+left: 20%;
+}
+
+.cabecalho-curiosidade-1958 h2 {
+background: #2b3e2a;
+color: #fff;
+padding: 0.3em 0.5em;
+position: absolute;
+float: right;
+left: 55%;
+top: 5138%;
+z-index: 2;
+margin-top: 5px;
+}
+
+.Copa .conteudo-curiosidade-1958 {
+position: relative;
+left: 55%;
+top: -580%;
+z-index: 2;
+}
+
+.Copa .texto-curiosidade-1958 h3 {
+position: relative;
+color: #2b3e2a;
+margin: 4px;
+left: -2%;
+}
+
+.Copa .texto-curiosidade-1958 {
+position: relative;
+top: -810%;
+left: 65%;
+}
+
+.Copa .cabecalho-numeros-1958 h2 {
+background: #2b3e2a;
+color: #fff;
+padding: 0.3em 0.5em;
+position: absolute;
+float: right;
+left: 36%;
+top: 5570%;
+z-index: 2;
+margin-top: 5px;
+}
+
+.Copa .conteudo-numeros-1958 ul li .numero {
+width: 70px;
+padding: 25px 0;
+background-image: url("/static/IMG/bg_mod_numeros.jpg");
+font: bold 26px arial;
+color: #fff;
+text-align: center;
+float: left;
+position: absolute;
+top: 5700%;
+left: 36%;
+}
+
+.Copa .conteudo-numeros-1958 ul li h3 {
+color: #ee591f;
+position: absolute;
+top: 5665%;
+left: 43%;
+}
+
+.Copa .conteudo-numeros-1958 ul li h4 {
+position: absolute;
+bottom: -5689%;
+left: 44.5%;
+}
+
+.Copa .conteudo-numeros-1958 ul li .chamada {
+position: absolute;
+top: 5800%;
+left: 44.5%;
+}
+
+/* margem 6*/
+.margem-6 {
+margin-top: -160px;
+margin-bottom: 20px;
+}
+
+/* 1962 */
+
+.conteudo .Copa .titulo-copa-1962 h3 {
+position: relative;
+left: 30%;
+top: 20%;
+}
+
+.cabecalho-ficha-1962 h2 {
+background: #2b3e2a;
+color: #fff;
+padding: 0.3em 0.5em;
+position: absolute;
+float: left;
+left: 18.9%;
+z-index: 2;
+margin-top: 5px;
+}
+
+.imagem-ficha-1962 {
+position: relative;
+left: 3%;
+z-index: 1;
+margin-top: 5px;
+}
+
+.Copa .texto-ficha-1962 h3 {
+position: relative;
+color: #2b3e2a;
+margin: 4px;
+left: -2%;
+word-spacing: -5px;
+}
+
+.Copa .texto-ficha-1962 {
+position: relative;
+top: -360%;
+left: 20%;
+}
+
+.cabecalho-curiosidade-1962 h2 {
+background: #2b3e2a;
+color: #fff;
+padding: 0.3em 0.5em;
+position: absolute;
+float: right;
+left: 55%;
+top: 6125%;
+z-index: 2;
+margin-top: 5px;
+}
+
+.Copa .conteudo-curiosidade-1962 {
+position: relative;
+left: 55%;
+top: -580%;
+z-index: 2;
+}
+
+.Copa .texto-curiosidade-1962 h3 {
+position: relative;
+color: #2b3e2a;
+margin: 4px;
+left: -2%;
+}
+
+.Copa .texto-curiosidade-1962 {
+position: relative;
+top: -810%;
+left: 65%;
+}
+
+.Copa .cabecalho-numeros-1962 h2 {
+background: #2b3e2a;
+color: #fff;
+padding: 0.3em 0.5em;
+position: absolute;
+float: right;
+left: 36%;
+top: 6570%;
+z-index: 2;
+margin-top: 5px;
+}
+
+.Copa .conteudo-numeros-1962 ul li .numero {
+width: 70px;
+padding: 25px 0;
+background-image: url("/static/IMG/bg_mod_numeros.jpg");
+font: bold 26px arial;
+color: #fff;
+text-align: center;
+float: left;
+position: absolute;
+top: 6700%;
+left: 36%;
+}
+
+.Copa .conteudo-numeros-1962 ul li h3 {
+color: #ee591f;
+position: absolute;
+top: 6665%;
+left: 43%;
+}
+
+.Copa .conteudo-numeros-1962 ul li h4 {
+position: absolute;
+bottom: -6689%;
+left: 44.5%;
+}
+
+.Copa .conteudo-numeros-1962 ul li .chamada {
+position: absolute;
+top: 6800%;
+left: 44.5%;
+}
+
+/* margem 7*/
+.margem-7 {
+margin-top: -160px;
+margin-bottom: 20px;
+}
+
+/* 1966 */
+
+.conteudo .Copa .titulo-copa-1966 h3 {
+position: relative;
+left: 30%;
+top: 20%;
+}
+
+.cabecalho-ficha-1966 h2 {
+background: #2b3e2a;
+color: #fff;
+padding: 0.3em 0.5em;
+position: absolute;
+float: left;
+left: 18.9%;
+z-index: 2;
+margin-top: 5px;
+}
+
+.imagem-ficha-1966 {
+position: relative;
+left: 3%;
+z-index: 1;
+margin-top: 5px;
+}
+
+.Copa .texto-ficha-1966 h3 {
+position: relative;
+color: #2b3e2a;
+margin: 4px;
+left: -2%;
+word-spacing: -5px;
+}
+
+.Copa .texto-ficha-1966 {
+position: relative;
+top: -360%;
+left: 20%;
+}
+
+.cabecalho-curiosidade-1966 h2 {
+background: #2b3e2a;
+color: #fff;
+padding: 0.3em 0.5em;
+position: absolute;
+float: right;
+left: 55%;
+top: 7110%;
+z-index: 2;
+margin-top: 5px;
+}
+
+.Copa .conteudo-curiosidade-1966 {
+position: relative;
+left: 55%;
+top: -580%;
+z-index: 2;
+}
+
+.Copa .texto-curiosidade-1966 h3 {
+position: relative;
+color: #2b3e2a;
+margin: 4px;
+left: -2%;
+}
+
+.Copa .texto-curiosidade-1966 {
+position: relative;
+top: -810%;
+left: 65%;
+}
+
+.Copa .cabecalho-numeros-1966 h2 {
+background: #2b3e2a;
+color: #fff;
+padding: 0.3em 0.5em;
+position: absolute;
+float: right;
+left: 36%;
+top: 7570%;
+z-index: 2;
+margin-top: 5px;
+}
+
+.Copa .conteudo-numeros-1966 ul li .numero {
+width: 70px;
+padding: 25px 0;
+background-image: url("/static/IMG/bg_mod_numeros.jpg");
+font: bold 26px arial;
+color: #fff;
+text-align: center;
+float: left;
+position: absolute;
+top: 7700%;
+left: 36%;
+}
+
+.Copa .conteudo-numeros-1966 ul li h3 {
+color: #ee591f;
+position: absolute;
+top: 7665%;
+left: 43%;
+}
+
+.Copa .conteudo-numeros-1966 ul li h4 {
+position: absolute;
+bottom: -7689%;
+left: 44.5%;
+}
+
+.Copa .conteudo-numeros-1966 ul li .chamada {
+position: absolute;
+top: 7800%;
+left: 44.5%;
+}
+
+/* margem 8*/
+.margem-8 {
+margin-top: -160px;
+margin-bottom: 20px;
+}
+
+/* 1970 */
+
+.conteudo .Copa .titulo-copa-1970 h3 {
+position: relative;
+left: 30%;
+top: 20%;
+}
+
+.cabecalho-ficha-1970 h2 {
+background: #2b3e2a;
+color: #fff;
+padding: 0.3em 0.5em;
+position: absolute;
+float: left;
+left: 18.9%;
+z-index: 2;
+margin-top: 5px;
+}
+
+.imagem-ficha-1970 {
+position: relative;
+left: 3%;
+z-index: 1;
+margin-top: 5px;
+}
+
+.Copa .texto-ficha-1970 h3 {
+position: relative;
+color: #2b3e2a;
+margin: 4px;
+left: -2%;
+}
+
+.Copa .texto-ficha-1970 {
+position: relative;
+top: -360%;
+left: 20%;
+}
+
+.cabecalho-curiosidade-1970 h2 {
+background: #2b3e2a;
+color: #fff;
+padding: 0.3em 0.5em;
+position: absolute;
+float: right;
+left: 55%;
+top: 8135%;
+z-index: 2;
+margin-top: 5px;
+}
+
+.Copa .conteudo-curiosidade-1970 {
+position: relative;
+left: 55%;
+top: -580%;
+z-index: 2;
+}
+
+.Copa .texto-curiosidade-1970 h3 {
+position: relative;
+color: #2b3e2a;
+margin: 4px;
+left: -2%;
+word-spacing: -5px;
+}
+
+.Copa .texto-curiosidade-1970 {
+position: relative;
+top: -810%;
+left: 65%;
+}
+
+.Copa .cabecalho-numeros-1970 h2 {
+background: #2b3e2a;
+color: #fff;
+padding: 0.3em 0.5em;
+position: absolute;
+float: right;
+left: 36%;
+top: 8570%;
+z-index: 2;
+margin-top: 5px;
+}
+
+.Copa .conteudo-numeros-1970 ul li .numero {
+width: 70px;
+padding: 25px 0;
+background-image: url("/static/IMG/bg_mod_numeros.jpg");
+font: bold 26px arial;
+color: #fff;
+text-align: center;
+float: left;
+position: absolute;
+top: 8700%;
+left: 36%;
+}
+
+.Copa .conteudo-numeros-1970 ul li h3 {
+color: #ee591f;
+position: absolute;
+top: 8665%;
+left: 43%;
+}
+
+.Copa .conteudo-numeros-1970 ul li h4 {
+position: absolute;
+bottom: -8689%;
+left: 44.5%;
+}
+
+.Copa .conteudo-numeros-1970 ul li .chamada {
+position: absolute;
+top: 8800%;
+left: 44.5%;
+}
+
+/* margem 9*/
+.margem-9 {
+margin-top: -160px;
+margin-bottom: 20px;
+}
+
+/* 1974 */
+
+.conteudo .Copa .titulo-copa-1974 h3 {
+position: relative;
+left: 30%;
+top: 20%;
+}
+
+.cabecalho-ficha-1974 h2 {
+background: #2b3e2a;
+color: #fff;
+padding: 0.3em 0.5em;
+position: absolute;
+float: left;
+left: 18.9%;
+z-index: 2;
+margin-top: 5px;
+}
+
+.imagem-ficha-1974 {
+position: relative;
+left: 3%;
+z-index: 1;
+margin-top: 5px;
+}
+
+.Copa .texto-ficha-1974 h3 {
+position: relative;
+color: #2b3e2a;
+margin: 4px;
+left: -2%;
+word-spacing: -5px;
+}
+
+.Copa .texto-ficha-1974 {
+position: relative;
+top: -360%;
+left: 20%;
+}
+
+.cabecalho-curiosidade-1974 h2 {
+background: #2b3e2a;
+color: #fff;
+padding: 0.3em 0.5em;
+position: absolute;
+float: right;
+left: 55%;
+top: 9120%;
+z-index: 2;
+margin-top: 5px;
+}
+
+.Copa .conteudo-curiosidade-1974 {
+position: relative;
+left: 55%;
+top: -580%;
+z-index: 2;
+}
+
+.Copa .texto-curiosidade-1974 h3 {
+position: relative;
+color: #2b3e2a;
+margin: 4px;
+left: -2%;
+}
+
+.Copa .texto-curiosidade-1974 {
+position: relative;
+top: -810%;
+left: 65%;
+}
+
+.Copa .cabecalho-numeros-1974 h2 {
+background: #2b3e2a;
+color: #fff;
+padding: 0.3em 0.5em;
+position: absolute;
+float: right;
+left: 36%;
+top: 9570%;
+z-index: 2;
+margin-top: 5px;
+}
+
+.Copa .conteudo-numeros-1974 ul li .numero {
+width: 70px;
+padding: 25px 0;
+background-image: url("/static/IMG/bg_mod_numeros.jpg");
+font: bold 26px arial;
+color: #fff;
+text-align: center;
+float: left;
+position: absolute;
+top: 9700%;
+left: 36%;
+}
+
+.Copa .conteudo-numeros-1974 ul li h3 {
+color: #ee591f;
+position: absolute;
+top: 9665%;
+left: 43%;
+}
+
+.Copa .conteudo-numeros-1974 ul li h4 {
+position: absolute;
+bottom: -9689%;
+left: 44.5%;
+}
+
+.Copa .conteudo-numeros-1974 ul li .chamada {
+position: absolute;
+top: 9800%;
+left: 44.5%;
+}
+
+/* margem 10*/
+.margem-10 {
+margin-top: -160px;
+margin-bottom: 20px;
+}
+
+/* 1978 */
+
+.conteudo .Copa .titulo-copa-1978 h3 {
+position: relative;
+left: 30%;
+top: 20%;
+}
+
+.cabecalho-ficha-1978 h2 {
+background: #2b3e2a;
+color: #fff;
+padding: 0.3em 0.5em;
+position: absolute;
+float: left;
+left: 18.9%;
+z-index: 2;
+margin-top: 5px;
+}
+
+.imagem-ficha-1978 {
+position: relative;
+left: 3%;
+z-index: 1;
+margin-top: 5px;
+}
+
+.Copa .texto-ficha-1978 h3 {
+position: relative;
+color: #2b3e2a;
+margin: 4px;
+left: -2%;
+word-spacing: -5px;
+}
+
+.Copa .texto-ficha-1978 {
+position: relative;
+top: -360%;
+left: 20%;
+}
+
+.cabecalho-curiosidade-1978 h2 {
+background: #2b3e2a;
+color: #fff;
+padding: 0.3em 0.5em;
+position: absolute;
+float: right;
+left: 55%;
+top: 10110%;
+z-index: 2;
+margin-top: 5px;
+}
+
+.Copa .conteudo-curiosidade-1978 {
+position: relative;
+left: 55%;
+top: -580%;
+z-index: 2;
+}
+
+.Copa .texto-curiosidade-1978 h3 {
+position: relative;
+color: #2b3e2a;
+margin: 4px;
+left: -2%;
+}
+
+.Copa .texto-curiosidade-1978 {
+position: relative;
+top: -810%;
+left: 65%;
+}
+
+.Copa .cabecalho-numeros-1978 h2 {
+background: #2b3e2a;
+color: #fff;
+padding: 0.3em 0.5em;
+position: absolute;
+float: right;
+left: 36%;
+top: 10570%;
+z-index: 2;
+margin-top: 5px;
+}
+
+.Copa .conteudo-numeros-1978 ul li .numero {
+width: 70px;
+padding: 25px 0;
+background-image: url("/static/IMG/bg_mod_numeros.jpg");
+font: bold 26px arial;
+color: #fff;
+text-align: center;
+float: left;
+position: absolute;
+top: 10700%;
+left: 36%;
+}
+
+.Copa .conteudo-numeros-1978 ul li h3 {
+color: #ee591f;
+position: absolute;
+top: 10665%;
+left: 43%;
+}
+
+.Copa .conteudo-numeros-1978 ul li h4 {
+position: absolute;
+bottom: -10689%;
+left: 44.5%;
+}
+
+.Copa .conteudo-numeros-1978 ul li .chamada {
+position: absolute;
+top: 10800%;
+left: 44.5%;
+}
+
+/* margem 11*/
+.margem-11 {
+margin-top: -160px;
+margin-bottom: 20px;
+}
+
+/* 1982 */
+
+.conteudo .Copa .titulo-copa-1982 h3 {
+position: relative;
+left: 30%;
+top: 20%;
+}
+
+.cabecalho-ficha-1982 h2 {
+background: #2b3e2a;
+color: #fff;
+padding: 0.3em 0.5em;
+position: absolute;
+float: left;
+left: 18.9%;
+z-index: 2;
+margin-top: 5px;
+}
+
+.imagem-ficha-1982 {
+position: relative;
+left: 3%;
+z-index: 1;
+margin-top: 5px;
+}
+
+.Copa .texto-ficha-1982 h3 {
+position: relative;
+color: #2b3e2a;
+margin: 4px;
+left: -2%;
+word-spacing: -5px;
+}
+
+.Copa .texto-ficha-1982 {
+position: relative;
+top: -360%;
+left: 20%;
+}
+
+.cabecalho-curiosidade-1982 h2 {
+background: #2b3e2a;
+color: #fff;
+padding: 0.3em 0.5em;
+position: absolute;
+float: right;
+left: 55%;
+top: 11100%;
+z-index: 2;
+margin-top: 5px;
+}
+
+.Copa .conteudo-curiosidade-1982 {
+position: relative;
+left: 55%;
+top: -580%;
+z-index: 2;
+}
+
+.Copa .texto-curiosidade-1982 h3 {
+position: relative;
+color: #2b3e2a;
+margin: 4px;
+left: -2%;
+}
+
+.Copa .texto-curiosidade-1982 {
+position: relative;
+top: -810%;
+left: 65%;
+}
+
+.Copa .cabecalho-numeros-1982 h2 {
+background: #2b3e2a;
+color: #fff;
+padding: 0.3em 0.5em;
+position: absolute;
+float: right;
+left: 36%;
+top: 11570%;
+z-index: 2;
+margin-top: 5px;
+}
+
+.Copa .conteudo-numeros-1982 ul li .numero {
+width: 70px;
+padding: 25px 0;
+background-image: url("/static/IMG/bg_mod_numeros.jpg");
+font: bold 26px arial;
+color: #fff;
+text-align: center;
+float: left;
+position: absolute;
+top: 11700%;
+left: 36%;
+}
+
+.Copa .conteudo-numeros-1982 ul li h3 {
+color: #ee591f;
+position: absolute;
+top: 11665%;
+left: 43%;
+}
+
+.Copa .conteudo-numeros-1982 ul li h4 {
+position: absolute;
+bottom: -11689%;
+left: 44.5%;
+}
+
+.Copa .conteudo-numeros-1982 ul li .chamada {
+position: absolute;
+top: 11800%;
+left: 44.5%;
+}
+
+/* margem 12*/
+.margem-12 {
+margin-top: -160px;
+margin-bottom: 20px;
+}
+
+/* 1986 */
+
+.conteudo .Copa .titulo-copa-1986 h3 {
+position: relative;
+left: 30%;
+top: 20%;
+}
+
+.cabecalho-ficha-1986 h2 {
+background: #2b3e2a;
+color: #fff;
+padding: 0.3em 0.5em;
+position: absolute;
+float: left;
+left: 18.9%;
+z-index: 2;
+margin-top: 5px;
+}
+
+.imagem-ficha-1986 {
+position: relative;
+left: 3%;
+z-index: 1;
+margin-top: 5px;
+}
+
+.Copa .texto-ficha-1986 h3 {
+position: relative;
+color: #2b3e2a;
+margin: 4px;
+left: -2%;
+word-spacing: -5px;
+}
+
+.Copa .texto-ficha-1986 {
+position: relative;
+top: -360%;
+left: 20%;
+}
+
+.cabecalho-curiosidade-1986 h2 {
+background: #2b3e2a;
+color: #fff;
+padding: 0.3em 0.5em;
+position: absolute;
+float: right;
+left: 55%;
+top: 12090%;
+z-index: 2;
+margin-top: 5px;
+}
+
+.Copa .conteudo-curiosidade-1986 {
+position: relative;
+left: 55%;
+top: -580%;
+z-index: 2;
+}
+
+.Copa .texto-curiosidade-1986 h3 {
+position: relative;
+color: #2b3e2a;
+margin: 4px;
+left: -2%;
+}
+
+.Copa .texto-curiosidade-1986 {
+position: relative;
+top: -810%;
+left: 65%;
+}
+
+.Copa .cabecalho-numeros-1986 h2 {
+background: #2b3e2a;
+color: #fff;
+padding: 0.3em 0.5em;
+position: absolute;
+float: right;
+left: 36%;
+top: 12570%;
+z-index: 2;
+margin-top: 5px;
+}
+
+.Copa .conteudo-numeros-1986 ul li .numero {
+width: 70px;
+padding: 25px 0;
+background-image: url("/static/IMG/bg_mod_numeros.jpg");
+font: bold 26px arial;
+color: #fff;
+text-align: center;
+float: left;
+position: absolute;
+top: 12700%;
+left: 36%;
+}
+
+.Copa .conteudo-numeros-1986 ul li h3 {
+color: #ee591f;
+position: absolute;
+top: 12665%;
+left: 42%;
+}
+
+.Copa .conteudo-numeros-1986 ul li h4 {
+position: absolute;
+bottom: -12689%;
+left: 44.5%;
+}
+
+.Copa .conteudo-numeros-1986 ul li .chamada {
+position: absolute;
+top: 12800%;
+left: 44.5%;
+}
+
+/* margem 13*/
+.margem-13 {
+margin-top: -160px;
+margin-bottom: 20px;
+}
+
+/* 1990 */
+
+.conteudo .Copa .titulo-copa-1990 h3 {
+position: relative;
+left: 30%;
+top: 20%;
+}
+
+.cabecalho-ficha-1990 h2 {
+background: #2b3e2a;
+color: #fff;
+padding: 0.3em 0.5em;
+position: absolute;
+float: left;
+left: 18.9%;
+z-index: 2;
+margin-top: 5px;
+}
+
+.imagem-ficha-1990 {
+position: relative;
+left: 3%;
+z-index: 1;
+margin-top: 5px;
+}
+
+.Copa .texto-ficha-1990 h3 {
+position: relative;
+color: #2b3e2a;
+margin: 4px;
+left: -2%;
+word-spacing: -5px;
+}
+
+.Copa .texto-ficha-1990 {
+position: relative;
+top: -360%;
+left: 20%;
+}
+
+.cabecalho-curiosidade-1990 h2 {
+background: #2b3e2a;
+color: #fff;
+padding: 0.3em 0.5em;
+position: absolute;
+float: right;
+left: 55%;
+top: 13075%;
+z-index: 2;
+margin-top: 5px;
+}
+
+.Copa .conteudo-curiosidade-1990 {
+position: relative;
+left: 55%;
+top: -580%;
+z-index: 2;
+}
+
+.Copa .texto-curiosidade-1990 h3 {
+position: relative;
+color: #2b3e2a;
+margin: 4px;
+left: -2%;
+}
+
+.Copa .texto-curiosidade-1990 {
+position: relative;
+top: -810%;
+left: 65%;
+}
+
+.Copa .cabecalho-numeros-1990 h2 {
+background: #2b3e2a;
+color: #fff;
+padding: 0.3em 0.5em;
+position: absolute;
+float: right;
+left: 36%;
+top: 13570%;
+z-index: 2;
+margin-top: 5px;
+}
+
+.Copa .conteudo-numeros-1990 ul li .numero {
+width: 70px;
+padding: 25px 0;
+background-image: url("/static/IMG/bg_mod_numeros.jpg");
+font: bold 26px arial;
+color: #fff;
+text-align: center;
+float: left;
+position: absolute;
+top: 13700%;
+left: 36%;
+}
+
+.Copa .conteudo-numeros-1990 ul li h3 {
+color: #ee591f;
+position: absolute;
+top: 13665%;
+left: 43%;
+}
+
+.Copa .conteudo-numeros-1990 ul li h4 {
+position: absolute;
+bottom: -13689%;
+left: 44.5%;
+}
+
+.Copa .conteudo-numeros-1990 ul li .chamada {
+position: absolute;
+top: 13800%;
+left: 44.5%;
+}
+
+/* margem 14*/
+.margem-14 {
+margin-top: -150px;
+margin-bottom: 20px;
+}
+
+/* 1994 */
+
+.conteudo .Copa .titulo-copa-1994 h3 {
+position: relative;
+left: 30%;
+top: 20%;
+}
+
+.cabecalho-ficha-1994 h2 {
+background: #2b3e2a;
+color: #fff;
+padding: 0.3em 0.5em;
+position: absolute;
+float: left;
+left: 18.9%;
+z-index: 2;
+margin-top: 5px;
+}
+
+.imagem-ficha-1994 {
+position: relative;
+left: 3%;
+z-index: 1;
+margin-top: 5px;
+}
+
+.Copa .texto-ficha-1994 h3 {
+position: relative;
+color: #2b3e2a;
+margin: 4px;
+left: -2%;
+}
+
+.Copa .texto-ficha-1994 {
+position: relative;
+top: -360%;
+left: 20%;
+}
+
+.cabecalho-curiosidade-1994 h2 {
+background: #2b3e2a;
+color: #fff;
+padding: 0.3em 0.5em;
+position: absolute;
+float: right;
+left: 55%;
+top: 14083%;
+z-index: 2;
+margin-top: 5px;
+}
+
+.Copa .conteudo-curiosidade-1994 {
+position: relative;
+left: 55%;
+top: -580%;
+z-index: 2;
+}
+
+.Copa .texto-curiosidade-1994 h3 {
+position: relative;
+color: #2b3e2a;
+margin: 4px;
+left: -2%;
+word-spacing: -5px;
+}
+
+.Copa .texto-curiosidade-1994 {
+position: relative;
+top: -810%;
+left: 65%;
+}
+
+.Copa .cabecalho-numeros-1994 h2 {
+background: #2b3e2a;
+color: #fff;
+padding: 0.3em 0.5em;
+position: absolute;
+float: right;
+left: 36%;
+top: 14570%;
+z-index: 2;
+margin-top: 5px;
+}
+
+.Copa .conteudo-numeros-1994 ul li .numero {
+width: 70px;
+padding: 25px 0;
+background-image: url("/static/IMG/bg_mod_numeros.jpg");
+font: bold 26px arial;
+color: #fff;
+text-align: center;
+float: left;
+position: absolute;
+top: 14700%;
+left: 36%;
+}
+
+.Copa .conteudo-numeros-1994 ul li h3 {
+color: #ee591f;
+position: absolute;
+top: 14665%;
+left: 43%;
+}
+
+.Copa .conteudo-numeros-1994 ul li h4 {
+position: absolute;
+bottom: -14689%;
+left: 44.5%;
+}
+
+.Copa .conteudo-numeros-1994 ul li .chamada {
+position: absolute;
+top: 14800%;
+left: 44.5%;
+}
+
+/* margem 15*/
+.margem-15 {
+margin-top: -150px;
+margin-bottom: 20px;
+}
+
+/* 1998 */
+
+.conteudo .Copa .titulo-copa-1998 h3 {
+position: relative;
+left: 30%;
+top: 20%;
+}
+
+.cabecalho-ficha-1998 h2 {
+background: #2b3e2a;
+color: #fff;
+padding: 0.3em 0.5em;
+position: absolute;
+float: left;
+left: 18.9%;
+z-index: 2;
+margin-top: 5px;
+}
+
+.imagem-ficha-1998 {
+position: relative;
+left: 3%;
+z-index: 1;
+margin-top: 5px;
+}
+
+.Copa .texto-ficha-1998 h3 {
+position: relative;
+color: #2b3e2a;
+margin: 4px;
+left: -2%;
+word-spacing: -5px;
+}
+
+.Copa .texto-ficha-1998 {
+position: relative;
+top: -360%;
+left: 20%;
+}
+
+.cabecalho-curiosidade-1998 h2 {
+background: #2b3e2a;
+color: #fff;
+padding: 0.3em 0.5em;
+position: absolute;
+float: right;
+left: 55%;
+top: 15092%;
+z-index: 2;
+margin-top: 5px;
+}
+
+.Copa .conteudo-curiosidade-1998 {
+position: relative;
+left: 55%;
+top: -580%;
+z-index: 2;
+}
+
+.Copa .texto-curiosidade-1998 h3 {
+    position: relative;
+    color: #2b3e2a;
+    margin: 4px;
+    left: -2%;
+}
+
+.Copa .texto-curiosidade-1998 {
+position: relative;
+top: -810%;
+left: 65%;
+}
+
+.Copa .cabecalho-numeros-1998 h2 {
+background: #2b3e2a;
+color: #fff;
+padding: 0.3em 0.5em;
+position: absolute;
+float: right;
+left: 36%;
+top: 15570%;
+z-index: 2;
+margin-top: 5px;
+}
+
+.Copa .conteudo-numeros-1998 ul li .numero {
+width: 70px;
+padding: 25px 0;
+background-image: url("/static/IMG/bg_mod_numeros.jpg");
+font: bold 26px arial;
+color: #fff;
+text-align: center;
+float: left;
+position: absolute;
+top: 15700%;
+left: 36%;
+}
+
+.Copa .conteudo-numeros-1998 ul li h3 {
+color: #ee591f;
+position: absolute;
+top: 15665%;
+left: 43%;
+}
+
+.Copa .conteudo-numeros-1998 ul li h4 {
+position: absolute;
+bottom: -15689%;
+left: 44.5%;
+}
+
+.Copa .conteudo-numeros-1998 ul li .chamada {
+position: absolute;
+top: 15800%;
+left: 44.5%;
+}
+
+/* margem 16*/
+.margem-16 {
+margin-top: -150px;
+margin-bottom: 20px;
+}
+
+/* 2002 */
+
+.conteudo .Copa .titulo-copa-2002 h3 {
+position: relative;
+left: 30%;
+top: 20%;
+}
+
+.cabecalho-ficha-2002 h2 {
+background: #2b3e2a;
+color: #fff;
+padding: 0.3em 0.5em;
+position: absolute;
+float: left;
+left: 18.9%;
+z-index: 2;
+margin-top: 5px;
+}
+
+.imagem-ficha-2002 {
+position: relative;
+left: 3%;
+z-index: 1;
+margin-top: 5px;
+}
+
+.Copa .texto-ficha-2002 h3 {
+position: relative;
+color: #2b3e2a;
+margin: 4px;
+left: -2%;
+}
+
+.Copa .texto-ficha-2002 {
+position: relative;
+top: -360%;
+left: 20%;
+word-spacing: -5px;
+}
+
+.cabecalho-curiosidade-2002 h2 {
+background: #2b3e2a;
+color: #fff;
+padding: 0.3em 0.5em;
+position: absolute;
+float: right;
+left: 55%;
+top: 16099%;
+z-index: 2;
+margin-top: 5px;
+}
+
+.Copa .conteudo-curiosidade-2002 {
+position: relative;
+left: 55%;
+top: -580%;
+z-index: 2;
+}
+
+.Copa .texto-curiosidade-2002 h3 {
+    position: relative;
+    color: #2b3e2a;
+    margin: 4px;
+    left: -2%;
+}
+
+.Copa .texto-curiosidade-2002 {
+position: relative;
+top: -810%;
+left: 65%;
+}
+
+.Copa .cabecalho-numeros-2002 h2 {
+background: #2b3e2a;
+color: #fff;
+padding: 0.3em 0.5em;
+position: absolute;
+float: right;
+left: 36%;
+top: 16570%;
+z-index: 2;
+margin-top: 5px;
+}
+
+.Copa .conteudo-numeros-2002 ul li .numero {
+width: 70px;
+padding: 25px 0;
+background-image: url("/static/IMG/bg_mod_numeros.jpg");
+font: bold 26px arial;
+color: #fff;
+text-align: center;
+float: left;
+position: absolute;
+top: 16700%;
+left: 36%;
+}
+
+.Copa .conteudo-numeros-2002 ul li h3 {
+color: #ee591f;
+position: absolute;
+top: 16665%;
+left: 43%;
+}
+
+.Copa .conteudo-numeros-2002 ul li h4 {
+position: absolute;
+bottom: -16689%;
+left: 44.5%;
+}
+
+.Copa .conteudo-numeros-2002 ul li .chamada {
+position: absolute;
+top: 16800%;
+left: 44.5%;
+}
+
+/* margem 17*/
+.margem-17 {
+margin-top: -150px;
+margin-bottom: 20px;
+}
+
+/* 2006 */
+
+.conteudo .Copa .titulo-copa-2006 h3 {
+position: relative;
+left: 30%;
+top: 20%;
+}
+
+.cabecalho-ficha-2006 h2 {
+background: #2b3e2a;
+color: #fff;
+padding: 0.3em 0.5em;
+position: absolute;
+float: left;
+left: 18.9%;
+z-index: 2;
+margin-top: 5px;
+}
+
+.imagem-ficha-2006 {
+position: relative;
+left: 3%;
+z-index: 1;
+margin-top: 5px;
+}
+
+.Copa .texto-ficha-2006 h3 {
+position: relative;
+color: #2b3e2a;
+margin: 4px;
+left: -2%;
+word-spacing: -5px;
+}
+
+.Copa .texto-ficha-2006 {
+position: relative;
+top: -360%;
+left: 20%;
+}
+
+.cabecalho-curiosidade-2006 h2 {
+background: #2b3e2a;
+color: #fff;
+padding: 0.3em 0.5em;
+position: absolute;
+float: right;
+left: 55%;
+top: 17108%;
+z-index: 2;
+margin-top: 5px;
+}
+
+.Copa .conteudo-curiosidade-2006 {
+position: relative;
+left: 55%;
+top: -580%;
+z-index: 2;
+}
+
+.Copa .texto-curiosidade-2006 h3 {
+position: relative;
+color: #2b3e2a;
+margin: 4px;
+left: -2%;
+}
+
+.Copa .texto-curiosidade-2006 {
+position: relative;
+top: -810%;
+left: 65%;
+}
+
+.Copa .cabecalho-numeros-2006 h2 {
+background: #2b3e2a;
+color: #fff;
+padding: 0.3em 0.5em;
+position: absolute;
+float: right;
+left: 36%;
+top: 17570%;
+z-index: 2;
+margin-top: 5px;
+}
+
+.Copa .conteudo-numeros-2006 ul li .numero {
+width: 70px;
+padding: 25px 0;
+background-image: url("/static/IMG/bg_mod_numeros.jpg");
+font: bold 26px arial;
+color: #fff;
+text-align: center;
+float: left;
+position: absolute;
+top: 17700%;
+left: 36%;
+}
+
+.Copa .conteudo-numeros-2006 ul li h3 {
+color: #ee591f;
+position: absolute;
+top: 17665%;
+left: 43%;
+}
+
+.Copa .conteudo-numeros-2006 ul li h4 {
+position: absolute;
+bottom: -17689%;
+left: 44.5%;
+}
+
+.Copa .conteudo-numeros-2006 ul li .chamada {
+position: absolute;
+top: 17800%;
+left: 44.5%;
+}
+
+/* margem 17*/
+.margem-17 {
+margin-top: -150px;
+margin-bottom: 20px;
+}
+   
+/* 2010 */
+    
+.conteudo .Copa .titulo-copa-2010 h3 {
+    position: relative;
+    left: 30%;
+    top: 20%;
+}
+    
+.cabecalho-ficha-2010 h2 {
+    background: #2b3e2a;
+    color: #fff;
+    padding: 0.3em 0.5em;
+    position: absolute;
+    float: left;
+    left: 19.4%;
+    z-index: 2;
+    margin-top: 5px;
+}
+    
+.imagem-ficha-2010 {
+    position: relative;
+    left: 3%;
+    z-index: 1;
+    margin-top: 5px;
+}
+    
+.Copa .texto-ficha-2010 h3 {
+    position: relative;
+    color: #2b3e2a;
+    margin: 4px;
+    left: -2%;
+    top: 35px;
+    word-spacing: -5px;
+}
+    
+.Copa .texto-ficha-2010 {
+    position: relative;
+    top: -340%;
+    left: 20%;
+}
+
+.Copa .texto-ficha-2010 dl dt {
+   position: relative;
+   top: 20px;
+
+}
+    
+.cabecalho-curiosidade-2010 h2 {
+    background: #2b3e2a;
+    color: #fff;
+    padding: 0.3em 0.5em;
+    position: absolute;
+    float: right;
+    left: 55%;
+    top: 18100%;
+    z-index: 2;
+    margin-top: 5px;
+}
+    
+.Copa .conteudo-curiosidade-2010 {
+    position: relative;
+    left: 55%;
+    top: -538%;
+    z-index: 2;
+}
+    
+.Copa .texto-curiosidade-2010 h3 {
+    position: relative;
+    color: #2b3e2a;
+    margin: 4px;
+    left: -2%;
+    }
+    
+.Copa .texto-curiosidade-2010 {
+    position: relative;
+    top: -760%;
+    left: 65%;
+}
+    
+.Copa .cabecalho-numeros-2010 h2 {
+    background: #2b3e2a;
+    color: #fff;
+    padding: 0.3em 0.5em;
+    position: absolute;
+    float: right;
+    left: 36%;
+    top: 18570%;
+    z-index: 2;
+    margin-top: 5px;
+}
+    
+.Copa .conteudo-numeros-2010 ul li .numero {
+    width: 70px;
+    padding: 25px 0;
+    background-image: url("/static/IMG/bg_mod_numeros.jpg");
+    font: bold 26px arial;
+    color: #fff;
+    text-align: center;
+    float: left;
+    position: absolute;
+    top: 18700%;
+    left: 36%;
+}
+    
+.Copa .conteudo-numeros-2010 ul li h3 {
+    color: #ee591f;
+    position: absolute;
+    top: 18665%;
+    left: 43%;
+}
+    
+.Copa .conteudo-numeros-2010 ul li h4 {
+    position: absolute;
+    bottom: -18689%;
+    left: 44.5%;
+}
+    
+.Copa .conteudo-numeros-2010 ul li .chamada {
+    position: absolute;
+    top: 18800%;
+    left: 44.5%;
+}
+
+
+/* margem 18*/
+.margem-18 {
+    margin-top: -140px;
+    margin-bottom: 20px;
+    }
+    
+/* 2014 */
+    
+.conteudo .Copa .titulo-copa-2014 h3 {
+    position: relative;
+    left: 30%;
+    top: 20%;
+    }
+    
+    .cabecalho-ficha-2014 h2 {
+    background: #2b3e2a;
+    color: #fff;
+    padding: 0.3em 0.5em;
+    position: absolute;
+    float: left;
+    left: 18.9%;
+    z-index: 2;
+    margin-top: 5px;
+    }
+    
+    .imagem-ficha-2014 {
+    position: relative;
+    left: 3%;
+    z-index: 1;
+    margin-top: 5px;
+    }
+    
+    .Copa .texto-ficha-2014 h3 {
+    position: relative;
+    color: #2b3e2a;
+    margin: 4px;
+    left: -2%;
+    word-spacing: -5px;
+    }
+    
+    .Copa .texto-ficha-2014 {
+    position: relative;
+    top: -360%;
+    left: 20%;
+    }
+    
+    .cabecalho-curiosidade-2014 h2 {
+    background: #2b3e2a;
+    color: #fff;
+    padding: 0.3em 0.5em;
+    position: absolute;
+    float: right;
+    left: 55%;
+    top: 19070%;
+    z-index: 2;
+    margin-top: 5px;
+    }
+    
+    .Copa .conteudo-curiosidade-2014 {
+    position: relative;
+    left: 55%;
+    top: -597%;
+    z-index: 2;
+    }
+    
+    .Copa .texto-curiosidade-2014 h3 {
+    position: relative;
+    color: #2b3e2a;
+    margin: 4px;
+    word-spacing: -10px;
+    left: -2%;
+    }
+    
+    .Copa .texto-curiosidade-2014 {
+    position: relative;
+    top: -820%;
+    left: 65%;
+    }
+    
+    .Copa .cabecalho-numeros-2014 h2 {
+    background: #2b3e2a;
+    color: #fff;
+    padding: 0.3em 0.5em;
+    position: absolute;
+    float: right;
+    left: 36%;
+    top: 19570%;
+    z-index: 2;
+    margin-top: 5px;
+    }
+    
+    .Copa .conteudo-numeros-2014 ul li .numero {
+    width: 70px;
+    padding: 25px 0;
+    background-image: url("/static/IMG/bg_mod_numeros.jpg");
+    font: bold 26px arial;
+    color: #fff;
+    text-align: center;
+    float: left;
+    position: absolute;
+    top: 19700%;
+    left: 36%;
+    }
+    
+    .Copa .conteudo-numeros-2014 ul li h3 {
+    color: #ee591f;
+    position: absolute;
+    top: 19665%;
+    left: 43%;
+    }
+    
+    .Copa .conteudo-numeros-2014 ul li h4 {
+    position: absolute;
+    bottom: -19689%;
+    left: 44.5%;
+    }
+    
+    .Copa .conteudo-numeros-2014 ul li .chamada {
+    position: absolute;
+    top: 19800%;
+    left: 44.5%;
+    }
+
+/* margem 19*/
+.margem-19 {
+    margin-top: -150px;
+    margin-bottom: 20px;
+    }
+    
+/* 2018 */
+    
+.conteudo .Copa .titulo-copa-2018 h3 {
+    position: relative;
+    left: 30%;
+    top: 20%;
+    }
+    
+    .cabecalho-ficha-2018 h2 {
+    background: #2b3e2a;
+    color: #fff;
+    padding: 0.3em 0.5em;
+    position: absolute;
+    float: left;
+    left: 18.9%;
+    z-index: 2;
+    margin-top: 5px;
+    }
+    
+    .imagem-ficha-2018 {
+    position: relative;
+    left: 3%;
+    z-index: 1;
+    margin-top: 5px;
+    }
+    
+    .Copa .texto-ficha-2018 h3 {
+    position: relative;
+    color: #2b3e2a;
+    margin: 4px;
+    left: -2%;
+    word-spacing: -5px;
+    }
+    
+    .Copa .texto-ficha-2018 {
+    position: relative;
+    top: -360%;
+    left: 20%;
+    }
+    
+    .cabecalho-curiosidade-2018 h2 {
+    background: #2b3e2a;
+    color: #fff;
+    padding: 0.3em 0.5em;
+    position: absolute;
+    float: right;
+    left: 55%;
+    top: 20113%;
+    z-index: 2;
+    margin-top: 5px;
+    }
+    
+    .Copa .conteudo-curiosidade-2018 {
+    position: relative;
+    left: 55%;
+    top: -597%;
+    }
+    
+    .Copa .texto-curiosidade-2018 h3 {
+    position: relative;
+    color: #2b3e2a;
+    margin: 4px;
+    left: -2%;
+    }
+    
+    .Copa .texto-curiosidade-2018 {
+    position: relative;
+    top: -820%;
+    left: 65%;
+    }
+    
+    .Copa .cabecalho-numeros-2018 h2 {
+    background: #2b3e2a;
+    color: #fff;
+    padding: 0.3em 0.5em;
+    position: absolute;
+    float: right;
+    left: 36%;
+    top: 20570%;
+    z-index: 2;
+    margin-top: 5px;
+    }
+    
+    .Copa .conteudo-numeros-2018 ul li .numero {
+    width: 70px;
+    padding: 25px 0;
+    background-image: url("/static/IMG/bg_mod_numeros.jpg");
+    font: bold 26px arial;
+    color: #fff;
+    text-align: center;
+    float: left;
+    position: absolute;
+    top: 20700%;
+    left: 36%;
+    }
+    
+    .Copa .conteudo-numeros-2018 ul li h3 {
+    color: #ee591f;
+    position: absolute;
+    top: 20665%;
+    left: 43%;
+    }
+    
+    .Copa .conteudo-numeros-2018 ul li h4 {
+    position: absolute;
+    bottom: -20689%;
+    left: 44.5%;
+    }
+    
+    .Copa .conteudo-numeros-2018 ul li .chamada {
+    position: absolute;
+    top: 20800%;
+    left: 44.5%;
+    }
+
+
+
+
+
+.hr-1 {
+height: 20px;
+position: relative;
+top: 11420px;
+border: solid white 0px;
+background-image: url("/static/IMG/grama.jpg");
+}
+
+
+
+
+.Campeao {
+background-color: #2b3e2a;
+width: 100%;
+position: relative;
+top: 11000px;
+height: 50px;
+}
+
+.Campeao h2 {
+font-size: 30px;
+position: relative;
+left: 40%;
+padding-top: 6px;
+color: #fff;
+}
+
+
+.classificacao-1930 {
+border-bottom: 0.2em solid #84765c;
+background: #e7ead9;
+padding: 5px;
+width: 50%;
+position: relative;
+top: 10900px;
+}
+
+.classificacao-1930 ol li {
+color: #010101;
+list-style: none;
+}
+
+  /* < -- 1 -- */
+.classificacao-1930 ol li.pos-1 {
+background: #dfd3bd;
+font: bold 1.2em arial;
+padding: 10px;
+margin: 12px;
+}
+
+.classificacao-1930 ol li.pos-1 span.posicao {
+width: 1em;
+}
+
+.classificacao-1930 ol li.pos-1 span.bandeira {
+margin: 0.8em;
+}
+
+
+ /*  -- 1 --> */
+
+  /* < -- 2 -- */
+
+ .classificacao-1930 ol li.pos-2 {
+background: #fff;
+font: bold 1.2em arial;
+padding: 10px;
+margin: 12px;
+}
+
+.classificacao-1930 ol li.pos-2 span.posicao {
+width: 1em;
+}
+
+.classificacao-1930 ol li.pos-2 span.bandeira {
+margin: 0.8em;
+}
+
+ /*  -- 2 --> */
+
+ /*  <-- 3 -- */
+
+ .classificacao-1930 ol li.pos-3 {
+background: #fff;
+font: bold 1.2em arial;
+padding: 10px;
+margin: 12px;
+}
+
+.classificacao-1930 ol li.pos-3 span.posicao {
+width: 1em;
+}
+
+.classificacao-1930 ol li.pos-3 span.bandeira {
+margin: 0.8em;
+}
+
+/*  -- 3 --> */
+
+
+/*  <-- 4 -- */
+
+.classificacao-1930 ol li.pos-4 {
+background: #fff;
+font: bold 1.2em arial;
+padding: 10px;
+margin: 12px;
+}
+
+.classificacao-1930 ol li.pos-4 span.posicao {
+width: 1em;
+}
+
+.classificacao-1930 ol li.pos-4 span.bandeira {
+margin: 0.8em;
+}
+
+/*  -- 4 --> */
+
+
+/*  <-- 5 -- */
+
+.classificacao-1930 ol li.pos-5 {
+background: #fff;
+font: bold 1.2em arial;
+padding: 10px;
+margin: 12px;
+}
+
+.classificacao-1930 ol li.pos-5 span.posicao {
+width: 1em;
+}
+
+.classificacao-1930 ol li.pos-5 span.bandeira {
+margin: 0.8em;
+}
+
+/*  -- 5 --> */
+
+
+/*  <-- 6 -- */
+
+.classificacao-1930 ol li.pos-6 {
+background: #fff;
+font: bold 1.2em arial;
+padding: 10px;
+margin: 12px;
+}
+
+.classificacao-1930 ol li.pos-6 span.posicao {
+width: 1em;
+}
+
+.classificacao-1930 ol li.pos-6 span.bandeira {
+margin: 0.8em;
+}
+
+/*  -- 6 --> */
+
+
+/*  < -- 7 -- */
+
+.classificacao-1930 ol li.pos-7 {
+background: #fff;
+font: bold 1.2em arial;
+padding: 10px;
+margin: 12px;
+}
+
+.classificacao-1930 ol li.pos-7 span.posicao {
+width: 1em;
+}
+
+.classificacao-1930 ol li.pos-7 span.bandeira {
+margin: 0.8em;
+}
+
+/*  -- 7 --> */
+
+
+/*  <-- 8 -- */
+
+.classificacao-1930 ol li.pos-8 {
+background: #fff;
+font: bold 1.2em arial;
+padding: 10px;
+margin: 12px;
+}
+
+.classificacao-1930 ol li.pos-8 span.posicao {
+width: 1em;
+}
+
+.classificacao-1930 ol li.pos-8 span.bandeira {
+margin: 0.8em;
+}
+
+/*  -- 8 --> */
+
+/*  < -- 9 -- */
+
+.classificacao-1930 ol li.pos-9 {
+background: #fff;
+font: bold 1.2em arial;
+padding: 10px;
+margin: 12px;
+}
+
+.classificacao-1930 ol li.pos-9 span.posicao {
+width: 1em;
+}
+
+.classificacao-1930 ol li.pos-9 span.bandeira {
+margin: 0.8em;
+}
+
+/*  -- 9 --> */
+
+/*  < -- 10 -- */
+
+.classificacao-1930 ol li.pos-10 {
+background: #fff;
+font: bold 1.2em arial;
+padding: 10px;
+margin: 12px;
+}
+
+.classificacao-1930 ol li.pos-10 span.posicao {
+width: 1em;
+}
+
+.classificacao-1930 ol li.pos-10 span.bandeira {
+margin: 0.3em;
+}
+
+/*  -- 10 --> */
+
+/*  < -- 11 -- */
+
+.classificacao-1930 ol li.pos-11 span.posicao {
+width: 1em;
+}
+
+ .classificacao-1930 ol li.pos-11 {
+background: #fff;
+font: bold 1.2em arial;
+padding: 15px;padding: 10px;
+margin: 12px;
+}
+
+.classificacao-1930 ol li.pos-11 span.bandeira {
+margin: 0.3em;
+}
+
+/*  -- 11 --> */
+
+/*  < -- 12 -- */
+
+.classificacao-1930 ol li.pos-12 span.posicao {
+width: 1em;
+}
+
+.classificacao-1930 ol li.pos-12 {
+background: #fff;
+font: bold 1.2em arial;
+padding: 10px;
+margin: 12px;
+}
+
+.classificacao-1930 ol li.pos-12 span.bandeira {
+margin: 0.3em;
+}
+
+/*  -- 12 --> */
+
+/*  < -- 13 -- */
+
+.classificacao-1930 ol li.pos-13 span.posicao {
+width: 1em;
+}
+
+.classificacao-1930 ol li.pos-13 {
+background: #fff;
+font: bold 1.2em arial;
+padding: 10px;
+margin: 12px;
+}
+
+.classificacao-1930 ol li.pos-13 span.bandeira {
+margin: 0.3em;
+}
+
+/*  -- 13 --> */
+
+/*  < -- 14 -- */
+
+.classificacao-1930 ol li.pos-14 span.posicao {
+width: 1em;
+}
+
+.classificacao-1930 ol li.pos-14 {
+background: #fff;
+font: bold 1.2em arial;
+padding: 10px;
+margin: 12px;
+}
+
+.classificacao-1930 ol li.pos-14 span.bandeira {
+margin: 0.3em;
+}
+
+/*  -- 14 --> */
+
+
+/*  < -- 15 -- */
+
+.classificacao-1930 ol li.pos-15 span.posicao {
+width: 1em;
+}
+
+.classificacao-1930 ol li.pos-15 {
+background: #fff;
+font: bold 1.2em arial;
+padding: 10px;
+margin: 12px;
+}
+
+.classificacao-1930 ol li.pos-15 span.bandeira {
+margin: 0.3em;
+}
+
+/*  -- 15 --> */
+
+/*  < -- 16 -- */
+
+.classificacao-1930 ol li.pos-16 span.posicao {
+width: 1em;
+}
+
+.classificacao-1930 ol li.pos-16 {
+background: #fff;
+font: bold 1.2em arial;
+padding: 10px;
+margin: 12px;
+}
+
+.classificacao-1930 ol li.pos-156 span.bandeira {
+margin: 0.3em;
+}
+
+/*  -- 16 --> */
+
+/*  < -- 17 -- */
+
+.classificacao-1930 ol li.pos-17 span.posicao {
+width: 1em;
+}
+
+.classificacao-1930 ol li.pos-17 {
+background: #fff;
+font: bold 1.2em arial;
+padding: 10px;
+margin: 12px;
+}
+
+.classificacao-1930 ol li.pos-17 span.bandeira {
+margin: 0.3em;
+}
+
+/*  -- 17 --> */
+
+/*  < -- 18 -- */
+
+.classificacao-1930 ol li.pos-18 span.posicao {
+width: 1em;
+}
+
+.classificacao-1930 ol li.pos-18 {
+background: #fff;
+font: bold 1.2em arial;
+padding: 10px;
+margin: 12px;
+}
+
+.classificacao-1930 ol li.pos-18 span.bandeira {
+margin: 0.3em;
+}
+
+/*  -- 18 --> */
+
+/*  < -- 19 -- */
+
+.classificacao-1930 ol li.pos-19 span.posicao {
+width: 1em;
+}
+
+.classificacao-1930 ol li.pos-19 {
+background: #fff;
+font: bold 1.2em arial;
+padding: 10px;
+margin: 12px;
+}
+
+.classificacao-1930 ol li.pos-19 span.bandeira {
+margin: 0.3em;
+}
+
+/*  -- 19 --> */
+
+/*  < -- 20 -- */
+
+.classificacao-1930 ol li.pos-20 span.posicao {
+width: 1em;
+}
+
+.classificacao-1930 ol li.pos-20 {
+background: #fff;
+font: bold 1.2em arial;
+padding: 10px;
+margin: 12px;
+}
+
+.classificacao-1930 ol li.pos-20 span.bandeira {
+margin: 0.3em;
+}
+
+/*  -- 20 --> */
+
+/*  < -- 21 -- */
+
+.classificacao-1930 ol li.pos-21 span.posicao {
+width: 1em;
+}
+
+.classificacao-1930 ol li.pos-21 {
+background: #fff;
+font: bold 1.2em arial;
+padding: 10px;
+margin: 12px;
+}
+
+.classificacao-1930 ol li.pos-21 span.bandeira {
+margin: 0.3em;
+}
+
+/*  -- 21 --> */
+
+/*  < -- 22 -- */
+
+.classificacao-1930 ol li.pos-22 span.posicao {
+width: 1em;
+}
+
+.classificacao-1930 ol li.pos-22 {
+background: #fff;
+font: bold 1.2em arial;
+padding: 10px;
+margin: 12px;
+}
+
+.classificacao-1930 ol li.pos-22 span.bandeira {
+margin: 0.3em;
+}
+
+/*  -- 22 --> */
+
+/*  < -- 23 -- */
+
+.classificacao-1930 ol li.pos-23 span.posicao {
+width: 1em;
+}
+
+.classificacao-1930 ol li.pos-23 {
+background: #fff;
+font: bold 1.2em arial;
+padding: 10px;
+margin: 12px;
+}
+
+.classificacao-1930 ol li.pos-23 span.bandeira {
+margin: 0.3em;
+}
+
+/*  -- 23 --> */
+
+/*  < -- 24 -- */
+
+.classificacao-1930 ol li.pos-24 span.posicao {
+width: 1em;
+}
+
+.classificacao-1930 ol li.pos-24 {
+background: #fff;
+font: bold 1.2em arial;
+padding: 10px;
+margin: 12px;
+}
+
+.classificacao-1930 ol li.pos-24 span.bandeira {
+margin: 0.3em;
+}
+
+/*  -- 24 --> */
+
+/*  < -- 25 -- */
+
+.classificacao-1930 ol li.pos-25 span.posicao {
+width: 1em;
+}
+
+.classificacao-1930 ol li.pos-25 {
+background: #fff;
+font: bold 1.2em arial;
+padding: 10px;
+margin: 12px;
+}
+
+.classificacao-1930 ol li.pos-25 span.bandeira {
+margin: 0.3em;
+}
+
+/*  -- 25 --> */
+
+/*  < -- 26 -- */
+
+.classificacao-1930 ol li.pos-26 span.posicao {
+width: 1em;
+}
+
+.classificacao-1930 ol li.pos-26 {
+background: #fff;
+font: bold 1.2em arial;
+padding: 10px;
+margin: 12px;
+}
+
+.classificacao-1930 ol li.pos-26 span.bandeira {
+margin: 0.3em;
+}
+
+/*  -- 26 --> */
+
+/*  < -- 27 -- */
+
+.classificacao-1930 ol li.pos-27 span.posicao {
+width: 1em;
+}
+
+.classificacao-1930 ol li.pos-27 {
+background: #fff;
+font: bold 1.2em arial;
+padding: 10px;
+margin: 12px;
+}
+
+.classificacao-1930 ol li.pos-27 span.bandeira {
+margin: 0.3em;
+}
+
+/*  -- 27 --> */
+
+/*  < -- 28 -- */
+
+.classificacao-1930 ol li.pos-28 span.posicao {
+width: 1em;
+}
+
+.classificacao-1930 ol li.pos-28 {
+background: #fff;
+font: bold 1.2em arial;
+padding: 10px;
+margin: 12px;
+}
+
+.classificacao-1930 ol li.pos-28 span.bandeira {
+margin: 0.3em;
+}
+
+/*  -- 28 --> */
+
+/*  < -- 29 -- */
+
+.classificacao-1930 ol li.pos-29 span.posicao {
+width: 1em;
+}
+
+.classificacao-1930 ol li.pos-29 {
+background: #fff;
+font: bold 1.2em arial;
+padding: 10px;
+margin: 12px;
+}
+
+.classificacao-1930 ol li.pos-29 span.bandeira {
+margin: 0.3em;
+}
+
+/*  -- 29 --> */
+
+/*  < -- 30 -- */
+
+.classificacao-1930 ol li.pos-30 span.posicao {
+width: 1em;
+}
+
+.classificacao-1930 ol li.pos-30 {
+background: #fff;
+font: bold 1.2em arial;
+padding: 10px;
+margin: 12px;
+}
+
+.classificacao-1930 ol li.pos-30 span.bandeira {
+margin: 0.3em;
+}
+
+/*  -- 30 --> */
+
+/*  < -- 31 -- */
+
+.classificacao-1930 ol li.pos-31 span.posicao {
+width: 1em;
+}
+
+.classificacao-1930 ol li.pos-31 {
+background: #fff;
+font: bold 1.2em arial;
+padding: 10px;
+margin: 12px;
+}
+
+.classificacao-1930 ol li.pos-31 span.bandeira {
+margin: 0.3em;
+}
+
+/*  -- 31 --> */
+
+/*  < -- 32 -- */
+
+.classificacao-1930 ol li.pos-32 span.posicao {
+width: 1em;
+}
+
+.classificacao-1930 ol li.pos-32 {
+background: #fff;
+font: bold 1.2em arial;
+padding: 10px;
+margin: 12px;
+}
+
+.classificacao-1930 ol li.pos-32 span.bandeira {
+margin: 0.3em;
+}
+
+/*  -- 32 --> */
+
+
+.sombra1 {
+background: #000;
+opacity: 0.8;
+height: 120px;
+margin-top: -124.6px;
+}
+
+
+.Brasil-1930 {
+margin-top: 10400px;
+align-items: center;
+left: 17%;
+position: relative;
+}
+
+.sombra-Brasil-1930 {
+background: #000;
+opacity: 0.8;
+height: 100px;
+margin-top: -103px;
+width: 615px;
+left: 17%;
+position: relative;
+}
+
+.Brasil-logo {
+margin-left: 10px;
+}
+
+strong {
+color: #ee7601;
+}
+
+.h3-Brasil-1 {
+    font: bold 1.3em arial;
+    color: #fff;
+    padding: 15px;
+    border-radius: 4px;
+    margin-top: -90px;
+    margin-left: 100px;
+}
+
+.p2 {
+    font: bold 1.3em arial;
+    color: #fff;
+    padding: 15px;
+    width: 100%;
+    margin-top: -25px;
+    margin-left: -332px;
+}
+
+#Brasil-disputa-entre-paulistas-e-cariocas p {
+margin-top: 10px;
+margin-left: 60px;
+margin-right: 60px;
+padding: 2px;
+color: black;
+font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* Page Analises */
+
+.conteudo-analises {
+    background-color: #F5F5DC;
+    position: relative;
+    top: 150px;
+    margin-left: 220px;
+    margin-right: 220px;
+}
+
+.titulo-analises {
+    background-color: #2b3e2a;
+    border-radius: 8%;
+    margin-left: 220px;
+    margin-right: 220px;
+    padding: 5px;
+    position: relative;
+    top: 20px;
+    height: 80px;
+    opacity: 0.8;
+}
+
+.titulo-analises h1 {
+    text-align: center;
+    color: #fff;
+    position: relative;
+    top: 20%;
+}
+
+
+
+
+/*
+
+.texto-destaque {
+    text-align: center;
+}
+.texto-destaque strong {
+    color: #646464;
+}
+.texto-destaque h1 {
+    text-transform: uppercase;
+    font-size: 30px;
+    color: #818181;
+}
+.texto-destaque p {
+    font-size: 15px;
+    color: #9a9a9a;
+}
+
+.col-3 {
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 29%;
+    float: left;
+    position: relative;
+}
+.bloco-imagem img {
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+}
+.bloco-imagem {
+    height: 300px;
+    border: 1px solid #c5c5c5;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-left: 10px;
+}
+.bloco-imagem b, p {
+    text-align: left;
+}
+.bloco-texto {
+    margin-top: 3em;
+}
+
+
+
+
+
+.bloco-imagens-texto {
+    background-color: #eeeeee;
+}
+.bloco-imagens-texto:before {
+    width: 100%;
+    display: inline-block;
+    content: '';
+    height: 52px;
+    background: #ffffff;
+    background-image: url('../img/setinha.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.bloco-imagens-texto:after {
+    width: 100%;
+    display: inline-block;
+    content: '';
+    height: 70px;
+    background: #eeeeee;
+}
+.col-4 {
+    float: left;
+    width: 25%;
+    text-align: center;
+}
+.col-4 img {
+cursor: pointer;
+ margin: 0 auto;
+ padding-top: 1em;
+ vertical-align: middle;
+}
+.col-4 img:hover {
+    margin-top: 10px!important;
+    position: relative!important;
+}
+
+.bloco-logos {
+    height: 170px;
+}
+
+.bloco-logos img {
+    margin-top: 50px;
+}
+
+.footer h3 {
+    text-align: left;
+}
+
+.footer {
+    background-image: url('../img/footer.png');
+    color: #ffffff;
+}
+
+.footer-2 {
+    background-image: url('../img/footer2.png');
+    color: #c1c1c1;
+    height: 90px;
+}
+
+
+.footer p {
+    width: 90%;
+    text-align: left;
+}
+
+.footer-2 p {
+    padding: 10px;
+}
+
+.clock {
+    color: #898989!important;
+}
+
+.clock:before {
+    content: '';
+    width:  15px;
+    height: 15px;
+    display: inline-block;
+    background-image: url('../img/clock.png');
+    background-repeat: no-repeat;
+    padding-left: 5px;
+}
+
+.local:before, .emailico:before, .telefoneico:before {
+    content: '';
+    width:  17px;
+    height: 24px;
+    display: inline-block;
+    background-repeat: no-repeat;
+    padding-left: 5px;
+}
+.local:before {
+    background-image: url('../img/local.png');
+}
+.emailico:before {
+    background-image: url('../img/emailico.png');
+}
+.telefoneico:before {
+    background-image: url('../img/telefoneico.png');
+}
+
+*/
