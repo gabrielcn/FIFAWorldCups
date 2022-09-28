@@ -4217,10 +4217,11 @@ font-size: 20px;
      
      .header-2 {
      background-color: #2b3e2a;
-     width: 153%;
+     width: 100%;
      height: 100%;
      margin: 0 auto;
      padding: 16px;
+     align-items: center;
      }
      
      .menu-urls {
@@ -4233,15 +4234,17 @@ font-size: 20px;
 
 .dp-menu {
     position: relative;
-    left: 10%;
+    text-align: center;
     top: 20%;
     margin: 0 auto;
     }
     
     .dp-menu ul {
         background-color: #2b3e2a;
-        width: 65%;
+        width: 100%;
         list-style-type: none;
+        position: relative;
+        left: -26%;
         padding: 0;
     }
     
@@ -4397,9 +4400,9 @@ font-size: 20px;
 
 .img-slider {
     position: relative;
-    width: 1200px;
+    width: 1350px;
     /*height: 200px;*/
-    left: -10%;
+    left: -18.4%;
 }
 
 .img-slider .slide {
@@ -4461,8 +4464,8 @@ padding: 4px;
 }
 
 .item {
-margin-top: -150px;
-margin-left: 250px;
+margin-top: -154px;
+margin-left: 390px;
 }
 
 .material-symbols-outlined {
@@ -4473,262 +4476,252 @@ color: #ee7601;
 }
 
 .h3-1 {
-    font: bold 3.0em arial;
+    font: bold 2.5em arial;
     color: #ee7601;
     padding: 15px;
     border-radius: 4px;
-    margin-top: 80px;
+    margin-top: 150px;
     text-align: center;
-    margin-left: -1290px;
+    margin-left: -1530px;
 }
 
 .p1 {
-    font: bold 2.5em arial;
+    font: bold 2.4em arial;
     color: #fff;
     padding: 15px;
     width: 100%;
-    margin-top: -25px;
+    margin-top: -20px;
     margin-left: -332px;
 }
 
 .h3-2 {
-    font: bold 1.3em arial;
+    font: bold 2.5em arial;
     color: #ee7601;
     padding: 15px;
     border-radius: 4px;
-    margin-top: 100px;
+    margin-top: 150px;
     text-align: center;
-    margin-left: -1150px;
+    margin-left: -1530px;
 }
 
 .p2 {
-    font: bold 1.3em arial;
+    font: bold 2.4em arial;
     color: #fff;
     padding: 15px;
     width: 100%;
-    margin-top: -25px;
+    margin-top: -20px;
     margin-left: -332px;
 }
 
 .h3-3 {
-    font: bold 1.3em arial;
+    font: bold 2.5em arial;
     color: #ee7601;
     padding: 15px;
     border-radius: 4px;
-    margin-top: 100px;
+    margin-top: 150px;
     text-align: center;
-    top: 50px;
-    margin-left: -1110px;
+    margin-left: -1530px;
 }
 
 .p3 {
-    font: bold 1.3em arial;
+    font: bold 2.4em arial;
     color: #fff;
     padding: 15px;
     width: 100%;
-    margin-top: -25px;
+    margin-top: -20px;
     margin-left: -332px;
 }
 
 .h3-4 {
-    font: bold 1.3em arial;
+    font: bold 2.5em arial;
     color: #ee7601;
     padding: 15px;
     border-radius: 4px;
-    margin-top: 100px;
+    margin-top: 150px;
     text-align: center;
-    top: 50px;
-    margin-left: -1095px;
+    margin-left: -1530px;
 }
 
 .p4 {
-    font: bold 1.3em arial;
+    font: bold 2.4em arial;
     color: #fff;
     padding: 15px;
     width: 100%;
-    margin-top: -25px;
+    margin-top: -20px;
     margin-left: -332px;
 }
 
 .h3-5 {
-    font: bold 1.3em arial;
+    font: bold 2.5em arial;
     color: #ee7601;
     padding: 15px;
     border-radius: 4px;
-    margin-top: 100px;
+    margin-top: 150px;
     text-align: center;
-    top: 50px;
-    margin-left: -1128px;
+    margin-left: -1530px;
 }
 
 .p5 {
-    font: bold 1.3em arial;
+    font: bold 2.4em arial;
     color: #fff;
     padding: 15px;
     width: 100%;
-    margin-top: -25px;
+    margin-top: -20px;
     margin-left: -332px;
 }
 
 .h3-6 {
-    font: bold 1.3em arial;
+    font: bold 2.5em arial;
     color: #ee7601;
     padding: 15px;
     border-radius: 4px;
-    margin-top: 100px;
+    margin-top: 150px;
     text-align: center;
-    top: 50px;
-    margin-left: -1220px;
+    margin-left: -1530px;
 }
 
 .p6 {
-    font: bold 1.3em arial;
+    font: bold 2.4em arial;
     color: #fff;
     padding: 15px;
     width: 100%;
-    margin-top: -25px;
+    margin-top: -20px;
     margin-left: -332px;
 }
 
 .h3-7 {
-    font: bold 1.3em arial;
+    font: bold 2.5em arial;
     color: #ee7601;
     padding: 15px;
     border-radius: 4px;
-    margin-top: 100px;
+    margin-top: 150px;
     text-align: center;
-    top: 50px;
-    margin-left: -1095px;
+    margin-left: -1530px;
 }
 
 .p7 {
-    font: bold 1.3em arial;
+    font: bold 2.4em arial;
     color: #fff;
     padding: 15px;
     width: 100%;
-    margin-top: -25px;
+    margin-top: -20px;
     margin-left: -332px;
 }
 
 .h3-8 {
-    font: bold 1.3em arial;
+    font: bold 2.5em arial;
     color: #ee7601;
     padding: 15px;
     border-radius: 4px;
-    margin-top: 100px;
+    margin-top: 150px;
     text-align: center;
-    top: 50px;
-    margin-left: -1050px;
+    margin-left: -1530px;
 }
 
 .p8 {
-    font: bold 1.3em arial;
+    font: bold 2.4em arial;
     color: #fff;
     padding: 15px;
     width: 100%;
-    margin-top: -25px;
+    margin-top: -20px;
     margin-left: -332px;
 }
 
 .h3-9 {
-    font: bold 1.3em arial;
+    font: bold 2.5em arial;
     color: #ee7601;
     padding: 15px;
     border-radius: 4px;
-    margin-top: 100px;
+    margin-top: 150px;
     text-align: center;
-    top: 50px;
-    margin-left: -1230px;
+    margin-left: -1530px;
 }
 
 .p9 {
-    font: bold 1.3em arial;
+    font: bold 2.4em arial;
     color: #fff;
     padding: 15px;
     width: 100%;
-    margin-top: -25px;
+    margin-top: -20px;
     margin-left: -332px;
 }
 
 .h3-10 {
-    font: bold 1.3em arial;
+    font: bold 2.5em arial;
     color: #ee7601;
     padding: 15px;
     border-radius: 4px;
-    margin-top: 100px;
+    margin-top: 150px;
     text-align: center;
-    top: 50px;
-    margin-left: -1150px;
+    margin-left: -1530px;
 }
 
 .p10 {
-    font: bold 1.3em arial;
+    font: bold 2.4em arial;
     color: #fff;
     padding: 15px;
     width: 100%;
-    margin-top: -25px;
+    margin-top: -20px;
     margin-left: -332px;
 }
 
 .h3-11 {
-    font: bold 1.3em arial;
+    font: bold 2.5em arial;
     color: #ee7601;
     padding: 15px;
     border-radius: 4px;
-    margin-top: 100px;
+    margin-top: 150px;
     text-align: center;
-    top: 50px;
-    margin-left: -1080px;
+    margin-left: -1530px;
 }
 
 .p11 {
-    font: bold 1.3em arial;
+    font: bold 2.4em arial;
     color: #fff;
     padding: 15px;
     width: 100%;
-    margin-top: -25px;
+    margin-top: -20px;
     margin-left: -332px;
 }
 
 .h3-12 {
-    font: bold 1.3em arial;
+    font: bold 2.5em arial;
     color: #ee7601;
     padding: 15px;
     border-radius: 4px;
-    margin-top: 100px;
+    margin-top: 150px;
     text-align: center;
-    top: 50px;
-    margin-left: -1210px;
+    margin-left: -1530px;
 }
 
 .p12 {
-    font: bold 1.3em arial;
+    font: bold 2.4em arial;
     color: #fff;
     padding: 15px;
     width: 100%;
-    margin-top: -25px;
+    margin-top: -20px;
     margin-left: -332px;
 }
 
-.h3-13 {
-    font: bold 1.3em arial;
+.h3-14 {
+    font: bold 2.5em arial;
     color: #ee7601;
     padding: 15px;
     border-radius: 4px;
-    margin-top: 100px;
+    margin-top: 150px;
     text-align: center;
-    top: 50px;
-    margin-left: -1120px;
+    margin-left: -1530px;
 }
 
-.p13 {
-    font: bold 1.3em arial;
+.p14 {
+    font: bold 2.4em arial;
     color: #fff;
     padding: 15px;
     width: 100%;
-    margin-top: -25px;
+    margin-top: -20px;
     margin-left: -332px;
 }
+
 .h3-14 {
     font: bold 1.3em arial;
     color: #ee7601;
@@ -4873,15 +4866,15 @@ color: #ee7601;
     z-index: 1;
     position: absolute;
     display: flex;
-    top: 542px;
+    top: 600px;
     left: 50%;
     transform: translateX(-50%);
 }
 
 .img-slider .navigation .btn {
     background: rgba(255, 255, 255, 0.5);
-    width: 20px;
-    height: 20px;
+    width: 28px;
+    height: 28px;
     margin: 15px;
     border-radius: 50%;
     cursor: pointer;
