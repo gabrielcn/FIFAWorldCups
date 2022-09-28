@@ -181,7 +181,7 @@ margin: 0 auto;
 
 
 @import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
-
+/*
 .img-slider {
     position: relative;
     width: 800px;
@@ -680,7 +680,7 @@ color: #ee7601;
 .img-slider .navigation .btn.active {
     background: #ee7601;
     box-shadow: 0 0 2px rgba(0,0,0,0.5);
-}
+} */
 
 .margem-0 {
     margin-top: -120px;
@@ -688,7 +688,7 @@ color: #ee7601;
 
 /* Contador regressivo */
 
-.h1-titulo {
+/*.h1-titulo {
     font-weight: 900;
     font-size: 2rem;
     color: #fff;
@@ -773,9 +773,7 @@ color: #ee7601;
     100%{
         background: #7d1143;
     }
-}
-
-/*
+}*/
 
 .conteudo {
 background-color: #F5F5DC;
@@ -809,7 +807,7 @@ left: 10px;
 padding: 15px;
 }
 
-/* 1930 
+/* 1930 */
 
 .conteudo .Copa .titulo-copa-1930 h3 {
 position: relative;
@@ -928,14 +926,14 @@ left: 44.5%;
 }
 
 
-/* margem 1
+/* margem 1 */
 .margem-1 {
 margin-top: -160px;
 margin-bottom: 20px;
 }
 
 
-/* 1934 
+/* 1934 */
 
 .conteudo .Copa .titulo-copa-1934 h3 {
 position: relative;
@@ -1053,13 +1051,13 @@ top: 1800%;
 left: 44.5%;
 }
 
-/* margem 2
+/* margem 2 */
 .margem-2 {
 margin-top: -160px;
 margin-bottom: 20px;
 }
 
-/* 1938 
+/* 1938 */
 
 .conteudo .Copa .titulo-copa-1938 h3 {
 position: relative;
@@ -1175,13 +1173,13 @@ top: 2800%;
 left: 44.5%;
 }
 
-/* margem 3
+/* margem 3 */
 .margem-3 {
 margin-top: -160px;
 margin-bottom: 20px;
 }
 
-/* 1950 
+/* 1950 */
 
 .conteudo .Copa .titulo-copa-1950 h3 {
 position: relative;
@@ -1297,13 +1295,13 @@ top: 3800%;
 left: 44.5%;
 }
 
-/* margem 4
+/* margem 4 */
 .margem-4 {
 margin-top: -160px;
 margin-bottom: 20px;
 }
 
-/* 1954 
+/* 1954 */
 
 .conteudo .Copa .titulo-copa-1954 h3 {
 position: relative;
@@ -1419,13 +1417,13 @@ top: 4800%;
 left: 44.5%;
 }
 
-/* margem 5
+/* margem 5 */
 .margem-5 {
 margin-top: -160px;
 margin-bottom: 20px;
 }
 
-/* 1958 
+/* 1958 */
 
 .conteudo .Copa .titulo-copa-1958 h3 {
 position: relative;
@@ -1541,13 +1539,13 @@ top: 5800%;
 left: 44.5%;
 }
 
-/* margem 6
+/* margem 6 */
 .margem-6 {
 margin-top: -160px;
 margin-bottom: 20px;
 }
 
-/* 1962 
+/* 1962 */
 
 .conteudo .Copa .titulo-copa-1962 h3 {
 position: relative;
@@ -1663,13 +1661,13 @@ top: 6800%;
 left: 44.5%;
 }
 
-/* margem 7
+/* margem 7 */
 .margem-7 {
 margin-top: -160px;
 margin-bottom: 20px;
 }
 
-/* 1966 
+/* 1966 */
 
 .conteudo .Copa .titulo-copa-1966 h3 {
 position: relative;
@@ -1785,13 +1783,13 @@ top: 7800%;
 left: 44.5%;
 }
 
-/* margem 8
+/* margem 8 */
 .margem-8 {
 margin-top: -160px;
 margin-bottom: 20px;
 }
 
-/* 1970 
+/* 1970 */
 
 .conteudo .Copa .titulo-copa-1970 h3 {
 position: relative;
@@ -1907,13 +1905,13 @@ top: 8800%;
 left: 44.5%;
 }
 
-/* margem 9
+/* margem 9 */
 .margem-9 {
 margin-top: -160px;
 margin-bottom: 20px;
 }
 
-/* 1974 
+/* 1974 */
 
 .conteudo .Copa .titulo-copa-1974 h3 {
 position: relative;
@@ -2029,13 +2027,13 @@ top: 9800%;
 left: 44.5%;
 }
 
-/* margem 10
+/* margem 10 */
 .margem-10 {
 margin-top: -160px;
 margin-bottom: 20px;
 }
 
-/* 1978 
+/* 1978 */
 
 .conteudo .Copa .titulo-copa-1978 h3 {
 position: relative;
@@ -2151,13 +2149,13 @@ top: 10800%;
 left: 44.5%;
 }
 
-/* margem 11
+/* margem 11 */
 .margem-11 {
 margin-top: -160px;
 margin-bottom: 20px;
 }
 
-/* 1982 
+/* 1982 */
 
 .conteudo .Copa .titulo-copa-1982 h3 {
 position: relative;
@@ -2273,13 +2271,13 @@ top: 11800%;
 left: 44.5%;
 }
 
-/* margem 12
+/* margem 12 */
 .margem-12 {
 margin-top: -160px;
 margin-bottom: 20px;
 }
 
-/* 1986 
+/* 1986 */
 
 .conteudo .Copa .titulo-copa-1986 h3 {
 position: relative;
@@ -2395,13 +2393,13 @@ top: 12800%;
 left: 44.5%;
 }
 
-/* margem 13
+/* margem 13 */
 .margem-13 {
 margin-top: -160px;
 margin-bottom: 20px;
 }
 
-/* 1990 
+/* 1990 */
 
 .conteudo .Copa .titulo-copa-1990 h3 {
 position: relative;
@@ -2517,13 +2515,13 @@ top: 13800%;
 left: 44.5%;
 }
 
-/* margem 14
+/* margem 14 */
 .margem-14 {
 margin-top: -150px;
 margin-bottom: 20px;
 }
 
-/* 1994 
+/* 1994 */
 
 .conteudo .Copa .titulo-copa-1994 h3 {
 position: relative;
@@ -2639,13 +2637,13 @@ top: 14800%;
 left: 44.5%;
 }
 
-/* margem 15
+/* margem 15 */
 .margem-15 {
 margin-top: -150px;
 margin-bottom: 20px;
 }
 
-/* 1998 
+/* 1998 */
 
 .conteudo .Copa .titulo-copa-1998 h3 {
 position: relative;
@@ -2761,13 +2759,13 @@ top: 15800%;
 left: 44.5%;
 }
 
-/* margem 16
+/* margem 16 */
 .margem-16 {
 margin-top: -150px;
 margin-bottom: 20px;
 }
 
-/* 2002 
+/* 2002 */
 
 .conteudo .Copa .titulo-copa-2002 h3 {
 position: relative;
@@ -2883,13 +2881,13 @@ top: 16800%;
 left: 44.5%;
 }
 
-/* margem 17
+/* margem 17 */
 .margem-17 {
 margin-top: -150px;
 margin-bottom: 20px;
 }
 
-/* 2006 
+/* 2006 */
 
 .conteudo .Copa .titulo-copa-2006 h3 {
 position: relative;
@@ -3005,13 +3003,13 @@ top: 17800%;
 left: 44.5%;
 }
 
-/* margem 17
+/* margem 17 */
 .margem-17 {
 margin-top: -150px;
 margin-bottom: 20px;
 }
    
-/* 2010 
+/* 2010 */
     
 .conteudo .Copa .titulo-copa-2010 h3 {
     position: relative;
@@ -3135,13 +3133,13 @@ margin-bottom: 20px;
 }
 
 
-/* margem 18
+/* margem 18 */
 .margem-18 {
     margin-top: -140px;
     margin-bottom: 20px;
     }
     
-/* 2014 
+/* 2014 */
     
 .conteudo .Copa .titulo-copa-2014 h3 {
     position: relative;
@@ -3258,13 +3256,13 @@ margin-bottom: 20px;
     left: 44.5%;
     }
 
-/* margem 19
+/* margem 19 */
 .margem-19 {
     margin-top: -150px;
     margin-bottom: 20px;
     }
     
-/* 2018 
+/* 2018 */
     
 .conteudo .Copa .titulo-copa-2018 h3 {
     position: relative;
@@ -3379,9 +3377,7 @@ margin-bottom: 20px;
     left: 44.5%;
     }
 
-
-
-*/
+    
 
 .hr-1 {
 height: 20px;
@@ -4113,7 +4109,7 @@ font-size: 20px;
 
 /* Page Analises */
 
-/*.conteudo-analises {
+.conteudo-analises {
     background-color: #F5F5DC;
     position: relative;
     top: 150px;
@@ -4138,7 +4134,7 @@ font-size: 20px;
     color: #fff;
     position: relative;
     top: 20%;
-}*/
+}
 
 /* Responsividade Media Query */
 
@@ -4156,14 +4152,13 @@ body, html {
 
 .menu-1{
     display: flex;
-    height: 220px;
-    width: 153%;
+    height: 8%;
+    width: 100%;
     background-image: url("../IMG/logo.jpg");
     align-items: center;
     justify-content: space-between;
     padding: 0 50px 0 100px;
     flex-wrap: wrap;
-    border-bottom: 3px solid #efefef;
     }
     
     .menu-1 .logo{
@@ -4187,9 +4182,9 @@ body, html {
     .menu-1 ul li a{
     color: #f2f2f2;
     text-decoration: none;
-    font-size: 60px;
+    font-size: 40px;
     font-weight: 700;
-    padding: 35px 35px;
+    padding: 15px 15px;
     border-radius: 5px;
     letter-spacing: 1px;
     transition: all 0.3s ease;
@@ -4234,7 +4229,6 @@ body, html {
      
      .menu-urls {
      height: 171px;
-     border-bottom: 3px solid #efefef;
      margin-bottom: 15px;
      }
 
@@ -4252,19 +4246,20 @@ body, html {
         width: 100%;
         list-style-type: none;
         position: relative;
-        left: -26%;
+        left: -51.5%;
         margin-top: -20px;
         padding: 10px;
     }
     
     .dp-menu ul li {
-        display: inline;
+        display: block;
         position: relative;
+        border: solid white;
     }
     
     .dp-menu ul li a {
         color: var(--cor-primaria);
-        font-size: 50px;
+        font-size: 38px;
         text-decoration: none;
         display: inline-block;
         padding: 35px;
@@ -4274,6 +4269,7 @@ body, html {
     .dp-menu ul li a:hover {
         background-color: #ee7601;
         border-radius: 5px;
+        width: 100%;
     }
     
     /*sub menu*/
@@ -4314,7 +4310,7 @@ body, html {
 
     /* Contador regressivo */
 
-.h1-titulo {
+/*.h1-titulo {
     font-weight: 900;
     font-size: 3.5rem;
     color: #fff;
@@ -4403,14 +4399,16 @@ body, html {
     100%{
         background: #7d1143;
     }
-}
+}*/
+
 
 /* Carrossel */
+
+/* 
 
 .img-slider {
     position: relative;
     width: 1350px;
-    /*height: 200px;*/
     left: -18.4%;
 }
 
@@ -4900,6 +4898,8 @@ color: #ee7601;
     height: 220px;
     margin-top: -224.6px;
     }
+
+    */
 
 
 
