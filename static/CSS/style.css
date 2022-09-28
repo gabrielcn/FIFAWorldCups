@@ -4157,7 +4157,7 @@ body {
 .menu-1{
     display: flex;
     height: 180px;
-    width: 1496px;
+    width: 100%;
     background-image: url("../IMG/logo.jpg");
     align-items: center;
     justify-content: space-between;
