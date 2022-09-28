@@ -4262,7 +4262,7 @@ body, html {
         font-size: 38px;
         text-decoration: none;
         display: inline-block;
-        padding: 35px;
+        padding: 35px 600px;
         transition: background .3s;
     }
     
@@ -4270,6 +4270,7 @@ body, html {
         background-color: #ee7601;
         border-radius: 5px;
         width: 100%;
+        padding: 35px;
     }
     
     /*sub menu*/
