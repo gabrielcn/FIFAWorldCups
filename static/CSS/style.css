@@ -4157,7 +4157,7 @@ body {
 .menu-1{
     display: flex;
     height: 180px;
-    width: 153%;
+    width: 1496px;
     background-image: url("../IMG/logo.jpg");
     align-items: center;
     justify-content: space-between;
@@ -4253,7 +4253,7 @@ body {
         list-style-type: none;
         position: relative;
         left: -26%;
-        padding: 0;
+        padding: 10px;
     }
     
     .dp-menu ul li {
