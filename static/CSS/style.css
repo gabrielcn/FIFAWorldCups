@@ -133,10 +133,16 @@ margin-bottom: 15px;
 .navbar ul li ul {
     position: absolute;
     left: 0;
-    width: 200px;
-    background: green;
+    width: 450px;
+    background: #2b3e2a;
     display: none;
     border: solid 1px white;
+    z-index: 3;
+}
+
+.navbar ul li ul li a {
+    position: relative;
+    left: -90%;
 }
 
 .navbar ul li ul li ul {
@@ -159,7 +165,7 @@ margin-bottom: 15px;
 
 
 @import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
-/*
+
 .img-slider {
     position: relative;
     width: 800px;
@@ -658,7 +664,7 @@ color: #ee7601;
 .img-slider .navigation .btn.active {
     background: #ee7601;
     box-shadow: 0 0 2px rgba(0,0,0,0.5);
-} */
+} 
 
 .margem-0 {
     margin-top: -120px;
@@ -666,7 +672,7 @@ color: #ee7601;
 
 /* Contador regressivo */
 
-/*.h1-titulo {
+.h1-titulo {
     font-weight: 900;
     font-size: 2rem;
     color: #fff;
@@ -751,7 +757,7 @@ color: #ee7601;
     100%{
         background: #7d1143;
     }
-}*/
+}
 
 .conteudo {
 background-color: #F5F5DC;
@@ -4209,6 +4215,7 @@ body, html {
         top: 4%; left: 0; right: 0;
         background: #2b3e2a;
         border-top: 1px solid rgba(0, 0, 0,.1);
+        z-index: 3;
      }
 
      .navbar ul li {
@@ -4234,6 +4241,11 @@ body, html {
         left: auto;
      }
 
+     .navbar ul li ul li a {
+        position: relative;
+        left: 0;
+    }
+
      .navbar ul li ul li ul {
         width: 100%;
         left: 0;
@@ -4249,13 +4261,13 @@ body, html {
 
     /* Contador regressivo */
 
-/*.h1-titulo {
+.h1-titulo {
     font-weight: 900;
     font-size: 3.5rem;
     color: #fff;
     position: relative;
-    left: 38%;
-    top: -95px;
+    left: 15%;
+    top: 12%;
     font-family:'Times New Roman', Times, serif;
 }
 
@@ -4264,9 +4276,9 @@ body, html {
     opacity: 0.8;
     position: relative;
     height: 300px;
-    width: 1000px;
-    top: 190px;
-    left: 18%;
+    width: 100%;
+    top: 25%;
+    left: -5%;
     margin-left: 50px;
     margin-right: 50px;
     border-radius: 8%;
@@ -4299,8 +4311,8 @@ body, html {
     background: #fff;
     position: relative;
     display: flex;
-    left: 27%;
-    bottom: 70px;
+    left: 3.5%;
+    bottom: -275px;
     justify-content: center;
     align-items: center;
     flex-direction: column;
@@ -4338,17 +4350,16 @@ body, html {
     100%{
         background: #7d1143;
     }
-}*/
+}
 
 
 /* Carrossel */
-
-/* 
-
+ 
 .img-slider {
     position: relative;
-    width: 1350px;
-    left: -18.4%;
+    width: 99.5%;
+    left: -25.2%;
+    top: 20%;
 }
 
 .img-slider .slide {
@@ -4838,7 +4849,16 @@ color: #ee7601;
     margin-top: -224.6px;
     }
 
-    */
+
+/* Conteudo */
+
+.conteudo {
+    background-color: #F5F5DC;
+    position: relative;
+    top: 850px;
+    margin-left: 220px;
+    margin-right: 220px;
+    }
 
 
 
