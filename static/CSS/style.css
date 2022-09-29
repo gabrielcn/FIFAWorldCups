@@ -93,14 +93,6 @@ position: relative;
  width: 70%;
 }
 
-
-.header-2 {
-background-color: #2b3e2a;
-width: 100%;
-margin: 0 auto;
-padding: 16px;
-}
-
 .menu-urls {
 height: 76px;
 border-bottom: 3px solid #efefef;
@@ -113,70 +105,56 @@ margin-bottom: 15px;
 
 /* DP Menu */
 
-.dp-menu {
-position: relative;
-left: 28%;
-margin: 0 auto;
+.navbar ul {
+    list-style: none;
 }
 
-.dp-menu ul {
-    background-color: #2b3e2a;
-    width: 65%;
-    list-style-type: none;
-    padding: 0;
+.navbar ul li {
+    position: relative;
+    float: left;
+    left: 20%;
 }
 
-.dp-menu ul li {
-    display: inline;
+.navbar ul li a {
+    font-size: 20px;
+    padding: 20px;
+    color: #fff;
+    display: block;
+    text-decoration: none;
+    z-index: 1;
+}
+
+.navbar ul li a:hover {
+    background: #f88f06;
+    color: #fff;
     position: relative;
 }
 
-.dp-menu ul li a {
-    color: var(--cor-primaria);
-    font-size: 18px;
-    text-decoration: none;
-    display: inline-block;
-    padding: 10px;
-    transition: background .3s;
-}
-
-.dp-menu ul li a:hover {
-    background-color: #ee7601;
-    border-radius: 5px;
-}
-
-/*sub menu*/
-.dp-menu ul ul {
-    display: none;
-    left: 0;
+.navbar ul li ul {
     position: absolute;
+    left: 0;
+    width: 200px;
+    background: green;
+    display: none;
+    border: solid 1px white;
 }
 
-.dp-menu ul li:hover ul {
-    display: block;
-    z-index: 2;
-    background-color: #51644d;
-    border-bottom: 5px solid white;
+.navbar ul li ul li ul {
+    left: 200px;
+    top: 0;
 }
 
-.dp-menu ul ul {
-    width: 150px;
-}
+.navbar ul li:focus-within > ul,
+.navbar ul li:hover > ul{
+    display: initial;
 
-
-.dp-menu li.hover-me ul {
-  display: none;
-}
-
-.dp-menu li.hover-me:hover ul {
-  display: block;
-  top: 30px;
 }
 
 .col-100 {
     width: 100%;
     float: left;
     position: relative;
+    background-color: #2b3e2a;
 }
 
 
@@ -4182,12 +4160,14 @@ body, html {
     .menu-1 ul li a{
     color: #f2f2f2;
     text-decoration: none;
-    font-size: 40px;
+    font-size: 46px;
     font-weight: 700;
-    padding: 15px 15px;
+    padding: 5px 5px;
     border-radius: 5px;
     letter-spacing: 1px;
     transition: all 0.3s ease;
+    position: relative;
+    top: 30%;
     }
     
     .menu-1 ul li a.active,
@@ -4217,96 +4197,54 @@ body, html {
       width: 70%;
      }
      
-     
-     .header-2 {
-     background-color: #2b3e2a;
-     width: 100%;
-     height: 100%;
-     margin: 0 auto;
-     padding: 16px;
-     align-items: center;
-     }
-     
      .menu-urls {
      height: 171px;
      margin-bottom: 15px;
      }
 
-     /* DP Menu */
+     /* Menu DropDown */
 
-.dp-menu {
-    position: relative;
-    text-align: center;
-    top: 20%;
-    margin: 0 auto;
-    }
-    
-    .dp-menu ul {
-        background-color: #2b3e2a;
-        width: 100%;
-        list-style-type: none;
-        position: relative;
-        left: -51.5%;
-        margin-top: -20px;
-        padding: 10px;
-    }
-    
-    .dp-menu ul li {
-        display: block;
-        position: relative;
-        border: solid white;
-    }
-    
-    .dp-menu ul li a {
-        color: var(--cor-primaria);
-        font-size: 38px;
-        text-decoration: none;
-        display: inline-block;
-        padding: 35px 600px;
-        transition: background .3s;
-    }
-    
-    .dp-menu ul li a:hover {
-        background-color: #ee7601;
-        border-radius: 5px;
-        width: 100%;
-        padding: 35px;
-    }
-    
-    /*sub menu*/
-    .dp-menu ul ul {
-        display: none;
-        left: 0;
+     .navbar {
         position: absolute;
-    }
-    
-    .dp-menu ul li:hover ul {
-        display: block;
-        z-index: 2;
-        background-color: #51644d;
-        border-bottom: 5px solid white;
-    }
-    
-    .dp-menu ul ul {
-        width: 150px;
-    }
-    
-    
-    .dp-menu li.hover-me ul {
-      display: none;
-    }
-    
-    .dp-menu li.hover-me:hover ul {
-      display: block;
-      top: 30px;
-    }
-    
-    
-    
+        top: 4%; left: 0; right: 0;
+        background: #2b3e2a;
+        border-top: 1px solid rgba(0, 0, 0,.1);
+     }
+
+     .navbar ul li {
+        width: 100%;
+        position: relative;
+        left: 0%;
+     }
+
+     .navbar ul li a {
+        font-size: 40px;
+        text-decoration: none;
+        border: solid 1px #fff;
+     }
+
+     .navbar ul li ul {
+        position: relative;
+        width: 100%;
+     }
+
+     .navbar ul li ul li {
+        background: #2b3e2a;
+        position: relative;
+        left: auto;
+     }
+
+     .navbar ul li ul li ul {
+        width: 100%;
+        left: 0;
+
+     }
+
     .col-100 {
-        width: 153%;
+        width: 100%;
         float: left;
         position: relative;
+        background-color: #2b3e2a;
     }
 
     /* Contador regressivo */
