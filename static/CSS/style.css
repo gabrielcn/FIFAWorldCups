@@ -4264,19 +4264,26 @@ body, html {
 .background-contador {
     position: relative;
     background-image: url("https://img.freepik.com/premium-vector/world-cup-2022-qatar-background_342897-24.jpg?w=2000");
-    top: 37%;
+    top: 17%;
+    opacity: 0.8;
 }    
 
 .h1-titulo {
-    font-weight: 900;
-    font-size: 300%;
-    opacity: 0.8;
     color: #fff;
     position: relative;
-    left: 0;
     text-align: center;
+    left: 0;
     top: 30%;
     font-family:'Times New Roman', Times, serif;
+    background-color: #7d1143;
+}
+
+.background-contador h1 {
+    font-weight: 900;
+    font-size: 600%;
+    text-align: center;
+    color: #e7ead9;
+    margin: 5px;
 }
 
 .titulo-proxima-copa {
@@ -4325,7 +4332,8 @@ body, html {
     position: relative;
     display: flex;
     bottom: 0em;
-    left: 0;
+    margin: 20px;
+    left: -2%;
     justify-content: center;
     align-items: center;
     border-radius: 8%;
