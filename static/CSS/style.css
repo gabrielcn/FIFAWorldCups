@@ -4264,7 +4264,7 @@ body, html {
 .background-contador {
     position: relative;
     background-image: url("https://img.freepik.com/premium-vector/world-cup-2022-qatar-background_342897-24.jpg?w=2000");
-    top: 17%;
+    top: 37%;
 }    
 
 .h1-titulo {
@@ -4275,7 +4275,7 @@ body, html {
     position: relative;
     left: 0;
     text-align: center;
-    top: 16%;
+    top: 30%;
     font-family:'Times New Roman', Times, serif;
 }
 
@@ -4370,7 +4370,7 @@ body, html {
     position: relative;
     width: 99.5%;
     left: -25.2%;
-    top: 30%;
+    top: 50%;
 }
 
 .img-slider .slide {
