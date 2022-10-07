@@ -171,6 +171,20 @@ margin-bottom: 15px;
     background-color: #2b3e2a;
 }
 
+/* Titulo timeline */
+
+@media screen and (min-device-width: 600px) {
+
+.titulo-timeline {
+display: none;
+}
+
+.titulo-timeline h1 {
+display: none;
+}
+
+}
+
 
 @import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
 
@@ -4373,6 +4387,28 @@ body, html {
     }
 }
 
+/* Titulo timeline */
+
+.titulo-timeline {
+    position: relative;
+    top: 40%;
+    height: 10%;
+    background-color: #2b3e2a;
+    opacity: 0.8;
+    width: 90%;
+    left: 5%;
+    border-radius: 50%;
+}
+
+.titulo-timeline h1 {
+    text-align: center;
+    position: relative;
+    top: 30%;
+    color: #fff;
+    font-weight: 900;
+    font-size: 300%;
+}
+
 
 /* Carrossel */
  
@@ -4380,7 +4416,7 @@ body, html {
     position: relative;
     width: 99.5%;
     left: -25.2%;
-    top: 50%;
+    top: 40%;
 }
 
 .img-slider .slide {
@@ -4414,7 +4450,7 @@ body, html {
 
 .img-slider .info {
     position: absolute;
-    top: 360px;
+    top: 200px;
     bottom: -160px;
     padding-top: 20px;
     height: 150px;
@@ -4442,8 +4478,9 @@ padding: 4px;
 }
 
 .item {
-margin-top: -154px;
+margin-top: -190px;
 margin-left: 390px;
+display: none;
 }
 
 .material-symbols-outlined {
@@ -4458,18 +4495,18 @@ color: #ee7601;
     color: #ee7601;
     padding: 15px;
     border-radius: 4px;
-    margin-top: 150px;
+    margin-top: 130px;
     text-align: center;
-    margin-left: -1530px;
+    margin-left: -1180px;
 }
 
 .p1 {
-    font: bold 2.4em arial;
+    font: bold 2.8em arial;
     color: #fff;
     padding: 15px;
     width: 100%;
-    margin-top: -20px;
-    margin-left: -332px;
+    margin-top: -25px;
+    margin-left: -338px;
 }
 
 .h3-2 {
@@ -4477,18 +4514,18 @@ color: #ee7601;
     color: #ee7601;
     padding: 15px;
     border-radius: 4px;
-    margin-top: 150px;
+    margin-top: 130px;
     text-align: center;
-    margin-left: -1530px;
+    margin-left: -1090px;
 }
 
 .p2 {
-    font: bold 2.4em arial;
+    font: bold 2.8em arial;
     color: #fff;
     padding: 15px;
     width: 100%;
-    margin-top: -20px;
-    margin-left: -332px;
+    margin-top: -25px;
+    margin-left: -338px;
 }
 
 .h3-3 {
@@ -4496,13 +4533,13 @@ color: #ee7601;
     color: #ee7601;
     padding: 15px;
     border-radius: 4px;
-    margin-top: 150px;
+    margin-top: 130px;
     text-align: center;
-    margin-left: -1530px;
+    margin-left: -990px;
 }
 
 .p3 {
-    font: bold 2.4em arial;
+    font: bold 2.8em arial;
     color: #fff;
     padding: 15px;
     width: 100%;
@@ -4515,13 +4552,13 @@ color: #ee7601;
     color: #ee7601;
     padding: 15px;
     border-radius: 4px;
-    margin-top: 150px;
+    margin-top: 130px;
     text-align: center;
-    margin-left: -1530px;
+    margin-left: -980px;
 }
 
 .p4 {
-    font: bold 2.4em arial;
+    font: bold 2.8em arial;
     color: #fff;
     padding: 15px;
     width: 100%;
@@ -4534,13 +4571,13 @@ color: #ee7601;
     color: #ee7601;
     padding: 15px;
     border-radius: 4px;
-    margin-top: 150px;
+    margin-top: 130px;
     text-align: center;
-    margin-left: -1530px;
+    margin-left: -1030px;
 }
 
 .p5 {
-    font: bold 2.4em arial;
+    font: bold 2.8em arial;
     color: #fff;
     padding: 15px;
     width: 100%;
@@ -4553,13 +4590,13 @@ color: #ee7601;
     color: #ee7601;
     padding: 15px;
     border-radius: 4px;
-    margin-top: 150px;
+    margin-top: 130px;
     text-align: center;
-    margin-left: -1530px;
+    margin-left: -1230px;
 }
 
 .p6 {
-    font: bold 2.4em arial;
+    font: bold 2.8em arial;
     color: #fff;
     padding: 15px;
     width: 100%;
@@ -4572,13 +4609,13 @@ color: #ee7601;
     color: #ee7601;
     padding: 15px;
     border-radius: 4px;
-    margin-top: 150px;
+    margin-top: 130px;
     text-align: center;
-    margin-left: -1530px;
+    margin-left: -990px;
 }
 
 .p7 {
-    font: bold 2.4em arial;
+    font: bold 2.8em arial;
     color: #fff;
     padding: 15px;
     width: 100%;
@@ -4591,13 +4628,13 @@ color: #ee7601;
     color: #ee7601;
     padding: 15px;
     border-radius: 4px;
-    margin-top: 150px;
+    margin-top: 130px;
     text-align: center;
-    margin-left: -1530px;
+    margin-left: -890px;
 }
 
 .p8 {
-    font: bold 2.4em arial;
+    font: bold 2.8em arial;
     color: #fff;
     padding: 15px;
     width: 100%;
@@ -4844,17 +4881,18 @@ color: #ee7601;
     z-index: 1;
     position: absolute;
     display: flex;
-    top: 600px;
+    top: 422px;
     left: 50%;
+    width: 100%;
     transform: translateX(-50%);
 }
 
 .img-slider .navigation .btn {
     background: rgba(255, 255, 255, 0.5);
-    width: 28px;
-    height: 28px;
+    width: 20px;
+    height: 20px;
     margin: 15px;
-    border-radius: 50%;
+    border-radius: 100%;
     cursor: pointer;
 }
 
