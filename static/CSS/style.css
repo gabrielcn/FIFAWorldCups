@@ -4136,6 +4136,15 @@ font-size: 20px;
     text-align: center;
 }
 
+/* Página escalações */
+
+.conteudo-escalacoes {
+    margin-top: 5%;
+    width: 50%;
+    position: relative;
+    left: 25%;
+}
+
 /* Responsividade Media Query */
 
 @media only screen and (max-device-width: 700px) and (max-device-height: 930px) {
@@ -5229,7 +5238,15 @@ color: #ee7601;
 .conteudo-escalacoes {
     margin-top: 15%;
     width: 100%;
+    position: relative;
+    left: 0;
 }
+
+
+.conteudo-escalacoes h1 {
+    font-size: 3.6rem;
+}
+
 
 
 }
