@@ -19,6 +19,10 @@ def galeria():
 def analises():
     return render_template("analises.html")
 
+@app.route("/escalacoes")
+def escalacoes():
+    return render_template("escalacoes.html")
+
 # colocar o site no ar
 if __name__ == "__main__":
     app.run(debug=True) # Todas a ediçoes que for fazendo no código, ele exibe dinamicamente no site, sem precisar debugar
