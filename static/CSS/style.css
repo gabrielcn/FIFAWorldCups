@@ -5224,10 +5224,12 @@ color: #ee7601;
         font-size: 200%;
     }
 
+/* Página Escalações */
 
-
-
-
+.conteudo-escalacoes {
+    margin-top: 15%;
+    width: 100%;
+}
 
 
 }
