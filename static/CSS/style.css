@@ -171,6 +171,84 @@ margin-bottom: 15px;
     background-color: #2b3e2a;
 }
 
+/* Contador regressivo */
+
+.background-contador h1 {
+    font-weight: 900;
+    font-size: 2rem;
+    text-align: center;
+    color: #e7ead9;
+    position: relative;
+    margin: 2px;
+    top: -80px;
+    left: -4.5%;
+}
+
+.titulo-proxima-copa {
+    background-image: url("https://img.freepik.com/premium-vector/world-cup-2022-qatar-background_342897-24.jpg?w=2000");
+    opacity: 0.8;
+    position: relative;
+    height: 180px;
+    top: 90px;
+    margin-left: 310px;
+    margin-right: 425px;
+    border-radius: 8%;
+}
+
+.wrapper {
+    display: flex;
+}
+
+.wrapper div {
+    position: relative;
+    top: -8%;
+}
+
+.count-wrapper {
+    width: 120px;
+    height: 110px;
+    background: #fff;
+    position: relative;
+    display: flex;
+    left: 25%;
+    bottom: 70px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 .6rem;
+    border-radius: 8%;
+    font-weight: 600;
+}
+
+.count-wrapper div {
+    font-weight: 900;
+    font-size: 4rem; 
+    color: #7d1143;
+}
+
+.count-wrapper span {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    padding: .2rem 0;
+    background: #999;
+    border-radius: 10%;
+}
+
+.alert {
+    animation: alert 1s linear infinite alternate;
+}
+
+@keyframes alert {
+    0%{
+        background: #112;
+    }
+    100%{
+        background: #7d1143;
+    }
+}
+
 /* Titulo timeline */
 
 @media screen and (min-device-width: 600px) {
@@ -185,6 +263,34 @@ display: none;
 
 }
 
+.melhor-copa {
+    background-color: #F5F5DC;
+    width: 60%;
+    height: 550px;
+    text-align: center;
+    position: relative;
+    top: 60px;
+    left: 240px;
+    border-radius: 10%;
+    margin-top: 40px;
+}
+
+.melhor-copa p {
+   font-size: 35px;
+   font-weight: 900;
+   color: #2b3e2a;
+   position: relative;
+   top: 15px;
+   margin-bottom: -30px;
+}
+
+video {
+    width: 70%;
+    border-radius: 10%;
+    position: relative;
+    top: 90px;
+}
+
 
 @import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
 
@@ -193,7 +299,7 @@ display: none;
     width: 800px;
     height: 100px;
     margin-left: 250px;
-    margin-top: 90px;
+    margin-top: 190px;
 }
 
 .img-slider .slide {
@@ -690,84 +796,6 @@ color: #ee7601;
 
 .margem-0 {
     margin-top: -120px;
-}
-
-/* Contador regressivo */
-
-.background-contador h1 {
-    font-weight: 900;
-    font-size: 2rem;
-    text-align: center;
-    color: #e7ead9;
-    position: relative;
-    margin: 2px;
-    top: -80px;
-    left: -4.5%;
-}
-
-.titulo-proxima-copa {
-    background-image: url("https://img.freepik.com/premium-vector/world-cup-2022-qatar-background_342897-24.jpg?w=2000");
-    opacity: 0.8;
-    position: relative;
-    height: 180px;
-    top: 90px;
-    margin-left: 310px;
-    margin-right: 425px;
-    border-radius: 8%;
-}
-
-.wrapper {
-    display: flex;
-}
-
-.wrapper div {
-    position: relative;
-    top: -8%;
-}
-
-.count-wrapper {
-    width: 120px;
-    height: 110px;
-    background: #fff;
-    position: relative;
-    display: flex;
-    left: 25%;
-    bottom: 70px;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    margin: 0 .6rem;
-    border-radius: 8%;
-    font-weight: 600;
-}
-
-.count-wrapper div {
-    font-weight: 900;
-    font-size: 4rem; 
-    color: #7d1143;
-}
-
-.count-wrapper span {
-    width: 100%;
-    position: absolute;
-    bottom: 0;
-    text-align: center;
-    padding: .2rem 0;
-    background: #999;
-    border-radius: 10%;
-}
-
-.alert {
-    animation: alert 1s linear infinite alternate;
-}
-
-@keyframes alert {
-    0%{
-        background: #112;
-    }
-    100%{
-        background: #7d1143;
-    }
 }
 
 .conteudo {
@@ -4405,7 +4433,7 @@ body, html {
 
 .titulo-timeline {
     position: relative;
-    top: 40%;
+    top: 45%;
     height: 10%;
     background-color: #2b3e2a;
     opacity: 0.8;
@@ -4421,6 +4449,34 @@ body, html {
     color: #fff;
     font-weight: 900;
     font-size: 300%;
+}
+
+.melhor-copa {
+    background-color: #F5F5DC;
+    width: 90%;
+    height: 45%;
+    text-align: center;
+    position: relative;
+    top: 35%;
+    left: 5%;
+    border-radius: 10%;
+    margin-top: 5%;
+}
+
+.melhor-copa p {
+    font-size: 3rem;
+    font-weight: 900;
+    color: #2b3e2a;
+    position: relative;
+    top: 15px;
+    margin-bottom: -5%;
+}
+
+video {
+    width: 95%;
+    border-radius: 10%;
+    position: relative;
+    top: 90px;
 }
 
 
