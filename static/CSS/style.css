@@ -13,7 +13,7 @@ body {
 width: 100%;
 height: 100%;
 margin: 0 auto;
-background-image: url("/static/IMG/grama.jpg");
+background-image: url("/static/IMG/back2.jpg");
 overflow-x: hidden;
 }
 
@@ -4181,7 +4181,7 @@ body, html {
     width: 100%;
     height: 100%;
     margin: 0 auto;
-    background-image: url("/static/IMG/grama.jpg");
+    background-image: url("/static/IMG/back2.jpg");
     overflow-x: hidden!important;
 }
 
@@ -4484,8 +4484,8 @@ video {
  
 .img-slider {
     position: relative;
-    width: 99.5%;
-    left: -25.2%;
+    width: 90%;
+    left: -20%;
     top: 40%;
 }
 
@@ -4964,18 +4964,21 @@ color: #ee7601;
     margin: 15px;
     border-radius: 100%;
     cursor: pointer;
+    display: none;
 }
 
 .img-slider .navigation .btn.active {
     background: #ee7601;
     box-shadow: 0 0 2px rgba(0,0,0,0.5);
+    display: none;
 }
 
 .sombra1 {
     background: #000;
     opacity: 0.8;
-    height: 220px;
-    margin-top: -224.6px;
+    width: 100%;
+    height: 170px;
+    margin-top: -174.6px;
     }
 
 
@@ -5306,9 +5309,6 @@ color: #ee7601;
 
 
 }
-
-
-
 
 /*
 
