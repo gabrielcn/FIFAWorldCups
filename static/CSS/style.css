@@ -4135,8 +4135,8 @@ font-size: 20px;
     background-color: #F5F5DC;
     position: relative;
     top: 150px;
-    margin-left: 220px;
-    margin-right: 220px;
+    margin-left: 150px;
+    margin-right: 150px;
 }
 
 .titulo-analises {
@@ -4161,6 +4161,7 @@ font-size: 20px;
 .analise-brasil-pbi {
     position: relative;
     text-align: center;
+    left: 0;
 }
 
 /* Página escalações */
@@ -5296,6 +5297,45 @@ color: #ee7601;
 
 .conteudo-escalacoes h1 {
     font-size: 3.6rem;
+}
+
+/* Page Analises */
+
+.conteudo-analises {
+    background-color: #F5F5DC;
+    position: relative;
+    top: 150px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.titulo-analises {
+    background-color: #2b3e2a;
+    border-radius: 8%;
+    margin-left: 220px;
+    margin-right: 220px;
+    padding: 5px;
+    position: relative;
+    top: 20px;
+    height: 80px;
+    opacity: 0.8;
+}
+
+.titulo-analises h1 {
+    text-align: center;
+    color: #fff;
+    position: relative;
+    top: 20%;
+}
+
+.analise-brasil-pbi {
+    position: relative;
+    text-align: center;
+    left: -25%;
+}
+
+.flourish-embed flourish-bar-chart-race {
+    height: 100%;
 }
 
 
