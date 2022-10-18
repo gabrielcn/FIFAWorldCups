@@ -11,10 +11,6 @@ app = Flask(__name__)
 def homepage():
     return render_template("homepage.html")
 
-@app.route("/galeria")
-def galeria():
-    return render_template("galeria.html")
-
 @app.route("/analises")
 def analises():
     return render_template("analises.html")
