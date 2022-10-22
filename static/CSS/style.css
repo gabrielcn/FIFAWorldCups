@@ -73,14 +73,16 @@ list-style: none;
 
 .menu-1 ul li{
 margin: 0 5px;
-margin-top: -30px;
+margin-top: -3px;
+position: relative;
+right: 280%;
 }
 
 .menu-1 ul li a{
 color: #f2f2f2;
-text-decoration: none;
-font-size: 18px;
-font-weight: 500;
+text-decoration: none;  
+font-size: 20px;
+font-weight: 700;
 padding: 8px 15px;
 border-radius: 5px;
 letter-spacing: 1px;
@@ -314,7 +316,7 @@ video {
 
 .background-carrossel {
     background-color: #F5F5DC;
-    width: 60%;
+    width: 65%;
     height: 500px;
     position: relative;
     left: 17%;
@@ -338,7 +340,7 @@ video {
     width: 800px;
     height: 100px;
     top: 50px;
-    left: 50px;
+    left: 40px;
 }
 
 .img-slider .slide {
@@ -1043,7 +1045,7 @@ padding: 0.3em 0.5em;
 position: absolute;
 float: right;
 left: 55%;
-top: 1100%;
+top: 1110%;
 z-index: 2;
 margin-top: 5px;
 }
@@ -1166,7 +1168,7 @@ padding: 0.3em 0.5em;
 position: absolute;
 float: right;
 left: 55%;
-top: 2083%;
+top: 2100%;
 z-index: 2;
 margin-top: 5px;
 }
@@ -1288,7 +1290,7 @@ padding: 0.3em 0.5em;
 position: absolute;
 float: right;
 left: 55%;
-top: 3065%;
+top: 3085%;
 z-index: 2;
 margin-top: 5px;
 }
@@ -1410,7 +1412,7 @@ padding: 0.3em 0.5em;
 position: absolute;
 float: right;
 left: 55%;
-top: 4048%;
+top: 4076%;
 z-index: 2;
 margin-top: 5px;
 }
@@ -1532,7 +1534,7 @@ padding: 0.3em 0.5em;
 position: absolute;
 float: right;
 left: 55%;
-top: 5110%;
+top: 5145%;
 z-index: 2;
 margin-top: 5px;
 }
@@ -1654,7 +1656,7 @@ padding: 0.3em 0.5em;
 position: absolute;
 float: right;
 left: 55%;
-top: 6093%;
+top: 6133%;
 z-index: 2;
 margin-top: 5px;
 }
@@ -1776,7 +1778,7 @@ padding: 0.3em 0.5em;
 position: absolute;
 float: right;
 left: 55%;
-top: 7070%;
+top: 7120%;
 z-index: 2;
 margin-top: 5px;
 }
@@ -1897,7 +1899,7 @@ padding: 0.3em 0.5em;
 position: absolute;
 float: right;
 left: 55%;
-top: 8090%;
+top: 8143%;
 z-index: 2;
 margin-top: 5px;
 }
@@ -2020,7 +2022,7 @@ padding: 0.3em 0.5em;
 position: absolute;
 float: right;
 left: 55%;
-top: 9072%;
+top: 9128%;
 z-index: 2;
 margin-top: 5px;
 }
@@ -2142,7 +2144,7 @@ padding: 0.3em 0.5em;
 position: absolute;
 float: right;
 left: 55%;
-top: 10050%;
+top: 10120%;
 z-index: 2;
 margin-top: 5px;
 }
@@ -2264,7 +2266,7 @@ padding: 0.3em 0.5em;
 position: absolute;
 float: right;
 left: 55%;
-top: 11037%;
+top: 11110%;
 z-index: 2;
 margin-top: 5px;
 }
@@ -2386,7 +2388,7 @@ padding: 0.3em 0.5em;
 position: absolute;
 float: right;
 left: 55%;
-top: 12060%;
+top: 12138%;
 z-index: 2;
 margin-top: 5px;
 }
@@ -2508,7 +2510,7 @@ padding: 0.3em 0.5em;
 position: absolute;
 float: right;
 left: 55%;
-top: 13040%;
+top: 13124%;
 z-index: 2;
 margin-top: 5px;
 }
@@ -2629,7 +2631,7 @@ padding: 0.3em 0.5em;
 position: absolute;
 float: right;
 left: 55%;
-top: 14040%;
+top: 14132%;
 z-index: 2;
 margin-top: 5px;
 }
@@ -2752,7 +2754,7 @@ padding: 0.3em 0.5em;
 position: absolute;
 float: right;
 left: 55%;
-top: 15043%;
+top: 15140%;
 z-index: 2;
 margin-top: 5px;
 }
@@ -2874,7 +2876,7 @@ padding: 0.3em 0.5em;
 position: absolute;
 float: right;
 left: 55%;
-top: 16045%;
+top: 16148%;
 z-index: 2;
 margin-top: 5px;
 }
@@ -2996,7 +2998,7 @@ padding: 0.3em 0.5em;
 position: absolute;
 float: right;
 left: 55%;
-top: 17050%;
+top: 17155%;
 z-index: 2;
 margin-top: 5px;
 }
@@ -3125,7 +3127,7 @@ margin-bottom: 20px;
     position: absolute;
     float: right;
     left: 55%;
-    top: 18036%;
+    top: 18148%;
     z-index: 2;
     margin-top: 5px;
 }
@@ -3248,7 +3250,7 @@ margin-bottom: 20px;
     position: absolute;
     float: right;
     left: 55%;
-    top: 19040%;
+    top: 19158%;
     z-index: 2;
     margin-top: 5px;
     }
@@ -3371,7 +3373,7 @@ margin-bottom: 20px;
     position: absolute;
     float: right;
     left: 55%;
-    top: 20075%;
+    top: 20200%;
     z-index: 2;
     margin-top: 5px;
     }
@@ -3444,7 +3446,7 @@ margin-bottom: 20px;
 .hr-1 {
 height: 20px;
 position: relative;
-top: 11420px;
+top: 21420px;
 border: solid white 0px;
 background-image: url("/static/IMG/grama.jpg");
 }
@@ -3456,7 +3458,7 @@ background-image: url("/static/IMG/grama.jpg");
 background-color: #2b3e2a;
 width: 100%;
 position: relative;
-top: 11000px;
+top: 21000px;
 height: 50px;
 }
 
@@ -3475,7 +3477,7 @@ background: #e7ead9;
 padding: 5px;
 width: 50%;
 position: relative;
-top: 10900px;
+top: 20900px;
 }
 
 .classificacao-1930 ol li {
@@ -4108,7 +4110,7 @@ border-radius: 5%;
 
 
 .Brasil-1930 {
-margin-top: 10400px;
+margin-top: 20400px;
 align-items: center;
 left: 17%;
 position: relative;
@@ -4255,6 +4257,9 @@ body, html {
     .menu-1 ul li{
     margin: 0 20px;
     margin-top: -80px;
+    position: relative;
+    left: 0;
+    right: 0;
     }
     
     .menu-1 ul li a{
@@ -4475,7 +4480,7 @@ body, html {
 .melhor-copa {
     background-color: #F5F5DC;
     width: 90%;
-    height: 45%;
+    height: 50%;
     text-align: center;
     position: relative;
     top: 35%;
@@ -5994,14 +5999,1923 @@ color: #ee7601;
     margin-bottom: 5%;
     }
 
+    /* 1966 */
 
+.conteudo .Copa .titulo-copa-1966 h3 {
+    position: relative;
+    left: 18%;
+    font-size: 400%;
+    margin: 20px;
+    }
+    
+    .cabecalho-ficha-1966 h2 {
+        background: #2b3e2a;
+        color: #fff;
+        font-size: 400%;
+        padding: 0.3em 0.5em;
+        position: absolute;
+        float: left;
+        left: 33%;
+        z-index: 2;
+        margin-top: 5px;
+    }
+    
+    
+    .imagem-ficha-1966 {
+    position: relative;
+    left: 18%;
+    z-index: 1;
+    margin-top: 5px;
+    }
+    
+    .Copa .texto-ficha-1966 h3 {
+    position: relative;
+    color: #2b3e2a;
+    margin-top: 29%;
+    left: 12%;
+    font-size: 350%;
+    word-spacing: -5px;
+    }
+    
+    .Copa .texto-ficha-1966 dl {
+    position: relative;
+    font-size: 250%;
+    top: -295%;
+    left: 14%;
+    }
 
+    .cabecalho-curiosidade-1966 h2 {
+        background: #2b3e2a;
+        color: #fff;
+        padding: 0.3em 0.5em;
+        position: absolute;
+        float: right;
+        left: 55%;
+        top: 190%;
+        z-index: 2;
+        margin-top: 5px;
+        display: none;
+        }
+        
+        
+        .Copa .conteudo-curiosidade-1966 {
+        position: relative;
+        left: 55%;
+        top: -580%;
+        z-index: 2;
+        display: none;
+        }
+        
+        .Copa .texto-curiosidade-1966 h3 {
+        position: relative;
+        color: #2b3e2a;
+        margin: 4px;
+        left: -2%;
+        display: none;
+        }
+        
+        .Copa .texto-curiosidade-1966 {
+        position: relative;
+        top: -810%;
+        left: 65%;
+        display: none;
+        }
+        
+        .Copa .cabecalho-numeros-1966 h2 {
+        background: #2b3e2a;
+        color: #fff;
+        padding: 0.3em 0.5em;
+        position: absolute;
+        float: right;
+        left: 36%;
+        top: 525%;
+        z-index: 2;
+        margin-top: 5px;
+        display: none;
+        }
+        
+        .Copa .conteudo-numeros-1966 ul li .numero {
+        width: 70px;
+        padding: 25px 0;
+        background-image: url("/static/IMG/bg_mod_numeros.jpg");
+        font: bold 26px arial;
+        color: #fff;
+        text-align: center;
+        float: left;
+        position: absolute;
+        top: 660%;
+        left: 36%;
+        display: none;
+        }
+        
+        .Copa .conteudo-numeros-1966 ul li h3 {
+        color: #ee591f;
+        position: absolute;
+        top: 620%;
+        left: 43%;
+        display: none;
+        }
+        
+        .Copa .conteudo-numeros-1966 ul li h4 {
+        position: absolute;
+        top: 700%;
+        left: 44.5%;
+        display: none;
+        }
+        
+        .Copa .conteudo-numeros-1966 ul li .chamada {
+        position: absolute;
+        top: 740%;
+        left: 44.5%;
+        display: none;
+        }
 
+ /* margem 8 */
+.margem-8 {
+    margin-top: -35%;
+    margin-bottom: 5%;
+    }
 
+    /* 1970 */
 
+.conteudo .Copa .titulo-copa-1970 h3 {
+    position: relative;
+    left: 18%;
+    font-size: 400%;
+    margin: 20px;
+    }
+    
+    .cabecalho-ficha-1970 h2 {
+        background: #2b3e2a;
+        color: #fff;
+        font-size: 400%;
+        padding: 0.3em 0.5em;
+        position: absolute;
+        float: left;
+        left: 33%;
+        z-index: 2;
+        margin-top: 5px;
+    }
+    
+    
+    .imagem-ficha-1970 {
+    position: relative;
+    left: 18%;
+    z-index: 1;
+    margin-top: 5px;
+    }
+    
+    .Copa .texto-ficha-1970 h3 {
+    position: relative;
+    color: #2b3e2a;
+    margin-top: 29%;
+    left: 12%;
+    font-size: 350%;
+    word-spacing: -5px;
+    }
+    
+    .Copa .texto-ficha-1970 dl {
+    position: relative;
+    font-size: 250%;
+    top: -295%;
+    left: 14%;
+    }
 
+    .cabecalho-curiosidade-1970 h2 {
+        background: #2b3e2a;
+        color: #fff;
+        padding: 0.3em 0.5em;
+        position: absolute;
+        float: right;
+        left: 55%;
+        top: 190%;
+        z-index: 2;
+        margin-top: 5px;
+        display: none;
+        }
+        
+        
+        .Copa .conteudo-curiosidade-1970 {
+        position: relative;
+        left: 55%;
+        top: -580%;
+        z-index: 2;
+        display: none;
+        }
+        
+        .Copa .texto-curiosidade-1970 h3 {
+        position: relative;
+        color: #2b3e2a;
+        margin: 4px;
+        left: -2%;
+        display: none;
+        }
+        
+        .Copa .texto-curiosidade-1970 {
+        position: relative;
+        top: -810%;
+        left: 65%;
+        display: none;
+        }
+        
+        .Copa .cabecalho-numeros-1970 h2 {
+        background: #2b3e2a;
+        color: #fff;
+        padding: 0.3em 0.5em;
+        position: absolute;
+        float: right;
+        left: 36%;
+        top: 525%;
+        z-index: 2;
+        margin-top: 5px;
+        display: none;
+        }
+        
+        .Copa .conteudo-numeros-1970 ul li .numero {
+        width: 70px;
+        padding: 25px 0;
+        background-image: url("/static/IMG/bg_mod_numeros.jpg");
+        font: bold 26px arial;
+        color: #fff;
+        text-align: center;
+        float: left;
+        position: absolute;
+        top: 660%;
+        left: 36%;
+        display: none;
+        }
+        
+        .Copa .conteudo-numeros-1970 ul li h3 {
+        color: #ee591f;
+        position: absolute;
+        top: 620%;
+        left: 43%;
+        display: none;
+        }
+        
+        .Copa .conteudo-numeros-1970 ul li h4 {
+        position: absolute;
+        top: 700%;
+        left: 44.5%;
+        display: none;
+        }
+        
+        .Copa .conteudo-numeros-1970 ul li .chamada {
+        position: absolute;
+        top: 740%;
+        left: 44.5%;
+        display: none;
+        }
 
+ /* margem 9 */
+.margem-9 {
+    margin-top: -35%;
+    margin-bottom: 5%;
+    }
 
+    /* 1974 */
+
+.conteudo .Copa .titulo-copa-1974 h3 {
+    position: relative;
+    left: 18%;
+    font-size: 400%;
+    margin: 20px;
+    }
+    
+    .cabecalho-ficha-1974 h2 {
+        background: #2b3e2a;
+        color: #fff;
+        font-size: 400%;
+        padding: 0.3em 0.5em;
+        position: absolute;
+        float: left;
+        left: 33%;
+        z-index: 2;
+        margin-top: 5px;
+    }
+    
+    
+    .imagem-ficha-1974 {
+    position: relative;
+    left: 18%;
+    z-index: 1;
+    margin-top: 5px;
+    }
+    
+    .Copa .texto-ficha-1974 h3 {
+    position: relative;
+    color: #2b3e2a;
+    margin-top: 29%;
+    left: 12%;
+    font-size: 350%;
+    word-spacing: -5px;
+    }
+    
+    .Copa .texto-ficha-1974 dl {
+    position: relative;
+    font-size: 250%;
+    top: -295%;
+    left: 14%;
+    }
+
+    .cabecalho-curiosidade-1974 h2 {
+        background: #2b3e2a;
+        color: #fff;
+        padding: 0.3em 0.5em;
+        position: absolute;
+        float: right;
+        left: 55%;
+        top: 190%;
+        z-index: 2;
+        margin-top: 5px;
+        display: none;
+        }
+        
+        
+        .Copa .conteudo-curiosidade-1974 {
+        position: relative;
+        left: 55%;
+        top: -580%;
+        z-index: 2;
+        display: none;
+        }
+        
+        .Copa .texto-curiosidade-1974 h3 {
+        position: relative;
+        color: #2b3e2a;
+        margin: 4px;
+        left: -2%;
+        display: none;
+        }
+        
+        .Copa .texto-curiosidade-1974 {
+        position: relative;
+        top: -810%;
+        left: 65%;
+        display: none;
+        }
+        
+        .Copa .cabecalho-numeros-1974 h2 {
+        background: #2b3e2a;
+        color: #fff;
+        padding: 0.3em 0.5em;
+        position: absolute;
+        float: right;
+        left: 36%;
+        top: 525%;
+        z-index: 2;
+        margin-top: 5px;
+        display: none;
+        }
+        
+        .Copa .conteudo-numeros-1974 ul li .numero {
+        width: 70px;
+        padding: 25px 0;
+        background-image: url("/static/IMG/bg_mod_numeros.jpg");
+        font: bold 26px arial;
+        color: #fff;
+        text-align: center;
+        float: left;
+        position: absolute;
+        top: 660%;
+        left: 36%;
+        display: none;
+        }
+        
+        .Copa .conteudo-numeros-1974 ul li h3 {
+        color: #ee591f;
+        position: absolute;
+        top: 620%;
+        left: 43%;
+        display: none;
+        }
+        
+        .Copa .conteudo-numeros-1974 ul li h4 {
+        position: absolute;
+        top: 700%;
+        left: 44.5%;
+        display: none;
+        }
+        
+        .Copa .conteudo-numeros-1974 ul li .chamada {
+        position: absolute;
+        top: 740%;
+        left: 44.5%;
+        display: none;
+        }
+
+ /* margem 10 */
+.margem-10 {
+    margin-top: -35%;
+    margin-bottom: 5%;
+    }
+
+    /* 1978 */
+
+.conteudo .Copa .titulo-copa-1978 h3 {
+    position: relative;
+    left: 18%;
+    font-size: 400%;
+    margin: 20px;
+    }
+    
+    .cabecalho-ficha-1978 h2 {
+        background: #2b3e2a;
+        color: #fff;
+        font-size: 400%;
+        padding: 0.3em 0.5em;
+        position: absolute;
+        float: left;
+        left: 33%;
+        z-index: 2;
+        margin-top: 5px;
+    }
+    
+    
+    .imagem-ficha-1978 {
+    position: relative;
+    left: 18%;
+    z-index: 1;
+    margin-top: 5px;
+    }
+    
+    .Copa .texto-ficha-1978 h3 {
+    position: relative;
+    color: #2b3e2a;
+    margin-top: 29%;
+    left: 12%;
+    font-size: 350%;
+    word-spacing: -5px;
+    }
+    
+    .Copa .texto-ficha-1978 dl {
+    position: relative;
+    font-size: 250%;
+    top: -295%;
+    left: 14%;
+    }
+
+    .cabecalho-curiosidade-1978 h2 {
+        background: #2b3e2a;
+        color: #fff;
+        padding: 0.3em 0.5em;
+        position: absolute;
+        float: right;
+        left: 55%;
+        top: 190%;
+        z-index: 2;
+        margin-top: 5px;
+        display: none;
+        }
+        
+        
+        .Copa .conteudo-curiosidade-1978 {
+        position: relative;
+        left: 55%;
+        top: -580%;
+        z-index: 2;
+        display: none;
+        }
+        
+        .Copa .texto-curiosidade-1978 h3 {
+        position: relative;
+        color: #2b3e2a;
+        margin: 4px;
+        left: -2%;
+        display: none;
+        }
+        
+        .Copa .texto-curiosidade-1978 {
+        position: relative;
+        top: -810%;
+        left: 65%;
+        display: none;
+        }
+        
+        .Copa .cabecalho-numeros-1978 h2 {
+        background: #2b3e2a;
+        color: #fff;
+        padding: 0.3em 0.5em;
+        position: absolute;
+        float: right;
+        left: 36%;
+        top: 525%;
+        z-index: 2;
+        margin-top: 5px;
+        display: none;
+        }
+        
+        .Copa .conteudo-numeros-1978 ul li .numero {
+        width: 70px;
+        padding: 25px 0;
+        background-image: url("/static/IMG/bg_mod_numeros.jpg");
+        font: bold 26px arial;
+        color: #fff;
+        text-align: center;
+        float: left;
+        position: absolute;
+        top: 660%;
+        left: 36%;
+        display: none;
+        }
+        
+        .Copa .conteudo-numeros-1978 ul li h3 {
+        color: #ee591f;
+        position: absolute;
+        top: 620%;
+        left: 43%;
+        display: none;
+        }
+        
+        .Copa .conteudo-numeros-1978 ul li h4 {
+        position: absolute;
+        top: 700%;
+        left: 44.5%;
+        display: none;
+        }
+        
+        .Copa .conteudo-numeros-1978 ul li .chamada {
+        position: absolute;
+        top: 740%;
+        left: 44.5%;
+        display: none;
+        }
+
+ /* margem 11 */
+.margem-11 {
+    margin-top: -35%;
+    margin-bottom: 5%;
+    }
+
+    /* 1982 */
+
+.conteudo .Copa .titulo-copa-1982 h3 {
+    position: relative;
+    left: 18%;
+    font-size: 400%;
+    margin: 20px;
+    }
+    
+    .cabecalho-ficha-1982 h2 {
+        background: #2b3e2a;
+        color: #fff;
+        font-size: 400%;
+        padding: 0.3em 0.5em;
+        position: absolute;
+        float: left;
+        left: 33%;
+        z-index: 2;
+        margin-top: 5px;
+    }
+    
+    
+    .imagem-ficha-1982 {
+    position: relative;
+    left: 18%;
+    z-index: 1;
+    margin-top: 5px;
+    }
+    
+    .Copa .texto-ficha-1982 h3 {
+    position: relative;
+    color: #2b3e2a;
+    margin-top: 29%;
+    left: 12%;
+    font-size: 350%;
+    word-spacing: -5px;
+    }
+    
+    .Copa .texto-ficha-1982 dl {
+    position: relative;
+    font-size: 250%;
+    top: -295%;
+    left: 14%;
+    }
+
+    .cabecalho-curiosidade-1982 h2 {
+        background: #2b3e2a;
+        color: #fff;
+        padding: 0.3em 0.5em;
+        position: absolute;
+        float: right;
+        left: 55%;
+        top: 190%;
+        z-index: 2;
+        margin-top: 5px;
+        display: none;
+        }
+        
+        
+        .Copa .conteudo-curiosidade-1982 {
+        position: relative;
+        left: 55%;
+        top: -580%;
+        z-index: 2;
+        display: none;
+        }
+        
+        .Copa .texto-curiosidade-1982 h3 {
+        position: relative;
+        color: #2b3e2a;
+        margin: 4px;
+        left: -2%;
+        display: none;
+        }
+        
+        .Copa .texto-curiosidade-1982 {
+        position: relative;
+        top: -810%;
+        left: 65%;
+        display: none;
+        }
+        
+        .Copa .cabecalho-numeros-1982 h2 {
+        background: #2b3e2a;
+        color: #fff;
+        padding: 0.3em 0.5em;
+        position: absolute;
+        float: right;
+        left: 36%;
+        top: 525%;
+        z-index: 2;
+        margin-top: 5px;
+        display: none;
+        }
+        
+        .Copa .conteudo-numeros-1982 ul li .numero {
+        width: 70px;
+        padding: 25px 0;
+        background-image: url("/static/IMG/bg_mod_numeros.jpg");
+        font: bold 26px arial;
+        color: #fff;
+        text-align: center;
+        float: left;
+        position: absolute;
+        top: 660%;
+        left: 36%;
+        display: none;
+        }
+        
+        .Copa .conteudo-numeros-1982 ul li h3 {
+        color: #ee591f;
+        position: absolute;
+        top: 620%;
+        left: 43%;
+        display: none;
+        }
+        
+        .Copa .conteudo-numeros-1982 ul li h4 {
+        position: absolute;
+        top: 700%;
+        left: 44.5%;
+        display: none;
+        }
+        
+        .Copa .conteudo-numeros-1982 ul li .chamada {
+        position: absolute;
+        top: 740%;
+        left: 44.5%;
+        display: none;
+        }
+
+ /* margem 12 */
+.margem-12 {
+    margin-top: -35%;
+    margin-bottom: 5%;
+    }
+
+    /* 1986 */
+
+.conteudo .Copa .titulo-copa-1986 h3 {
+    position: relative;
+    left: 18%;
+    font-size: 400%;
+    margin: 20px;
+    }
+    
+    .cabecalho-ficha-1986 h2 {
+        background: #2b3e2a;
+        color: #fff;
+        font-size: 400%;
+        padding: 0.3em 0.5em;
+        position: absolute;
+        float: left;
+        left: 33%;
+        z-index: 2;
+        margin-top: 5px;
+    }
+    
+    
+    .imagem-ficha-1986 {
+    position: relative;
+    left: 18%;
+    z-index: 1;
+    margin-top: 5px;
+    }
+    
+    .Copa .texto-ficha-1986 h3 {
+    position: relative;
+    color: #2b3e2a;
+    margin-top: 29%;
+    left: 12%;
+    font-size: 350%;
+    word-spacing: -5px;
+    }
+    
+    .Copa .texto-ficha-1986 dl {
+    position: relative;
+    font-size: 250%;
+    top: -295%;
+    left: 14%;
+    }
+
+    .cabecalho-curiosidade-1986 h2 {
+        background: #2b3e2a;
+        color: #fff;
+        padding: 0.3em 0.5em;
+        position: absolute;
+        float: right;
+        left: 55%;
+        top: 190%;
+        z-index: 2;
+        margin-top: 5px;
+        display: none;
+        }
+        
+        
+        .Copa .conteudo-curiosidade-1986 {
+        position: relative;
+        left: 55%;
+        top: -580%;
+        z-index: 2;
+        display: none;
+        }
+        
+        .Copa .texto-curiosidade-1986 h3 {
+        position: relative;
+        color: #2b3e2a;
+        margin: 4px;
+        left: -2%;
+        display: none;
+        }
+        
+        .Copa .texto-curiosidade-1986 {
+        position: relative;
+        top: -810%;
+        left: 65%;
+        display: none;
+        }
+        
+        .Copa .cabecalho-numeros-1986 h2 {
+        background: #2b3e2a;
+        color: #fff;
+        padding: 0.3em 0.5em;
+        position: absolute;
+        float: right;
+        left: 36%;
+        top: 525%;
+        z-index: 2;
+        margin-top: 5px;
+        display: none;
+        }
+        
+        .Copa .conteudo-numeros-1986 ul li .numero {
+        width: 70px;
+        padding: 25px 0;
+        background-image: url("/static/IMG/bg_mod_numeros.jpg");
+        font: bold 26px arial;
+        color: #fff;
+        text-align: center;
+        float: left;
+        position: absolute;
+        top: 660%;
+        left: 36%;
+        display: none;
+        }
+        
+        .Copa .conteudo-numeros-1986 ul li h3 {
+        color: #ee591f;
+        position: absolute;
+        top: 620%;
+        left: 43%;
+        display: none;
+        }
+        
+        .Copa .conteudo-numeros-1986 ul li h4 {
+        position: absolute;
+        top: 700%;
+        left: 44.5%;
+        display: none;
+        }
+        
+        .Copa .conteudo-numeros-1986 ul li .chamada {
+        position: absolute;
+        top: 740%;
+        left: 44.5%;
+        display: none;
+        }
+
+ /* margem 13 */
+.margem-13 {
+    margin-top: -35%;
+    margin-bottom: 5%;
+    }
+
+    /* 1990 */
+
+.conteudo .Copa .titulo-copa-1990 h3 {
+    position: relative;
+    left: 18%;
+    font-size: 400%;
+    margin: 20px;
+    }
+    
+    .cabecalho-ficha-1990 h2 {
+        background: #2b3e2a;
+        color: #fff;
+        font-size: 400%;
+        padding: 0.3em 0.5em;
+        position: absolute;
+        float: left;
+        left: 33%;
+        z-index: 2;
+        margin-top: 5px;
+    }
+    
+    
+    .imagem-ficha-1990 {
+    position: relative;
+    left: 18%;
+    z-index: 1;
+    margin-top: 5px;
+    }
+    
+    .Copa .texto-ficha-1990 h3 {
+    position: relative;
+    color: #2b3e2a;
+    margin-top: 29%;
+    left: 12%;
+    font-size: 350%;
+    word-spacing: -5px;
+    }
+    
+    .Copa .texto-ficha-1990 dl {
+    position: relative;
+    font-size: 250%;
+    top: -295%;
+    left: 14%;
+    }
+
+    .cabecalho-curiosidade-1990 h2 {
+        background: #2b3e2a;
+        color: #fff;
+        padding: 0.3em 0.5em;
+        position: absolute;
+        float: right;
+        left: 55%;
+        top: 190%;
+        z-index: 2;
+        margin-top: 5px;
+        display: none;
+        }
+        
+        
+        .Copa .conteudo-curiosidade-1990 {
+        position: relative;
+        left: 55%;
+        top: -580%;
+        z-index: 2;
+        display: none;
+        }
+        
+        .Copa .texto-curiosidade-1990 h3 {
+        position: relative;
+        color: #2b3e2a;
+        margin: 4px;
+        left: -2%;
+        display: none;
+        }
+        
+        .Copa .texto-curiosidade-1990 {
+        position: relative;
+        top: -810%;
+        left: 65%;
+        display: none;
+        }
+        
+        .Copa .cabecalho-numeros-1990 h2 {
+        background: #2b3e2a;
+        color: #fff;
+        padding: 0.3em 0.5em;
+        position: absolute;
+        float: right;
+        left: 36%;
+        top: 525%;
+        z-index: 2;
+        margin-top: 5px;
+        display: none;
+        }
+        
+        .Copa .conteudo-numeros-1990 ul li .numero {
+        width: 70px;
+        padding: 25px 0;
+        background-image: url("/static/IMG/bg_mod_numeros.jpg");
+        font: bold 26px arial;
+        color: #fff;
+        text-align: center;
+        float: left;
+        position: absolute;
+        top: 660%;
+        left: 36%;
+        display: none;
+        }
+        
+        .Copa .conteudo-numeros-1990 ul li h3 {
+        color: #ee591f;
+        position: absolute;
+        top: 620%;
+        left: 43%;
+        display: none;
+        }
+        
+        .Copa .conteudo-numeros-1990 ul li h4 {
+        position: absolute;
+        top: 700%;
+        left: 44.5%;
+        display: none;
+        }
+        
+        .Copa .conteudo-numeros-1990 ul li .chamada {
+        position: absolute;
+        top: 740%;
+        left: 44.5%;
+        display: none;
+        }
+
+ /* margem 14 */
+.margem-14 {
+    margin-top: -35%;
+    margin-bottom: 5%;
+    }
+
+    /* 1994 */
+
+.conteudo .Copa .titulo-copa-1994 h3 {
+    position: relative;
+    left: 18%;
+    font-size: 400%;
+    margin: 20px;
+    }
+    
+    .cabecalho-ficha-1994 h2 {
+        background: #2b3e2a;
+        color: #fff;
+        font-size: 400%;
+        padding: 0.3em 0.5em;
+        position: absolute;
+        float: left;
+        left: 33%;
+        z-index: 2;
+        margin-top: 5px;
+    }
+    
+    
+    .imagem-ficha-1994 {
+    position: relative;
+    left: 18%;
+    z-index: 1;
+    margin-top: 5px;
+    }
+    
+    .Copa .texto-ficha-1994 h3 {
+    position: relative;
+    color: #2b3e2a;
+    margin-top: 29%;
+    left: 12%;
+    font-size: 350%;
+    word-spacing: -5px;
+    }
+    
+    .Copa .texto-ficha-1994 dl {
+    position: relative;
+    font-size: 250%;
+    top: -295%;
+    left: 14%;
+    }
+
+    .cabecalho-curiosidade-1994 h2 {
+        background: #2b3e2a;
+        color: #fff;
+        padding: 0.3em 0.5em;
+        position: absolute;
+        float: right;
+        left: 55%;
+        top: 190%;
+        z-index: 2;
+        margin-top: 5px;
+        display: none;
+        }
+        
+        
+        .Copa .conteudo-curiosidade-1994 {
+        position: relative;
+        left: 55%;
+        top: -580%;
+        z-index: 2;
+        display: none;
+        }
+        
+        .Copa .texto-curiosidade-1994 h3 {
+        position: relative;
+        color: #2b3e2a;
+        margin: 4px;
+        left: -2%;
+        display: none;
+        }
+        
+        .Copa .texto-curiosidade-1994 {
+        position: relative;
+        top: -810%;
+        left: 65%;
+        display: none;
+        }
+        
+        .Copa .cabecalho-numeros-1994 h2 {
+        background: #2b3e2a;
+        color: #fff;
+        padding: 0.3em 0.5em;
+        position: absolute;
+        float: right;
+        left: 36%;
+        top: 525%;
+        z-index: 2;
+        margin-top: 5px;
+        display: none;
+        }
+        
+        .Copa .conteudo-numeros-1994 ul li .numero {
+        width: 70px;
+        padding: 25px 0;
+        background-image: url("/static/IMG/bg_mod_numeros.jpg");
+        font: bold 26px arial;
+        color: #fff;
+        text-align: center;
+        float: left;
+        position: absolute;
+        top: 660%;
+        left: 36%;
+        display: none;
+        }
+        
+        .Copa .conteudo-numeros-1994 ul li h3 {
+        color: #ee591f;
+        position: absolute;
+        top: 620%;
+        left: 43%;
+        display: none;
+        }
+        
+        .Copa .conteudo-numeros-1994 ul li h4 {
+        position: absolute;
+        top: 700%;
+        left: 44.5%;
+        display: none;
+        }
+        
+        .Copa .conteudo-numeros-1994 ul li .chamada {
+        position: absolute;
+        top: 740%;
+        left: 44.5%;
+        display: none;
+        }
+
+ /* margem 15 */
+.margem-15 {
+    margin-top: -35%;
+    margin-bottom: 5%;
+    }
+
+    /* 1998 */
+
+.conteudo .Copa .titulo-copa-1998 h3 {
+    position: relative;
+    left: 18%;
+    font-size: 400%;
+    margin: 20px;
+    }
+    
+    .cabecalho-ficha-1998 h2 {
+        background: #2b3e2a;
+        color: #fff;
+        font-size: 400%;
+        padding: 0.3em 0.5em;
+        position: absolute;
+        float: left;
+        left: 33%;
+        z-index: 2;
+        margin-top: 5px;
+    }
+    
+    
+    .imagem-ficha-1998 {
+    position: relative;
+    left: 18%;
+    z-index: 1;
+    margin-top: 5px;
+    }
+    
+    .Copa .texto-ficha-1998 h3 {
+    position: relative;
+    color: #2b3e2a;
+    margin-top: 29%;
+    left: 12%;
+    font-size: 350%;
+    word-spacing: -5px;
+    }
+    
+    .Copa .texto-ficha-1998 dl {
+    position: relative;
+    font-size: 250%;
+    top: -295%;
+    left: 14%;
+    }
+
+    .cabecalho-curiosidade-1998 h2 {
+        background: #2b3e2a;
+        color: #fff;
+        padding: 0.3em 0.5em;
+        position: absolute;
+        float: right;
+        left: 55%;
+        top: 190%;
+        z-index: 2;
+        margin-top: 5px;
+        display: none;
+        }
+        
+        
+        .Copa .conteudo-curiosidade-1998 {
+        position: relative;
+        left: 55%;
+        top: -580%;
+        z-index: 2;
+        display: none;
+        }
+        
+        .Copa .texto-curiosidade-1998 h3 {
+        position: relative;
+        color: #2b3e2a;
+        margin: 4px;
+        left: -2%;
+        display: none;
+        }
+        
+        .Copa .texto-curiosidade-1998 {
+        position: relative;
+        top: -810%;
+        left: 65%;
+        display: none;
+        }
+        
+        .Copa .cabecalho-numeros-1998 h2 {
+        background: #2b3e2a;
+        color: #fff;
+        padding: 0.3em 0.5em;
+        position: absolute;
+        float: right;
+        left: 36%;
+        top: 525%;
+        z-index: 2;
+        margin-top: 5px;
+        display: none;
+        }
+        
+        .Copa .conteudo-numeros-1998 ul li .numero {
+        width: 70px;
+        padding: 25px 0;
+        background-image: url("/static/IMG/bg_mod_numeros.jpg");
+        font: bold 26px arial;
+        color: #fff;
+        text-align: center;
+        float: left;
+        position: absolute;
+        top: 660%;
+        left: 36%;
+        display: none;
+        }
+        
+        .Copa .conteudo-numeros-1998 ul li h3 {
+        color: #ee591f;
+        position: absolute;
+        top: 620%;
+        left: 43%;
+        display: none;
+        }
+        
+        .Copa .conteudo-numeros-1998 ul li h4 {
+        position: absolute;
+        top: 700%;
+        left: 44.5%;
+        display: none;
+        }
+        
+        .Copa .conteudo-numeros-1998 ul li .chamada {
+        position: absolute;
+        top: 740%;
+        left: 44.5%;
+        display: none;
+        }
+
+ /* margem 16 */
+.margem-16 {
+    margin-top: -35%;
+    margin-bottom: 5%;
+    }
+
+/* 2002 */
+
+.conteudo .Copa .titulo-copa-2002 h3 {
+    position: relative;
+    left: 18%;
+    font-size: 400%;
+    margin: 20px;
+    }
+    
+    .cabecalho-ficha-2002 h2 {
+        background: #2b3e2a;
+        color: #fff;
+        font-size: 400%;
+        padding: 0.3em 0.5em;
+        position: absolute;
+        float: left;
+        left: 33%;
+        z-index: 2;
+        margin-top: 5px;
+    }
+    
+    
+    .imagem-ficha-2002 {
+    position: relative;
+    left: 18%;
+    z-index: 1;
+    margin-top: 5px;
+    }
+    
+    .Copa .texto-ficha-2002 h3 {
+    position: relative;
+    color: #2b3e2a;
+    margin-top: 29%;
+    left: 12%;
+    font-size: 350%;
+    word-spacing: -5px;
+    }
+    
+    .Copa .texto-ficha-2002 dl {
+    position: relative;
+    font-size: 250%;
+    top: -295%;
+    left: 14%;
+    }
+
+    .cabecalho-curiosidade-2002 h2 {
+        background: #2b3e2a;
+        color: #fff;
+        padding: 0.3em 0.5em;
+        position: absolute;
+        float: right;
+        left: 55%;
+        top: 190%;
+        z-index: 2;
+        margin-top: 5px;
+        display: none;
+        }
+        
+        
+        .Copa .conteudo-curiosidade-2002 {
+        position: relative;
+        left: 55%;
+        top: -580%;
+        z-index: 2;
+        display: none;
+        }
+        
+        .Copa .texto-curiosidade-2002 h3 {
+        position: relative;
+        color: #2b3e2a;
+        margin: 4px;
+        left: -2%;
+        display: none;
+        }
+        
+        .Copa .texto-curiosidade-2002 {
+        position: relative;
+        top: -810%;
+        left: 65%;
+        display: none;
+        }
+        
+        .Copa .cabecalho-numeros-2002 h2 {
+        background: #2b3e2a;
+        color: #fff;
+        padding: 0.3em 0.5em;
+        position: absolute;
+        float: right;
+        left: 36%;
+        top: 525%;
+        z-index: 2;
+        margin-top: 5px;
+        display: none;
+        }
+        
+        .Copa .conteudo-numeros-2002 ul li .numero {
+        width: 70px;
+        padding: 25px 0;
+        background-image: url("/static/IMG/bg_mod_numeros.jpg");
+        font: bold 26px arial;
+        color: #fff;
+        text-align: center;
+        float: left;
+        position: absolute;
+        top: 660%;
+        left: 36%;
+        display: none;
+        }
+        
+        .Copa .conteudo-numeros-2002 ul li h3 {
+        color: #ee591f;
+        position: absolute;
+        top: 620%;
+        left: 43%;
+        display: none;
+        }
+        
+        .Copa .conteudo-numeros-2002 ul li h4 {
+        position: absolute;
+        top: 700%;
+        left: 44.5%;
+        display: none;
+        }
+        
+        .Copa .conteudo-numeros-2002 ul li .chamada {
+        position: absolute;
+        top: 740%;
+        left: 44.5%;
+        display: none;
+        }
+
+ /* margem 17 */
+.margem-17 {
+    margin-top: -35%;
+    margin-bottom: 5%;
+    }
+
+    /* 2006 */
+
+.conteudo .Copa .titulo-copa-2006 h3 {
+    position: relative;
+    left: 18%;
+    font-size: 400%;
+    margin: 20px;
+    }
+    
+    .cabecalho-ficha-2006 h2 {
+        background: #2b3e2a;
+        color: #fff;
+        font-size: 400%;
+        padding: 0.3em 0.5em;
+        position: absolute;
+        float: left;
+        left: 33%;
+        z-index: 2;
+        margin-top: 5px;
+    }
+    
+    
+    .imagem-ficha-2006 {
+    position: relative;
+    left: 18%;
+    z-index: 1;
+    margin-top: 5px;
+    }
+    
+    .Copa .texto-ficha-2006 h3 {
+    position: relative;
+    color: #2b3e2a;
+    margin-top: 29%;
+    left: 12%;
+    font-size: 350%;
+    word-spacing: -5px;
+    }
+    
+    .Copa .texto-ficha-2006 dl {
+    position: relative;
+    font-size: 250%;
+    top: -295%;
+    left: 14%;
+    }
+
+    .cabecalho-curiosidade-2006 h2 {
+        background: #2b3e2a;
+        color: #fff;
+        padding: 0.3em 0.5em;
+        position: absolute;
+        float: right;
+        left: 55%;
+        top: 190%;
+        z-index: 2;
+        margin-top: 5px;
+        display: none;
+        }
+        
+        
+        .Copa .conteudo-curiosidade-2006 {
+        position: relative;
+        left: 55%;
+        top: -580%;
+        z-index: 2;
+        display: none;
+        }
+        
+        .Copa .texto-curiosidade-2006 h3 {
+        position: relative;
+        color: #2b3e2a;
+        margin: 4px;
+        left: -2%;
+        display: none;
+        }
+        
+        .Copa .texto-curiosidade-2006 {
+        position: relative;
+        top: -810%;
+        left: 65%;
+        display: none;
+        }
+        
+        .Copa .cabecalho-numeros-2006 h2 {
+        background: #2b3e2a;
+        color: #fff;
+        padding: 0.3em 0.5em;
+        position: absolute;
+        float: right;
+        left: 36%;
+        top: 525%;
+        z-index: 2;
+        margin-top: 5px;
+        display: none;
+        }
+        
+        .Copa .conteudo-numeros-2006 ul li .numero {
+        width: 70px;
+        padding: 25px 0;
+        background-image: url("/static/IMG/bg_mod_numeros.jpg");
+        font: bold 26px arial;
+        color: #fff;
+        text-align: center;
+        float: left;
+        position: absolute;
+        top: 660%;
+        left: 36%;
+        display: none;
+        }
+        
+        .Copa .conteudo-numeros-2006 ul li h3 {
+        color: #ee591f;
+        position: absolute;
+        top: 620%;
+        left: 43%;
+        display: none;
+        }
+        
+        .Copa .conteudo-numeros-2006 ul li h4 {
+        position: absolute;
+        top: 700%;
+        left: 44.5%;
+        display: none;
+        }
+        
+        .Copa .conteudo-numeros-2006 ul li .chamada {
+        position: absolute;
+        top: 740%;
+        left: 44.5%;
+        display: none;
+        }
+
+ /* margem 18 */
+.margem-18 {
+    margin-top: -35%;
+    margin-bottom: 5%;
+    }
+
+    /* 2010 */
+
+.conteudo .Copa .titulo-copa-2010 h3 {
+    position: relative;
+    left: 18%;
+    font-size: 400%;
+    margin: 20px;
+    }
+    
+    .cabecalho-ficha-2010 h2 {
+        background: #2b3e2a;
+        color: #fff;
+        font-size: 400%;
+        padding: 0.3em 0.5em;
+        position: absolute;
+        float: left;
+        left: 33%;
+        z-index: 2;
+        margin-top: 5px;
+    }
+    
+    
+    .imagem-ficha-2010 {
+    position: relative;
+    left: 18%;
+    z-index: 1;
+    margin-top: 5px;
+    }
+    
+    .Copa .texto-ficha-2010 h3 {
+    position: relative;
+    color: #2b3e2a;
+    margin-top: 29%;
+    left: 12%;
+    font-size: 350%;
+    word-spacing: -5px;
+    }
+    
+    .Copa .texto-ficha-2010 dl {
+    position: relative;
+    font-size: 250%;
+    top: -295%;
+    left: 14%;
+    }
+
+    .cabecalho-curiosidade-2010 h2 {
+        background: #2b3e2a;
+        color: #fff;
+        padding: 0.3em 0.5em;
+        position: absolute;
+        float: right;
+        left: 55%;
+        top: 190%;
+        z-index: 2;
+        margin-top: 5px;
+        display: none;
+        }
+        
+        
+        .Copa .conteudo-curiosidade-2010 {
+        position: relative;
+        left: 55%;
+        top: -580%;
+        z-index: 2;
+        display: none;
+        }
+        
+        .Copa .texto-curiosidade-2010 h3 {
+        position: relative;
+        color: #2b3e2a;
+        margin: 4px;
+        left: -2%;
+        display: none;
+        }
+        
+        .Copa .texto-curiosidade-2010 {
+        position: relative;
+        top: -810%;
+        left: 65%;
+        display: none;
+        }
+        
+        .Copa .cabecalho-numeros-2010 h2 {
+        background: #2b3e2a;
+        color: #fff;
+        padding: 0.3em 0.5em;
+        position: absolute;
+        float: right;
+        left: 36%;
+        top: 525%;
+        z-index: 2;
+        margin-top: 5px;
+        display: none;
+        }
+        
+        .Copa .conteudo-numeros-2010 ul li .numero {
+        width: 70px;
+        padding: 25px 0;
+        background-image: url("/static/IMG/bg_mod_numeros.jpg");
+        font: bold 26px arial;
+        color: #fff;
+        text-align: center;
+        float: left;
+        position: absolute;
+        top: 660%;
+        left: 36%;
+        display: none;
+        }
+        
+        .Copa .conteudo-numeros-2010 ul li h3 {
+        color: #ee591f;
+        position: absolute;
+        top: 620%;
+        left: 43%;
+        display: none;
+        }
+        
+        .Copa .conteudo-numeros-2010 ul li h4 {
+        position: absolute;
+        top: 700%;
+        left: 44.5%;
+        display: none;
+        }
+        
+        .Copa .conteudo-numeros-2010 ul li .chamada {
+        position: absolute;
+        top: 740%;
+        left: 44.5%;
+        display: none;
+        }
+
+ /* margem 19 */
+.margem-19 {
+    margin-top: -35%;
+    margin-bottom: 5%;
+    }
+
+     /* 2014 */
+
+.conteudo .Copa .titulo-copa-2014 h3 {
+    position: relative;
+    left: 18%;
+    font-size: 400%;
+    margin: 20px;
+    }
+    
+    .cabecalho-ficha-2014 h2 {
+        background: #2b3e2a;
+        color: #fff;
+        font-size: 400%;
+        padding: 0.3em 0.5em;
+        position: absolute;
+        float: left;
+        left: 33%;
+        z-index: 2;
+        margin-top: 5px;
+    }
+    
+    
+    .imagem-ficha-2014 {
+    position: relative;
+    left: 18%;
+    z-index: 1;
+    margin-top: 5px;
+    }
+    
+    .Copa .texto-ficha-2014 h3 {
+    position: relative;
+    color: #2b3e2a;
+    margin-top: 29%;
+    left: 12%;
+    font-size: 350%;
+    word-spacing: -5px;
+    }
+    
+    .Copa .texto-ficha-2014 dl {
+    position: relative;
+    font-size: 250%;
+    top: -295%;
+    left: 14%;
+    }
+
+    .cabecalho-curiosidade-2014 h2 {
+        background: #2b3e2a;
+        color: #fff;
+        padding: 0.3em 0.5em;
+        position: absolute;
+        float: right;
+        left: 55%;
+        top: 190%;
+        z-index: 2;
+        margin-top: 5px;
+        display: none;
+        }
+        
+        
+        .Copa .conteudo-curiosidade-2014 {
+        position: relative;
+        left: 55%;
+        top: -580%;
+        z-index: 2;
+        display: none;
+        }
+        
+        .Copa .texto-curiosidade-2014 h3 {
+        position: relative;
+        color: #2b3e2a;
+        margin: 4px;
+        left: -2%;
+        display: none;
+        }
+        
+        .Copa .texto-curiosidade-2014 {
+        position: relative;
+        top: -810%;
+        left: 65%;
+        display: none;
+        }
+        
+        .Copa .cabecalho-numeros-2014 h2 {
+        background: #2b3e2a;
+        color: #fff;
+        padding: 0.3em 0.5em;
+        position: absolute;
+        float: right;
+        left: 36%;
+        top: 525%;
+        z-index: 2;
+        margin-top: 5px;
+        display: none;
+        }
+        
+        .Copa .conteudo-numeros-2014 ul li .numero {
+        width: 70px;
+        padding: 25px 0;
+        background-image: url("/static/IMG/bg_mod_numeros.jpg");
+        font: bold 26px arial;
+        color: #fff;
+        text-align: center;
+        float: left;
+        position: absolute;
+        top: 660%;
+        left: 36%;
+        display: none;
+        }
+        
+        .Copa .conteudo-numeros-2014 ul li h3 {
+        color: #ee591f;
+        position: absolute;
+        top: 620%;
+        left: 43%;
+        display: none;
+        }
+        
+        .Copa .conteudo-numeros-2014 ul li h4 {
+        position: absolute;
+        top: 700%;
+        left: 44.5%;
+        display: none;
+        }
+        
+        .Copa .conteudo-numeros-2014 ul li .chamada {
+        position: absolute;
+        top: 740%;
+        left: 44.5%;
+        display: none;
+        }
+
+ /* margem 20 */
+.margem-20 {
+    margin-top: -35%;
+    margin-bottom: 5%;
+    }
+
+     /* 2018 */
+
+.conteudo .Copa .titulo-copa-2018 h3 {
+    position: relative;
+    left: 18%;
+    font-size: 400%;
+    margin: 20px;
+    }
+    
+    .cabecalho-ficha-2018 h2 {
+        background: #2b3e2a;
+        color: #fff;
+        font-size: 400%;
+        padding: 0.3em 0.5em;
+        position: absolute;
+        float: left;
+        left: 33%;
+        z-index: 2;
+        margin-top: 5px;
+    }
+    
+    
+    .imagem-ficha-2018 {
+    position: relative;
+    left: 18%;
+    z-index: 1;
+    margin-top: 5px;
+    }
+    
+    .Copa .texto-ficha-2018 h3 {
+    position: relative;
+    color: #2b3e2a;
+    margin-top: 29%;
+    left: 12%;
+    font-size: 350%;
+    word-spacing: -5px;
+    }
+    
+    .Copa .texto-ficha-2018 dl {
+    position: relative;
+    font-size: 250%;
+    top: -295%;
+    left: 14%;
+    }
+
+    .cabecalho-curiosidade-2018 h2 {
+        background: #2b3e2a;
+        color: #fff;
+        padding: 0.3em 0.5em;
+        position: absolute;
+        float: right;
+        left: 55%;
+        top: 190%;
+        z-index: 2;
+        margin-top: 5px;
+        display: none;
+        }
+        
+        
+        .Copa .conteudo-curiosidade-2018 {
+        position: relative;
+        left: 55%;
+        top: -580%;
+        z-index: 2;
+        display: none;
+        }
+        
+        .Copa .texto-curiosidade-2018 h3 {
+        position: relative;
+        color: #2b3e2a;
+        margin: 4px;
+        left: -2%;
+        display: none;
+        }
+        
+        .Copa .texto-curiosidade-2018 {
+        position: relative;
+        top: -810%;
+        left: 65%;
+        display: none;
+        }
+        
+        .Copa .cabecalho-numeros-2018 h2 {
+        background: #2b3e2a;
+        color: #fff;
+        padding: 0.3em 0.5em;
+        position: absolute;
+        float: right;
+        left: 36%;
+        top: 525%;
+        z-index: 2;
+        margin-top: 5px;
+        display: none;
+        }
+        
+        .Copa .conteudo-numeros-2018 ul li .numero {
+        width: 70px;
+        padding: 25px 0;
+        background-image: url("/static/IMG/bg_mod_numeros.jpg");
+        font: bold 26px arial;
+        color: #fff;
+        text-align: center;
+        float: left;
+        position: absolute;
+        top: 660%;
+        left: 36%;
+        display: none;
+        }
+        
+        .Copa .conteudo-numeros-2018 ul li h3 {
+        color: #ee591f;
+        position: absolute;
+        top: 620%;
+        left: 43%;
+        display: none;
+        }
+        
+        .Copa .conteudo-numeros-2018 ul li h4 {
+        position: absolute;
+        top: 700%;
+        left: 44.5%;
+        display: none;
+        }
+        
+        .Copa .conteudo-numeros-2018 ul li .chamada {
+        position: absolute;
+        top: 740%;
+        left: 44.5%;
+        display: none;
+        }
+
+ /* margem 21 */
+.margem-21 {
+    margin-top: -35%;
+    margin-bottom: 5%;
+    }
 
 
 
