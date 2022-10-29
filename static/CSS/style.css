@@ -3461,11 +3461,12 @@ height: 50px;
 }
 
 .classificacao h2 {
-font-size: 30px;
-position: relative;
-left: 35%;
-padding-top: 6px;
-color: #fff;
+    color: #e7ead9;
+    font-weight: 800;
+    font-size: 30px;
+    text-align: center;
+    position: relative;
+    top: 5px;
 }
 
 .classificacao-1930 h3 {
@@ -3479,10 +3480,10 @@ color: #fff;
 border-bottom: 0.2em solid #84765c;
 background: #e7ead9;
 padding: 5px;
-width: 50%;
+width: 100%;
 position: relative;
-top: 10550px;
-left: 25%;
+top: 10501px;
+left: 0%;
 }
 
 .classificacao-1930 ol li {
@@ -3491,262 +3492,71 @@ list-style: none;
 }
 
   /* < -- 1 -- */
-.classificacao-1930 ol li.pos-1 {
-background: #dfd3bd;
-font: bold 1.2em arial;
-padding: 10px;
-margin: 12px;
-}
-
-.classificacao-1930 ol li.pos-1 span.posicao {
-width: 1em;
-}
-
-.classificacao-1930 ol li.pos-1 span.bandeira {
-margin: 0.8em;
-}
-
- /*  -- 1 --> */
-
-  /* < -- 2 -- */
-
- .classificacao-1930 ol li.pos-2 {
-background: #fff;
-font: bold 1.2em arial;
-padding: 10px;
-margin: 12px;
-}
-
-.classificacao-1930 ol li.pos-2 span.posicao {
-width: 1em;
-}
-
-.classificacao-1930 ol li.pos-2 span.bandeira {
-margin: 0.8em;
-}
-
- /*  -- 2 --> */
-
- /*  <-- 3 -- */
-
- .classificacao-1930 ol li.pos-3 {
-background: #fff;
-font: bold 1.2em arial;
-padding: 10px;
-margin: 12px;
-}
-
-.classificacao-1930 ol li.pos-3 span.posicao {
-width: 1em;
-}
-
-.classificacao-1930 ol li.pos-3 span.bandeira {
-margin: 0.8em;
-}
-
-/*  -- 3 --> */
-
-
-/*  <-- 4 -- */
-
-.classificacao-1930 ol li.pos-4 {
-background: #fff;
-font: bold 1.2em arial;
-padding: 10px;
-margin: 12px;
-}
-
-.classificacao-1930 ol li.pos-4 span.posicao {
-width: 1em;
-}
-
-.classificacao-1930 ol li.pos-4 span.bandeira {
-margin: 0.8em;
-}
-
-/*  -- 4 --> */
-
-
-/*  <-- 5 -- */
-
-.classificacao-1930 ol li.pos-5 {
-background: #fff;
-font: bold 1.2em arial;
-padding: 10px;
-margin: 12px;
-}
-
-.classificacao-1930 ol li.pos-5 span.posicao {
-width: 1em;
-}
-
-.classificacao-1930 ol li.pos-5 span.bandeira {
-margin: 0.8em;
-}
-
-/*  -- 5 --> */
-
-
-/*  <-- 6 -- */
-
-.classificacao-1930 ol li.pos-6 {
-background: #fff;
-font: bold 1.2em arial;
-padding: 10px;
-margin: 12px;
-}
-
-.classificacao-1930 ol li.pos-6 span.posicao {
-width: 1em;
-}
-
-.classificacao-1930 ol li.pos-6 span.bandeira {
-margin: 0.8em;
-}
-
-/*  -- 6 --> */
-
-
-/*  < -- 7 -- */
-
-.classificacao-1930 ol li.pos-7 {
-background: #fff;
-font: bold 1.2em arial;
-padding: 10px;
-margin: 12px;
-}
-
-.classificacao-1930 ol li.pos-7 span.posicao {
-width: 1em;
-}
-
-.classificacao-1930 ol li.pos-7 span.bandeira {
-margin: 0.8em;
-}
-
-/*  -- 7 --> */
-
-
-/*  <-- 8 -- */
-
-.classificacao-1930 ol li.pos-8 {
-background: #fff;
-font: bold 1.2em arial;
-padding: 10px;
-margin: 12px;
-}
-
-.classificacao-1930 ol li.pos-8 span.posicao {
-width: 1em;
-}
-
-.classificacao-1930 ol li.pos-8 span.bandeira {
-margin: 0.8em;
-}
-
-/*  -- 8 --> */
-
-/*  < -- 9 -- */
-
-.classificacao-1930 ol li.pos-9 {
-background: #fff;
-font: bold 1.2em arial;
-padding: 10px;
-margin: 12px;
-}
-
-.classificacao-1930 ol li.pos-9 span.posicao {
-width: 1em;
-}
-
-.classificacao-1930 ol li.pos-9 span.bandeira {
-margin: 0.8em;
-}
-
-/*  -- 9 --> */
-
-/*  < -- 10 -- */
-
-.classificacao-1930 ol li.pos-10 {
-background: #fff;
-font: bold 1.2em arial;
-padding: 10px;
-margin: 12px;
-}
-
-.classificacao-1930 ol li.pos-10 span.posicao {
-width: 1em;
-}
-
-.classificacao-1930 ol li.pos-10 span.bandeira {
-margin: 0.3em;
-}
-
-/*  -- 10 --> */
-
-/*  < -- 11 -- */
-
-.classificacao-1930 ol li.pos-11 span.posicao {
-width: 1em;
-}
-
- .classificacao-1930 ol li.pos-11 {
-background: #fff;
-font: bold 1.2em arial;
-padding: 15px;padding: 10px;
-margin: 12px;
-}
-
-.classificacao-1930 ol li.pos-11 span.bandeira {
-margin: 0.3em;
-}
-
-/*  -- 11 --> */
-
-/*  < -- 12 -- */
-
-.classificacao-1930 ol li.pos-12 span.posicao {
-width: 1em;
-}
-
-.classificacao-1930 ol li.pos-12 {
-background: #fff;
-font: bold 1.2em arial;
-padding: 10px;
-margin: 12px;
-}
-
-.classificacao-1930 ol li.pos-12 span.bandeira {
-margin: 0.3em;
-}
-
-/*  -- 12 --> */
-
-/*  < -- 13 -- */
-
-.classificacao-1930 ol li.pos-13 span.posicao {
-width: 1em;
-}
-
-.classificacao-1930 ol li.pos-13 {
-background: #fff;
-font: bold 1.2em arial;
-padding: 10px;
-margin: 12px;
-}
-
-.classificacao-1930 ol li.pos-13 span.bandeira {
-margin: 0.3em;
-}
-
-/*  -- 13 --> */
+ .classificacao-1930 ol li.pos-1 {
+    background: #dfd3bd;
+    font: bold 1.2em arial;
+    padding: 10px;
+    margin: 12px;
+    }
+    
+    .classificacao-1930 ol li.pos-1 span.posicao {
+    width: 1em;
+    }
+    
+    .classificacao-1930 ol li.pos-1 span.bandeira {
+    margin: 0.8em;
+    }
+    
+     /*  -- 1 --> */
+
+     /* < -- 2-9 -- */
+ .classificacao-1930 ol li {
+    background: #fff;
+    font: bold 1.2em arial;
+    padding: 10px;
+    margin: 12px;
+    }
+    
+    .classificacao-1930 ol li span.posicao {
+    width: 1em;
+    }
+    
+    .classificacao-1930 ol li span.bandeira {
+    margin: 0.8em;
+    }
+     /*  -- 2-9 --> */
+
+        /* Depois da posição 9 */
+     .classificacao-1930 ol li.pos-10 span.bandeira {
+        margin: 0.3em;
+        }
+
+     .classificacao-1930 ol li.pos-11 span.bandeira {
+            margin: 0.3em;
+        }
+
+     .classificacao-1930 ol li.pos-12 span.bandeira {
+                margin: 0.3em;
+        }
+     .classificacao-1930 ol li.pos-13 span.bandeira {
+            margin: 0.3em;
+        }
 
 .hr-1930 {
     position: relative;
-    top: 10631.4px;
+    height: 60px;
+    top: 10501px;
+    background-color: #2b3e2a;
     border: solid #2b3e2a 1px;
     }
 
+.hr-1930 h3 {
+        color: #e7ead9;
+        font-weight: 800;
+        font-size: 30px;
+        text-align: center;
+        margin-top: 10px;
+        }
 
     /* classif 1934*/
 
@@ -3762,10 +3572,10 @@ margin: 0.3em;
     border-bottom: 0.2em solid #84765c;
     background: #e7ead9;
     padding: 5px;
-    width: 50%;
+    width: 100%;
     position: relative;
-    top: 10680px;
-    left: 25%;
+    top: 10501px;
+    left: 0%;
     }
     
     .classificacao-1934 ol li {
@@ -3774,7 +3584,7 @@ margin: 0.3em;
     }
     
       /* < -- 1 -- */
-    .classificacao-1934 ol li.pos-1 {
+ .classificacao-1934 ol li.pos-1 {
     background: #dfd3bd;
     font: bold 1.2em arial;
     padding: 10px;
@@ -3790,308 +3600,370 @@ margin: 0.3em;
     }
     
      /*  -- 1 --> */
-    
-      /* < -- 2 -- */
-    
-     .classificacao-1934 ol li.pos-2 {
-    background: #fff;
-    font: bold 1.2em arial;
-    padding: 10px;
-    margin: 12px;
-    }
-    
-    .classificacao-1934 ol li.pos-2 span.posicao {
-    width: 1em;
-    }
-    
-    .classificacao-1934 ol li.pos-2 span.bandeira {
-    margin: 0.8em;
-    }
-    
-     /*  -- 2 --> */
-    
-     /*  <-- 3 -- */
-    
-     .classificacao-1934 ol li.pos-3 {
-    background: #fff;
-    font: bold 1.2em arial;
-    padding: 10px;
-    margin: 12px;
-    }
-    
-    .classificacao-1934 ol li.pos-3 span.posicao {
-    width: 1em;
-    }
-    
-    .classificacao-1934 ol li.pos-3 span.bandeira {
-    margin: 0.8em;
-    }
-    
-    /*  -- 3 --> */
-    
-    
-    /*  <-- 4 -- */
-    
-    .classificacao-1934 ol li.pos-4 {
-    background: #fff;
-    font: bold 1.2em arial;
-    padding: 10px;
-    margin: 12px;
-    }
-    
-    .classificacao-1934 ol li.pos-4 span.posicao {
-    width: 1em;
-    }
-    
-    .classificacao-1934 ol li.pos-4 span.bandeira {
-    margin: 0.8em;
-    }
-    
-    /*  -- 4 --> */
-    
-    
-    /*  <-- 5 -- */
-    
-    .classificacao-1934 ol li.pos-5 {
-    background: #fff;
-    font: bold 1.2em arial;
-    padding: 10px;
-    margin: 12px;
-    }
-    
-    .classificacao-1934 ol li.pos-5 span.posicao {
-    width: 1em;
-    }
-    
-    .classificacao-1934 ol li.pos-5 span.bandeira {
-    margin: 0.8em;
-    }
-    
-    /*  -- 5 --> */
-    
-    
-    /*  <-- 6 -- */
-    
-    .classificacao-1934 ol li.pos-6 {
-    background: #fff;
-    font: bold 1.2em arial;
-    padding: 10px;
-    margin: 12px;
-    }
-    
-    .classificacao-1934 ol li.pos-6 span.posicao {
-    width: 1em;
-    }
-    
-    .classificacao-1934 ol li.pos-6 span.bandeira {
-    margin: 0.8em;
-    }
-    
-    /*  -- 6 --> */
-    
-    
-    /*  < -- 7 -- */
-    
-    .classificacao-1934 ol li.pos-7 {
-    background: #fff;
-    font: bold 1.2em arial;
-    padding: 10px;
-    margin: 12px;
-    }
-    
-    .classificacao-1934 ol li.pos-7 span.posicao {
-    width: 1em;
-    }
-    
-    .classificacao-1934 ol li.pos-7 span.bandeira {
-    margin: 0.8em;
-    }
-    
-    /*  -- 7 --> */
-    
-    
-    /*  <-- 8 -- */
-    
-    .classificacao-1934 ol li.pos-8 {
-    background: #fff;
-    font: bold 1.2em arial;
-    padding: 10px;
-    margin: 12px;
-    }
-    
-    .classificacao-1934 ol li.pos-8 span.posicao {
-    width: 1em;
-    }
-    
-    .classificacao-1934 ol li.pos-8 span.bandeira {
-    margin: 0.8em;
-    }
-    
-    /*  -- 8 --> */
-    
-    /*  < -- 9 -- */
-    
-    .classificacao-1934 ol li.pos-9 {
-    background: #fff;
-    font: bold 1.2em arial;
-    padding: 10px;
-    margin: 12px;
-    }
-    
-    .classificacao-1934 ol li.pos-9 span.posicao {
-    width: 1em;
-    }
-    
-    .classificacao-1934 ol li.pos-9 span.bandeira {
-    margin: 0.8em;
-    }
-    
-    /*  -- 9 --> */
-    
-    /*  < -- 10 -- */
-    
-    .classificacao-1934 ol li.pos-10 {
-    background: #fff;
-    font: bold 1.2em arial;
-    padding: 10px;
-    margin: 12px;
-    }
-    
-    .classificacao-1934 ol li.pos-10 span.posicao {
-    width: 1em;
-    }
-    
-    .classificacao-1934 ol li.pos-10 span.bandeira {
-    margin: 0.3em;
-    }
-    
-    /*  -- 10 --> */
-    
-    /*  < -- 11 -- */
-    
-    .classificacao-1934 ol li.pos-11 span.posicao {
-    width: 1em;
-    }
-    
-     .classificacao-1934 ol li.pos-11 {
-    background: #fff;
-    font: bold 1.2em arial;
-    padding: 15px;padding: 10px;
-    margin: 12px;
-    }
-    
-    .classificacao-1934 ol li.pos-11 span.bandeira {
-    margin: 0.3em;
-    }
-    
-    /*  -- 11 --> */
-    
-    /*  < -- 12 -- */
-    
-    .classificacao-1934 ol li.pos-12 span.posicao {
-    width: 1em;
-    }
-    
-    .classificacao-1934 ol li.pos-12 {
-    background: #fff;
-    font: bold 1.2em arial;
-    padding: 10px;
-    margin: 12px;
-    }
-    
-    .classificacao-1934 ol li.pos-12 span.bandeira {
-    margin: 0.3em;
-    }
-    
-    /*  -- 12 --> */
-    
-    /*  < -- 13 -- */
-    
-    .classificacao-1934 ol li.pos-13 span.posicao {
-    width: 1em;
-    }
-    
-    .classificacao-1934 ol li.pos-13 {
-    background: #fff;
-    font: bold 1.2em arial;
-    padding: 10px;
-    margin: 12px;
-    }
-    
-    .classificacao-1934 ol li.pos-13 span.bandeira {
-    margin: 0.3em;
-    }
-    
-    /*  -- 13 --> */
 
-     /*  < -- 14 -- */
+     /* < -- 2-9 -- */
+ .classificacao-1934 ol li {
+    background: #fff;
+    font: bold 1.2em arial;
+    padding: 10px;
+    margin: 12px;
+    }
     
-     .classificacao-1934 ol li.pos-14 span.posicao {
-        width: 1em;
-        }
-        
-        .classificacao-1934 ol li.pos-14 {
-        background: #fff;
-        font: bold 1.2em arial;
-        padding: 10px;
-        margin: 12px;
-        }
-        
-        .classificacao-1934 ol li.pos-14 span.bandeira {
+    .classificacao-1934 ol li span.posicao {
+    width: 1em;
+    }
+    
+    .classificacao-1934 ol li span.bandeira {
+    margin: 0.8em;
+    }
+     /*  -- 2-9 --> */
+
+        /* Depois da posição 9 */
+     .classificacao-1934 ol li.pos-10 span.bandeira {
         margin: 0.3em;
         }
-        
-        /*  -- 14 --> */
 
-         /*  < -- 15 -- */
+     .classificacao-1934 ol li.pos-11 span.bandeira {
+            margin: 0.3em;
+        }
+
+     .classificacao-1934 ol li.pos-12 span.bandeira {
+                margin: 0.3em;
+        }
+     .classificacao-1934 ol li.pos-13 span.bandeira {
+            margin: 0.3em;
+        }
+     .classificacao-1934 ol li.pos-14 span.bandeira {
+            margin: 0.3em;
+        }
+
+     .classificacao-1934 ol li.pos-15 span.bandeira {
+                margin: 0.3em;
+        }
+     .classificacao-1934 ol li.pos-16 span.bandeira {
+            margin: 0.3em;
+        }
     
-    .classificacao-1934 ol li.pos-15 span.posicao {
-        width: 1em;
-        }
+        .hr-1934 {
+            position: relative;
+            height: 60px;
+            top: 10501px;
+            background-color: #2b3e2a;
+            border: solid #2b3e2a 1px;
+            }
         
-        .classificacao-1934 ol li.pos-15 {
-        background: #fff;
-        font: bold 1.2em arial;
-        padding: 10px;
-        margin: 12px;
-        }
+        .hr-1934 h3 {
+                color: #e7ead9;
+                font-weight: 800;
+                font-size: 30px;
+                text-align: center;
+                margin-top: 10px;
+                } 
         
-        .classificacao-1934 ol li.pos-15 span.bandeira {
+        
+        /* classif 1938*/
+
+    .classificacao-1938 h3 {
+        color: #000;
+        text-align: center;
+        font-size: 25px;
+    }
+    
+    
+    .classificacao-1938 {
+    border-bottom: 0.2em solid #84765c;
+    background: #e7ead9;
+    padding: 5px;
+    width: 100%;
+    position: relative;
+    top: 10501px;
+    left: 0;
+    }
+    
+    .classificacao-1938 ol li {
+    color: #010101;
+    list-style: none;
+    }
+    
+     /* < -- 1 -- */
+ .classificacao-1938 ol li.pos-1 {
+    background: #dfd3bd;
+    font: bold 1.2em arial;
+    padding: 10px;
+    margin: 12px;
+    }
+    
+    .classificacao-1938 ol li.pos-1 span.posicao {
+    width: 1em;
+    }
+    
+    .classificacao-1938 ol li.pos-1 span.bandeira {
+    margin: 0.8em;
+    }
+    
+     /*  -- 1 --> */
+
+     /* < -- 2-9 -- */
+ .classificacao-1938 ol li {
+    background: #fff;
+    font: bold 1.2em arial;
+    padding: 10px;
+    margin: 12px;
+    }
+    
+    .classificacao-1938 ol li span.posicao {
+    width: 1em;
+    }
+    
+    .classificacao-1938 ol li span.bandeira {
+    margin: 0.8em;
+    }
+     /*  -- 2-9 --> */
+
+        /* Depois da posição 9 */
+     .classificacao-1938 ol li.pos-10 span.bandeira {
         margin: 0.3em;
         }
-        
-        /*  -- 15 --> */
 
-         /*  < -- 16 -- */
+     .classificacao-1938 ol li.pos-11 span.bandeira {
+            margin: 0.3em;
+        }
+
+     .classificacao-1938 ol li.pos-12 span.bandeira {
+                margin: 0.3em;
+        }
+     .classificacao-1938 ol li.pos-13 span.bandeira {
+            margin: 0.3em;
+        }
+     .classificacao-1938 ol li.pos-14 span.bandeira {
+            margin: 0.3em;
+        }
+
+     .classificacao-1938 ol li.pos-15 span.bandeira {
+                margin: 0.3em;
+        }
     
-    .classificacao-1934 ol li.pos-16 span.posicao {
-        width: 1em;
-        }
+        .hr-1938 {
+            position: relative;
+            height: 60px;
+            top: 10501px;
+            background-color: #2b3e2a;
+            border: solid #2b3e2a 1px;
+            }
         
-        .classificacao-1934 ol li.pos-16 {
-        background: #fff;
-        font: bold 1.2em arial;
-        padding: 10px;
-        margin: 12px;
-        }
-        
-        .classificacao-1934 ol li.pos-16 span.bandeira {
+        .hr-1938 h3 {
+                color: #e7ead9;
+                font-weight: 800;
+                font-size: 30px;
+                text-align: center;
+                margin-top: 10px;
+                } 
+
+
+/* classif 1950*/
+
+
+.classificacao-1950 h3 {
+    color: #000;
+    text-align: center;
+    font-size: 25px;
+}
+
+
+.classificacao-1950 {
+border-bottom: 0.2em solid #84765c;
+background: #e7ead9;
+padding: 5px;
+width: 100%;
+position: relative;
+top: 10501px;
+left: 0;
+}
+
+.classificacao-1950 ol li {
+color: #010101;
+list-style: none;
+}
+
+ /* < -- 1 -- */
+ .classificacao-1950 ol li.pos-1 {
+    background: #dfd3bd;
+    font: bold 1.2em arial;
+    padding: 10px;
+    margin: 12px;
+    }
+    
+    .classificacao-1950 ol li.pos-1 span.posicao {
+    width: 1em;
+    }
+    
+    .classificacao-1950 ol li.pos-1 span.bandeira {
+    margin: 0.8em;
+    }
+    
+     /*  -- 1 --> */
+
+     /* < -- 2-9 -- */
+ .classificacao-1950 ol li {
+    background: #fff;
+    font: bold 1.2em arial;
+    padding: 10px;
+    margin: 12px;
+    }
+    
+    .classificacao-1950 ol li span.posicao {
+    width: 1em;
+    }
+    
+    .classificacao-1950 ol li span.bandeira {
+    margin: 0.8em;
+    }
+     /*  -- 2-9 --> */
+
+        /* Depois da posição 9 */
+     .classificacao-1950 ol li.pos-10 span.bandeira {
         margin: 0.3em;
         }
-        
-        /*  -- 16 --> */
+
+     .classificacao-1950 ol li.pos-11 span.bandeira {
+            margin: 0.3em;
+        }
+
+     .classificacao-1950 ol li.pos-12 span.bandeira {
+                margin: 0.3em;
+        }
+     .classificacao-1950 ol li.pos-13 span.bandeira {
+            margin: 0.3em;
+        }
+     .classificacao-1950 ol li.pos-14 span.bandeira {
+            margin: 0.3em;
+        }
+
+     .classificacao-1950 ol li.pos-15 span.bandeira {
+                margin: 0.3em;
+        }
+     .classificacao-1950 ol li.pos-16 span.bandeira {
+            margin: 0.3em;
+        }
+
+.hr-1950 {
+    position: relative;
+    height: 60px;
+    top: 10501px;
+    background-color: #2b3e2a;
+    border: solid #2b3e2a 1px;
+    }
+
+.hr-1950 h3 {
+        color: #e7ead9;
+        font-weight: 800;
+        font-size: 30px;
+        text-align: center;
+        margin-top: 10px;
+        }
+
+
+/* classif 1954*/
+
+
+.classificacao-1954 h3 {
+    color: #000;
+    text-align: center;
+    font-size: 25px;
+}
+
+
+.classificacao-1954 {
+border-bottom: 0.2em solid #84765c;
+background: #e7ead9;
+padding: 5px;
+width: 100%;
+position: relative;
+top: 10501px;
+left: 0;
+}
+
+.classificacao-1954 ol li {
+color: #010101;
+list-style: none;
+}
+
+ /* < -- 1 -- */
+ .classificacao-1954 ol li.pos-1 {
+    background: #dfd3bd;
+    font: bold 1.2em arial;
+    padding: 10px;
+    margin: 12px;
+    }
     
-    .hr-1934 {
-        position: relative;
-        top: 10731.4px;
-        border: solid #2b3e2a 1px;
-        }   
+    .classificacao-1954 ol li.pos-1 span.posicao {
+    width: 1em;
+    }
+    
+    .classificacao-1954 ol li.pos-1 span.bandeira {
+    margin: 0.8em;
+    }
+    
+     /*  -- 1 --> */
 
+     /* < -- 2-9 -- */
+ .classificacao-1954 ol li {
+    background: #fff;
+    font: bold 1.2em arial;
+    padding: 10px;
+    margin: 12px;
+    }
+    
+    .classificacao-1954 ol li span.posicao {
+    width: 1em;
+    }
+    
+    .classificacao-1954 ol li span.bandeira {
+    margin: 0.8em;
+    }
+     /*  -- 2-9 --> */
 
+        /* Depois da posição 9 */
+     .classificacao-1954 ol li.pos-10 span.bandeira {
+        margin: 0.3em;
+        }
 
+     .classificacao-1954 ol li.pos-11 span.bandeira {
+            margin: 0.3em;
+        }
 
+     .classificacao-1954 ol li.pos-12 span.bandeira {
+                margin: 0.3em;
+        }
+     .classificacao-1954 ol li.pos-13 span.bandeira {
+            margin: 0.3em;
+        }
+     .classificacao-1954 ol li.pos-14 span.bandeira {
+            margin: 0.3em;
+        }
 
+     .classificacao-1954 ol li.pos-15 span.bandeira {
+                margin: 0.3em;
+        }
+     .classificacao-1954 ol li.pos-16 span.bandeira {
+            margin: 0.3em;
+        }
 
+.hr-1954 {
+    position: relative;
+    height: 60px;
+    top: 10501px;
+    background-color: #2b3e2a;
+    border: solid #2b3e2a 1px;
+    }
+
+.hr-1954 h3 {
+        color: #e7ead9;
+        font-weight: 800;
+        font-size: 30px;
+        text-align: center;
+        margin-top: 10px;
+        }
 
 
 
@@ -4261,6 +4133,181 @@ font-size: 20px;
     text-align: center;
     left: 0;
 }
+
+/* Página grupos */
+
+@import url('https://fonts.googleapis.com/css2? family= Anek+Malayalam:wght@100;400 & display=swap' );
+
+.conteudo-grupos {
+    background-color: #F5F5DC;
+    position: relative;
+    top: 50px;
+    margin-left: 150px;
+    margin-right: 200px;
+    }
+
+
+body .grupos{
+    font-family: 'Anek Malayan', sans-serif;
+    background-color: #f8f9fa;
+    overflow-x: hidden;
+}
+
+.conteudo-grupos table{
+    width: 100vw;
+    text-align: center;
+}
+
+.conteudo-grupos #logo td{
+    height: 48px;
+    padding-top: 4px;    
+}
+
+.conteudo-grupos td{
+    height: 50px;
+    width: 104px;
+    color: #9db7a9;
+}
+
+.conteudo-grupos .nav-conteudo-lateral{
+    width: 400px;
+}
+
+.conteudo-grupos .nav-destacado{
+    border-bottom: 3px solid #ffffff;
+    color: #ffffff;
+}
+
+.conteudo-grupos .nav-destacado:hover{
+    background-color: #0e482a;
+    cursor: pointer;
+}
+
+.conteudo-grupos .tabela-copa{
+    position: absolute;
+    margin-top: 110px;
+    z-index: -1;
+
+    border: 1px solid #e9eaeb;
+    border-top:none;
+    border-bottom:none;
+    width: 40vw;
+    margin-left: 30%;
+
+    font-size: 0.75em;
+    border-collapse: collapse;
+    background-color: #ffffff;
+}
+
+.conteudo-grupos #tabela-header-copa{
+    padding: 15px;
+    padding-left: 20px;
+    background-color: #f1f3f4;
+    text-align: left;
+    color: #70758d;
+}
+
+.conteudo-grupos #ano{
+    font-weight: 600;
+    color: #4285f4;
+}
+
+.conteudo-grupos a:link {
+    color: #70758d;
+    text-decoration: none;
+}
+
+.conteudo-grupos a:visited{
+    color: #70758d;
+    text-decoration: none;
+}
+
+.conteudo-grupos .tabela-copa th{
+    border-top: 1px solid #e0e0e0;
+    font-weight: 100;
+    color: #70758d;
+    padding: 4px;
+    height: 35px;
+
+}
+.conteudo-grupos .tabela-copa td{
+    border-top: 1px solid #e0e0e0;
+    font-weight: 100;
+    color: #000000;
+    padding: 4px;
+    height: 41px;
+    font-size: 1.2em;
+
+}
+
+.conteudo-grupos .tabela-copa img{
+    width: 25px;
+}
+
+.conteudo-grupos .tabela-colunas-bordas{
+    border-top: none !important;
+}
+
+.conteudo-grupos .titulo-clube{
+    width: 35%;
+    text-align: left;
+}
+
+.conteudo-grupos .borda-verde{
+    border-left: 3px solid #34a853;
+}
+
+.conteudo-grupos .borda-vermelho{
+    border-left: 3px solid #ea4335;
+}
+
+.conteudo-grupos .legenda table{
+    width: 40vw;
+    margin: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #e9eaeb;
+    border-radius: 3px;
+    padding: 15px;
+    text-align: left;
+    background-color: #f8f9fa;
+}
+
+.conteudo-grupos .legenda th{
+    border-top: none;
+    font-size: 1.1em;
+    color: #000;
+    font-weight: 700;
+}
+
+.conteudo-grupos .legenda img{
+    width: 10px;
+}
+
+.conteudo-grupos .legenda td{
+    border-top: none;
+    font-size: 1em;
+    height: 3px;
+    width: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* Página escalações */
 
@@ -7989,15 +8036,17 @@ color: #ee7601;
     width: 100%;
     position: relative;
     top: 13501px;
-    height: 110px;
+    height: 150px;
 }
 
 .classificacao h2 {
-    font-size: 500%;
+    font-size: 4em;
     position: relative;
-    left: 17%;
+    left: 0;
     padding-top: 6px;
-    color: #fff;
+    color: #e7ead9;
+    text-align: center;
+    margin-top: 30px;
 }
 
 .classificacao-1930 h3 {
@@ -8011,10 +8060,10 @@ color: #ee7601;
     border-bottom: 0.2em solid #84765c;
     background: #e7ead9;
     padding: 5px;
-    width: 95%;
+    width: 100%;
     position: relative;
-    top: 13550px;
-    left: 2.5%;
+    top: 13505px;
+    left: 0;
 }
 
 .classificacao-1930 ol li {
@@ -8023,260 +8072,71 @@ list-style: none;
 }
 
   /* < -- 1 -- */
-.classificacao-1930 ol li.pos-1 {
-background: #dfd3bd;
-font: bold 2em arial;
-padding: 10px;
-margin: 12px;
-}
-
-.classificacao-1930 ol li.pos-1 span.posicao {
-width: 3em;
-}
-
-.classificacao-1930 ol li.pos-1 span.bandeira {
-margin: 0.8em;
-}
-
- /*  -- 1 --> */
-
-  /* < -- 2 -- */
-
- .classificacao-1930 ol li.pos-2 {
-background: #fff;
-font: bold 2em arial;
-padding: 10px;
-margin: 12px;
-}
-
-.classificacao-1930 ol li.pos-2 span.posicao {
-width: 1em;
-}
-
-.classificacao-1930 ol li.pos-2 span.bandeira {
-margin: 0.8em;
-}
-
- /*  -- 2 --> */
-
- /*  <-- 3 -- */
-
- .classificacao-1930 ol li.pos-3 {
-background: #fff;
-font: bold 2em arial;
-padding: 10px;
-margin: 12px;
-}
-
-.classificacao-1930 ol li.pos-3 span.posicao {
-width: 1em;
-}
-
-.classificacao-1930 ol li.pos-3 span.bandeira {
-margin: 0.8em;
-}
-
-/*  -- 3 --> */
-
-
-/*  <-- 4 -- */
-
-.classificacao-1930 ol li.pos-4 {
-background: #fff;
-font: bold 2em arial;
-padding: 10px;
-margin: 12px;
-}
-
-.classificacao-1930 ol li.pos-4 span.posicao {
-width: 1em;
-}
-
-.classificacao-1930 ol li.pos-4 span.bandeira {
-margin: 0.8em;
-}
-
-/*  -- 4 --> */
-
-
-/*  <-- 5 -- */
-
-.classificacao-1930 ol li.pos-5 {
-background: #fff;
-font: bold 2em arial;
-padding: 10px;
-margin: 12px;
-}
-
-.classificacao-1930 ol li.pos-5 span.posicao {
-width: 1em;
-}
-
-.classificacao-1930 ol li.pos-5 span.bandeira {
-margin: 0.8em;
-}
-
-/*  -- 5 --> */
-
-
-/*  <-- 6 -- */
-
-.classificacao-1930 ol li.pos-6 {
-background: #fff;
-font: bold 2em arial;
-padding: 10px;
-margin: 12px;
-}
-
-.classificacao-1930 ol li.pos-6 span.posicao {
-width: 1em;
-}
-
-.classificacao-1930 ol li.pos-6 span.bandeira {
-margin: 0.8em;
-}
-
-/*  -- 6 --> */
-
-
-/*  < -- 7 -- */
-
-.classificacao-1930 ol li.pos-7 {
-background: #fff;
-font: bold 2em arial;
-padding: 10px;
-margin: 12px;
-}
-
-.classificacao-1930 ol li.pos-7 span.posicao {
-width: 1em;
-}
-
-.classificacao-1930 ol li.pos-7 span.bandeira {
-margin: 0.8em;
-}
-
-/*  -- 7 --> */
-
-
-/*  <-- 8 -- */
-
-.classificacao-1930 ol li.pos-8 {
-background: #fff;
-font: bold 2em arial;
-padding: 10px;
-margin: 12px;
-}
-
-.classificacao-1930 ol li.pos-8 span.posicao {
-width: 1em;
-}
-
-.classificacao-1930 ol li.pos-8 span.bandeira {
-margin: 0.8em;
-}
-
-/*  -- 8 --> */
-
-/*  < -- 9 -- */
-
-.classificacao-1930 ol li.pos-9 {
-background: #fff;
-font: bold 2em arial;
-padding: 10px;
-margin: 12px;
-}
-
-.classificacao-1930 ol li.pos-9 span.posicao {
-width: 1em;
-}
-
-.classificacao-1930 ol li.pos-9 span.bandeira {
-margin: 0.8em;
-}
-
-/*  -- 9 --> */
-
-/*  < -- 10 -- */
-
-.classificacao-1930 ol li.pos-10 {
-background: #fff;
-font: bold 2em arial;
-padding: 10px;
-margin: 12px;
-}
-
-.classificacao-1930 ol li.pos-10 span.posicao {
-width: 1em;
-}
-
-.classificacao-1930 ol li.pos-10 span.bandeira {
-margin: 0.3em;
-}
-
-/*  -- 10 --> */
-
-/*  < -- 11 -- */
-
-.classificacao-1930 ol li.pos-11 span.posicao {
-width: 1em;
-}
-
- .classificacao-1930 ol li.pos-11 {
-background: #fff;
-font: bold 2em arial;
-padding: 15px;padding: 10px;
-margin: 12px;
-}
-
-.classificacao-1930 ol li.pos-11 span.bandeira {
-margin: 0.3em;
-}
-
-/*  -- 11 --> */
-
-/*  < -- 12 -- */
-
-.classificacao-1930 ol li.pos-12 span.posicao {
-width: 1em;
-}
-
-.classificacao-1930 ol li.pos-12 {
-background: #fff;
-font: bold 2em arial;
-padding: 10px;
-margin: 12px;
-}
-
-.classificacao-1930 ol li.pos-12 span.bandeira {
-margin: 0.3em;
-}
-
-/*  -- 12 --> */
-
-/*  < -- 13 -- */
-
-.classificacao-1930 ol li.pos-13 span.posicao {
-width: 1em;
-}
-
-.classificacao-1930 ol li.pos-13 {
-background: #fff;
-font: bold 2em arial;
-padding: 10px;
-margin: 12px;
-}
-
-.classificacao-1930 ol li.pos-13 span.bandeira {
-margin: 0.3em;
-}
-
-/*  -- 13 --> */
+ .classificacao-1930 ol li.pos-1 {
+    background: #dfd3bd;
+    font: bold 1.2em arial;
+    padding: 10px;
+    margin: 12px;
+    }
+    
+    .classificacao-1930 ol li.pos-1 span.posicao {
+    width: 1em;
+    }
+    
+    .classificacao-1930 ol li.pos-1 span.bandeira {
+    margin: 0.8em;
+    }
+    
+     /*  -- 1 --> */
+
+     /* < -- 2-9 -- */
+ .classificacao-1930 ol li {
+    background: #fff;
+    font: bold 1.2em arial;
+    padding: 10px;
+    margin: 12px;
+    }
+    
+    .classificacao-1930 ol li span.posicao {
+    width: 1em;
+    }
+    
+    .classificacao-1930 ol li span.bandeira {
+    margin: 0.8em;
+    }
+     /*  -- 2-9 --> */
+
+        /* Depois da posição 9 */
+     .classificacao-1930 ol li.pos-10 span.bandeira {
+        margin: 0.3em;
+        }
+
+     .classificacao-1930 ol li.pos-11 span.bandeira {
+            margin: 0.3em;
+        }
+
+     .classificacao-1930 ol li.pos-12 span.bandeira {
+                margin: 0.3em;
+        }
+     .classificacao-1930 ol li.pos-13 span.bandeira {
+            margin: 0.3em;
+        }
 
 .hr-1930 {
     position: relative;
-    top: 13700px;
+    height: 150px;
+    top: 13510px;
+    background-color: #2b3e2a;
     border: solid #2b3e2a 1px;
+    width: 100%;
+    }
+
+.hr-1930 h3 {
+    color: #e7ead9;
+    font-weight: 800;
+    font-size: 4em;
+    text-align: center;
+    margin-top: 30px;
     }
 
 
@@ -8286,17 +8146,17 @@ margin: 0.3em;
     .classificacao-1934 h3 {
         color: #000;
         text-align: center;
-        font-size: 25px;
+        font-size: 2em;
     }
     
     .classificacao-1934 {
         border-bottom: 0.2em solid #84765c;
         background: #e7ead9;
         padding: 5px;
-        width: 95%;
+        width: 100%;
         position: relative;
-        top: 13850px;
-        left: 2.5%;
+        top: 13515px;
+        left: 0;
     }
     
     .classificacao-1934 ol li {
@@ -8304,10 +8164,10 @@ margin: 0.3em;
     list-style: none;
     }
     
-      /* < -- 1 -- */
-    .classificacao-1934 ol li.pos-1 {
+       /* < -- 1 -- */
+ .classificacao-1934 ol li.pos-1 {
     background: #dfd3bd;
-    font: bold 2em arial;
+    font: bold 1.2em arial;
     padding: 10px;
     margin: 12px;
     }
@@ -8321,303 +8181,165 @@ margin: 0.3em;
     }
     
      /*  -- 1 --> */
-    
-      /* < -- 2 -- */
-    
-     .classificacao-1934 ol li.pos-2 {
-    background: #fff;
-    font: bold 2em arial;
-    padding: 10px;
-    margin: 12px;
-    }
-    
-    .classificacao-1934 ol li.pos-2 span.posicao {
-    width: 1em;
-    }
-    
-    .classificacao-1934 ol li.pos-2 span.bandeira {
-    margin: 0.8em;
-    }
-    
-     /*  -- 2 --> */
-    
-     /*  <-- 3 -- */
-    
-     .classificacao-1934 ol li.pos-3 {
-    background: #fff;
-    font: bold 2em arial;
-    padding: 10px;
-    margin: 12px;
-    }
-    
-    .classificacao-1934 ol li.pos-3 span.posicao {
-    width: 1em;
-    }
-    
-    .classificacao-1934 ol li.pos-3 span.bandeira {
-    margin: 0.8em;
-    }
-    
-    /*  -- 3 --> */
-    
-    
-    /*  <-- 4 -- */
-    
-    .classificacao-1934 ol li.pos-4 {
-    background: #fff;
-    font: bold 2em arial;
-    padding: 10px;
-    margin: 12px;
-    }
-    
-    .classificacao-1934 ol li.pos-4 span.posicao {
-    width: 1em;
-    }
-    
-    .classificacao-1934 ol li.pos-4 span.bandeira {
-    margin: 0.8em;
-    }
-    
-    /*  -- 4 --> */
-    
-    
-    /*  <-- 5 -- */
-    
-    .classificacao-1934 ol li.pos-5 {
-    background: #fff;
-    font: bold 2em arial;
-    padding: 10px;
-    margin: 12px;
-    }
-    
-    .classificacao-1934 ol li.pos-5 span.posicao {
-    width: 1em;
-    }
-    
-    .classificacao-1934 ol li.pos-5 span.bandeira {
-    margin: 0.8em;
-    }
-    
-    /*  -- 5 --> */
-    
-    
-    /*  <-- 6 -- */
-    
-    .classificacao-1934 ol li.pos-6 {
-    background: #fff;
-    font: bold 2em arial;
-    padding: 10px;
-    margin: 12px;
-    }
-    
-    .classificacao-1934 ol li.pos-6 span.posicao {
-    width: 1em;
-    }
-    
-    .classificacao-1934 ol li.pos-6 span.bandeira {
-    margin: 0.8em;
-    }
-    
-    /*  -- 6 --> */
-    
-    
-    /*  < -- 7 -- */
-    
-    .classificacao-1934 ol li.pos-7 {
-    background: #fff;
-    font: bold 2em arial;
-    padding: 10px;
-    margin: 12px;
-    }
-    
-    .classificacao-1934 ol li.pos-7 span.posicao {
-    width: 1em;
-    }
-    
-    .classificacao-1934 ol li.pos-7 span.bandeira {
-    margin: 0.8em;
-    }
-    
-    /*  -- 7 --> */
-    
-    
-    /*  <-- 8 -- */
-    
-    .classificacao-1934 ol li.pos-8 {
-    background: #fff;
-    font: bold 2em arial;
-    padding: 10px;
-    margin: 12px;
-    }
-    
-    .classificacao-1934 ol li.pos-8 span.posicao {
-    width: 1em;
-    }
-    
-    .classificacao-1934 ol li.pos-8 span.bandeira {
-    margin: 0.8em;
-    }
-    
-    /*  -- 8 --> */
-    
-    /*  < -- 9 -- */
-    
-    .classificacao-1934 ol li.pos-9 {
-    background: #fff;
-    font: bold 2em arial;
-    padding: 10px;
-    margin: 12px;
-    }
-    
-    .classificacao-1934 ol li.pos-9 span.posicao {
-    width: 1em;
-    }
-    
-    .classificacao-1934 ol li.pos-9 span.bandeira {
-    margin: 0.8em;
-    }
-    
-    /*  -- 9 --> */
-    
-    /*  < -- 10 -- */
-    
-    .classificacao-1934 ol li.pos-10 {
-    background: #fff;
-    font: bold 2em arial;
-    padding: 10px;
-    margin: 12px;
-    }
-    
-    .classificacao-1934 ol li.pos-10 span.posicao {
-    width: 1em;
-    }
-    
-    .classificacao-1934 ol li.pos-10 span.bandeira {
-    margin: 0.3em;
-    }
-    
-    /*  -- 10 --> */
-    
-    /*  < -- 11 -- */
-    
-    .classificacao-1934 ol li.pos-11 span.posicao {
-    width: 1em;
-    }
-    
-     .classificacao-1934 ol li.pos-11 {
-    background: #fff;
-    font: bold 2em arial;
-    padding: 15px;padding: 10px;
-    margin: 12px;
-    }
-    
-    .classificacao-1934 ol li.pos-11 span.bandeira {
-    margin: 0.3em;
-    }
-    
-    /*  -- 11 --> */
-    
-    /*  < -- 12 -- */
-    
-    .classificacao-1934 ol li.pos-12 span.posicao {
-    width: 1em;
-    }
-    
-    .classificacao-1934 ol li.pos-12 {
-    background: #fff;
-    font: bold 2em arial;
-    padding: 10px;
-    margin: 12px;
-    }
-    
-    .classificacao-1934 ol li.pos-12 span.bandeira {
-    margin: 0.3em;
-    }
-    
-    /*  -- 12 --> */
-    
-    /*  < -- 13 -- */
-    
-    .classificacao-1934 ol li.pos-13 span.posicao {
-    width: 1em;
-    }
-    
-    .classificacao-1934 ol li.pos-13 {
-    background: #fff;
-    font: bold 2em arial;
-    padding: 10px;
-    margin: 12px;
-    }
-    
-    .classificacao-1934 ol li.pos-13 span.bandeira {
-    margin: 0.3em;
-    }
-    
-    /*  -- 13 --> */
 
-     /*  < -- 14 -- */
+     /* < -- 2-9 -- */
+ .classificacao-1934 ol li {
+    background: #fff;
+    font: bold 1.2em arial;
+    padding: 10px;
+    margin: 12px;
+    }
     
-     .classificacao-1934 ol li.pos-14 span.posicao {
-        width: 1em;
-        }
-        
-        .classificacao-1934 ol li.pos-14 {
-        background: #fff;
-        font: bold 2em arial;
-        padding: 10px;
-        margin: 12px;
-        }
-        
-        .classificacao-1934 ol li.pos-14 span.bandeira {
+    .classificacao-1934 ol li span.posicao {
+    width: 1em;
+    }
+    
+    .classificacao-1934 ol li span.bandeira {
+    margin: 0.8em;
+    }
+     /*  -- 2-9 --> */
+
+        /* Depois da posição 9 */
+     .classificacao-1934 ol li.pos-10 span.bandeira {
         margin: 0.3em;
         }
-        
-        /*  -- 14 --> */
 
-         /*  < -- 15 -- */
-    
-    .classificacao-1934 ol li.pos-15 span.posicao {
-        width: 1em;
+     .classificacao-1934 ol li.pos-11 span.bandeira {
+            margin: 0.3em;
         }
-        
-        .classificacao-1934 ol li.pos-15 {
-        background: #fff;
-        font: bold 2em arial;
-        padding: 10px;
-        margin: 12px;
-        }
-        
-        .classificacao-1934 ol li.pos-15 span.bandeira {
-        margin: 0.3em;
-        }
-        
-        /*  -- 15 --> */
 
-         /*  < -- 16 -- */
-    
-    .classificacao-1934 ol li.pos-16 span.posicao {
-        width: 1em;
+     .classificacao-1934 ol li.pos-12 span.bandeira {
+                margin: 0.3em;
         }
-        
-        .classificacao-1934 ol li.pos-16 {
-        background: #fff;
-        font: bold 2em arial;
-        padding: 10px;
-        margin: 12px;
+     .classificacao-1934 ol li.pos-13 span.bandeira {
+            margin: 0.3em;
         }
-        
-        .classificacao-1934 ol li.pos-16 span.bandeira {
-        margin: 0.3em;
+     .classificacao-1934 ol li.pos-14 span.bandeira {
+            margin: 0.3em;
         }
-        
-        /*  -- 16 --> */
+
+     .classificacao-1934 ol li.pos-15 span.bandeira {
+                margin: 0.3em;
+        }
+     .classificacao-1934 ol li.pos-16 span.bandeira {
+            margin: 0.3em;
+        }
     
     .hr-1934 {
         position: relative;
-        top: 14000px;
+        height: 150px;
+        top: 13520px;
+        background-color: #2b3e2a;
         border: solid #2b3e2a 1px;
+        width: 100%;
         }
 
+        .hr-1934 h3 {
+            color: #e7ead9;
+            font-weight: 800;
+            font-size: 4em;
+            text-align: center;
+            margin-top: 30px;
+        }
+
+         /* classif 1938*/
+
+
+    .classificacao-1938 h3 {
+        color: #000;
+        text-align: center;
+        font-size: 2em;
+    }
+    
+    .classificacao-1938 {
+        border-bottom: 0.2em solid #84765c;
+        background: #e7ead9;
+        padding: 5px;
+        width: 100%;
+        position: relative;
+        top: 13525px;
+        left: 0;
+    }
+    
+    .classificacao-1938 ol li {
+    color: #010101;
+    list-style: none;
+    }
+    
+       /* < -- 1 -- */
+ .classificacao-1938 ol li.pos-1 {
+    background: #dfd3bd;
+    font: bold 1.2em arial;
+    padding: 10px;
+    margin: 12px;
+    }
+    
+    .classificacao-1938 ol li.pos-1 span.posicao {
+    width: 1em;
+    }
+    
+    .classificacao-1938 ol li.pos-1 span.bandeira {
+    margin: 0.8em;
+    }
+    
+     /*  -- 1 --> */
+
+     /* < -- 2-9 -- */
+ .classificacao-1938 ol li {
+    background: #fff;
+    font: bold 1.2em arial;
+    padding: 10px;
+    margin: 12px;
+    }
+    
+    .classificacao-1938 ol li span.posicao {
+    width: 1em;
+    }
+    
+    .classificacao-1938 ol li span.bandeira {
+    margin: 0.8em;
+    }
+     /*  -- 2-9 --> */
+
+        /* Depois da posição 9 */
+     .classificacao-1938 ol li.pos-10 span.bandeira {
+        margin: 0.3em;
+        }
+
+     .classificacao-1938 ol li.pos-11 span.bandeira {
+            margin: 0.3em;
+        }
+
+     .classificacao-1938 ol li.pos-12 span.bandeira {
+                margin: 0.3em;
+        }
+     .classificacao-1938 ol li.pos-13 span.bandeira {
+            margin: 0.3em;
+        }
+     .classificacao-1938 ol li.pos-14 span.bandeira {
+            margin: 0.3em;
+        }
+
+     .classificacao-1938 ol li.pos-15 span.bandeira {
+                margin: 0.3em;
+        }
+ 
+        .hr-1938 {
+            position: relative;
+            height: 150px;
+            top: 13520px;
+            background-color: #2b3e2a;
+            border: solid #2b3e2a 1px;
+            width: 100%;
+            }
+    
+            .hr-1938 h3 {
+                color: #e7ead9;
+                font-weight: 800;
+                font-size: 4em;
+                text-align: center;
+                margin-top: 30px;
+            }
 
 
 

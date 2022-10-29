@@ -15,6 +15,10 @@ def homepage():
 def analises():
     return render_template("analises.html")
 
+@app.route("/grupos")
+def grupos():
+    return render_template("grupos.html")
+
 @app.route("/escalacoes")
 def escalacoes():
     return render_template("escalacoes.html")
