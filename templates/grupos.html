@@ -2,8 +2,6 @@
 <html lang="br">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <!-- Favicon -->
     
@@ -11,14 +9,13 @@
 
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700|Roboto+Slab:400,700|Pacifico' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="{{ url_for('static', filename='CSS/table.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='CSS/style.css') }}">
     <link rel="stylesheet" href="https://pyscript.net/latest/pyscript.css" />
 
-    <title>Analises</title>
+    <title>Grupos da Copa 2022</title>
 </head>
 
 <body>
-
     <nav class="menu-1">
         <div class="logo"> </div>
         <div class="menu-btn">
@@ -31,8 +28,13 @@
             <li> <a href="{{ url_for('grupos') }}" class="active"> Grupos </a> </li>
         </ul>
     </nav>
-    
+
+    <div class="titulo-grupos">
+        <h1> Grupos da Copa </h1>
+        </div>
+
     <div class="conteudo-grupos">
+
     <table class="tabela-copa">
         <tr>
             <td colspan="14" id="tabela-header-copa"><a href="#">FIFA World Cup<br><span id="ano">2022 &nbsp;▼</span></a></td>
@@ -726,3 +728,6 @@
     </table>
 </div>
 </body>
+
+
+<!--<script type="text/javascript" src="static/JS/background.js"></script> -->

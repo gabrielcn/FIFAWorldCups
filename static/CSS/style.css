@@ -83,7 +83,7 @@ color: #f2f2f2;
 text-decoration: none;  
 font-size: 20px;
 font-weight: 700;
-padding: 8px 15px;
+padding: 8px 12px;
 border-radius: 5px;
 letter-spacing: 1px;
 transition: all 0.3s ease;
@@ -843,6 +843,7 @@ color: #ee7601;
 background-color: #F5F5DC;
 position: relative;
 top: 450px;
+height: 12100px;
 margin-left: 220px;
 margin-right: 220px;
 }
@@ -4036,58 +4037,6 @@ border-radius: 5%;
 }
 
 
-.Brasil-1930 {
-margin-top: 20400px;
-align-items: center;
-left: 17%;
-position: relative;
-}
-
-.sombra-Brasil-1930 {
-background: #000;
-opacity: 0.8;
-height: 100px;
-margin-top: -103px;
-width: 615px;
-left: 17%;
-position: relative;
-}
-
-.Brasil-logo {
-margin-left: 10px;
-}
-
-strong {
-color: #ee7601;
-}
-
-.h3-Brasil-1 {
-    font: bold 1.3em arial;
-    color: #fff;
-    padding: 15px;
-    border-radius: 4px;
-    margin-top: -90px;
-    margin-left: 100px;
-}
-
-.p2 {
-    font: bold 1.3em arial;
-    color: #fff;
-    padding: 15px;
-    width: 100%;
-    margin-top: -25px;
-    margin-left: -332px;
-}
-
-#Brasil-disputa-entre-paulistas-e-cariocas p {
-margin-top: 10px;
-margin-left: 60px;
-margin-right: 60px;
-padding: 2px;
-color: black;
-font-size: 20px;
-}
-
 
 
 
@@ -4137,69 +4086,58 @@ font-size: 20px;
 /* Página grupos */
 
 @import url('https://fonts.googleapis.com/css2? family= Anek+Malayalam:wght@100;400 & display=swap' );
-
-.conteudo-grupos {
-    background-color: #F5F5DC;
-    position: relative;
-    top: 50px;
-    margin-left: 150px;
-    margin-right: 200px;
-    }
-
-
-body .grupos{
-    font-family: 'Anek Malayan', sans-serif;
-    background-color: #f8f9fa;
-    overflow-x: hidden;
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
 }
 
-.conteudo-grupos table{
+table{
     width: 100vw;
     text-align: center;
 }
 
-.conteudo-grupos #logo td{
+#logo td{
     height: 48px;
     padding-top: 4px;    
 }
 
-.conteudo-grupos td{
+td{
     height: 50px;
     width: 104px;
     color: #9db7a9;
 }
 
-.conteudo-grupos .nav-conteudo-lateral{
+.nav-conteudo-lateral{
     width: 400px;
 }
 
-.conteudo-grupos .nav-destacado{
+.nav-destacado{
     border-bottom: 3px solid #ffffff;
     color: #ffffff;
 }
 
-.conteudo-grupos .nav-destacado:hover{
+.nav-destacado:hover{
     background-color: #0e482a;
     cursor: pointer;
 }
 
-.conteudo-grupos .tabela-copa{
+.tabela-copa{
     position: absolute;
     margin-top: 110px;
     z-index: -1;
-
     border: 1px solid #e9eaeb;
     border-top:none;
     border-bottom:none;
-    width: 40vw;
-    margin-left: 30%;
-
+    width: 80vw;
+    margin-left: 10%;
     font-size: 0.75em;
     border-collapse: collapse;
     background-color: #ffffff;
 }
 
-.conteudo-grupos #tabela-header-copa{
+#tabela-header-copa{
     padding: 15px;
     padding-left: 20px;
     background-color: #f1f3f4;
@@ -4207,22 +4145,22 @@ body .grupos{
     color: #70758d;
 }
 
-.conteudo-grupos #ano{
+#ano{
     font-weight: 600;
     color: #4285f4;
 }
 
-.conteudo-grupos a:link {
+a:link {
     color: #70758d;
     text-decoration: none;
 }
 
-.conteudo-grupos a:visited{
+a:visited{
     color: #70758d;
     text-decoration: none;
 }
 
-.conteudo-grupos .tabela-copa th{
+.tabela-copa th{
     border-top: 1px solid #e0e0e0;
     font-weight: 100;
     color: #70758d;
@@ -4230,7 +4168,7 @@ body .grupos{
     height: 35px;
 
 }
-.conteudo-grupos .tabela-copa td{
+.tabela-copa td{
     border-top: 1px solid #e0e0e0;
     font-weight: 100;
     color: #000000;
@@ -4240,28 +4178,28 @@ body .grupos{
 
 }
 
-.conteudo-grupos .tabela-copa img{
+.tabela-copa img{
     width: 25px;
 }
 
-.conteudo-grupos .tabela-colunas-bordas{
+.tabela-colunas-bordas{
     border-top: none !important;
 }
 
-.conteudo-grupos .titulo-clube{
+.titulo-clube{
     width: 35%;
     text-align: left;
 }
 
-.conteudo-grupos .borda-verde{
+.borda-verde{
     border-left: 3px solid #34a853;
 }
 
-.conteudo-grupos .borda-vermelho{
+.borda-vermelho{
     border-left: 3px solid #ea4335;
 }
 
-.conteudo-grupos .legenda table{
+.legenda table{
     width: 40vw;
     margin: 5px;
     margin-top: 20px;
@@ -4273,24 +4211,25 @@ body .grupos{
     background-color: #f8f9fa;
 }
 
-.conteudo-grupos .legenda th{
+.legenda th{
     border-top: none;
     font-size: 1.1em;
     color: #000;
     font-weight: 700;
 }
 
-.conteudo-grupos .legenda img{
+.legenda img{
     width: 10px;
 }
 
-.conteudo-grupos .legenda td{
+.legenda td{
     border-top: none;
     font-size: 1em;
     height: 3px;
     width: 50%;
 }
 
+/* .tabela-brasileirao tr:hover {background-color: #f8f9fa;} */
 
 
 
@@ -4369,7 +4308,7 @@ body, html {
     text-decoration: none;
     font-size: 56px;
     font-weight: 700;
-    padding: 25px 20px;
+    padding: 25px 10px;
     border-radius: 5px;
     letter-spacing: 1px;
     transition: all 0.3s ease;
@@ -8399,6 +8338,171 @@ list-style: none;
 .flourish-embed flourish-bar-chart-race {
     height: 100%;
 }
+
+/* Página grupos */
+
+@import url('https://fonts.googleapis.com/css2? family= Anek+Malayalam:wght@100;400 & display=swap' );
+
+.titulo-grupos {
+    position: relative;
+    top: 0px;
+    text-align: center;
+    background-color: #0e482a;
+    height: 10%;
+    opacity: 0.8;
+}
+
+.titulo-grupos h1 {
+  color: #fff;
+  font-weight: 800;
+  position: relative;
+  top: 30px;
+  font-size: 3.5em;
+}
+
+.conteudo-grupos {
+margin-top: 1200px;
+}
+
+.conteudo-grupos table{
+    width: 100vw;
+    text-align: center;
+}
+
+.conteudo-grupos #logo td{
+    height: 48px;
+    padding-top: 4px;    
+}
+
+.conteudo-grupos td{
+    height: 50px;
+    width: 104px;
+    color: #9db7a9;
+}
+
+.conteudo-grupos .nav-conteudo-lateral{
+    width: 400px;
+}
+
+.conteudo-grupos .nav-destacado{
+    border-bottom: 3px solid #ffffff;
+    color: #ffffff;
+}
+
+.conteudo-grupos .nav-destacado:hover{
+    background-color: #0e482a;
+    cursor: pointer;
+}
+
+.conteudo-grupos .tabela-copa{
+    position: relative;
+    margin-top: 0px;
+    top: -1198px;
+    z-index: 2;
+    border: 1px solid #e9eaeb;
+    border-top: none;
+    border-bottom: none;
+    width: 100%;
+    margin-left: 0%;
+    font-size: 0.75em;
+    border-collapse: collapse;
+    background-color: #ffffff;
+}
+
+.conteudo-grupos #tabela-header-copa{
+    padding: 15px;
+    padding-left: 20px;
+    background-color: #f1f3f4;
+    text-align: left;
+    color: #70758d;
+}
+
+.conteudo-grupos #ano{
+    font-weight: 600;
+    color: #4285f4;
+}
+
+.conteudo-grupos a:link {
+    color: #70758d;
+    text-decoration: none;
+}
+
+.conteudo-grupos a:visited{
+    color: #70758d;
+    text-decoration: none;
+}
+
+.conteudo-grupos .tabela-copa th{
+    border-top: 1px solid #e0e0e0;
+    font-weight: 100;
+    color: #70758d;
+    padding: 4px;
+    height: 35px;
+    font-size: 2em;
+}
+
+.conteudo-grupos .tabela-copa td{
+    border-top: 1px solid #e0e0e0;
+    font-weight: 100;
+    color: #000000;
+    padding: 4px;
+    height: 41px;
+    font-size: 2.5em;
+
+}
+
+.conteudo-grupos .tabela-copa img{
+    width: 50px;
+}
+
+.conteudo-grupos .tabela-colunas-bordas{
+    border-top: none !important;
+}
+
+.conteudo-grupos .titulo-clube{
+    width: 35%;
+    text-align: left;
+}
+
+.conteudo-grupos .borda-verde{
+    border-left: 8px solid #34a853;
+}
+
+.conteudo-grupos .borda-vermelho{
+    border-left: 8px solid #ea4335;
+}
+
+.conteudo-grupos .legenda table{
+    width: 40vw;
+    margin: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #e9eaeb;
+    border-radius: 3px;
+    padding: 15px;
+    text-align: left;
+    background-color: #f8f9fa;
+}
+
+.conteudo-grupos .legenda th{
+    border-top: none;
+    font-size: 2em;
+    color: #000;
+    font-weight: 700;
+}
+
+.conteudo-grupos .legenda img{
+    width: 25px;
+}
+
+.conteudo-grupos .legenda td{
+    border-top: none;
+    font-size: 1.8em;
+    height: 3px;
+    width: 50%;
+}
+
+/* .tabela-brasileirao tr:hover {background-color: #f8f9fa;} */
 
 
 

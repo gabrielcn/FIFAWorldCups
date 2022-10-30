@@ -78,7 +78,7 @@ color: #f2f2f2;
 text-decoration: none;  
 font-size: 20px;
 font-weight: 700;
-padding: 8px 15px;
+padding: 8px 12px;
 border-radius: 5px;
 letter-spacing: 1px;
 transition: all 0.3s ease;
@@ -271,3 +271,94 @@ a:visited{
 
 /* .tabela-brasileirao tr:hover {background-color: #f8f9fa;} */
 
+/* Responsividade Media Query */
+
+@media only screen and (max-device-width: 700px) and (max-device-height: 930px) {
+
+    body, html {
+        width: 100%;
+        height: 100%;
+        margin: 0 auto;
+        background-image: url("/static/IMG/back2.jpg");
+        overflow-x: hidden!important;
+    }
+    
+       /* Menu */
+    
+    .menu-1{
+        display: flex;
+        height: 10.5%;
+        width: 100%;
+        background-image: url("../IMG/logo.jpg");
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 50px 0 100px;
+        flex-wrap: wrap;
+        }
+        
+        .menu-1 .logo{
+        color: white;
+        font-size: 35px;
+        font-weight: 600;
+        margin-top: -90px;
+        }
+        
+        .menu-1 ul{
+        display: flex;
+        flex-wrap: wrap;
+        list-style: none;
+        }
+        
+        .menu-1 ul li{
+        margin: 0 20px;
+        margin-top: -80px;
+        position: relative;
+        left: 0;
+        right: 0;
+        }
+        
+        .menu-1 ul li a{
+        color: #f2f2f2;
+        text-decoration: none;
+        font-size: 56px;
+        font-weight: 700;
+        padding: 25px 10px;
+        border-radius: 5px;
+        letter-spacing: 1px;
+        transition: all 0.3s ease;
+        position: relative;
+        top: 30%;
+        }
+        
+        .menu-1 ul li a.active,
+        nav ul li a:hover{
+        background: #f88f06;
+        }
+        
+        .menu-1 .menu-btn i{
+        color: #fff;
+        cursor: pointer;
+        display: none;
+        }
+    
+        ul {
+            padding: 0px!important;
+         }
+         
+         main, .content {
+         margin: 0 auto;
+         width: 980px;
+         position: relative;
+         }
+         
+         .logo {
+          float: left;
+          padding: 16px;
+          width: 70%;
+         }
+         
+         .menu-urls {
+         height: 171px;
+         margin-bottom: 15px;
+         }
+}
