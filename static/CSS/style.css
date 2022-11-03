@@ -4269,6 +4269,26 @@ a:visited{
     left: 25%;
 }
 
+/* Página Dashboards */
+
+.titulo-dashboards {
+    position: relative;
+    top: 0px;
+    text-align: center;
+    background-color: #0e482a;
+    height: 100px;
+    opacity: 0.9;
+}
+
+.titulo-dashboards h1 {
+  color: #fff;
+  font-weight: 800;
+  position: relative;
+  top: 15px;
+  font-size: 2.5em;
+  font-family: 'Poppins', sans-serif;
+}
+
 /* Responsividade Media Query */
 
 @media only screen and (max-device-width: 700px) and (max-device-height: 930px) {
@@ -8293,12 +8313,6 @@ list-style: none;
                 margin-top: 30px;
             }
 
-
-
-
-
-
-
 /* Página Escalações */
 
 .conteudo-escalacoes {
@@ -8308,9 +8322,47 @@ list-style: none;
     left: 0;
 }
 
-
 .conteudo-escalacoes h1 {
     font-size: 3.6rem;
+}
+
+/* Page Dashboards */
+
+.titulo-dashboards {
+    position: relative;
+    top: 0px;
+    text-align: center;
+    background-color: #0e482a;
+    height: 10%;
+    opacity: 0.8;
+}
+
+.titulo-dashboards h1 {
+  color: #fff;
+  font-weight: 800;
+  position: relative;
+  top: 30px;
+  font-size: 3.5em;
+}
+
+.conteudo-dashboards {
+    width: 100%;
+}
+
+.dash-1 {
+    width: 100%;
+}
+
+.dash-2 {
+    width: 100%;
+}
+
+.dash-3 {
+    width: 100%;
+}
+
+.dash-4 {
+    width: 100%;
 }
 
 /* Page Analises */
