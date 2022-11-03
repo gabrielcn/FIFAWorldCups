@@ -23,6 +23,10 @@ def grupos():
 def escalacoes():
     return render_template("escalacoes.html")
 
+@app.route("/dashboards")
+def dashboards():
+    return render_template("dashboards.html")
+
 # colocar o site no ar
 if __name__ == "__main__":
     app.run(debug=True) # Todas a ediçoes que for fazendo no código, ele exibe dinamicamente no site, sem precisar debugar

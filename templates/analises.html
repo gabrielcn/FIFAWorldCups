@@ -16,7 +16,6 @@
 </head>
 
 <body>
-
     <nav class="menu-1">
         <div class="logo"> </div>
         <div class="menu-btn">
@@ -29,21 +28,24 @@
             <li> <a href="{{ url_for('grupos') }}"> Grupos </a> </li>
         </ul>
     </nav>
-
     <div class="titulo-analises">
-    <h1> Análises e estatísticas sobre as copas</h1>
+    <h1> Análises e estatísticas</h1>
     </div>
 
     <div class="conteudo-analises">
 
-        <div class="flourish-embed flourish-bar-chart-race" data-src="visualisation/11226798"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
-
+        <div class="grafico-artilheiros-mobile">
+        <div class="flourish-embed flourish-bar-chart-race" data-src="visualisation/11226798" ><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+        </div>
+        
+        <div class="grafico-artilheiros-pc">
+        <div class="flourish-embed flourish-bar-chart-race" data-src="visualisation/11678927" heigth="500px"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+        </div>
+        
         <div class="analise-brasil-pbi">
         <iframe title="Report Section" width="600" height="620" src="https://app.powerbi.com/view?r=eyJrIjoiZjU2NWY3NDEtNmI3Ni00NDVmLTkzNjctMzQ0Y2JlNGE0MzI5IiwidCI6IjhlYjI5MjAxLWEyN2QtNDMwMi04NDczLWM5ODJlYjViZTkzNSJ9" frameborder="0" allowFullScreen="true"></iframe>
         </div>
-    
     </div>
-
     <footer>
         <div class="waves">
             <div class="wave" id="wave1"></div>
@@ -65,17 +67,16 @@
         <p>  Desenvolvido por Gabriel Coni </p>
         <p>©2022 História das Copas | Todos os direitos reservados</p>
     </footer>
-    
 
 
 
-    
+<script type="text/javascript" src="static/JS/main.js"></script>
 <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
 <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 <script type="text/javascript" src="static/JS/jquery.js"></script>
 <script type="text/javascript" src="static/JS/jquery-migrate.js"></script>
 <script type="text/javascript" src="static/JS/slick.min.js"></script>
-<script type="text/javascript" src="static/JS/main.js"></script>
+
 <!--<script type="text/javascript" src="static/JS/background.js"></script>-->
 </body>
 </html>

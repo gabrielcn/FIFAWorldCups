@@ -15,6 +15,7 @@ height: 100%;
 margin: 0 auto;
 background-image: url("/static/IMG/back2.jpg");
 overflow-x: hidden;
+overflow-y: scroll;
 }
 
 area {
@@ -4042,28 +4043,32 @@ border-radius: 5%;
 .conteudo-analises {
     background-color: #F5F5DC;
     position: relative;
-    top: 150px;
-    margin-left: 150px;
-    margin-right: 150px;
+    top: 0;
+    overflow-y: visible;
+    /*margin-left: 150px;
+    margin-right: 150px; */
 }
 
 .titulo-analises {
-    background-color: #2b3e2a;
-    border-radius: 8%;
-    margin-left: 220px;
-    margin-right: 220px;
-    padding: 5px;
     position: relative;
-    top: 20px;
-    height: 80px;
-    opacity: 0.8;
+    top: 0px;
+    text-align: center;
+    background-color: #0e482a;
+    height: 100px;
+    opacity: 0.9;
 }
 
 .titulo-analises h1 {
-    text-align: center;
     color: #fff;
-    position: relative;
-    top: 20%;
+  font-weight: 800;
+  position: relative;
+  top: 15px;
+  font-size: 2.5em;
+  font-family: 'Poppins', sans-serif;
+}
+
+.grafico-artilheiros-mobile {
+    display: none;
 }
 
 .analise-brasil-pbi {
@@ -4080,6 +4085,24 @@ border-radius: 5%;
     margin: 0;
     box-sizing: border-box;
     text-decoration: none;
+}
+
+.titulo-grupos {
+    position: relative;
+    top: 0px;
+    text-align: center;
+    background-color: #0e482a;
+    height: 100px;
+    opacity: 0.9;
+}
+
+.titulo-grupos h1 {
+  color: #fff;
+  font-weight: 800;
+  position: relative;
+  top: 15px;
+  font-size: 2.5em;
+  font-family: 'Poppins', sans-serif;
 }
 
 table{
@@ -4114,13 +4137,13 @@ td{
 
 .tabela-copa{
     position: absolute;
-    margin-top: 110px;
+    margin-top: 0;
     z-index: -1;
     border: 1px solid #e9eaeb;
     border-top:none;
     border-bottom:none;
-    width: 80vw;
-    margin-left: 10%;
+    width: 100vw;
+    margin-left: 0%;
     font-size: 0.75em;
     border-collapse: collapse;
     background-color: #ffffff;
@@ -4129,14 +4152,14 @@ td{
 #tabela-header-copa{
     padding: 15px;
     padding-left: 20px;
-    background-color: #f1f3f4;
+    background-color: lightgray;
     text-align: left;
     color: #70758d;
 }
 
 #ano{
     font-weight: 600;
-    color: #4285f4;
+    color: #0e482a;
 }
 
 a:link {
@@ -8292,31 +8315,38 @@ list-style: none;
 
 /* Page Analises */
 
-.conteudo-analises {
-    background-color: #F5F5DC;
-    position: relative;
-    top: 150px;
-    margin-left: 50px;
-    margin-right: 50px;
-}
-
 .titulo-analises {
-    background-color: #2b3e2a;
-    border-radius: 8%;
-    margin-left: 220px;
-    margin-right: 220px;
-    padding: 5px;
     position: relative;
-    top: 20px;
-    height: 80px;
+    top: 0px;
+    text-align: center;
+    background-color: #0e482a;
+    height: 150px;
     opacity: 0.8;
 }
 
 .titulo-analises h1 {
-    text-align: center;
-    color: #fff;
+  color: #fff;
+  font-weight: 800;
+  position: relative;
+  top: 35px;
+  font-size: 3.5em;
+  font-family: 'Poppins', sans-serif;
+}
+
+.conteudo-analises {
+    background-color: #F5F5DC;
     position: relative;
-    top: 20%;
+    top: 0;
+   /* margin-left: 50px;
+    margin-right: 50px; */
+}
+
+.grafico-artilheiros-mobile {
+    display: block;
+}
+
+.grafico-artilheiros-pc {
+    display: none;
 }
 
 .analise-brasil-pbi {
@@ -8352,6 +8382,7 @@ list-style: none;
 
 .conteudo-grupos {
 margin-top: 1200px;
+height: 150%;
 }
 
 .conteudo-grupos table{
@@ -8402,14 +8433,14 @@ margin-top: 1200px;
 .conteudo-grupos #tabela-header-copa{
     padding: 15px;
     padding-left: 20px;
-    background-color: #f1f3f4;
+    background-color: lightgray;
     text-align: left;
     color: #70758d;
 }
 
 .conteudo-grupos #ano{
     font-weight: 600;
-    color: #4285f4;
+    color: #0e482a;
 }
 
 .conteudo-grupos a:link {
