@@ -5,7 +5,7 @@ footer {
     width: 100%;
     background: #2b3e2a;
     min-height: 100px;
-    top: 3800px;
+    top: 200px;
     padding: 20px 50px;
     display: flex;
     justify-content: center;
@@ -132,7 +132,7 @@ footer {
     width: 100%;
     background: #2b3e2a;
     min-height: 100px;
-    top: 7200px;
+    top: 200px;
     padding: 20px 50px;
     display: flex;
     justify-content: center;
