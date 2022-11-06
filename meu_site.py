@@ -27,6 +27,11 @@ def escalacoes():
 def dashboards():
     return render_template("dashboards.html")
 
+
+@app.route("/equipe")
+def equipe():
+    return render_template("equipe.html")
+
 # colocar o site no ar
 if __name__ == "__main__":
     app.run(debug=True) # Todas a ediçoes que for fazendo no código, ele exibe dinamicamente no site, sem precisar debugar
