@@ -5441,10 +5441,10 @@ border-radius: 5%;
     display: none;
 }
 
-.analise-brasil-pbi {
+.media-de-gols {
     position: relative;
-    text-align: center;
-    left: 0;
+    left: 5%;
+    width: 85%;
 }
 
 /* Página grupos */
@@ -11441,14 +11441,14 @@ list-style: none;
     display: none;
 }
 
-.analise-brasil-pbi {
-    position: relative;
-    text-align: center;
-    left: -25%;
-}
-
 .flourish-embed flourish-bar-chart-race {
     height: 100%;
+}
+
+.media-de-gols {
+    position: relative;
+    left: 0%;
+    width: 100%;
 }
 
 /* Página grupos */
