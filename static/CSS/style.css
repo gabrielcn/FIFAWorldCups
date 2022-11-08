@@ -14,6 +14,7 @@ width: 100%;
 height: 100%;
 margin: 0 auto;
 background-image: url("/static/IMG/back3.jpg");
+opacity: 1;
 overflow-x: hidden;
 overflow-y: scroll;
 }
@@ -197,26 +198,19 @@ margin-bottom: 15px;
 
 /* Contador regressivo */
 
-.background-contador h1 {
-    font-weight: 900;
-    font-size: 2rem;
-    text-align: center;
-    color: #e7ead9;
-    position: relative;
-    margin: 2px;
-    top: -80px;
-    left: -4.5%;
-}
-
 .titulo-proxima-copa {
-    background-image: url("/static/IMG/qatar_background.jpg");
+    background-color: darkgray;
     opacity: 0.8;
     position: relative;
+    width: 30%;
     height: 180px;
     top: 90px;
-    margin-left: 310px;
-    margin-right: 425px;
+    left: 34.7%;
     border-radius: 5%;
+}
+
+.background-contador h1 {
+    display: none;
 }
 
 .wrapper {
@@ -229,13 +223,13 @@ margin-bottom: 15px;
 }
 
 .count-wrapper {
-    width: 120px;
-    height: 110px;
-    background: #fff;
+    width: 80px;
+    height: 80px;
+    background: yellow;
     position: relative;
     display: flex;
-    left: 25%;
-    bottom: 70px;
+    left: 35%;
+    bottom: 80px;
     justify-content: center;
     align-items: center;
     flex-direction: column;
@@ -246,8 +240,8 @@ margin-bottom: 15px;
 
 .count-wrapper div {
     font-weight: 900;
-    font-size: 4rem; 
-    color: #7d1143;
+    font-size: 2.5rem; 
+    color: darkblue;
 }
 
 .count-wrapper span {
@@ -256,8 +250,12 @@ margin-bottom: 15px;
     bottom: 0;
     text-align: center;
     padding: .2rem 0;
-    background: #999;
+    background: green;
     border-radius: 10%;
+}
+
+.count-wrapper span a {
+   color: #fff;
 }
 
 .alert {
@@ -271,6 +269,36 @@ margin-bottom: 15px;
     100%{
         background: #7d1143;
     }
+}
+
+.background-contador .jogo {
+    position: relative;
+    left: 10%;
+    top: 45px;
+
+}
+
+.background-contador .brasil {
+    position: relative;
+    top: -35px;
+    width: 90px;
+    height: 80px;
+}
+
+.background-contador .x {
+    position: relative;
+    top: -50px;
+    width: 50px;
+    height: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.background-contador .servia {
+    position: relative;
+    top: -35px;
+    width: 90px;
+    height: 80px;
 }
 
 /* Titulo timeline */
@@ -287,41 +315,13 @@ display: none;
 
 }
 
-.melhor-copa {
-    background-color: #F5F5DC;
-    width: 60%;
-    height: 560px;
-    text-align: center;
-    position: relative;
-    top: 60px;
-    left: 240px;
-    border-radius: 10%;
-    margin-top: 40px;
-}
-
-.melhor-copa p {
-   font-size: 35px;
-   font-weight: 900;
-   color: #2b3e2a;
-   position: relative;
-   top: 15px;
-   margin-bottom: -30px;
-}
-
-video {
-    width: 70%;
-    border-radius: 10%;
-    position: relative;
-    top: 90px;
-}
-
 .background-carrossel {
     background-color: #F5F5DC;
     width: 65%;
     height: 500px;
     position: relative;
     left: 17%;
-    top: 160px;
+    top: 410px;
     border-radius: 10%;
  
 }
@@ -840,13 +840,13 @@ color: #ee7601;
     margin-top: -120px;
 }
 
-.conteudo {
+.conteudo-homepage {
 background-color: #F5F5DC;
 position: relative;
 top: 450px;
 height: 12100px;
-margin-left: 220px;
-margin-right: 220px;
+/*margin-left: 220px;
+margin-right: 220px; */
 }
 
 .Copa {
@@ -6467,7 +6467,7 @@ color: #ee7601;
 
 /* Conteudo */
 
-.conteudo {
+.conteudo-homepage {
     background-color: #F5F5DC;
     position: relative;
     top: 1050px;
@@ -6495,7 +6495,7 @@ color: #ee7601;
 
 /* 1930 */
 
-.conteudo .Copa .titulo-copa-1930 h3 {
+.conteudo-homepage .Copa .titulo-copa-1930 h3 {
     position: relative;
     left: 18%;
     font-size: 400%;
@@ -6632,7 +6632,7 @@ color: #ee7601;
 
     /* 1934 */
 
-.conteudo .Copa .titulo-copa-1934 h3 {
+.conteudo-homepage .Copa .titulo-copa-1934 h3 {
     position: relative;
     left: 18%;
     font-size: 400%;
@@ -6769,7 +6769,7 @@ color: #ee7601;
 
     /* 1938 */
 
-.conteudo .Copa .titulo-copa-1938 h3 {
+.conteudo-homepage .Copa .titulo-copa-1938 h3 {
     position: relative;
     left: 18%;
     font-size: 400%;
@@ -6905,7 +6905,7 @@ color: #ee7601;
 
     /* 1950 */
 
-.conteudo .Copa .titulo-copa-1950 h3 {
+.conteudo-homepage .Copa .titulo-copa-1950 h3 {
     position: relative;
     left: 18%;
     font-size: 400%;
@@ -7040,7 +7040,7 @@ color: #ee7601;
 
      /* 1954 */
 
-.conteudo .Copa .titulo-copa-1954 h3 {
+.conteudo-homepage .Copa .titulo-copa-1954 h3 {
     position: relative;
     left: 18%;
     font-size: 400%;
@@ -7175,7 +7175,7 @@ color: #ee7601;
 
      /* 1958 */
 
-.conteudo .Copa .titulo-copa-1958 h3 {
+.conteudo-homepage .Copa .titulo-copa-1958 h3 {
     position: relative;
     left: 18%;
     font-size: 400%;
@@ -7310,7 +7310,7 @@ color: #ee7601;
 
  /* 1962 */
 
- .conteudo .Copa .titulo-copa-1962 h3 {
+ .conteudo-homepage .Copa .titulo-copa-1962 h3 {
     position: relative;
     left: 18%;
     font-size: 400%;
@@ -7445,7 +7445,7 @@ color: #ee7601;
 
     /* 1966 */
 
-.conteudo .Copa .titulo-copa-1966 h3 {
+.conteudo-homepage .Copa .titulo-copa-1966 h3 {
     position: relative;
     left: 18%;
     font-size: 400%;
@@ -7582,7 +7582,7 @@ color: #ee7601;
 
     /* 1970 */
 
-.conteudo .Copa .titulo-copa-1970 h3 {
+.conteudo-homepage .Copa .titulo-copa-1970 h3 {
     position: relative;
     left: 18%;
     font-size: 400%;
@@ -7719,7 +7719,7 @@ color: #ee7601;
 
     /* 1974 */
 
-.conteudo .Copa .titulo-copa-1974 h3 {
+.conteudo-homepage .Copa .titulo-copa-1974 h3 {
     position: relative;
     left: 18%;
     font-size: 400%;
@@ -7856,7 +7856,7 @@ color: #ee7601;
 
     /* 1978 */
 
-.conteudo .Copa .titulo-copa-1978 h3 {
+.conteudo-homepage .Copa .titulo-copa-1978 h3 {
     position: relative;
     left: 18%;
     font-size: 400%;
@@ -7993,7 +7993,7 @@ color: #ee7601;
 
     /* 1982 */
 
-.conteudo .Copa .titulo-copa-1982 h3 {
+.conteudo-homepage .Copa .titulo-copa-1982 h3 {
     position: relative;
     left: 18%;
     font-size: 400%;
@@ -8130,7 +8130,7 @@ color: #ee7601;
 
     /* 1986 */
 
-.conteudo .Copa .titulo-copa-1986 h3 {
+.conteudo-homepage .Copa .titulo-copa-1986 h3 {
     position: relative;
     left: 18%;
     font-size: 400%;
@@ -8267,7 +8267,7 @@ color: #ee7601;
 
     /* 1990 */
 
-.conteudo .Copa .titulo-copa-1990 h3 {
+.conteudo-homepage .Copa .titulo-copa-1990 h3 {
     position: relative;
     left: 18%;
     font-size: 400%;
@@ -8404,7 +8404,7 @@ color: #ee7601;
 
     /* 1994 */
 
-.conteudo .Copa .titulo-copa-1994 h3 {
+.conteudo-homepage .Copa .titulo-copa-1994 h3 {
     position: relative;
     left: 18%;
     font-size: 400%;
@@ -8541,7 +8541,7 @@ color: #ee7601;
 
     /* 1998 */
 
-.conteudo .Copa .titulo-copa-1998 h3 {
+.conteudo-homepage .Copa .titulo-copa-1998 h3 {
     position: relative;
     left: 18%;
     font-size: 400%;
@@ -8678,7 +8678,7 @@ color: #ee7601;
 
 /* 2002 */
 
-.conteudo .Copa .titulo-copa-2002 h3 {
+.conteudo-homepage .Copa .titulo-copa-2002 h3 {
     position: relative;
     left: 18%;
     font-size: 400%;
@@ -8815,7 +8815,7 @@ color: #ee7601;
 
     /* 2006 */
 
-.conteudo .Copa .titulo-copa-2006 h3 {
+.conteudo-homepage .Copa .titulo-copa-2006 h3 {
     position: relative;
     left: 18%;
     font-size: 400%;
@@ -8952,7 +8952,7 @@ color: #ee7601;
 
     /* 2010 */
 
-.conteudo .Copa .titulo-copa-2010 h3 {
+.conteudo-homepage .Copa .titulo-copa-2010 h3 {
     position: relative;
     left: 18%;
     font-size: 400%;
@@ -9089,7 +9089,7 @@ color: #ee7601;
 
      /* 2014 */
 
-.conteudo .Copa .titulo-copa-2014 h3 {
+.conteudo-homepage .Copa .titulo-copa-2014 h3 {
     position: relative;
     left: 18%;
     font-size: 400%;
@@ -9226,7 +9226,7 @@ color: #ee7601;
 
      /* 2018 */
 
-.conteudo .Copa .titulo-copa-2018 h3 {
+.conteudo-homepage .Copa .titulo-copa-2018 h3 {
     position: relative;
     left: 18%;
     font-size: 400%;
