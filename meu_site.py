@@ -27,10 +27,13 @@ def escalacoes():
 def dashboards():
     return render_template("dashboards.html")
 
-
 @app.route("/equipe")
 def equipe():
     return render_template("equipe.html")
+
+@app.route("/fontes")
+def fontes():
+    return render_template("fontes.html")
 
 # colocar o site no ar
 if __name__ == "__main__":

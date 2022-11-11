@@ -199,18 +199,18 @@ margin-bottom: 15px;
 /* Contador regressivo */
 
 .titulo-proxima-copa {
-    background-color: darkgray;
-    opacity: 0.8;
+    background-color: #ffffff;
+    opacity: 1;
     position: relative;
     width: 30%;
-    height: 180px;
+    height: 200px;
     top: 90px;
     left: 34.7%;
     border-radius: 5%;
 }
 
 .background-contador h1 {
-    display: none;
+   display: none;
 }
 
 .wrapper {
@@ -223,13 +223,13 @@ margin-bottom: 15px;
 }
 
 .count-wrapper {
-    width: 80px;
-    height: 80px;
+    width: 70px;
+    height: 70px;
     background: yellow;
     position: relative;
     display: flex;
-    left: 35%;
-    bottom: 80px;
+    left: 36.5%;
+    bottom: 95px;
     justify-content: center;
     align-items: center;
     flex-direction: column;
@@ -240,7 +240,7 @@ margin-bottom: 15px;
 
 .count-wrapper div {
     font-weight: 900;
-    font-size: 2.5rem; 
+    font-size: 1.5rem; 
     color: darkblue;
 }
 
@@ -256,6 +256,7 @@ margin-bottom: 15px;
 
 .count-wrapper span a {
    color: #fff;
+   font-size: 0.9rem;
 }
 
 .alert {
@@ -269,36 +270,6 @@ margin-bottom: 15px;
     100%{
         background: #7d1143;
     }
-}
-
-.background-contador .jogo {
-    position: relative;
-    left: 10%;
-    top: 45px;
-
-}
-
-.background-contador .brasil {
-    position: relative;
-    top: -35px;
-    width: 90px;
-    height: 80px;
-}
-
-.background-contador .x {
-    position: relative;
-    top: -50px;
-    width: 50px;
-    height: 40px;
-    margin-left: 10px;
-    margin-right: 10px;
-}
-
-.background-contador .servia {
-    position: relative;
-    top: -35px;
-    width: 90px;
-    height: 80px;
 }
 
 /* Titulo timeline */
@@ -321,7 +292,7 @@ display: none;
     height: 500px;
     position: relative;
     left: 17%;
-    top: 410px;
+    top: 350px;
     border-radius: 10%;
  
 }
@@ -5355,7 +5326,308 @@ border: solid #2b3e2a 1px;
     text-align: center;
     margin-top: 10px;
     }
-   
+
+    
+    /* classif 2002*/
+
+
+.classificacao-2002 h3 {
+    color: #000;
+    text-align: center;
+    font-size: 25px;
+    }
+    
+    
+    .classificacao-2002 {
+    border-bottom: 0.2em solid #84765c;
+    background: #e7ead9;
+    padding: 5px;
+    width: 100%;
+    position: relative;
+    top: 10501px;
+    left: 0;
+    }
+    
+    .classificacao-2002 ol li {
+    color: #010101;
+    list-style: none;
+    }
+    
+    /* < -- 1 -- */
+    .classificacao-2002 ol li.pos-1 {
+    background: #dfd3bd;
+    font: bold 1.2em arial;
+    padding: 10px;
+    margin: 12px;
+    }
+    
+    .classificacao-2002 ol li.pos-1 span.posicao {
+    width: 1em;
+    }
+    
+    .classificacao-2002 ol li.pos-1 span.bandeira {
+    margin: 0.8em;
+    }
+    
+     /*  -- 1 --> */
+    
+     /* < -- 2-9 -- */
+    .classificacao-2002 ol li {
+    background: #fff;
+    font: bold 1.2em arial;
+    padding: 10px;
+    margin: 12px;
+    }
+    
+    .classificacao-2002 ol li span.posicao {
+    width: 1em;
+    }
+    
+    .classificacao-2002 ol li span.bandeira {
+    margin: 0.8em;
+    }
+     /*  -- 2-9 --> */
+    
+        /* Depois da posição 9 */
+     .classificacao-2002 ol li.pos-10 span.bandeira {
+        margin: 0.3em;
+        }
+    
+     .classificacao-2002 ol li.pos-11 span.bandeira {
+            margin: 0.3em;
+        }
+    
+     .classificacao-2002 ol li.pos-12 span.bandeira {
+                margin: 0.3em;
+        }
+     .classificacao-2002 ol li.pos-13 span.bandeira {
+            margin: 0.3em;
+        }
+     .classificacao-2002 ol li.pos-14 span.bandeira {
+            margin: 0.3em;
+        }
+    
+     .classificacao-2002 ol li.pos-15 span.bandeira {
+                margin: 0.3em;
+        }
+     .classificacao-2002 ol li.pos-16 span.bandeira {
+            margin: 0.3em;
+        }
+        ol li.pos-17 span.bandeira {
+            margin: 0.3em;
+        }
+        ol li.pos-18 span.bandeira {
+            margin: 0.3em;
+        }
+        ol li.pos-19 span.bandeira {
+            margin: 0.3em;
+        }
+        ol li.pos-20 span.bandeira {
+            margin: 0.3em;
+        }
+        ol li.pos-21 span.bandeira {
+            margin: 0.3em;
+        }
+        ol li.pos-22 span.bandeira {
+            margin: 0.3em;
+        }
+        ol li.pos-23 span.bandeira {
+            margin: 0.3em;
+        }
+        ol li.pos-24 span.bandeira {
+            margin: 0.3em;
+        }
+        ol li.pos-25 span.bandeira {
+            margin: 0.3em;
+        }
+        ol li.pos-26 span.bandeira {
+            margin: 0.3em;
+        }
+        ol li.pos-27 span.bandeira {
+            margin: 0.3em;
+        }
+        ol li.pos-28 span.bandeira {
+            margin: 0.3em;
+        }
+        ol li.pos-29 span.bandeira {
+            margin: 0.3em;
+        }
+        ol li.pos-30 span.bandeira {
+            margin: 0.3em;
+        }
+        ol li.pos-31 span.bandeira {
+            margin: 0.3em;
+        }
+        ol li.pos-32 span.bandeira {
+            margin: 0.3em;
+        }
+    
+    .hr-2002 {
+    position: relative;
+    height: 60px;
+    top: 10501px;
+    background-color: #2b3e2a;
+    border: solid #2b3e2a 1px;
+    }
+    
+    .hr-2002 h3 {
+        color: #e7ead9;
+        font-weight: 800;
+        font-size: 30px;
+        text-align: center;
+        margin-top: 10px;
+        }
+
+
+        /* classif 2006*/
+
+
+.classificacao-2006 h3 {
+    color: #000;
+    text-align: center;
+    font-size: 25px;
+    }
+    
+    
+    .classificacao-2006 {
+    border-bottom: 0.2em solid #84765c;
+    background: #e7ead9;
+    padding: 5px;
+    width: 100%;
+    position: relative;
+    top: 10501px;
+    left: 0;
+    }
+    
+    .classificacao-2006 ol li {
+    color: #010101;
+    list-style: none;
+    }
+    
+    /* < -- 1 -- */
+    .classificacao-2006 ol li.pos-1 {
+    background: #dfd3bd;
+    font: bold 1.2em arial;
+    padding: 10px;
+    margin: 12px;
+    }
+    
+    .classificacao-2006 ol li.pos-1 span.posicao {
+    width: 1em;
+    }
+    
+    .classificacao-2006 ol li.pos-1 span.bandeira {
+    margin: 0.8em;
+    }
+    
+     /*  -- 1 --> */
+    
+     /* < -- 2-9 -- */
+    .classificacao-2006 ol li {
+    background: #fff;
+    font: bold 1.2em arial;
+    padding: 10px;
+    margin: 12px;
+    }
+    
+    .classificacao-2006 ol li span.posicao {
+    width: 1em;
+    }
+    
+    .classificacao-2006 ol li span.bandeira {
+    margin: 0.8em;
+    }
+     /*  -- 2-9 --> */
+    
+        /* Depois da posição 9 */
+     .classificacao-2006 ol li.pos-10 span.bandeira {
+        margin: 0.3em;
+        }
+    
+     .classificacao-2006 ol li.pos-11 span.bandeira {
+            margin: 0.3em;
+        }
+    
+     .classificacao-2006 ol li.pos-12 span.bandeira {
+                margin: 0.3em;
+        }
+     .classificacao-2006 ol li.pos-13 span.bandeira {
+            margin: 0.3em;
+        }
+     .classificacao-2006 ol li.pos-14 span.bandeira {
+            margin: 0.3em;
+        }
+    
+     .classificacao-2006 ol li.pos-15 span.bandeira {
+                margin: 0.3em;
+        }
+     .classificacao-2006 ol li.pos-16 span.bandeira {
+            margin: 0.3em;
+        }
+        ol li.pos-17 span.bandeira {
+            margin: 0.3em;
+        }
+        ol li.pos-18 span.bandeira {
+            margin: 0.3em;
+        }
+        ol li.pos-19 span.bandeira {
+            margin: 0.3em;
+        }
+        ol li.pos-20 span.bandeira {
+            margin: 0.3em;
+        }
+        ol li.pos-21 span.bandeira {
+            margin: 0.3em;
+        }
+        ol li.pos-22 span.bandeira {
+            margin: 0.3em;
+        }
+        ol li.pos-23 span.bandeira {
+            margin: 0.3em;
+        }
+        ol li.pos-24 span.bandeira {
+            margin: 0.3em;
+        }
+        ol li.pos-25 span.bandeira {
+            margin: 0.3em;
+        }
+        ol li.pos-26 span.bandeira {
+            margin: 0.3em;
+        }
+        ol li.pos-27 span.bandeira {
+            margin: 0.3em;
+        }
+        ol li.pos-28 span.bandeira {
+            margin: 0.3em;
+        }
+        ol li.pos-29 span.bandeira {
+            margin: 0.3em;
+        }
+        ol li.pos-30 span.bandeira {
+            margin: 0.3em;
+        }
+        ol li.pos-31 span.bandeira {
+            margin: 0.3em;
+        }
+        ol li.pos-32 span.bandeira {
+            margin: 0.3em;
+        }
+    
+    .hr-2006 {
+    position: relative;
+    height: 60px;
+    top: 10501px;
+    background-color: #2b3e2a;
+    border: solid #2b3e2a 1px;
+    }
+    
+    .hr-2006 h3 {
+        color: #e7ead9;
+        font-weight: 800;
+        font-size: 30px;
+        text-align: center;
+        margin-top: 10px;
+        }
 
 
 
@@ -5659,6 +5931,17 @@ a:visited{
   font-family: 'Poppins', sans-serif;
 }
 
+/* Página Fontes */
+
+.conteudo-fontes {
+    background-color: #fff;
+}
+
+.conteudo-fontes li a {
+    font-size: 1.5em;
+    color: #000;
+}
+
 /* Responsividade Media Query */
 
 @media only screen and (max-device-width: 700px) and (max-device-height: 930px) {
@@ -5808,7 +6091,7 @@ body, html {
     position: relative;
     background-image: url("https://images6.alphacoders.com/122/1225576.jpg");
     top: 25%;
-    opacity: 0.8;
+    opacity: 0.98;
 }    
 
 .background-contador h1 {
@@ -5822,6 +6105,7 @@ body, html {
     background-image: url("/static/IMG/fundo-colorido.jpg");
     opacity: 0.8;
     width: 102%;
+    display: inline;
 }
 
 .titulo-proxima-copa {
@@ -5835,21 +6119,6 @@ body, html {
     margin-left: 50px;
     margin-right: 50px;
     border-radius: 8%;
-    display: none;
-}
-
-
-.titulo-proxima-copa .img-1 {
-    position: relative;
-    top: -40%;
-    right: -2%;
-    display: none;
-}
-
-.titulo-proxima-copa .img-2 {
-    position: relative;
-    top: -40%;
-    left: 80.5%;
     display: none;
 }
 
@@ -5903,6 +6172,7 @@ body, html {
    font-weight: 800;
    position: relative;
    top: -10%;
+   font-size: 1em;
 }
 
 .alert {
@@ -5918,35 +6188,6 @@ body, html {
     }
 }
 
-/* Copa dos internautas */ 
-
-.melhor-copa {
-    background-color: #F5F5DC;
-    width: 90%;
-    height: 55%;
-    text-align: center;
-    position: relative;
-    top: 35%;
-    left: 5%;
-    border-radius: 10%;
-    margin-top: 5%;
-}
-
-.melhor-copa p {
-    font-size: 3rem;
-    font-weight: 900;
-    color: #2b3e2a;
-    position: relative;
-    top: 15px;
-    margin-bottom: -5%;
-}
-
-video {
-    width: 95%;
-    border-radius: 10%;
-    position: relative;
-    top: 90px;
-}
 
 /* Storytelling das copas */
 
@@ -5956,7 +6197,7 @@ video {
     height: 33%;
     position: relative;
     left: 10%;
-    top: 45%;
+    top: 52.5%;
     border-radius: 10%;
 }
 
@@ -11295,7 +11536,315 @@ list-style: none;
                     position: relative;
                     top: -14px;
 
-                }   
+                }
+                
+                
+                /* classif 2002*/
+
+
+         .classificacao-2002 h3 {
+            color: #000;
+            text-align: center;
+            font-size: 2.5em;
+        }
+        
+        .classificacao-2002 {
+            border-bottom: 0.2em solid #84765c;
+            background: #e7ead9;
+            padding: 5px;
+            width: 100%;
+            position: relative;
+            top: 13525px;
+            left: 0;
+        }
+        
+        .classificacao-2002 ol li {
+        color: #010101;
+        list-style: none;
+        }
+        
+           /* < -- 1 -- */
+     .classificacao-2002 ol li.pos-1 {
+        background: #dfd3bd;
+        font: bold 2.2em arial;
+        padding: 10px;
+        margin: 12px;
+        }
+        
+        .classificacao-2002 ol li.pos-1 span.posicao {
+        width: 1em;
+        }
+        
+        .classificacao-2002 ol li.pos-1 span.bandeira {
+        margin: 0.8em;
+        }
+        
+         /*  -- 1 --> */
+    
+         /* < -- 2-9 -- */
+     .classificacao-2002 ol li {
+        background: #fff;
+        font: bold 2.2em arial;
+        padding: 10px;
+        margin: 12px;
+        }
+        
+        .classificacao-2002 ol li span.posicao {
+        width: 1em;
+        }
+        
+        .classificacao-2002 ol li span.bandeira {
+        margin: 0.8em;
+        }
+         /*  -- 2-9 --> */
+    
+            /* Depois da posição 9 */
+         .classificacao-2002 ol li.pos-10 span.bandeira {
+            margin: 0.3em;
+            }
+    
+         .classificacao-2002 ol li.pos-11 span.bandeira {
+                margin: 0.3em;
+            }
+    
+         .classificacao-2002 ol li.pos-12 span.bandeira {
+                    margin: 0.3em;
+            }
+         .classificacao-2002 ol li.pos-13 span.bandeira {
+                margin: 0.3em;
+            }
+         .classificacao-2002 ol li.pos-14 span.bandeira {
+                margin: 0.3em;
+            }
+    
+         .classificacao-2002 ol li.pos-15 span.bandeira {
+                    margin: 0.3em;
+            }
+            .classificacao-2002 ol li.pos-16 span.bandeira {
+                margin: 0.3em;
+            }
+            ol li.pos-17 span.bandeira {
+                margin: 0.3em;
+            }
+            ol li.pos-18 span.bandeira {
+                margin: 0.3em;
+            }
+            ol li.pos-19 span.bandeira {
+                margin: 0.3em;
+            }
+            ol li.pos-20 span.bandeira {
+                margin: 0.3em;
+            }
+            ol li.pos-21 span.bandeira {
+                margin: 0.3em;
+            }
+            ol li.pos-22 span.bandeira {
+                margin: 0.3em;
+            }
+            ol li.pos-23 span.bandeira {
+                margin: 0.3em;
+            }
+            ol li.pos-24 span.bandeira {
+                margin: 0.3em;
+            }
+            ol li.pos-25 span.bandeira {
+                margin: 0.3em;
+            }
+            ol li.pos-26 span.bandeira {
+                margin: 0.3em;
+            }
+            ol li.pos-27 span.bandeira {
+                margin: 0.3em;
+            }
+            ol li.pos-28 span.bandeira {
+                margin: 0.3em;
+            }
+            ol li.pos-29 span.bandeira {
+                margin: 0.3em;
+            }
+            ol li.pos-30 span.bandeira {
+                margin: 0.3em;
+            }
+            ol li.pos-31 span.bandeira {
+                margin: 0.3em;
+            }
+            ol li.pos-32 span.bandeira {
+                margin: 0.3em;
+            }
+     
+            .hr-2002 {
+                position: relative;
+                height: 150px;
+                top: 13520px;
+                background-color: #2b3e2a;
+                border: solid #2b3e2a 1px;
+                width: 100%;
+                }
+        
+                .hr-2002 h3 {
+                    color: #e7ead9;
+                    font-weight: 800;
+                    font-size: 4em;
+                    text-align: center;
+                    margin-top: 30px;
+                    position: relative;
+                    top: -14px;
+
+                }
+
+
+                /* classif 2006*/
+
+
+         .classificacao-2006 h3 {
+            color: #000;
+            text-align: center;
+            font-size: 2.5em;
+        }
+        
+        .classificacao-2006 {
+            border-bottom: 0.2em solid #84765c;
+            background: #e7ead9;
+            padding: 5px;
+            width: 100%;
+            position: relative;
+            top: 13525px;
+            left: 0;
+        }
+        
+        .classificacao-2006 ol li {
+        color: #010101;
+        list-style: none;
+        }
+        
+           /* < -- 1 -- */
+     .classificacao-2006 ol li.pos-1 {
+        background: #dfd3bd;
+        font: bold 2.2em arial;
+        padding: 10px;
+        margin: 12px;
+        }
+        
+        .classificacao-2006 ol li.pos-1 span.posicao {
+        width: 1em;
+        }
+        
+        .classificacao-2006 ol li.pos-1 span.bandeira {
+        margin: 0.8em;
+        }
+        
+         /*  -- 1 --> */
+    
+         /* < -- 2-9 -- */
+     .classificacao-2006 ol li {
+        background: #fff;
+        font: bold 2.2em arial;
+        padding: 10px;
+        margin: 12px;
+        }
+        
+        .classificacao-2006 ol li span.posicao {
+        width: 1em;
+        }
+        
+        .classificacao-2006 ol li span.bandeira {
+        margin: 0.8em;
+        }
+         /*  -- 2-9 --> */
+    
+            /* Depois da posição 9 */
+         .classificacao-2006 ol li.pos-10 span.bandeira {
+            margin: 0.3em;
+            }
+    
+         .classificacao-2006 ol li.pos-11 span.bandeira {
+                margin: 0.3em;
+            }
+    
+         .classificacao-2006 ol li.pos-12 span.bandeira {
+                    margin: 0.3em;
+            }
+         .classificacao-2006 ol li.pos-13 span.bandeira {
+                margin: 0.3em;
+            }
+         .classificacao-2006 ol li.pos-14 span.bandeira {
+                margin: 0.3em;
+            }
+    
+         .classificacao-2006 ol li.pos-15 span.bandeira {
+                    margin: 0.3em;
+            }
+            .classificacao-2006 ol li.pos-16 span.bandeira {
+                margin: 0.3em;
+            }
+            ol li.pos-17 span.bandeira {
+                margin: 0.3em;
+            }
+            ol li.pos-18 span.bandeira {
+                margin: 0.3em;
+            }
+            ol li.pos-19 span.bandeira {
+                margin: 0.3em;
+            }
+            ol li.pos-20 span.bandeira {
+                margin: 0.3em;
+            }
+            ol li.pos-21 span.bandeira {
+                margin: 0.3em;
+            }
+            ol li.pos-22 span.bandeira {
+                margin: 0.3em;
+            }
+            ol li.pos-23 span.bandeira {
+                margin: 0.3em;
+            }
+            ol li.pos-24 span.bandeira {
+                margin: 0.3em;
+            }
+            ol li.pos-25 span.bandeira {
+                margin: 0.3em;
+            }
+            ol li.pos-26 span.bandeira {
+                margin: 0.3em;
+            }
+            ol li.pos-27 span.bandeira {
+                margin: 0.3em;
+            }
+            ol li.pos-28 span.bandeira {
+                margin: 0.3em;
+            }
+            ol li.pos-29 span.bandeira {
+                margin: 0.3em;
+            }
+            ol li.pos-30 span.bandeira {
+                margin: 0.3em;
+            }
+            ol li.pos-31 span.bandeira {
+                margin: 0.3em;
+            }
+            ol li.pos-32 span.bandeira {
+                margin: 0.3em;
+            }
+     
+            .hr-2006 {
+                position: relative;
+                height: 150px;
+                top: 13520px;
+                background-color: #2b3e2a;
+                border: solid #2b3e2a 1px;
+                width: 100%;
+                }
+        
+                .hr-2006 h3 {
+                    color: #e7ead9;
+                    font-weight: 800;
+                    font-size: 4em;
+                    text-align: center;
+                    margin-top: 30px;
+                    position: relative;
+                    top: -14px;
+
+                }
                     
 
 

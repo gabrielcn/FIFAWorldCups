@@ -1,0 +1,252 @@
+table{
+    width: 100vw;
+    text-align: center;
+}
+
+#logo td{
+    height: 48px;
+    padding-top: 4px;    
+}
+
+td{
+    height: 50px;
+    width: 104px;
+    color: #9db7a9;
+}
+
+.nav-conteudo-lateral{
+    width: 400px;
+}
+
+.nav-destacado{
+    border-bottom: 3px solid #ffffff;
+    color: #ffffff;
+}
+
+.nav-destacado:hover{
+    background-color: #0e482a;
+    cursor: pointer;
+}
+
+.tabela-copa-2{
+    position: absolute;
+    margin-top: 0;
+    z-index: -1;
+    border: 1px solid #e9eaeb;
+    border-top:none;
+    border-bottom:none;
+    width: 25vw;
+    margin-left: 0%;
+    font-size: 0.75em;
+    border-collapse: collapse;
+    background-color: #ffffff;
+    opacity: 1;
+    top: 40%;
+    left: 36.5%;
+    z-index: 1;
+}
+
+#ano{
+    font-weight: 600;
+    color: #0e482a;
+}
+
+a:link {
+    color: #70758d;
+    text-decoration: none;
+}
+
+a:visited{
+    color: #70758d;
+    text-decoration: none;
+}
+
+.tabela-copa-2 th{
+    border-top: 1px solid #e0e0e0;
+    font-weight: 100;
+    color: #70758d;
+    padding: 4px;
+    height: 35px;
+    position: relative;
+    left: 19%;
+
+}
+.tabela-copa-2 td{
+    border-top: 1px solid #e0e0e0;
+    font-weight: 100;
+    color: #000000;
+    padding: 4px;
+    height: 41px;
+    font-size: 1.2em;
+    width: 0%;
+
+}
+
+.tabela-copa-2 img{
+    width: 55px;
+}
+
+.tabela-colunas-bordas{
+    border-top: none !important;
+}
+
+.titulo-clube-brasil{
+    width: 35%;
+    position: relative;
+    left: 10%;
+}
+
+.titulo-clube-servia{
+    width: 35%;
+    position: relative;
+    right: 10%;
+
+}
+
+.tabela-copa-2 .bandeira-brasil{
+    position: relative;
+    left: 5%;
+}
+
+.tabela-copa-2 .x {
+    font-weight: 900;
+}
+
+.tabela-copa-2 .bandeira-servia {
+    position: relative;
+    right: 5%;
+}
+
+
+/* Responsividade Media Query */
+
+@media only screen and (max-device-width: 700px) and (max-device-height: 930px) {
+
+    table{
+        width: 100vw;
+        text-align: center;
+    }
+    
+    #logo td{
+        height: 48px;
+        padding-top: 4px;    
+    }
+    
+    td{
+        height: 50px;
+        width: 104px;
+        color: #9db7a9;
+    }
+    
+    .nav-conteudo-lateral{
+        width: 400px;
+    }
+    
+    .nav-destacado{
+        border-bottom: 3px solid #ffffff;
+        color: #ffffff;
+    }
+    
+    .nav-destacado:hover{
+        background-color: #0e482a;
+        cursor: pointer;
+    }
+    
+    .tabela-copa-2{
+        position: relative;
+        margin-top: 0;
+        z-index: -1;
+        border: 1px solid #e9eaeb;
+        border-top: none;
+        border-bottom: none;
+        width: 100%;
+        height: 12%;
+        margin-left: 0%;
+        font-size: 0.75em;
+        border-collapse: collapse;
+        background-image: url("https://images6.alphacoders.com/122/1225576.jpg");
+        opacity: 1;
+        top: -35%;
+        left: 0%;
+        z-index: 1;
+    }
+    
+    #ano{
+        font-weight: 600;
+        color: #0e482a;
+    }
+    
+    a:link {
+        color: #70758d;
+        text-decoration: none;
+    }
+    
+    a:visited{
+        color: #70758d;
+        text-decoration: none;
+    }
+    
+    .tabela-copa-2 th{
+        border-top: 1px solid #e0e0e0;
+        font-weight: 100;
+        color: #70758d;
+        padding: 4px;
+        height: 35px;
+        position: relative;
+        left: 19%;
+        font-size: 2.5em;
+    }
+    
+    .tabela-copa-2 td{
+        border-top: 1px solid #e0e0e0;
+        font-weight: 100;
+        color: #000000;
+        padding: 4px;
+        height: 41px;
+        font-size: 3.5em;
+        width: 0%;
+    
+    }
+    
+    .tabela-copa-2 img{
+        width: 105px;
+    }
+    
+    .tabela-colunas-bordas{
+        border-top: none !important;
+    }
+    
+    .titulo-clube-brasil{
+        width: 35%;
+        position: relative;
+        left: 10%;
+    }
+    
+    .titulo-clube-servia{
+        width: 35%;
+        position: relative;
+        right: 10%;
+    
+    }
+    
+    .tabela-copa-2 .bandeira-brasil{
+        position: relative;
+        left: 5%;
+    }
+    
+    .tabela-copa-2 .x {
+        font-weight: 900;
+    }
+    
+    .tabela-copa-2 .bandeira-servia {
+        position: relative;
+        right: 5%;
+    }
+
+
+
+
+
+
+
+}
