@@ -196,6 +196,14 @@ margin-bottom: 15px;
     background-color: #2b3e2a;
 }
 
+/* Menu retratil */
+
+/* menu retratil */
+
+.block {
+    display: none;
+}
+
 /* Contador regressivo */
 
 .titulo-proxima-copa {
@@ -5631,6 +5639,155 @@ border: solid #2b3e2a 1px;
 
 
 
+/* classif 2010*/
+
+
+.classificacao-2010 h3 {
+    color: #000;
+    text-align: center;
+    font-size: 25px;
+    }
+    
+    
+    .classificacao-2010 {
+    border-bottom: 0.2em solid #84765c;
+    background: #e7ead9;
+    padding: 5px;
+    width: 100%;
+    position: relative;
+    top: 10501px;
+    left: 0;
+    }
+    
+    .classificacao-2010 ol li {
+    color: #010101;
+    list-style: none;
+    }
+    
+    /* < -- 1 -- */
+    .classificacao-2010 ol li.pos-1 {
+    background: #dfd3bd;
+    font: bold 1.2em arial;
+    padding: 10px;
+    margin: 12px;
+    }
+    
+    .classificacao-2010 ol li.pos-1 span.posicao {
+    width: 1em;
+    }
+    
+    .classificacao-2010 ol li.pos-1 span.bandeira {
+    margin: 0.8em;
+    }
+    
+     /*  -- 1 --> */
+    
+     /* < -- 2-9 -- */
+    .classificacao-2010 ol li {
+    background: #fff;
+    font: bold 1.2em arial;
+    padding: 10px;
+    margin: 12px;
+    }
+    
+    .classificacao-2010 ol li span.posicao {
+    width: 1em;
+    }
+    
+    .classificacao-2010 ol li span.bandeira {
+    margin: 0.8em;
+    }
+     /*  -- 2-9 --> */
+    
+        /* Depois da posição 9 */
+     .classificacao-2010 ol li.pos-10 span.bandeira {
+        margin: 0.3em;
+        }
+    
+     .classificacao-2010 ol li.pos-11 span.bandeira {
+            margin: 0.3em;
+        }
+    
+     .classificacao-2010 ol li.pos-12 span.bandeira {
+                margin: 0.3em;
+        }
+     .classificacao-2010 ol li.pos-13 span.bandeira {
+            margin: 0.3em;
+        }
+     .classificacao-2010 ol li.pos-14 span.bandeira {
+            margin: 0.3em;
+        }
+    
+     .classificacao-2010 ol li.pos-15 span.bandeira {
+                margin: 0.3em;
+        }
+     .classificacao-2010 ol li.pos-16 span.bandeira {
+            margin: 0.3em;
+        }
+        ol li.pos-17 span.bandeira {
+            margin: 0.3em;
+        }
+        ol li.pos-18 span.bandeira {
+            margin: 0.3em;
+        }
+        ol li.pos-19 span.bandeira {
+            margin: 0.3em;
+        }
+        ol li.pos-20 span.bandeira {
+            margin: 0.3em;
+        }
+        ol li.pos-21 span.bandeira {
+            margin: 0.3em;
+        }
+        ol li.pos-22 span.bandeira {
+            margin: 0.3em;
+        }
+        ol li.pos-23 span.bandeira {
+            margin: 0.3em;
+        }
+        ol li.pos-24 span.bandeira {
+            margin: 0.3em;
+        }
+        ol li.pos-25 span.bandeira {
+            margin: 0.3em;
+        }
+        ol li.pos-26 span.bandeira {
+            margin: 0.3em;
+        }
+        ol li.pos-27 span.bandeira {
+            margin: 0.3em;
+        }
+        ol li.pos-28 span.bandeira {
+            margin: 0.3em;
+        }
+        ol li.pos-29 span.bandeira {
+            margin: 0.3em;
+        }
+        ol li.pos-30 span.bandeira {
+            margin: 0.3em;
+        }
+        ol li.pos-31 span.bandeira {
+            margin: 0.3em;
+        }
+        ol li.pos-32 span.bandeira {
+            margin: 0.3em;
+        }
+    
+    .hr-2010 {
+    position: relative;
+    height: 60px;
+    top: 10501px;
+    background-color: #2b3e2a;
+    border: solid #2b3e2a 1px;
+    }
+    
+    .hr-2010 h3 {
+        color: #e7ead9;
+        font-weight: 800;
+        font-size: 30px;
+        text-align: center;
+        margin-top: 10px;
+        }
 
 
 
@@ -5934,12 +6091,75 @@ a:visited{
 /* Página Fontes */
 
 .conteudo-fontes {
-    background-color: #fff;
+    background-color: #e0e0e0;
+    height: 1500px;
+    width: 80%;
+   align-items: center;
+   justify-content: center;
+   margin: auto;
 }
 
-.conteudo-fontes li a {
+.conteudo-fontes h2 {
+    text-align: center;
+    color: #0e482a;
+    font-size: 2em;
+    margin-top: 50px;
+    padding: 2%;
+    font-weight: 900;
+}
+
+.conteudo-fontes h3 {
+    text-align: left;
+    margin: 5%;
+    color: #0e482a;
+    font-weight: 900;
     font-size: 1.5em;
-    color: #000;
+}
+
+.conteudo-fontes li {
+    text-align: left;
+    font-size: 1.3em;
+    margin-left: 5%;
+    margin-top: -3%;
+}
+
+
+/* Página Sobre */
+
+.conteudo-sobre {
+    background-color: #e0e0e0;
+    height: 1500px;
+    width: 80%;
+   align-items: center;
+   justify-content: center;
+   margin: auto;
+}
+
+.conteudo-sobre h2 {
+    text-align: center;
+    color: #0e482a;
+    font-size: 2em;
+    margin-top: 50px;
+    padding: 2%;
+    font-weight: 900;
+}
+
+.conteudo-sobre p {
+    text-align: center;
+    font-size: 1.2em;
+    margin: 2%;
+}
+
+.conteudo-sobre li {
+    margin: 5%;
+    text-align: center;
+}
+
+.conteudo-sobre li a {
+    font-family: courier,arial,helvetica;
+    text-align: center;
+    margin: 5%;
+    font-size: 1.2em;
 }
 
 /* Responsividade Media Query */
@@ -6083,6 +6303,88 @@ body, html {
         float: left;
         position: relative;
         background-color: #2b3e2a;
+    }
+
+    /* menu retratil */
+
+    .block {
+        display: inline;
+    }
+
+    #icone {
+    cursor: pointer;
+    padding: 25px;
+    position: absolute;
+    z-index: 5;
+    position: relative;
+    background-color: #fff;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    
+    }
+    
+    #check{
+        display: none;
+        background-color: #f00;
+        
+    }
+    
+    .barra{
+        background-color: #0e482a;
+        height: 0;
+        width: 300px;
+        position: absolute;
+        left: -300px;
+        transition: all .2s linear;
+        z-index: 5;
+      
+    }
+    
+    .barra .link{
+        list-style: none;
+        background-color: #2b3e2a;
+     
+    }
+    
+    .menu-retratil{
+        width: 100%;
+        position: absolute;
+        top: 60px;
+ 
+    }
+    .menu-retratil a{
+        text-decoration: none;
+
+    }
+    
+    .link{
+    color: #f4f4f9;
+    font-family: 'Arial';
+    font-size: 2.5em;
+    padding: 20px;
+    border-bottom: 1.5px solid #fff;
+    transition: all .2s linear;
+    opacity: 0;
+    margin-top: 200px;
+    
+    }
+
+    .link:hover{
+        background-color: #050542;
+        
+    }
+    
+    #check:checked ~ .barra .menu-retratil a .link{
+            opacity: 1;
+            margin-top: 0;
+            transition-delay: .2s;
+           
+    }
+
+    #check:checked ~ .barra{
+            transform: translateX(300px);
+            
     }
 
     /* Contador regressivo */
@@ -11845,6 +12147,159 @@ list-style: none;
                     top: -14px;
 
                 }
+
+                 /* classif 2010*/
+
+
+         .classificacao-2010 h3 {
+            color: #000;
+            text-align: center;
+            font-size: 2.5em;
+        }
+        
+        .classificacao-2010 {
+            border-bottom: 0.2em solid #84765c;
+            background: #e7ead9;
+            padding: 5px;
+            width: 100%;
+            position: relative;
+            top: 13525px;
+            left: 0;
+        }
+        
+        .classificacao-2010 ol li {
+        color: #010101;
+        list-style: none;
+        }
+        
+           /* < -- 1 -- */
+     .classificacao-2010 ol li.pos-1 {
+        background: #dfd3bd;
+        font: bold 2.2em arial;
+        padding: 10px;
+        margin: 12px;
+        }
+        
+        .classificacao-2010 ol li.pos-1 span.posicao {
+        width: 1em;
+        }
+        
+        .classificacao-2010 ol li.pos-1 span.bandeira {
+        margin: 0.8em;
+        }
+        
+         /*  -- 1 --> */
+    
+         /* < -- 2-9 -- */
+     .classificacao-2010 ol li {
+        background: #fff;
+        font: bold 2.2em arial;
+        padding: 10px;
+        margin: 12px;
+        }
+        
+        .classificacao-2010 ol li span.posicao {
+        width: 1em;
+        }
+        
+        .classificacao-2010 ol li span.bandeira {
+        margin: 0.8em;
+        }
+         /*  -- 2-9 --> */
+    
+            /* Depois da posição 9 */
+         .classificacao-2010 ol li.pos-10 span.bandeira {
+            margin: 0.3em;
+            }
+    
+         .classificacao-2010 ol li.pos-11 span.bandeira {
+                margin: 0.3em;
+            }
+    
+         .classificacao-2010 ol li.pos-12 span.bandeira {
+                    margin: 0.3em;
+            }
+         .classificacao-2010 ol li.pos-13 span.bandeira {
+                margin: 0.3em;
+            }
+         .classificacao-2010 ol li.pos-14 span.bandeira {
+                margin: 0.3em;
+            }
+    
+         .classificacao-2010 ol li.pos-15 span.bandeira {
+                    margin: 0.3em;
+            }
+            .classificacao-2010 ol li.pos-16 span.bandeira {
+                margin: 0.3em;
+            }
+            ol li.pos-17 span.bandeira {
+                margin: 0.3em;
+            }
+            ol li.pos-18 span.bandeira {
+                margin: 0.3em;
+            }
+            ol li.pos-19 span.bandeira {
+                margin: 0.3em;
+            }
+            ol li.pos-20 span.bandeira {
+                margin: 0.3em;
+            }
+            ol li.pos-21 span.bandeira {
+                margin: 0.3em;
+            }
+            ol li.pos-22 span.bandeira {
+                margin: 0.3em;
+            }
+            ol li.pos-23 span.bandeira {
+                margin: 0.3em;
+            }
+            ol li.pos-24 span.bandeira {
+                margin: 0.3em;
+            }
+            ol li.pos-25 span.bandeira {
+                margin: 0.3em;
+            }
+            ol li.pos-26 span.bandeira {
+                margin: 0.3em;
+            }
+            ol li.pos-27 span.bandeira {
+                margin: 0.3em;
+            }
+            ol li.pos-28 span.bandeira {
+                margin: 0.3em;
+            }
+            ol li.pos-29 span.bandeira {
+                margin: 0.3em;
+            }
+            ol li.pos-30 span.bandeira {
+                margin: 0.3em;
+            }
+            ol li.pos-31 span.bandeira {
+                margin: 0.3em;
+            }
+            ol li.pos-32 span.bandeira {
+                margin: 0.3em;
+            }
+     
+            .hr-2010 {
+                position: relative;
+                height: 150px;
+                top: 13520px;
+                background-color: #2b3e2a;
+                border: solid #2b3e2a 1px;
+                width: 100%;
+                }
+        
+                .hr-2010 h3 {
+                    color: #e7ead9;
+                    font-weight: 800;
+                    font-size: 4em;
+                    text-align: center;
+                    margin-top: 30px;
+                    position: relative;
+                    top: -14px;
+
+                }
                     
 
 
@@ -12165,5 +12620,80 @@ height: 150%;
 }
 
 /* .tabela-brasileirao tr:hover {background-color: #f8f9fa;} */
+
+/* Página Fontes */
+
+/* Página Fontes */
+
+.conteudo-fontes {
+    background-color: #e0e0e0;
+    height: 1500px;
+    width: 100%;
+   align-items: center;
+   justify-content: center;
+   margin: auto;
+}
+
+.conteudo-fontes h2 {
+    text-align: center;
+    color: #0e482a;
+    font-size: 3em;
+    margin-top: 1px;
+    padding: 2%;
+    font-weight: 900;
+}
+
+.conteudo-fontes h3 {
+    text-align: left;
+    margin: 5%;
+    color: #0e482a;
+    font-weight: 900;
+    font-size: 2.5em;
+}
+
+.conteudo-fontes li {
+    text-align: left;
+    font-size: 2.3em;
+    margin-left: 5%;
+    margin-top: -3%;
+}
+
+/* Página Sobre */
+
+.conteudo-sobre {
+    background-color: #e0e0e0;
+    height: 3000px;
+    width: 100%;
+   align-items: center;
+   justify-content: center;
+   margin: auto;
+}
+
+.conteudo-sobre h2 {
+    text-align: center;
+    color: #0e482a;
+    font-size: 3em;
+    margin-top: 1px;
+    padding: 2%;
+    font-weight: 900;
+}
+
+.conteudo-sobre p {
+    text-align: center;
+    font-size: 2.2em;
+    margin: 2%;
+}
+
+.conteudo-sobre li {
+    margin: 5%;
+    text-align: center;
+}
+
+.conteudo-sobre li a {
+    font-family: courier,arial,helvetica;
+    text-align: center;
+    margin: 5%;
+    font-size: 2.2em;
+}
 
 }

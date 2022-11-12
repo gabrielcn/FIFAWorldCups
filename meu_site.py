@@ -35,6 +35,10 @@ def equipe():
 def fontes():
     return render_template("fontes.html")
 
+@app.route("/sobre")
+def sobre():
+    return render_template("sobre.html")
+
 # colocar o site no ar
 if __name__ == "__main__":
     app.run(debug=True) # Todas a ediçoes que for fazendo no código, ele exibe dinamicamente no site, sem precisar debugar
