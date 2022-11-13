@@ -295,7 +295,7 @@ display: none;
 }
 
 .background-carrossel {
-    background-color: #F5F5DC;
+    background-color: #e0e0e0;
     width: 65%;
     height: 500px;
     position: relative;
@@ -820,7 +820,7 @@ color: #ee7601;
 }
 
 .conteudo-homepage {
-background-color: #F5F5DC;
+background-color: #e0e0e0;
 position: relative;
 top: 450px;
 height: 12100px;
@@ -5840,7 +5840,7 @@ border-radius: 5%;
 /* Page Analises */
 
 .conteudo-analises {
-    background-color: #F5F5DC;
+    background-color: #e0e0e0;
     position: relative;
     top: 0;
     overflow-y: visible;
@@ -6319,9 +6319,14 @@ body, html {
     position: relative;
     background-color: #fff;
     position: fixed;
-    top: 0%;
+    top: 0.1%;
     left: 0%;
     
+    }
+
+    #icone img {
+        width: 60px;
+        height: 60px;
     }
     
     #check{
@@ -6344,6 +6349,8 @@ body, html {
     .barra .link{
         list-style: none;
         background-color: #2b3e2a;
+        height: 120px;
+        width: 320px;
      
     }
     
@@ -6359,14 +6366,14 @@ body, html {
     }
     
     .link{
-    color: #f4f4f9;
-    font-family: 'Arial';
-    font-size: 2.5em;
-    padding: 20px;
-    border-bottom: 1.5px solid #fff;
-    transition: all .2s linear;
-    opacity: 0;
-    margin-top: 200px;
+        color: #f4f4f9;
+        font-family: 'Arial';
+        font-size: 3.5em;
+        padding: 20px;
+        border-bottom: 1.5px solid #fff;
+        transition: all .2s linear;
+        opacity: 0;
+        margin-top: 200px;
     
     }
 
@@ -6491,10 +6498,10 @@ body, html {
 }
 
 
-/* Storytelling das copas */
+/* História das copas */
 
 .background-carrossel {
-    background-color: #F5F5DC;
+    background-color: #e0e0e0;
     width: 80%;
     height: 33%;
     position: relative;
@@ -7011,7 +7018,7 @@ color: #ee7601;
 /* Conteudo */
 
 .conteudo-homepage {
-    background-color: #F5F5DC;
+    background-color: #e0e0e0;
     position: relative;
     top: 1050px;
     height: 22000px;
@@ -7019,6 +7026,8 @@ color: #ee7601;
     margin-right: 10px;
     display: flex;
     flex-direction: column;
+    width: 100%;
+    left: -1%;
     }
 
     .Copa {
@@ -12430,7 +12439,7 @@ list-style: none;
 }
 
 .conteudo-analises {
-    background-color: #F5F5DC;
+    background-color: #e0e0e0;
     position: relative;
     top: 0;
    /* margin-left: 50px;
@@ -12662,7 +12671,7 @@ height: 150%;
 
 .conteudo-sobre {
     background-color: #e0e0e0;
-    height: 3000px;
+    height: auto;
     width: 100%;
    align-items: center;
    justify-content: center;
@@ -12672,7 +12681,7 @@ height: 150%;
 .conteudo-sobre h2 {
     text-align: center;
     color: #0e482a;
-    font-size: 3em;
+    font-size: 4em;
     margin-top: 1px;
     padding: 2%;
     font-weight: 900;
@@ -12680,7 +12689,7 @@ height: 150%;
 
 .conteudo-sobre p {
     text-align: center;
-    font-size: 2.2em;
+    font-size: 3em;
     margin: 2%;
 }
 
@@ -12693,7 +12702,7 @@ height: 150%;
     font-family: courier,arial,helvetica;
     text-align: center;
     margin: 5%;
-    font-size: 2.2em;
+    font-size: 3em;
 }
 
 }
