@@ -5882,13 +5882,13 @@ border-radius: 5%;
     position: relative;
     top: 0px;
     text-align: center;
-    background-color: #0e482a;
+    background-color: lightgray;
     height: 100px;
-    opacity: 0.9;
+    opacity: 0.85;
 }
 
 .titulo-grupos h1 {
-  color: #fff;
+  color: #0e482a;
   font-weight: 800;
   position: relative;
   top: 15px;
@@ -12486,13 +12486,13 @@ list-style: none;
     position: relative;
     top: 0px;
     text-align: center;
-    background-color: #0e482a;
+    background-color: lightgray;
     height: 10%;
-    opacity: 0.8;
+    opacity: 0.85;
 }
 
 .titulo-grupos h1 {
-  color: #fff;
+  color: #0e482a;
   font-weight: 800;
   position: relative;
   top: 30px;
