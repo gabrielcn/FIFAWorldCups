@@ -3422,14 +3422,6 @@ margin-bottom: 20px;
     left: 44.5%;
     }
 
-    
-.hr-1 {
-height: 100px;
-position: relative;
-top: 10499.5px;
-border: solid white 0px;
-background-image: url("/static/IMG/back3.jpg");
-}
 
 /* Classificação */
 
@@ -6319,7 +6311,7 @@ body, html {
     position: relative;
     background-color: #fff;
     position: fixed;
-    top: 0.1%;
+    top: 0%;
     left: 0%;
     
     }
@@ -6349,15 +6341,14 @@ body, html {
     .barra .link{
         list-style: none;
         background-color: #2b3e2a;
-        height: 120px;
-        width: 320px;
+        height: 100px;
      
     }
     
     .menu-retratil{
         width: 100%;
         position: absolute;
-        top: 60px;
+        top: -10px;
  
     }
     .menu-retratil a{
@@ -6366,14 +6357,14 @@ body, html {
     }
     
     .link{
-        color: #f4f4f9;
-        font-family: 'Arial';
-        font-size: 3.5em;
-        padding: 20px;
-        border-bottom: 1.5px solid #fff;
-        transition: all .2s linear;
-        opacity: 0;
-        margin-top: 200px;
+    color: #f4f4f9;
+    font-family: 'Arial';
+    font-size: 3em;
+    padding: 20px;
+    border-bottom: 1.5px solid #fff;
+    transition: all .2s linear;
+    opacity: 0;
+    margin-top: 200px;
     
     }
 
@@ -7021,13 +7012,13 @@ color: #ee7601;
     background-color: #e0e0e0;
     position: relative;
     top: 1050px;
-    height: 22000px;
-    margin-left: 10px;
-    margin-right: 10px;
+    height: auto;
+    /* margin-left: 10px; */
+    /* margin-right: 10px; */
     display: flex;
     flex-direction: column;
     width: 100%;
-    left: -1%;
+    justify-content: center;
     }
 
     .Copa {
@@ -9940,9 +9931,15 @@ hr .hr-1 {
     padding-top: 6px;
     color: #e7ead9;
     text-align: center;
-    top: -15px;
-    margin-top: 30px;
+    /* top: -15px; */
+    /* margin-top: 30px; */
+    margin: 3%;
 }
+
+.bandeira img {
+    width: 70px;
+}
+
 
 .classificacao-1930 h3 {
     color: #000;
@@ -10031,9 +10028,10 @@ list-style: none;
     font-weight: 800;
     font-size: 4em;
     text-align: center;
-    margin-top: 30px;
+    /* margin-top: 30px; */
     position: relative;
-    top: -14px;
+    /* top: -14px; */
+    margin: 3.5%;
     }
 
 
@@ -10136,9 +10134,10 @@ list-style: none;
             font-weight: 800;
             font-size: 4em;
             text-align: center;
-            margin-top: 30px;
+            /* margin-top: 30px; */
             position: relative;
-            top: -14px;
+             /* top: -14px; */
+            margin: 3.5%;
         }
 
          /* classif 1938*/
@@ -10237,9 +10236,10 @@ list-style: none;
                 font-weight: 800;
                 font-size: 4em;
                 text-align: center;
-                margin-top: 30px;
+                /* margin-top: 30px; */
                 position: relative;
-                top: -14px;
+                /* top: -14px; */
+                margin: 3.5%;
             }
 
 
@@ -10340,9 +10340,10 @@ list-style: none;
                     font-weight: 800;
                     font-size: 4em;
                     text-align: center;
-                    margin-top: 30px;
+                    /* margin-top: 30px; */
                     position: relative;
-                    top: -14px;
+                    /* top: -14px; */
+                    margin: 3.5%;
                 }
 
 
@@ -10442,9 +10443,10 @@ list-style: none;
                     font-weight: 800;
                     font-size: 4em;
                     text-align: center;
-                    margin-top: 30px;
+                    /* margin-top: 30px; */
                     position: relative;
-                    top: -14px;
+                    /* top: -14px; */
+                    margin: 3.5%;
                 }
 
 
@@ -10547,9 +10549,10 @@ list-style: none;
                     font-weight: 800;
                     font-size: 4em;
                     text-align: center;
-                    margin-top: 30px;
+                    /* margin-top: 30px; */
                     position: relative;
-                    top: -14px;
+                    /* top: -14px; */
+                    margin: 3.5%;
                 }                         
 
 
@@ -10650,12 +10653,13 @@ list-style: none;
         
                 .hr-1962 h3 {
                     color: #e7ead9;
-                    font-weight: 800;
-                    font-size: 4em;
-                    text-align: center;
-                    margin-top: 30px;
-                    position: relative;
-                    top: -14px;
+    font-weight: 800;
+    font-size: 4em;
+    text-align: center;
+    /* margin-top: 30px; */
+    position: relative;
+    /* top: -14px; */
+    margin: 3.5%;
 
                 }
                     
@@ -10756,12 +10760,13 @@ list-style: none;
         
                 .hr-1966 h3 {
                     color: #e7ead9;
-                    font-weight: 800;
-                    font-size: 4em;
-                    text-align: center;
-                    margin-top: 30px;
-                    position: relative;
-                    top: -14px;
+    font-weight: 800;
+    font-size: 4em;
+    text-align: center;
+    /* margin-top: 30px; */
+    position: relative;
+    /* top: -14px; */
+    margin: 3.5%;
 
                 }
 
@@ -10861,12 +10866,13 @@ list-style: none;
         
                 .hr-1970 h3 {
                     color: #e7ead9;
-                    font-weight: 800;
-                    font-size: 4em;
-                    text-align: center;
-                    margin-top: 30px;
-                    position: relative;
-                    top: -14px;
+    font-weight: 800;
+    font-size: 4em;
+    text-align: center;
+    /* margin-top: 30px; */
+    position: relative;
+    /* top: -14px; */
+    margin: 3.5%;
 
                 }
 
@@ -10966,12 +10972,13 @@ list-style: none;
         
                 .hr-1974 h3 {
                     color: #e7ead9;
-                    font-weight: 800;
-                    font-size: 4em;
-                    text-align: center;
-                    margin-top: 30px;
-                    position: relative;
-                    top: -14px;
+    font-weight: 800;
+    font-size: 4em;
+    text-align: center;
+    /* margin-top: 30px; */
+    position: relative;
+    /* top: -14px; */
+    margin: 3.5%;
 
                 }
 
@@ -11072,12 +11079,13 @@ list-style: none;
         
                 .hr-1978 h3 {
                     color: #e7ead9;
-                    font-weight: 800;
-                    font-size: 4em;
-                    text-align: center;
-                    margin-top: 30px;
-                    position: relative;
-                    top: -14px;
+    font-weight: 800;
+    font-size: 4em;
+    text-align: center;
+    /* margin-top: 30px; */
+    position: relative;
+    /* top: -14px; */
+    margin: 3.5%;
 
                 }
 
@@ -11226,12 +11234,13 @@ list-style: none;
         
                 .hr-1982 h3 {
                     color: #e7ead9;
-                    font-weight: 800;
-                    font-size: 4em;
-                    text-align: center;
-                    margin-top: 30px;
-                    position: relative;
-                    top: -14px;
+    font-weight: 800;
+    font-size: 4em;
+    text-align: center;
+    /* margin-top: 30px; */
+    position: relative;
+    /* top: -14px; */
+    margin: 3.5%;
 
                 }
 
@@ -11379,12 +11388,13 @@ list-style: none;
         
                 .hr-1986 h3 {
                     color: #e7ead9;
-                    font-weight: 800;
-                    font-size: 4em;
-                    text-align: center;
-                    margin-top: 30px;
-                    position: relative;
-                    top: -14px;
+    font-weight: 800;
+    font-size: 4em;
+    text-align: center;
+    /* margin-top: 30px; */
+    position: relative;
+    /* top: -14px; */
+    margin: 3.5%;
 
                 }
 
@@ -11532,12 +11542,13 @@ list-style: none;
         
                 .hr-1990 h3 {
                     color: #e7ead9;
-                    font-weight: 800;
-                    font-size: 4em;
-                    text-align: center;
-                    margin-top: 30px;
-                    position: relative;
-                    top: -14px;
+    font-weight: 800;
+    font-size: 4em;
+    text-align: center;
+    /* margin-top: 30px; */
+    position: relative;
+    /* top: -14px; */
+    margin: 3.5%;
 
                 }
                     
@@ -11686,12 +11697,13 @@ list-style: none;
         
                 .hr-1994 h3 {
                     color: #e7ead9;
-                    font-weight: 800;
-                    font-size: 4em;
-                    text-align: center;
-                    margin-top: 30px;
-                    position: relative;
-                    top: -14px;
+    font-weight: 800;
+    font-size: 4em;
+    text-align: center;
+    /* margin-top: 30px; */
+    position: relative;
+    /* top: -14px; */
+    margin: 3.5%;
 
                 }
                     
@@ -11840,12 +11852,13 @@ list-style: none;
         
                 .hr-1998 h3 {
                     color: #e7ead9;
-                    font-weight: 800;
-                    font-size: 4em;
-                    text-align: center;
-                    margin-top: 30px;
-                    position: relative;
-                    top: -14px;
+    font-weight: 800;
+    font-size: 4em;
+    text-align: center;
+    /* margin-top: 30px; */
+    position: relative;
+    /* top: -14px; */
+    margin: 3.5%;
 
                 }
                 
@@ -11994,12 +12007,13 @@ list-style: none;
         
                 .hr-2002 h3 {
                     color: #e7ead9;
-                    font-weight: 800;
-                    font-size: 4em;
-                    text-align: center;
-                    margin-top: 30px;
-                    position: relative;
-                    top: -14px;
+    font-weight: 800;
+    font-size: 4em;
+    text-align: center;
+    /* margin-top: 30px; */
+    position: relative;
+    /* top: -14px; */
+    margin: 3.5%;
 
                 }
 
@@ -12148,12 +12162,13 @@ list-style: none;
         
                 .hr-2006 h3 {
                     color: #e7ead9;
-                    font-weight: 800;
-                    font-size: 4em;
-                    text-align: center;
-                    margin-top: 30px;
-                    position: relative;
-                    top: -14px;
+    font-weight: 800;
+    font-size: 4em;
+    text-align: center;
+    /* margin-top: 30px; */
+    position: relative;
+    /* top: -14px; */
+    margin: 3.5%;
 
                 }
 
@@ -12304,13 +12319,12 @@ list-style: none;
                     font-weight: 800;
                     font-size: 4em;
                     text-align: center;
-                    margin-top: 30px;
+                    /* margin-top: 30px; */
                     position: relative;
-                    top: -14px;
+                    /* top: -14px; */
+                    margin: 3.5%;
 
                 }
-                    
-
 
 
 
@@ -12439,7 +12453,7 @@ list-style: none;
 }
 
 .conteudo-analises {
-    background-color: #e0e0e0;
+        background-color: #e0e0e0;
     position: relative;
     top: 0;
    /* margin-left: 50px;
