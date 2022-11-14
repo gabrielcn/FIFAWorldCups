@@ -6118,6 +6118,41 @@ a:visited{
 
 /* Página Sobre */
 
+.sobre {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: center;
+    color: white;
+}
+
+.sobremais {
+    padding: 20px;
+    flex-direction: column;
+    text-align: left;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 20px;
+}
+
+.sobre button {
+    background-color: white;
+    border: 1px solid #4d4d4d;
+    color: #0e482a;
+    font-weight: bold;
+    padding: 8px;
+    border-radius: 3px;
+    margin-bottom: -15px;
+}
+
+.sobre button:hover {
+    background-color: #f88f06;
+    color: white;
+    cursor: pointer;
+}
+
+
+
 .conteudo-sobre {
     background-color: #e0e0e0;
     height: 1500px;
@@ -12682,6 +12717,44 @@ height: 150%;
 }
 
 /* Página Sobre */
+
+.sobre {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: center;
+    color: white;
+    font-size: 4em;
+}
+
+.sobremais {
+    padding: 20px;
+    flex-direction: column;
+    text-align: left;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 4em;
+}
+
+.sobre button {
+    background-color: white;
+    border: 1px solid #4d4d4d;
+    color: #0e482a;
+    font-weight: bold;
+    padding: 8px;
+    border-radius: 3px;
+    /* margin-bottom: -15px; */
+    width: 40%;
+    height: 90px;
+    font-size: 55%;
+    margin: 1%;
+}
+
+.sobre button:hover {
+    background-color: #f88f06;
+    color: white;
+    cursor: pointer;
+}
 
 .conteudo-sobre {
     background-color: #e0e0e0;
