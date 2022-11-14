@@ -5782,7 +5782,155 @@ border: solid #2b3e2a 1px;
         }
 
 
+/* classif 2014*/
 
+
+.classificacao-2014 h3 {
+    color: #000;
+    text-align: center;
+    font-size: 25px;
+    }
+    
+    
+    .classificacao-2014 {
+    border-bottom: 0.2em solid #84765c;
+    background: #e7ead9;
+    padding: 5px;
+    width: 100%;
+    position: relative;
+    top: 10501px;
+    left: 0;
+    }
+    
+    .classificacao-2014 ol li {
+    color: #010101;
+    list-style: none;
+    }
+    
+    /* < -- 1 -- */
+    .classificacao-2014 ol li.pos-1 {
+    background: #dfd3bd;
+    font: bold 1.2em arial;
+    padding: 10px;
+    margin: 12px;
+    }
+    
+    .classificacao-2014 ol li.pos-1 span.posicao {
+    width: 1em;
+    }
+    
+    .classificacao-2014 ol li.pos-1 span.bandeira {
+    margin: 0.8em;
+    }
+    
+     /*  -- 1 --> */
+    
+     /* < -- 2-9 -- */
+    .classificacao-2014 ol li {
+    background: #fff;
+    font: bold 1.2em arial;
+    padding: 10px;
+    margin: 12px;
+    }
+    
+    .classificacao-2014 ol li span.posicao {
+    width: 1em;
+    }
+    
+    .classificacao-2014 ol li span.bandeira {
+    margin: 0.8em;
+    }
+     /*  -- 2-9 --> */
+    
+        /* Depois da posição 9 */
+     .classificacao-2014 ol li.pos-10 span.bandeira {
+        margin: 0.3em;
+        }
+    
+     .classificacao-2014 ol li.pos-11 span.bandeira {
+            margin: 0.3em;
+        }
+    
+     .classificacao-2014 ol li.pos-12 span.bandeira {
+                margin: 0.3em;
+        }
+     .classificacao-2014 ol li.pos-13 span.bandeira {
+            margin: 0.3em;
+        }
+     .classificacao-2014 ol li.pos-14 span.bandeira {
+            margin: 0.3em;
+        }
+    
+     .classificacao-2014 ol li.pos-15 span.bandeira {
+                margin: 0.3em;
+        }
+     .classificacao-2014 ol li.pos-16 span.bandeira {
+            margin: 0.3em;
+        }
+        ol li.pos-17 span.bandeira {
+            margin: 0.3em;
+        }
+        ol li.pos-18 span.bandeira {
+            margin: 0.3em;
+        }
+        ol li.pos-19 span.bandeira {
+            margin: 0.3em;
+        }
+        ol li.pos-20 span.bandeira {
+            margin: 0.3em;
+        }
+        ol li.pos-21 span.bandeira {
+            margin: 0.3em;
+        }
+        ol li.pos-22 span.bandeira {
+            margin: 0.3em;
+        }
+        ol li.pos-23 span.bandeira {
+            margin: 0.3em;
+        }
+        ol li.pos-24 span.bandeira {
+            margin: 0.3em;
+        }
+        ol li.pos-25 span.bandeira {
+            margin: 0.3em;
+        }
+        ol li.pos-26 span.bandeira {
+            margin: 0.3em;
+        }
+        ol li.pos-27 span.bandeira {
+            margin: 0.3em;
+        }
+        ol li.pos-28 span.bandeira {
+            margin: 0.3em;
+        }
+        ol li.pos-29 span.bandeira {
+            margin: 0.3em;
+        }
+        ol li.pos-30 span.bandeira {
+            margin: 0.3em;
+        }
+        ol li.pos-31 span.bandeira {
+            margin: 0.3em;
+        }
+        ol li.pos-32 span.bandeira {
+            margin: 0.3em;
+        }
+    
+    .hr-2014 {
+    position: relative;
+    height: 60px;
+    top: 10501px;
+    background-color: #2b3e2a;
+    border: solid #2b3e2a 1px;
+    }
+    
+    .hr-2014 h3 {
+        color: #e7ead9;
+        font-weight: 800;
+        font-size: 30px;
+        text-align: center;
+        margin-top: 10px;
+        }
 
 
 
@@ -6115,7 +6263,7 @@ a:visited{
 
 .conteudo-fontes {
     background-color: #e0e0e0;
-    height: 1500px;
+    height: 1900px;
     width: 80%;
    align-items: center;
    justify-content: center;
@@ -6144,7 +6292,32 @@ a:visited{
     font-size: 1.3em;
     margin-left: 5%;
     margin-top: -3%;
+    list-style: none;
 }
+
+.conteudo-fontes img {
+    width: 40px;
+    height: 40px;
+}
+
+
+.download {
+    font-size: 1em;
+    font-weight: 600;
+    background-color: #ffffff;
+    padding: 5px 5px;
+    border-radius: 5px;
+    text-decoration: none;
+    border: 1px solid #0e482a;
+    border-left: 10px solid #34a853;
+    margin: 5%;
+}
+
+.download:hover {
+    color: #ffffff;
+    background-color: #0e482a;
+}
+
 
 
 /* Página Sobre */
@@ -12357,6 +12530,160 @@ list-style: none;
 
                 }
 
+                /* classif 2014*/
+
+
+         .classificacao-2014 h3 {
+            color: #000;
+            text-align: center;
+            font-size: 2.5em;
+        }
+        
+        .classificacao-2014 {
+            border-bottom: 0.2em solid #84765c;
+            background: #e7ead9;
+            padding: 5px;
+            width: 100%;
+            position: relative;
+            top: 13525px;
+            left: 0;
+        }
+        
+        .classificacao-2014 ol li {
+        color: #010101;
+        list-style: none;
+        }
+        
+           /* < -- 1 -- */
+     .classificacao-2014 ol li.pos-1 {
+        background: #dfd3bd;
+        font: bold 2.2em arial;
+        padding: 10px;
+        margin: 12px;
+        }
+        
+        .classificacao-2014 ol li.pos-1 span.posicao {
+        width: 1em;
+        }
+        
+        .classificacao-2014 ol li.pos-1 span.bandeira {
+        margin: 0.8em;
+        }
+        
+         /*  -- 1 --> */
+    
+         /* < -- 2-9 -- */
+     .classificacao-2014 ol li {
+        background: #fff;
+        font: bold 2.2em arial;
+        padding: 10px;
+        margin: 12px;
+        }
+        
+        .classificacao-2014 ol li span.posicao {
+        width: 1em;
+        }
+        
+        .classificacao-2014 ol li span.bandeira {
+        margin: 0.8em;
+        }
+         /*  -- 2-9 --> */
+    
+            /* Depois da posição 9 */
+         .classificacao-2014 ol li.pos-10 span.bandeira {
+            margin: 0.3em;
+            }
+    
+         .classificacao-2014 ol li.pos-11 span.bandeira {
+                margin: 0.3em;
+            }
+    
+         .classificacao-2014 ol li.pos-12 span.bandeira {
+                    margin: 0.3em;
+            }
+         .classificacao-2014 ol li.pos-13 span.bandeira {
+                margin: 0.3em;
+            }
+         .classificacao-2014 ol li.pos-14 span.bandeira {
+                margin: 0.3em;
+            }
+    
+         .classificacao-2014 ol li.pos-15 span.bandeira {
+                    margin: 0.3em;
+            }
+            .classificacao-2014 ol li.pos-16 span.bandeira {
+                margin: 0.3em;
+            }
+            ol li.pos-17 span.bandeira {
+                margin: 0.3em;
+            }
+            ol li.pos-18 span.bandeira {
+                margin: 0.3em;
+            }
+            ol li.pos-19 span.bandeira {
+                margin: 0.3em;
+            }
+            ol li.pos-20 span.bandeira {
+                margin: 0.3em;
+            }
+            ol li.pos-21 span.bandeira {
+                margin: 0.3em;
+            }
+            ol li.pos-22 span.bandeira {
+                margin: 0.3em;
+            }
+            ol li.pos-23 span.bandeira {
+                margin: 0.3em;
+            }
+            ol li.pos-24 span.bandeira {
+                margin: 0.3em;
+            }
+            ol li.pos-25 span.bandeira {
+                margin: 0.3em;
+            }
+            ol li.pos-26 span.bandeira {
+                margin: 0.3em;
+            }
+            ol li.pos-27 span.bandeira {
+                margin: 0.3em;
+            }
+            ol li.pos-28 span.bandeira {
+                margin: 0.3em;
+            }
+            ol li.pos-29 span.bandeira {
+                margin: 0.3em;
+            }
+            ol li.pos-30 span.bandeira {
+                margin: 0.3em;
+            }
+            ol li.pos-31 span.bandeira {
+                margin: 0.3em;
+            }
+            ol li.pos-32 span.bandeira {
+                margin: 0.3em;
+            }
+     
+            .hr-2014 {
+                position: relative;
+                height: 150px;
+                top: 13520px;
+                background-color: #2b3e2a;
+                border: solid #2b3e2a 1px;
+                width: 100%;
+                }
+        
+                .hr-2014 h3 {
+                    color: #e7ead9;
+                    font-weight: 800;
+                    font-size: 4em;
+                    text-align: center;
+                    /* margin-top: 30px; */
+                    position: relative;
+                    /* top: -14px; */
+                    margin: 3.5%;
+
+                }
+
 
 
 
@@ -12717,7 +13044,7 @@ height: 150%;
 
 .conteudo-fontes {
     background-color: #e0e0e0;
-    height: 1500px;
+    height: 3600px;
     width: 100%;
    align-items: center;
    justify-content: center;
@@ -12727,7 +13054,7 @@ height: 150%;
 .conteudo-fontes h2 {
     text-align: center;
     color: #0e482a;
-    font-size: 3em;
+    font-size: 4em;
     margin-top: 1px;
     padding: 2%;
     font-weight: 900;
@@ -12738,14 +13065,39 @@ height: 150%;
     margin: 5%;
     color: #0e482a;
     font-weight: 900;
-    font-size: 2.5em;
+    font-size: 3em;
 }
 
 .conteudo-fontes li {
     text-align: left;
-    font-size: 2.3em;
+    font-size: 2.9em;
     margin-left: 5%;
     margin-top: -3%;
+}
+
+.conteudo-fontes img {
+    width: 80px;
+    height: 80px;
+}
+
+
+.download {
+    font-size: 1.1em;
+    font-weight: 600;
+    background-color: #ffffff;
+    padding: 15px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    border: 1px solid #0e482a;
+    border-left: 10px solid #34a853;
+    margin: 12%;
+    position: relative;
+    top: -35px;
+}
+
+.download:hover {
+    color: #ffffff;
+    background-color: #0e482a;
 }
 
 /* Página Sobre */
