@@ -5831,6 +5831,37 @@ border-radius: 5%;
 
 /* Page Analises */
 
+.sobre {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: center;
+    color: white;
+}
+
+.sobremais {
+    padding: 20px;
+    flex-direction: column;
+    text-align: left;
+    font-size: 20px;
+}
+
+.sobre button {
+    background-color: white;
+    border: 1px solid #4d4d4d;
+    color: #0e482a;
+    font-weight: bold;
+    padding: 8px;
+    border-radius: 3px;
+    margin: 2%;
+}
+
+.sobre button:hover {
+    background-color: #f88f06;
+    color: white;
+    cursor: pointer;
+}
+
 .conteudo-analises {
     background-color: #e0e0e0;
     position: relative;
@@ -6117,41 +6148,6 @@ a:visited{
 
 
 /* Página Sobre */
-
-.sobre {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-decoration: center;
-    color: white;
-}
-
-.sobremais {
-    padding: 20px;
-    flex-direction: column;
-    text-align: left;
-    margin-left: 5px;
-    margin-right: 5px;
-    font-size: 20px;
-}
-
-.sobre button {
-    background-color: white;
-    border: 1px solid #4d4d4d;
-    color: #0e482a;
-    font-weight: bold;
-    padding: 8px;
-    border-radius: 3px;
-    margin-bottom: -15px;
-}
-
-.sobre button:hover {
-    background-color: #f88f06;
-    color: white;
-    cursor: pointer;
-}
-
-
 
 .conteudo-sobre {
     background-color: #e0e0e0;
@@ -12487,6 +12483,44 @@ list-style: none;
   font-family: 'Poppins', sans-serif;
 }
 
+.sobre {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: center;
+    color: white;
+    font-size: 4em;
+}
+
+.sobremais {
+    padding: 20px;
+    flex-direction: column;
+    text-align: left;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 4em;
+}
+
+.sobre button {
+    background-color: white;
+    border: 1px solid #4d4d4d;
+    color: #0e482a;
+    font-weight: bold;
+    padding: 8px;
+    border-radius: 3px;
+    /* margin-bottom: -15px; */
+    width: 40%;
+    height: 90px;
+    font-size: 55%;
+    margin: 1%;
+}
+
+.sobre button:hover {
+    background-color: #f88f06;
+    color: white;
+    cursor: pointer;
+}
+
 .conteudo-analises {
         background-color: #e0e0e0;
     position: relative;
@@ -12718,44 +12752,6 @@ height: 150%;
 
 /* Página Sobre */
 
-.sobre {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-decoration: center;
-    color: white;
-    font-size: 4em;
-}
-
-.sobremais {
-    padding: 20px;
-    flex-direction: column;
-    text-align: left;
-    margin-left: 5px;
-    margin-right: 5px;
-    font-size: 4em;
-}
-
-.sobre button {
-    background-color: white;
-    border: 1px solid #4d4d4d;
-    color: #0e482a;
-    font-weight: bold;
-    padding: 8px;
-    border-radius: 3px;
-    /* margin-bottom: -15px; */
-    width: 40%;
-    height: 90px;
-    font-size: 55%;
-    margin: 1%;
-}
-
-.sobre button:hover {
-    background-color: #f88f06;
-    color: white;
-    cursor: pointer;
-}
-
 .conteudo-sobre {
     background-color: #e0e0e0;
     height: auto;
@@ -12768,7 +12764,7 @@ height: 150%;
 .conteudo-sobre h2 {
     text-align: center;
     color: #0e482a;
-    font-size: 4em;
+    font-size: 5em;
     margin-top: 1px;
     padding: 2%;
     font-weight: 900;
@@ -12776,7 +12772,7 @@ height: 150%;
 
 .conteudo-sobre p {
     text-align: center;
-    font-size: 3em;
+    font-size: 4em;
     margin: 2%;
 }
 
@@ -12789,7 +12785,7 @@ height: 150%;
     font-family: courier,arial,helvetica;
     text-align: center;
     margin: 5%;
-    font-size: 3em;
+    font-size: 4em;
 }
 
 }
