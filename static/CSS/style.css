@@ -12521,13 +12521,13 @@ list-style: none;
     position: relative;
     top: 0px;
     text-align: center;
-    background-color: lightgray;
+    background-color: #0e482a;
     height: 10%;
     opacity: 0.85;
 }
 
 .titulo-grupos h1 {
-  color: #0e482a;
+  color: #fff;
   font-weight: 800;
   position: relative;
   top: 30px;
