@@ -12762,7 +12762,7 @@ height: 150%;
 .conteudo-sobre h2 {
     text-align: center;
     color: #0e482a;
-    font-size: 4em;
+    font-size: 4rem;
     margin-top: 1px;
     padding: 2%;
     font-weight: 900;
@@ -12770,7 +12770,7 @@ height: 150%;
 
 .conteudo-sobre p {
     text-align: center;
-    font-size: 3em;
+    font-size: 3rem;
     margin: 2%;
 }
 
@@ -12783,7 +12783,7 @@ height: 150%;
     font-family: courier,arial,helvetica;
     text-align: center;
     margin: 5%;
-    font-size: 3em;
+    font-size: 3rem;
 }
 
 }
