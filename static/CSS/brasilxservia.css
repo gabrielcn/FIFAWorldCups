@@ -369,7 +369,7 @@ a:visited{
     
     .tabela-copa-2 .bandeira-brasil{
         position: relative;
-    
+        left: 5%;
     }
     
     .tabela-copa-2 .x {
@@ -380,7 +380,7 @@ a:visited{
     
     .tabela-copa-2 .bandeira-servia {
         position: relative;
-       
+        right: 5%;
     }
 
 
