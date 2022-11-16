@@ -196,7 +196,29 @@ margin-bottom: 15px;
     background-color: #2b3e2a;
 }
 
-/* Menu retratil */
+/* DP Menu Dashs */
+
+.navbar .dp-menu-hover-dash li a:hover {
+    background: #f88f06;
+    color: #fff;
+    position: relative;
+    padding: 20px;
+}
+
+.navbar .dp-menu-hover-dash {
+    position: absolute;
+    left: 0;
+    width: 250px;
+    background: #2b3e2a;
+    display: none;
+    border: solid 1px white;
+    z-index: 3;
+}
+
+.navbar .dp-menu-hover-dash a {
+    position: relative;
+    left: 0%;
+}
 
 /* menu retratil */
 
@@ -6500,6 +6522,18 @@ body, html {
         position: relative;
         background-color: #2b3e2a;
     }
+
+    /* DP Menu Dashs */
+
+.navbar .dp-menu-hover-dash {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    background: #2b3e2a;
+    display: none;
+    border: solid 1px white;
+    z-index: 3;
+}
 
     /* menu retratil */
 

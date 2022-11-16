@@ -1,5 +1,4 @@
 from flask import Flask, render_template
-
 app = Flask(__name__)
 
 # 1° página do site
@@ -38,6 +37,7 @@ def fontes():
 @app.route("/sobre")
 def sobre():
     return render_template("sobre.html")
+
 
 # colocar o site no ar
 if __name__ == "__main__":
