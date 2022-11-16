@@ -203,12 +203,14 @@ margin-bottom: 15px;
     color: #fff;
     position: relative;
     padding: 20px;
+    width: 198px;
+    left: -20%;
 }
 
 .navbar .dp-menu-hover-dash {
     position: absolute;
     left: 0;
-    width: 250px;
+    width: 198px;
     background: #2b3e2a;
     display: none;
     border: solid 1px white;
@@ -217,7 +219,7 @@ margin-bottom: 15px;
 
 .navbar .dp-menu-hover-dash a {
     position: relative;
-    left: 0%;
+    left: -22%;
 }
 
 /* menu retratil */
@@ -6069,6 +6071,126 @@ border-radius: 5%;
     width: 85%;
 }
 
+.grafico-2 img {
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+    display: block;
+    width: auto;
+    height: auto;
+}
+
+.grafico-2 p {
+    justify-content: center;
+    margin: 5%;
+    text-align: center;
+}
+
+.grafico-3 img {
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+    display: block;
+    width: auto;
+    height: auto;
+}
+
+.grafico-3 p {
+    justify-content: center;
+    margin: 5%;
+    text-align: center;
+}
+
+.grafico-4 img {
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+    display: block;
+    width: auto;
+    height: auto;
+}
+
+.grafico-4 p {
+    justify-content: center;
+    margin: 5%;
+    text-align: center;
+}
+
+.grafico-5 img {
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+    display: block;
+    width: auto;
+    height: auto;
+}
+
+.grafico-5 p {
+    justify-content: center;
+    margin: 5%;
+    text-align: center;
+}
+
+.grafico-6 img {
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+    display: block;
+    width: auto;
+    height: auto;
+}
+
+.grafico-6 p {
+    justify-content: center;
+    margin: 5%;
+    text-align: center;
+}
+
+.grafico-7 img {
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+    display: block;
+    width: auto;
+    height: auto;
+}
+
+.grafico-7 p {
+    justify-content: center;
+    margin: 5%;
+    text-align: center;
+}
+
+.grafico-8 img {
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+    display: block;
+    width: auto;
+    height: auto;
+}
+
+.grafico-8 p {
+    justify-content: center;
+    margin: 5%;
+    text-align: center;
+}
+
+.grafico-9 img {
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+    display: block;
+    width: auto;
+    height: auto;
+}
+
+.grafico-9 p {
+    justify-content: center;
+    margin: 5%;
+    text-align: center;
+}
+
 /* Página grupos */
 
 @import url('https://fonts.googleapis.com/css2? family= Anek+Malayalam:wght@100;400 & display=swap' );
@@ -6083,13 +6205,13 @@ border-radius: 5%;
     position: relative;
     top: 0px;
     text-align: center;
-    background-color: lightgray;
+    background-color: #0e482a;
     height: 100px;
     opacity: 0.85;
 }
 
 .titulo-grupos h1 {
-  color: #0e482a;
+  color: #ffffff;
   font-weight: 800;
   position: relative;
   top: 15px;
@@ -6533,6 +6655,15 @@ body, html {
     display: none;
     border: solid 1px white;
     z-index: 3;
+}
+
+.navbar .dp-menu-hover-dash a {
+    position: relative;
+    left: 0;
+}
+
+.navbar .dp-menu-hover-dash li a:hover {
+    display: none;
 }
 
     /* menu retratil */
@@ -12906,6 +13037,126 @@ list-style: none;
     position: relative;
     left: 0%;
     width: 100%;
+}
+
+.grafico-2 img {
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+    display: block;
+    width: 90%;
+    height: auto;
+}
+
+.grafico-2 p {
+    justify-content: center;
+    margin: 5%;
+    text-align: center;
+}
+
+.grafico-3 img {
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+    display: block;
+    width: 90%;
+    height: auto;
+}
+
+.grafico-3 p {
+    justify-content: center;
+    margin: 5%;
+    text-align: center;
+}
+
+.grafico-4 img {
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+    display: block;
+    width: 90%;
+    height: auto;
+}
+
+.grafico-4 p {
+    justify-content: center;
+    margin: 5%;
+    text-align: center;
+}
+
+.grafico-5 img {
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+    display: block;
+    width: 90%;
+    height: auto;
+}
+
+.grafico-5 p {
+    justify-content: center;
+    margin: 5%;
+    text-align: center;
+}
+
+.grafico-6 img {
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+    display: block;
+    width: 90%;
+    height: auto;
+}
+
+.grafico-6 p {
+    justify-content: center;
+    margin: 5%;
+    text-align: center;
+}
+
+.grafico-7 img {
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+    display: block;
+    width: 90%;
+    height: auto;
+}
+
+.grafico-7 p {
+    justify-content: center;
+    margin: 5%;
+    text-align: center;
+}
+
+.grafico-8 img {
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+    display: block;
+    width: 90%;
+    height: auto;
+}
+
+.grafico-8 p {
+    justify-content: center;
+    margin: 5%;
+    text-align: center;
+}
+
+.grafico-9 img {
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+    display: block;
+    width: 90%;
+    height: auto;
+}
+
+.grafico-9 p {
+    justify-content: center;
+    margin: 5%;
+    text-align: center;
 }
 
 /* Página grupos */
