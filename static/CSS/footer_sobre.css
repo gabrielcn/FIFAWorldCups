@@ -5,7 +5,7 @@ footer {
     width: 100%;
     background: #2b3e2a;
     min-height: 100px;
-    top: 2570px;
+    top: 70px;
     padding: 20px 50px;
     display: flex;
     justify-content: center;
@@ -132,7 +132,7 @@ footer {
     width: 100%;
     background: #2b3e2a;
     min-height: 100px;
-    top: 25%;
+    top: 5%;
     padding: 20px 50px;
     display: flex;
     justify-content: center;
@@ -155,7 +155,7 @@ footer .social_icon li, footer .menu-footer li {
 }
 
 footer .social_icon li a {
-    font-size: 2em;
+    font-size: 4em;
     color: #fff;
     margin: 0 10px;
     display: inline-block;
