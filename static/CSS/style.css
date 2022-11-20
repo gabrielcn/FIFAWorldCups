@@ -231,7 +231,7 @@ margin-bottom: 15px;
 /* Contador regressivo */
 
 .titulo-proxima-copa {
-    background-color: #ffffff;
+    background-color: #7ea377;
     opacity: 1;
     position: relative;
     width: 30%;
@@ -5957,7 +5957,155 @@ border: solid #2b3e2a 1px;
         }
 
 
+/* classif 2018*/
 
+
+.classificacao-2018 h3 {
+    color: #000;
+    text-align: center;
+    font-size: 25px;
+    }
+    
+    
+    .classificacao-2018 {
+    border-bottom: 0.2em solid #84765c;
+    background: #e7ead9;
+    padding: 5px;
+    width: 100%;
+    position: relative;
+    top: 10501px;
+    left: 0;
+    }
+    
+    .classificacao-2018 ol li {
+    color: #010101;
+    list-style: none;
+    }
+    
+    /* < -- 1 -- */
+    .classificacao-2018 ol li.pos-1 {
+    background: #dfd3bd;
+    font: bold 1.2em arial;
+    padding: 10px;
+    margin: 12px;
+    }
+    
+    .classificacao-2018 ol li.pos-1 span.posicao {
+    width: 1em;
+    }
+    
+    .classificacao-2018 ol li.pos-1 span.bandeira {
+    margin: 0.8em;
+    }
+    
+     /*  -- 1 --> */
+    
+     /* < -- 2-9 -- */
+    .classificacao-2018 ol li {
+    background: #fff;
+    font: bold 1.2em arial;
+    padding: 10px;
+    margin: 12px;
+    }
+    
+    .classificacao-2018 ol li span.posicao {
+    width: 1em;
+    }
+    
+    .classificacao-2018 ol li span.bandeira {
+    margin: 0.8em;
+    }
+     /*  -- 2-9 --> */
+    
+        /* Depois da posição 9 */
+     .classificacao-2018 ol li.pos-10 span.bandeira {
+        margin: 0.3em;
+        }
+    
+     .classificacao-2018 ol li.pos-11 span.bandeira {
+            margin: 0.3em;
+        }
+    
+     .classificacao-2018 ol li.pos-12 span.bandeira {
+                margin: 0.3em;
+        }
+     .classificacao-2018 ol li.pos-13 span.bandeira {
+            margin: 0.3em;
+        }
+     .classificacao-2018 ol li.pos-14 span.bandeira {
+            margin: 0.3em;
+        }
+    
+     .classificacao-2018 ol li.pos-15 span.bandeira {
+                margin: 0.3em;
+        }
+     .classificacao-2018 ol li.pos-16 span.bandeira {
+            margin: 0.3em;
+        }
+        ol li.pos-17 span.bandeira {
+            margin: 0.3em;
+        }
+        ol li.pos-18 span.bandeira {
+            margin: 0.3em;
+        }
+        ol li.pos-19 span.bandeira {
+            margin: 0.3em;
+        }
+        ol li.pos-20 span.bandeira {
+            margin: 0.3em;
+        }
+        ol li.pos-21 span.bandeira {
+            margin: 0.3em;
+        }
+        ol li.pos-22 span.bandeira {
+            margin: 0.3em;
+        }
+        ol li.pos-23 span.bandeira {
+            margin: 0.3em;
+        }
+        ol li.pos-24 span.bandeira {
+            margin: 0.3em;
+        }
+        ol li.pos-25 span.bandeira {
+            margin: 0.3em;
+        }
+        ol li.pos-26 span.bandeira {
+            margin: 0.3em;
+        }
+        ol li.pos-27 span.bandeira {
+            margin: 0.3em;
+        }
+        ol li.pos-28 span.bandeira {
+            margin: 0.3em;
+        }
+        ol li.pos-29 span.bandeira {
+            margin: 0.3em;
+        }
+        ol li.pos-30 span.bandeira {
+            margin: 0.3em;
+        }
+        ol li.pos-31 span.bandeira {
+            margin: 0.3em;
+        }
+        ol li.pos-32 span.bandeira {
+            margin: 0.3em;
+        }
+    
+    .hr-2018 {
+    position: relative;
+    height: 60px;
+    top: 10501px;
+    background-color: #2b3e2a;
+    border: solid #2b3e2a 1px;
+    }
+    
+    .hr-2018 h3 {
+        color: #e7ead9;
+        font-weight: 800;
+        font-size: 30px;
+        text-align: center;
+        margin-top: 10px;
+        }
 
 
 
@@ -6407,7 +6555,7 @@ a:visited{
 
 .conteudo-fontes {
     background-color: #e0e0e0;
-    height: 2200px;
+    height: 2500px;
     width: 80%;
    align-items: center;
    justify-content: center;
@@ -12851,6 +12999,159 @@ list-style: none;
                 }
 
 
+                 /* classif 2018*/
+
+
+         .classificacao-2018 h3 {
+            color: #000;
+            text-align: center;
+            font-size: 2.5em;
+        }
+        
+        .classificacao-2018 {
+            border-bottom: 0.2em solid #84765c;
+            background: #e7ead9;
+            padding: 5px;
+            width: 100%;
+            position: relative;
+            top: 13525px;
+            left: 0;
+        }
+        
+        .classificacao-2018 ol li {
+        color: #010101;
+        list-style: none;
+        }
+        
+           /* < -- 1 -- */
+     .classificacao-2018 ol li.pos-1 {
+        background: #dfd3bd;
+        font: bold 2.2em arial;
+        padding: 10px;
+        margin: 12px;
+        }
+        
+        .classificacao-2018 ol li.pos-1 span.posicao {
+        width: 1em;
+        }
+        
+        .classificacao-2018 ol li.pos-1 span.bandeira {
+        margin: 0.8em;
+        }
+        
+         /*  -- 1 --> */
+    
+         /* < -- 2-9 -- */
+     .classificacao-2018 ol li {
+        background: #fff;
+        font: bold 2.2em arial;
+        padding: 10px;
+        margin: 12px;
+        }
+        
+        .classificacao-2018 ol li span.posicao {
+        width: 1em;
+        }
+        
+        .classificacao-2018 ol li span.bandeira {
+        margin: 0.8em;
+        }
+         /*  -- 2-9 --> */
+    
+            /* Depois da posição 9 */
+         .classificacao-2018 ol li.pos-10 span.bandeira {
+            margin: 0.3em;
+            }
+    
+         .classificacao-2018 ol li.pos-11 span.bandeira {
+                margin: 0.3em;
+            }
+    
+         .classificacao-2018 ol li.pos-12 span.bandeira {
+                    margin: 0.3em;
+            }
+         .classificacao-2018 ol li.pos-13 span.bandeira {
+                margin: 0.3em;
+            }
+         .classificacao-2018 ol li.pos-14 span.bandeira {
+                margin: 0.3em;
+            }
+    
+         .classificacao-2018 ol li.pos-15 span.bandeira {
+                    margin: 0.3em;
+            }
+            .classificacao-2018 ol li.pos-16 span.bandeira {
+                margin: 0.3em;
+            }
+            ol li.pos-17 span.bandeira {
+                margin: 0.3em;
+            }
+            ol li.pos-18 span.bandeira {
+                margin: 0.3em;
+            }
+            ol li.pos-19 span.bandeira {
+                margin: 0.3em;
+            }
+            ol li.pos-20 span.bandeira {
+                margin: 0.3em;
+            }
+            ol li.pos-21 span.bandeira {
+                margin: 0.3em;
+            }
+            ol li.pos-22 span.bandeira {
+                margin: 0.3em;
+            }
+            ol li.pos-23 span.bandeira {
+                margin: 0.3em;
+            }
+            ol li.pos-24 span.bandeira {
+                margin: 0.3em;
+            }
+            ol li.pos-25 span.bandeira {
+                margin: 0.3em;
+            }
+            ol li.pos-26 span.bandeira {
+                margin: 0.3em;
+            }
+            ol li.pos-27 span.bandeira {
+                margin: 0.3em;
+            }
+            ol li.pos-28 span.bandeira {
+                margin: 0.3em;
+            }
+            ol li.pos-29 span.bandeira {
+                margin: 0.3em;
+            }
+            ol li.pos-30 span.bandeira {
+                margin: 0.3em;
+            }
+            ol li.pos-31 span.bandeira {
+                margin: 0.3em;
+            }
+            ol li.pos-32 span.bandeira {
+                margin: 0.3em;
+            }
+     
+            .hr-2018 {
+                position: relative;
+                height: 150px;
+                top: 13520px;
+                background-color: #2b3e2a;
+                border: solid #2b3e2a 1px;
+                width: 100%;
+                }
+        
+                .hr-2018 h3 {
+                    color: #e7ead9;
+                    font-weight: 800;
+                    font-size: 4em;
+                    text-align: center;
+                    /* margin-top: 30px; */
+                    position: relative;
+                    /* top: -14px; */
+                    margin: 3.5%;
+
+                }
 
 
 
