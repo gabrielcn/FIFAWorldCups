@@ -1,0 +1,322 @@
+[
+ {
+  "rank": 1,
+  "country_full": "Brazil",
+  "country_abrv": "BRA",
+  "total_points": 1841.3,
+  "previous_points": 1837.56,
+  "rank_change": 0,
+  "confederation": "CONMEBOL",
+  "rank_date": "2022-10-06"
+ },
+ {
+  "rank": 2,
+  "country_full": "Belgium",
+  "country_abrv": "BEL",
+  "total_points": 1816.71,
+  "previous_points": 1821.92,
+  "rank_change": 0,
+  "confederation": "UEFA",
+  "rank_date": "2022-10-06"
+ },
+ {
+  "rank": 3,
+  "country_full": "Argentina",
+  "country_abrv": "ARG",
+  "total_points": 1773.88,
+  "previous_points": 1770.65,
+  "rank_change": 0,
+  "confederation": "CONMEBOL",
+  "rank_date": "2022-10-06"
+ },
+ {
+  "rank": 4,
+  "country_full": "France",
+  "country_abrv": "FRA",
+  "total_points": 1759.78,
+  "previous_points": 1764.85,
+  "rank_change": 0,
+  "confederation": "UEFA",
+  "rank_date": "2022-10-06"
+ },
+ {
+  "rank": 5,
+  "country_full": "England",
+  "country_abrv": "ENG",
+  "total_points": 1728.47,
+  "previous_points": 1737.46,
+  "rank_change": 0,
+  "confederation": "UEFA",
+  "rank_date": "2022-10-06"
+ },
+ {
+  "rank": 6,
+  "country_full": "Italy",
+  "country_abrv": "ITA",
+  "total_points": 1726.14,
+  "previous_points": 1713.86,
+  "rank_change": -1,
+  "confederation": "UEFA",
+  "rank_date": "2022-10-06"
+ },
+ {
+  "rank": 7,
+  "country_full": "Spain",
+  "country_abrv": "ESP",
+  "total_points": 1715.22,
+  "previous_points": 1716.93,
+  "rank_change": 1,
+  "confederation": "UEFA",
+  "rank_date": "2022-10-06"
+ },
+ {
+  "rank": 8,
+  "country_full": "Netherlands",
+  "country_abrv": "NED",
+  "total_points": 1694.51,
+  "previous_points": 1679.41,
+  "rank_change": 0,
+  "confederation": "UEFA",
+  "rank_date": "2022-10-06"
+ },
+ {
+  "rank": 9,
+  "country_full": "Portugal",
+  "country_abrv": "POR",
+  "total_points": 1676.56,
+  "previous_points": 1678.65,
+  "rank_change": 0,
+  "confederation": "UEFA",
+  "rank_date": "2022-10-06"
+ },
+ {
+  "rank": 10,
+  "country_full": "Denmark",
+  "country_abrv": "DEN",
+  "total_points": 1666.57,
+  "previous_points": 1665.47,
+  "rank_change": 0,
+  "confederation": "UEFA",
+  "rank_date": "2022-10-06"
+ },
+ {
+  "rank": 11,
+  "country_full": "Germany",
+  "country_abrv": "GER",
+  "total_points": 1650.21,
+  "previous_points": 1658.96,
+  "rank_change": 0,
+  "confederation": "UEFA",
+  "rank_date": "2022-10-06"
+ },
+ {
+  "rank": 12,
+  "country_full": "Croatia",
+  "country_abrv": "CRO",
+  "total_points": 1645.64,
+  "previous_points": 1632.15,
+  "rank_change": -3,
+  "confederation": "UEFA",
+  "rank_date": "2022-10-06"
+ },
+ {
+  "rank": 13,
+  "country_full": "Mexico",
+  "country_abrv": "MEX",
+  "total_points": 1644.89,
+  "previous_points": 1649.57,
+  "rank_change": 1,
+  "confederation": "CONCACAF",
+  "rank_date": "2022-10-06"
+ },
+ {
+  "rank": 14,
+  "country_full": "Uruguay",
+  "country_abrv": "URU",
+  "total_points": 1638.71,
+  "previous_points": 1640.95,
+  "rank_change": 1,
+  "confederation": "CONMEBOL",
+  "rank_date": "2022-10-06"
+ },
+ {
+  "rank": 15,
+  "country_full": "Switzerland",
+  "country_abrv": "SUI",
+  "total_points": 1635.92,
+  "previous_points": 1621.43,
+  "rank_change": -1,
+  "confederation": "UEFA",
+  "rank_date": "2022-10-06"
+ },
+ {
+  "rank": 16,
+  "country_full": "USA",
+  "country_abrv": "USA",
+  "total_points": 1627.48,
+  "previous_points": 1635.01,
+  "rank_change": 2,
+  "confederation": "CONCACAF",
+  "rank_date": "2022-10-06"
+ },
+ {
+  "rank": 17,
+  "country_full": "Colombia",
+  "country_abrv": "COL",
+  "total_points": 1611.04,
+  "previous_points": 1604.07,
+  "rank_change": 0,
+  "confederation": "CONMEBOL",
+  "rank_date": "2022-10-06"
+ },
+ {
+  "rank": 18,
+  "country_full": "Senegal",
+  "country_abrv": "SEN",
+  "total_points": 1584.38,
+  "previous_points": 1584.59,
+  "rank_change": 0,
+  "confederation": "CAF",
+  "rank_date": "2022-10-06"
+ },
+ {
+  "rank": 19,
+  "country_full": "Wales",
+  "country_abrv": "WAL",
+  "total_points": 1569.82,
+  "previous_points": 1582.13,
+  "rank_change": 0,
+  "confederation": "UEFA",
+  "rank_date": "2022-10-06"
+ },
+ {
+  "rank": 20,
+  "country_full": "IR Iran",
+  "country_abrv": "IRN",
+  "total_points": 1564.61,
+  "previous_points": 1558.64,
+  "rank_change": -2,
+  "confederation": "AFC",
+  "rank_date": "2022-10-06"
+ },
+ {
+  "rank": 21,
+  "country_full": "Serbia",
+  "country_abrv": "SRB",
+  "total_points": 1563.62,
+  "previous_points": 1549.53,
+  "rank_change": -4,
+  "confederation": "UEFA",
+  "rank_date": "2022-10-06"
+ },
+ {
+  "rank": 22,
+  "country_full": "Morocco",
+  "country_abrv": "MAR",
+  "total_points": 1563.5,
+  "previous_points": 1558.35,
+  "rank_change": -1,
+  "confederation": "CAF",
+  "rank_date": "2022-10-06"
+ },
+ {
+  "rank": 23,
+  "country_full": "Peru",
+  "country_abrv": "PER",
+  "total_points": 1561.01,
+  "previous_points": 1562.24,
+  "rank_change": 2,
+  "confederation": "CONMEBOL",
+  "rank_date": "2022-10-06"
+ },
+ {
+  "rank": 24,
+  "country_full": "Japan",
+  "country_abrv": "JPN",
+  "total_points": 1559.54,
+  "previous_points": 1554.69,
+  "rank_change": 0,
+  "confederation": "AFC",
+  "rank_date": "2022-10-06"
+ },
+ {
+  "rank": 25,
+  "country_full": "Sweden",
+  "country_abrv": "SWE",
+  "total_points": 1553.33,
+  "previous_points": 1563.44,
+  "rank_change": 5,
+  "confederation": "UEFA",
+  "rank_date": "2022-10-06"
+ },
+ {
+  "rank": 26,
+  "country_full": "Poland",
+  "country_abrv": "POL",
+  "total_points": 1548.59,
+  "previous_points": 1546.18,
+  "rank_change": 0,
+  "confederation": "UEFA",
+  "rank_date": "2022-10-06"
+ },
+ {
+  "rank": 27,
+  "country_full": "Ukraine",
+  "country_abrv": "UKR",
+  "total_points": 1536.99,
+  "previous_points": 1542.79,
+  "rank_change": 0,
+  "confederation": "UEFA",
+  "rank_date": "2022-10-06"
+ },
+ {
+  "rank": 28,
+  "country_full": "Korea Republic",
+  "country_abrv": "KOR",
+  "total_points": 1530.3,
+  "previous_points": 1526.02,
+  "rank_change": 0,
+  "confederation": "AFC",
+  "rank_date": "2022-10-06"
+ },
+ {
+  "rank": 29,
+  "country_full": "Chile",
+  "country_abrv": "CHI",
+  "total_points": 1509.61,
+  "previous_points": 1514.86,
+  "rank_change": 0,
+  "confederation": "CONMEBOL",
+  "rank_date": "2022-10-06"
+ },
+ {
+  "rank": 30,
+  "country_full": "Tunisia",
+  "country_abrv": "TUN",
+  "total_points": 1507.54,
+  "previous_points": 1507.86,
+  "rank_change": 0,
+  "confederation": "CAF",
+  "rank_date": "2022-10-06"
+ },
+ {
+  "rank": 31,
+  "country_full": "Costa Rica",
+  "country_abrv": "CRC",
+  "total_points": 1503.59,
+  "previous_points": 1500.06,
+  "rank_change": -3,
+  "confederation": "CONCACAF",
+  "rank_date": "2022-10-06"
+ },
+ {
+  "rank": 32,
+  "country_full": "Nigeria",
+  "country_abrv": "NGA",
+  "total_points": 1498.47,
+  "previous_points": 1504.7,
+  "rank_change": 1,
+  "confederation": "CAF",
+  "rank_date": "2022-10-06"
+ }
+]
